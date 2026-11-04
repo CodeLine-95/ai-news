@@ -71,7 +71,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 247, 251, 0.5));
 }
 :root[data-theme="light"] .entry:hover {
-  background: rgba(2, 132, 199, 0.07);
+  background: var(--panel-2);
 }
 :root[data-theme="light"] .day-head {
   background: var(--void);
@@ -271,7 +271,7 @@ body {
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1px;
   background: var(--line-soft);
   border: 1px solid var(--line-soft);
@@ -284,6 +284,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1px;
+  position: relative;
+}
+/* 第 5 格「数据源」用信号青点缀，与「接入了几个数据源」语义呼应 */
+.metric:last-child .metric-num {
+  color: var(--signal);
 }
 .metric-num {
   font-family: var(--display);
@@ -298,6 +303,85 @@ body {
   letter-spacing: 0.9px;
   color: var(--ink-faint);
 }
+
+/* ---------- 数据源分组筛选条 ---------- */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+.filter-label {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  flex: none;
+}
+.chip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+.chip {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.16s var(--ease), background 0.16s var(--ease),
+    border-color 0.16s var(--ease), box-shadow 0.16s var(--ease);
+}
+.chip:hover {
+  color: var(--ink);
+  border-color: color-mix(in srgb, var(--signal) 45%, transparent);
+}
+.chip.active {
+  background: color-mix(in srgb, var(--signal) 20%, transparent);
+  color: var(--signal);
+  border-color: color-mix(in srgb, var(--signal) 55%, transparent);
+  box-shadow: 0 1px 8px color-mix(in srgb, var(--signal) 18%, transparent);
+}
+.chip-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: color-mix(in srgb, var(--ink-faint) 14%, transparent);
+  border-radius: 999px;
+  padding: 0 7px;
+  min-width: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.chip.active .chip-count {
+  color: var(--signal);
+  background: color-mix(in srgb, var(--signal) 22%, transparent);
+}
+/* 本轮静默（接入但暂无新条目）的源：虚线描边 + 略降透明度，
+   明确表达「已接入但当前无信号」，而非渲染异常 */
+.chip.silent {
+  border-style: dashed;
+  color: var(--ink-faint);
+  opacity: 0.72;
+}
+.chip.silent:hover {
+  border-color: color-mix(in srgb, var(--signal) 35%, transparent);
+  color: var(--ink-soft);
+}
+.chip.silent .chip-count { color: var(--ink-faint); }
 
 /* ---------- 时间轴 ---------- */
 .shell {
@@ -368,11 +452,20 @@ body {
 
 .entry {
   position: relative;
-  padding: 12px 14px 13px 18px;
+  padding: 14px 16px 15px 18px;
+  margin-bottom: 12px;
   border-radius: var(--radius);
-  transition: background 0.18s var(--ease);
+  background: var(--panel);
+  border: 1px solid var(--line-soft);
+  transition: background 0.18s var(--ease), border-color 0.18s var(--ease),
+    transform 0.18s var(--ease), box-shadow 0.18s var(--ease);
 }
-.entry:hover { background: rgba(22, 34, 58, 0.55); }
+.entry:hover {
+  background: var(--panel-2);
+  border-color: color-mix(in srgb, var(--signal) 30%, var(--line));
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
 
 /* 时间戳 */
 .entry-time {
@@ -529,16 +622,21 @@ button:focus-visible {
 
 /* ---------- 响应式 ---------- */
 @media (max-width: 760px) {
-  .masthead-inner { padding: 20px 16px 14px; }
+  .masthead-inner { padding: 18px 16px 14px; gap: 14px; }
   .brand-text h1 { font-size: 22px; }
   .brand-mark { height: 30px; }
+  /* 控制区（视图/主题）在窄屏整行左对齐，避免与品牌名挤在一行 */
+  .controls { width: 100%; justify-content: flex-start; gap: 16px; }
+  /* 5 个指标：平板/大手机用 3 列，末格跨 2 列补齐底行，避免留空灰块 */
   .metrics {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 0;
     margin: 0 16px;
   }
   .metric-num { font-size: 21px; }
-  .shell { padding: 22px 16px 40px; }
+  .metric:last-child { grid-column: span 2; }
+  .shell { padding: 20px 16px 40px; }
+
   /* 移动端天组标题不吸顶：竖屏空间宝贵，吸顶会长期占用约 40px，
      且移动端单屏条目更少，位置感需求弱。 */
   .day-head {
@@ -548,17 +646,48 @@ button:focus-visible {
     margin-top: 0;
   }
   .day-group + .day-group { margin-top: 0; }
+
+  /* 数据源筛选条：标签保留，chips 横向滑动不换行；
+     右端渐隐遮罩提示「可横滑」，避免被边缘硬切误认为显示异常 */
+  .filter-bar { gap: 10px; margin-bottom: 18px; }
+  .chip-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 22px), transparent 100%);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 22px), transparent 100%);
+  }
+  .chip-row::-webkit-scrollbar { display: none; }
+
   .items { padding-left: 0; }
   .items::before { display: none; }
-  .entry { padding-left: 62px; }
+  /* 移动端去掉绝对定位时间轴：时间内联到卡片顶部，卡片全宽更清爽 */
+  .entry {
+    padding: 13px 14px;
+    border-left: 2px solid color-mix(in srgb, var(--amber) 55%, var(--line));
+  }
+  .entry:hover { transform: none; }
   .entry-time {
-    left: 0;
-    top: 15px;
-    width: 46px;
+    position: static;
+    width: auto;
+    top: auto;
+    left: auto;
+    display: inline-block;
+    margin: 0 8px 5px 0;
     font-size: 11.5px;
   }
-  .entry-title { font-size: 15.5px; }
+  .entry-title { font-size: 16px; }
   .signal-bar-inner { padding: 7px 16px; font-size: 11px; }
+}
+
+/* 更窄的手机：指标改 2 列（末格跨满整行），控制区纵向排布 */
+@media (max-width: 460px) {
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .metric:last-child { grid-column: span 2; }
+  .controls { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .readout { width: 100%; justify-content: space-between; }
 }
 
 /* ---------- 减少动效 ---------- */

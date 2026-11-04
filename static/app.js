@@ -12,6 +12,8 @@ let lastIds = new Set();
 let nextUpdateTs = null;
 let currentItems = [];
 let itById = {};
+let activeSource = "all"; // 'all' | 具体源名：用于「按数据源分组/筛选」
+const sourceCounts = {};   // 源名 -> 当前库内条目数（用于 chips 计数）
 
 // ---------- 主题切换（暗黑 / 默认浅色 / 系统自动） ----------
 const THEME_KEY = "themeMode";
@@ -127,10 +129,22 @@ function applyData(data) {
   const items = data.items || [];
   const t = todayStr();
   const days = new Set(items.map((i) => i.date)).size;
+
+  // 每个源在库内的条目数（按源分组筛选用）
+  for (const k in sourceCounts) delete sourceCounts[k];
+  for (const it of items) sourceCounts[it.source] = (sourceCounts[it.source] || 0) + 1;
+
   document.getElementById("statToday").textContent = items.filter((i) => i.date === t).length;
   document.getElementById("statTotal").textContent = data.total ?? items.length;
   document.getElementById("statTranslated").textContent = data.translated ?? 0;
   document.getElementById("statDays").textContent = days;
+  // 已接入数据源数量：以后台 source_health 统计的接入源为准，
+  // 直接回答「当前接入了几个数据源」；前端库内去重计数作为兜底。
+  const connected = data.sources ?? Object.keys(sourceCounts).length;
+  document.getElementById("statSources").textContent = connected;
+
+  // 按数据源分组筛选条：全量接入源（含本轮静默源）与库内计数并集
+  buildChips(data.source_list || Object.keys(sourceCounts));
 
   const barStatus = document.getElementById("barStatus");
   barStatus.textContent = "信号在线 · 最后更新 " + fmtLastUpdate(data.last_update);
@@ -155,11 +169,58 @@ function applyData(data) {
   render(items);
 }
 
+// ---------- 按数据源分组 / 筛选 ----------
+// 构建筛选 chips：全部 + 每个接入源（带当前库内条目数；本轮静默源标灰）。
+function buildChips(sourceList) {
+  const row = document.getElementById("chipRow");
+  if (!row) return;
+  // 若当前选中的源已不在接入清单里（理论上不会，但兜底防止卡死筛选），重置
+  const names = [...sourceList];
+  if (activeSource !== "all" && !names.includes(activeSource)) activeSource = "all";
+
+  const total = currentItems.length;
+  const chips = [];
+  chips.push(chipHtml("all", "全部", total, activeSource === "all"));
+
+  names
+    .map((n) => ({ n, c: sourceCounts[n] || 0 }))
+    .sort((a, b) => b.c - a.c || a.n.localeCompare(b.n))
+    .forEach(({ n, c }) => {
+      chips.push(chipHtml(n, n, c, activeSource === n, c === 0));
+    });
+
+  row.innerHTML = chips.join("");
+  row.querySelectorAll(".chip").forEach((el) =>
+    el.addEventListener("click", () => setActiveSource(el.dataset.src))
+  );
+}
+
+function chipHtml(src, label, count, active, silent) {
+  const cls = "chip" + (active ? " active" : "") + (silent ? " silent" : "");
+  const title = silent ? ' title="已接入，本轮暂无新条目"' : "";
+  return `<button class="${cls}" data-src="${esc(src)}"${title}>${esc(label)}<span class="chip-count">${count}</span></button>`;
+}
+
+function setActiveSource(src) {
+  activeSource = src;
+  // 仅更新 chips 高亮，避免整段重绘抖动
+  document.querySelectorAll("#chipRow .chip").forEach((el) => {
+    el.classList.toggle("active", el.dataset.src === src);
+  });
+  render(currentItems);
+}
+
 // ---------- 渲染 ----------
 function render(items) {
   items = items || [];
+  // 按数据源分组筛选：仅展示选中源（'all' 表示不过滤）
+  if (activeSource !== "all") {
+    items = items.filter((i) => i.source === activeSource);
+  }
   if (!items.length) {
-    root.innerHTML = '<div class="empty">暂无信号，系统将每小时自动抓取。</div>';
+    root.innerHTML =
+      '<div class="empty">该数据源暂无信号，系统将每小时自动抓取；' +
+      '可点击「全部」查看所有资讯。</div>';
     return;
   }
 

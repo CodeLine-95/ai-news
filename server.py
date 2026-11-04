@@ -470,7 +470,7 @@ def _update_cycle_inner():
             it
             for it in STATE["items"]
             if it.get("lang") == "en"
-            and it.get("title_zh") == it.get("title")
+            and (not it.get("title_zh") or it.get("title_zh") == it.get("title"))
             and not it.get("translated")
         ]
         if retry:
@@ -779,6 +779,7 @@ app = FastAPI(title="AI 信号站")
 @app.get("/api/news")
 def api_news():
     translated = sum(1 for it in STATE["items"] if it.get("translated"))
+    health = STATE.get("source_health") or {}
     return JSONResponse(
         {
             "last_update": STATE["last_update"],
@@ -786,6 +787,11 @@ def api_news():
             "total": len(STATE["items"]),
             "translated": translated,
             "interval_seconds": FETCH_INTERVAL,
+            # 已接入的数据源数量与完整源列表：供前端「数据源 N」指标
+            # 与按源分组（筛选）使用。source_health 的键覆盖全部已配置源，
+            # 初始化为 0，因此 len(health) 即当前接入源数。
+            "sources": len(health),
+            "source_list": sorted(health.keys()),
             "items": STATE["items"],
         }
     )
