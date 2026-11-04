@@ -1,0 +1,572 @@
+/* ==========================================================================
+   AI 信号站 — Signal Station
+   设计概念：AI 资讯是一条持续涌出的信号流。界面是深夜值守的信号仪表盘：
+   深空底色承载信息密度，信号青表示"活跃/已连通"，琥珀色专用于时间戳，
+   等宽字体把"精确到分"变成可读的视觉节奏。
+   ========================================================================== */
+
+:root {
+  /* 底色层 */
+  --void: #070c16;
+  --void-2: #0b1222;
+  --panel: #101a2e;
+  --panel-2: #16223a;
+  --line: #1e2c46;
+  --line-soft: #18253c;
+
+  /* 强调 */
+  --signal: #38bdf8;
+  --signal-deep: #0284c7;
+  --amber: #f5a524;
+  --green: #34d399;
+  --red: #f87171;
+
+  /* 文字 */
+  --ink: #e6edf7;
+  --ink-soft: #a9b8d0;
+  --ink-faint: #6d7e9c;
+
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: "IBM Plex Sans", -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --display: "Space Grotesk", "IBM Plex Sans", -apple-system, sans-serif;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* ==========================================================================
+   主题：默认(浅色)模式调色板
+   data-theme 由前端 JS 设置：dark=沿用信号台深色 / light=默认浅色 / auto=跟随系统。
+   浅色模式复用全部语义变量，仅把底色层与文字层翻转为亮色，
+   强调色（信号青/琥珀/绿）下调明度以保证浅底上的对比度。
+   ========================================================================== */
+:root[data-theme="light"] {
+  --void: #f4f7fb;
+  --void-2: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #eaeef5;
+  --line: #d8e0ec;
+  --line-soft: #e7edf5;
+
+  --signal: #0284c7;
+  --signal-deep: #0369a1;
+  --amber: #b45309;
+  --green: #059669;
+  --red: #dc2626;
+
+  --ink: #0f1a2e;
+  --ink-soft: #45556e;
+  --ink-faint: #7a8aa3;
+}
+
+/* 浅色模式下：报头/页脚渐变与页面光晕改用亮色版本，避免深色叠加 */
+:root[data-theme="light"] body {
+  background:
+    radial-gradient(1100px 520px at 78% -8%, rgba(2, 132, 199, 0.08), transparent 62%),
+    radial-gradient(760px 420px at 4% 4%, rgba(180, 83, 9, 0.05), transparent 58%),
+    var(--void);
+}
+:root[data-theme="light"] .masthead {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 247, 251, 0.5));
+}
+:root[data-theme="light"] .entry:hover {
+  background: rgba(2, 132, 199, 0.07);
+}
+:root[data-theme="light"] .day-head {
+  background: var(--void);
+}
+
+/* 主题切换平滑过渡（仅颜色类，不影响脉冲/信号柱动画） */
+body,
+.masthead,
+.site-footer,
+.signal-bar,
+.metric,
+.entry,
+.day-head,
+.seg,
+.seg-btn,
+.toggle-lang,
+.src-link,
+.source-tag,
+.lang-tag,
+.brand-text h1,
+.brand-text p,
+.entry-title,
+.entry-summary,
+.metric-num,
+.metric-label {
+  transition: background-color 0.22s var(--ease), color 0.22s var(--ease),
+    border-color 0.22s var(--ease), background 0.22s var(--ease);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--sans);
+  color: var(--ink);
+  background:
+    radial-gradient(1100px 520px at 78% -8%, rgba(56, 189, 248, 0.10), transparent 62%),
+    radial-gradient(760px 420px at 4% 4%, rgba(245, 165, 36, 0.05), transparent 58%),
+    var(--void);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* ---------- 顶部信号条 ---------- */
+.signal-bar {
+  background: var(--void-2);
+  border-bottom: 1px solid var(--line-soft);
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+.signal-bar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 7px 22px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.bar-sep {
+  width: 1px;
+  height: 11px;
+  background: var(--line);
+  display: inline-block;
+}
+.live-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  position: relative;
+  flex: none;
+}
+.live-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: var(--green);
+  opacity: 0.4;
+  animation: pulse 2.2s var(--ease) infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(0.5); opacity: 0.55; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+#barStatus { color: var(--green); font-weight: 500; }
+#barEngine { color: var(--ink-faint); }
+
+/* ---------- 报头 ---------- */
+.masthead {
+  border-bottom: 1px solid var(--line-soft);
+  background: linear-gradient(180deg, rgba(16, 26, 46, 0.72), rgba(7, 12, 22, 0.35));
+  backdrop-filter: blur(10px);
+}
+.masthead-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 26px 22px 18px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: 15px; }
+
+/* 签名元素：跳动的信号柱 */
+.brand-mark {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 38px;
+  padding: 0 2px;
+}
+.brand-mark span {
+  width: 4px;
+  border-radius: 2px 2px 0 0;
+  background: linear-gradient(180deg, var(--signal), var(--signal-deep));
+  animation: bar 1.9s var(--ease) infinite;
+}
+.brand-mark span:nth-child(1) { height: 40%; animation-delay: 0s; }
+.brand-mark span:nth-child(2) { height: 72%; animation-delay: 0.18s; }
+.brand-mark span:nth-child(3) { height: 100%; animation-delay: 0.36s; }
+.brand-mark span:nth-child(4) { height: 58%; animation-delay: 0.54s; }
+.brand-mark span:nth-child(5) { height: 30%; animation-delay: 0.72s; }
+@keyframes bar {
+  0%, 100% { transform: scaleY(1); opacity: 0.85; }
+  50% { transform: scaleY(0.42); opacity: 0.5; }
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.15;
+}
+.brand-text p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: var(--ink-faint);
+  letter-spacing: 0.35px;
+}
+
+/* 视图切换 */
+.controls { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+.readout { display: flex; align-items: center; gap: 11px; }
+.readout-label {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.seg {
+  display: inline-flex;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px;
+}
+.seg-btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  transition: color 0.18s var(--ease), background 0.18s var(--ease);
+}
+.seg-btn:hover {
+  color: var(--ink-soft);
+  background: rgba(56, 189, 248, 0.07);
+}
+.seg-btn.active {
+  /* 复用整站信号青强调语言（与来源标签 / 日期徽章同款）：
+     主色淡底 + 主色字 + 主色描边 + 柔光；color-mix 让色调随深/浅主题主色自适应 */
+  background: color-mix(in srgb, var(--signal) 22%, transparent);
+  color: var(--signal);
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--signal) 55%, transparent),
+    0 1px 6px color-mix(in srgb, var(--signal) 20%, transparent);
+}
+
+/* ---------- 指标 ---------- */
+.metrics {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line-soft);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.metric {
+  background: var(--panel);
+  padding: 13px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.metric-num {
+  font-family: var(--display);
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.metric-label {
+  font-size: 11px;
+  letter-spacing: 0.9px;
+  color: var(--ink-faint);
+}
+
+/* ---------- 时间轴 ---------- */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 30px 22px 56px;
+}
+.timeline-root { display: flex; flex-direction: column; gap: 38px; }
+
+.day-group { animation: fadeUp 0.45s var(--ease) both; }
+/* 天组之间留出空间：吸顶标题有负外边距，需要实际的间距来分隔 */
+.day-group + .day-group { margin-top: 14px; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.day-head {
+  display: flex;
+  align-items: baseline;
+  gap: 13px;
+  margin-bottom: 16px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid var(--line);
+  /* 天组标题吸顶：29 天的长页面滚动时，始终能知道自己在哪一天。
+     背景用不透明色 + 一层伪元素做分隔线，避免相邻天组标题
+     在吸顶区重叠时互相透出形成重影。 */
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--void);
+  padding-top: 10px;
+  margin-top: -10px;
+}
+.day-date {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: var(--ink);
+}
+.day-week {
+  font-size: 12.5px;
+  color: var(--signal);
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  padding: 1px 9px;
+  border-radius: 999px;
+}
+.day-count {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+}
+
+/* 条目列表：垂直脉冲轨 */
+.items { position: relative; padding-left: 82px; }
+.items::before {
+  content: "";
+  position: absolute;
+  left: 53px;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: linear-gradient(180deg, var(--line), rgba(30, 44, 70, 0.15));
+}
+
+.entry {
+  position: relative;
+  padding: 12px 14px 13px 18px;
+  border-radius: var(--radius);
+  transition: background 0.18s var(--ease);
+}
+.entry:hover { background: rgba(22, 34, 58, 0.55); }
+
+/* 时间戳 */
+.entry-time {
+  position: absolute;
+  left: -82px;
+  top: 14px;
+  width: 62px;
+  text-align: right;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--amber);
+  letter-spacing: 0.3px;
+}
+
+.entry-top {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+.source-tag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--signal);
+  background: rgba(56, 189, 248, 0.09);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+.lang-tag {
+  font-size: 10.5px;
+  letter-spacing: 0.5px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: var(--ink-faint);
+  border: 1px solid var(--line);
+}
+.lang-tag.translated { color: var(--green); border-color: rgba(52, 211, 153, 0.3); }
+
+.entry-title {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 16.5px;
+  font-weight: 700;
+  line-height: 1.42;
+  letter-spacing: 0.1px;
+  color: var(--ink);
+}
+.entry-title.en {
+  font-family: var(--sans);
+  font-size: 15.5px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+.entry-summary {
+  margin: 5px 0 0;
+  font-size: 13.5px;
+  line-height: 1.62;
+  color: var(--ink-soft);
+  /* 中文正文最佳行长为 30-45 字。容器宽 1120px 时不限宽会让每行超过
+     60 个汉字，眼睛换行时容易串行，长段落扫读吃力。 */
+  max-width: 42em;
+}
+.entry-summary.en { color: var(--ink-faint); font-size: 13px; max-width: 46em; }
+
+.entry-foot {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 7px;
+}
+.src-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--signal);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.15s var(--ease);
+}
+.src-link:hover { color: #7dd3fc; text-decoration: underline; }
+.toggle-lang {
+  margin-left: auto;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: all 0.16s var(--ease);
+}
+.toggle-lang:hover {
+  color: var(--signal);
+  border-color: rgba(56, 189, 248, 0.4);
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.empty, .loading {
+  text-align: center;
+  color: var(--ink-faint);
+  padding: 72px 0;
+  font-size: 14px;
+}
+
+/* ---------- 页脚 ---------- */
+.site-footer {
+  border-top: 1px solid var(--line-soft);
+  background: var(--void-2);
+}
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 22px 40px;
+  text-align: center;
+}
+.footer-sources { margin: 0; font-size: 12px; color: var(--ink-faint); }
+.footer-note { margin: 6px 0 0; font-size: 12px; color: var(--ink-faint); opacity: 0.8; }
+
+/* ---------- Toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%) translateY(16px);
+  background: var(--panel-2);
+  border: 1px solid var(--signal-deep);
+  color: var(--ink);
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.28s var(--ease);
+  z-index: 60;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ---------- 焦点可见性 ---------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 760px) {
+  .masthead-inner { padding: 20px 16px 14px; }
+  .brand-text h1 { font-size: 22px; }
+  .brand-mark { height: 30px; }
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 0;
+    margin: 0 16px;
+  }
+  .metric-num { font-size: 21px; }
+  .shell { padding: 22px 16px 40px; }
+  /* 移动端天组标题不吸顶：竖屏空间宝贵，吸顶会长期占用约 40px，
+     且移动端单屏条目更少，位置感需求弱。 */
+  .day-head {
+    position: static;
+    backdrop-filter: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .day-group + .day-group { margin-top: 0; }
+  .items { padding-left: 0; }
+  .items::before { display: none; }
+  .entry { padding-left: 62px; }
+  .entry-time {
+    left: 0;
+    top: 15px;
+    width: 46px;
+    font-size: 11.5px;
+  }
+  .entry-title { font-size: 15.5px; }
+  .signal-bar-inner { padding: 7px 16px; font-size: 11px; }
+}
+
+/* ---------- 减少动效 ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  html { scroll-behavior: auto; }
+}

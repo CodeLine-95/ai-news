@@ -1,0 +1,20 @@
+超长摘要条目 = 10
+缺失译文摘要条目 = 1
+截断 2026-10-30 03:18 | 7821 -> 884 | Consumer Appetite for Personal AI Goes Mainstrea
+截断 2026-10-29 02:00 | 7261 -> 728 | Systems Thinking Is Vital in the Age of AI
+截断 2026-10-28 00:14 | 7812 -> 811 | Your Robot’s Safety Functions Already Work. What
+截断 2026-10-27 21:00 | 24075 -> 887 | I Used AI to Fake a Scientific Paper. Here’s Wha
+截断 2026-10-27 02:00 | 4585 -> 833 | IEEE Xplore Digital Library Adds AI Assistant
+截断 2026-10-22 21:00 | 8333 -> 890 | Why Engineers Should Brave Capitol Hill
+截断 2026-10-21 21:00 | 6879 -> 712 | How Wikipedia’s Editors Keep the Online Encyclop
+截断 2026-10-21 20:00 | 8940 -> 864 | Could Treating AI as Conscious Make It More Dang
+截断 2026-10-17 00:49 | 6895 -> 830 | Simulation App Speeds Up Electric Truck Battery 
+截断 2026-10-13 21:00 | 9061 -> 669 | Google DeepMind’s New Resident Philosopher Tackl
+补齐失败（源未提供） 2026-10-14 00:01 | Gemini 4 Argon for Robotics
+待重译 = 11
+模型就绪，用时 6.8s
+[4/11] 重译完成
+[8/11] 重译完成
+[11/11] 重译完成
+已写回 /workspace/ai-news/data/news.json
+报告已重新生成

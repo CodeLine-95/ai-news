@@ -1,0 +1,35 @@
+# ===== 大型模型权重（NLLB-200，约 5.6G，不入库） =====
+models/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 备份文件（34 个 .bak / .bak.*） =====
+*.bak
+*.bak.*
+
+# ===== 截图与图片资源（19 张 PNG 等） =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# ===== 日志 =====
+*.log
+
+# ===== 运行时生成的数据（每小时由抓取器再生） =====
+data/news.json
+data/*.bak*
+data/__pycache__/
+data/frontend_check.json
+
+# ===== 自动生成的报告（每小时更新，非源码） =====
+AI资讯摘要.md
+
+# ===== 编辑器 / 系统 =====
+.DS_Store
+.idea/
+.vscode/

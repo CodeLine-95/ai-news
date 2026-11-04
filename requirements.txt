@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+feedparser
+transformers
+torch
+requests
+sentencepiece

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 无闪烁主题：在 CSS 绘制前同步设置 data-theme，避免首屏白/暗闪一下 -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("themeMode") || "auto";
+        var m = window.matchMedia("(prefers-color-scheme: light)").matches;
+        var eff = t === "auto" ? (m ? "light" : "dark") : t;
+        document.documentElement.setAttribute("data-theme", eff);
+      } catch (e) {}
+    })();
+  </script>
+  <title>AI 信号站 · AI News Signal</title>
+  <meta name="description" content="每小时自动抓取全球 AI 重点资讯，英文实时译为中文，按天分组、精确到分，网站自动同步更新。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- 顶部信号条：实时状态 -->
+  <div class="signal-bar">
+    <div class="signal-bar-inner">
+      <span class="live-pulse" aria-hidden="true"></span>
+      <span id="barStatus">正在接入信号流…</span>
+      <span class="bar-sep"></span>
+      <span class="mono" id="barNext">下次扫描 --:--</span>
+      <span class="bar-sep"></span>
+      <span class="mono" id="barEngine">翻译引擎 --</span>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="brand-text">
+          <h1>AI 信号站</h1>
+          <p>AI NEWS SIGNAL · 每小时自动采集 · 英文实时中译</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="readout" title="全站语言视图切换">
+          <span class="readout-label">视图</span>
+          <div class="seg" id="viewToggle" role="group" aria-label="显示语言">
+            <button class="seg-btn active" data-mode="zh">中文译文</button>
+            <button class="seg-btn" data-mode="en">英文原文</button>
+          </div>
+        </div>
+        <div class="readout" title="主题：暗黑模式沿用现有信号台深色配色；默认模式为浅色；系统自动跟随操作系统">
+          <span class="readout-label">主题</span>
+          <div class="seg" id="themeToggle" role="group" aria-label="主题模式">
+            <button class="seg-btn" data-theme="dark">暗黑</button>
+            <button class="seg-btn" data-theme="light">默认</button>
+            <button class="seg-btn" data-theme="auto">系统</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="metrics" id="metrics">
+      <div class="metric">
+        <span class="metric-num" id="statToday">0</span>
+        <span class="metric-label">今日新增</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num" id="statTotal">0</span>
+        <span class="metric-label">信号总数</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num" id="statTranslated">0</span>
+        <span class="metric-label">已中译</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num" id="statDays">0</span>
+        <span class="metric-label">覆盖天数</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <div id="newsRoot" class="timeline-root">
+      <div class="loading">正在接收信号…</div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-sources" id="footerSources">信源加载中…</p>
+      <p class="footer-note">后台每小时自动抓取并翻译，前端每 60 秒自动同步 —— 无需手动触发同步。</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
