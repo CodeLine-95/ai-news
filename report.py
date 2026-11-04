@@ -135,6 +135,9 @@ def summarize_day(items, limit=3):
         # 此前按默认权重 1 计分，导致其重大条目被高权重媒体的观点稿挤掉。
         "Unite.AI": 2, "IEEE Spectrum AI": 2, "InfoQ AI": 2,
         "Google DeepMind": 3, "NVIDIA Blog": 2, "ML Mastery": 1,
+        # 2026-11-04 新增数据源的权重
+        "MIT News AI": 3, "SiliconANGLE": 2, "The Decoder": 2,
+        "Simon Willison": 2,
     }
     # 硬新闻信号：命中即加分（并购/资本运作 > 监管司法 > 安全事故 > 产品发布）
     hard_signals = [

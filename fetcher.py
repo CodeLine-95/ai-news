@@ -50,6 +50,13 @@ FEEDS = [
     ("IEEE Spectrum AI", "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"),
     # 补位源：unite.ai 聚合 AI 论文与产业动态，可顶替偶发 403 的 ML Mastery
     ("Unite.AI", "https://www.unite.ai/feed/"),
+    # 2026-11-04 新增数据源：扩宽一手/研究/产业信源（均经本环境可达性实测，
+    # 且近 1-2 天有更新，落在 MAX_AGE_DAYS=31 时间窗内）
+    ("MIT News AI", "https://news.mit.edu/rss/topic/artificial-intelligence2"),
+    ("The Decoder", "https://the-decoder.com/feed/"),
+    # 以下两个为综合/个人源，需走严格 AI 相关性过滤，避免非 AI 内容混入
+    ("Simon Willison", "https://simonwillison.net/atom/everything/"),
+    ("SiliconANGLE", "https://siliconangle.com/feed/"),
 ]
 
 # 部分源响应较慢（DeepMind 冷启动常需 20s+），单独放宽超时
@@ -98,8 +105,8 @@ def is_ai_relevant(title, summary, source):
     return True
 
 
-# 需要执行严格 AI 相关性过滤的源（综合博客类）
-STRICT_RELEVANCE_SOURCES = {"NVIDIA Blog"}
+# 需要执行严格 AI 相关性过滤的源（综合博客类 / 个人博客 / 综合科技媒体）
+STRICT_RELEVANCE_SOURCES = {"NVIDIA Blog", "Simon Willison", "SiliconANGLE"}
 
 # 部分源（如 VentureBeat）会对数据中心 IP 永久返回 429。
 # 对被限流的源做有限退避重试；确认是 429（IP 级封禁）时只试一次，
