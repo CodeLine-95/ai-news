@@ -168,7 +168,6 @@ body {
 
 /* ---------- 报头 ---------- */
 .masthead {
-  border-bottom: 1px solid var(--line-soft);
   background: linear-gradient(180deg, rgba(16, 26, 46, 0.72), rgba(7, 12, 22, 0.35));
   backdrop-filter: blur(10px);
 }
