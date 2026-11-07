@@ -1,5 +1,6 @@
 {
   "light": {
+    "theme_requested": "light",
     "entry_before_rules": 0,
     "entry_before_content": "none",
     "metrics_padding": {
@@ -9,13 +10,13 @@
       "left": "0px"
     },
     "metrics_padding_all_zero": true,
-    "sync_buttons": [],
-    "entries": 893,
+    "entries": 921,
+    "sync_buttons": 0,
     "title": "AI 信号站 · AI News Signal",
-    "effective_theme": "light",
-    "theme_requested": "light"
+    "effective_theme": "light"
   },
   "dark": {
+    "theme_requested": "dark",
     "entry_before_rules": 0,
     "entry_before_content": "none",
     "metrics_padding": {
@@ -25,13 +26,13 @@
       "left": "0px"
     },
     "metrics_padding_all_zero": true,
-    "sync_buttons": [],
-    "entries": 906,
+    "entries": 921,
+    "sync_buttons": 0,
     "title": "AI 信号站 · AI News Signal",
-    "effective_theme": "dark",
-    "theme_requested": "dark"
+    "effective_theme": "dark"
   },
   "auto": {
+    "theme_requested": "auto",
     "entry_before_rules": 0,
     "entry_before_content": "none",
     "metrics_padding": {
@@ -41,10 +42,9 @@
       "left": "0px"
     },
     "metrics_padding_all_zero": true,
-    "sync_buttons": [],
-    "entries": 906,
+    "entries": 921,
+    "sync_buttons": 0,
     "title": "AI 信号站 · AI News Signal",
-    "effective_theme": "light",
-    "theme_requested": "auto"
+    "effective_theme": "auto"
   }
 }
