@@ -1,36 +1,41 @@
-import asyncio, json
+import asyncio
 from playwright.async_api import async_playwright
-
-URL = "http://127.0.0.1:8080/"
-OUT = "/workspace/ai-news/screenshots"
-
-async def shoot(page, mode, path):
-    await page.goto(URL, wait_until="networkidle")
-    await page.evaluate("(v) => localStorage.setItem('themeMode', v)", mode)
-    await page.reload(wait_until="networkidle")
-    await page.wait_for_timeout(1800)
-    await page.screenshot(path=path, full_page=False)
-    entry_before = await page.evaluate(
-        "(() => { var e=document.querySelector('.entry'); return e ? getComputedStyle(e,'::before').content : 'none'; })()"
-    )
-    metrics_pad = await page.evaluate(
-        "document.querySelector('.metrics') ? getComputedStyle(document.querySelector('.metrics')).padding : 'n/a'"
-    )
-    sync_btns = await page.evaluate(
-        "Array.from(document.querySelectorAll('button')).filter(b=>/同步|sync/i.test(b.textContent)).length"
-    )
-    entries = await page.evaluate("document.querySelectorAll('.entry').length")
-    return {"mode": mode, "entry_before_content": entry_before, "metrics_padding": metrics_pad,
-            "sync_buttons": sync_btns, "entries": entries}
-
+URL = "https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37"
+OUT = "/workspace/ai-news"
+SHOTS = [
+    ("巡检截图-0700-默认浅色.png", "light", "zh", None),
+    ("巡检截图-0700-暗黑.png", "dark", "zh", None),
+    ("巡检截图-0700-系统自动.png", "auto", "zh", "light"),
+    ("巡检截图-0700-英文原文视图.png", "light", "en", None),
+]
 async def main():
     async with async_playwright() as p:
-        b = await p.chromium.launch(args=["--no-sandbox"])
-        pg = await b.new_page(viewport={"width": 1280, "height": 900})
-        r1 = await shoot(pg, "light", f"{OUT}/巡检截图-0700-浅色.png")
-        r2 = await shoot(pg, "dark", f"{OUT}/巡检截图-0700-暗黑.png")
-        r3 = await shoot(pg, "auto", f"{OUT}/巡检截图-0700-系统自动.png")
-        await b.close()
-        print(json.dumps([r1, r2, r3], ensure_ascii=False, indent=2))
-
+        browser = await p.chromium.launch()
+        for fname, theme, view, prefers in SHOTS:
+            ctx = await browser.new_context(viewport={"width": 1280, "height": 900})
+            page = await ctx.new_page()
+            if prefers:
+                await page.emulate_media(color_scheme=prefers)
+            await page.add_init_script(
+                f"localStorage.setItem('themeMode','{theme}');"
+                f"localStorage.setItem('viewMode','{view}');"
+            )
+            try:
+                await page.goto(URL, wait_until="domcontentloaded", timeout=30000)
+                await page.wait_for_function(
+                    "() => { const e=document.getElementById('statTotal');"
+                    " return e && e.textContent.trim()!=='0' && e.textContent.trim()!==''; }",
+                    timeout=20000)
+            except Exception as e:
+                print("warn:", fname, repr(e))
+            await page.wait_for_timeout(2500)
+            try:
+                total = await page.eval_on_selector("#statTotal", "el=>el.textContent.trim()")
+            except Exception:
+                total = "?"
+            await page.screenshot(path=f"{OUT}/{fname}", full_page=False)
+            print(f"{fname}: total={total} view={view} theme={theme}")
+            await ctx.close()
+        await browser.close()
+    print("DONE")
 asyncio.run(main())
