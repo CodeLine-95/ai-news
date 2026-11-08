@@ -11,6 +11,7 @@ data/summaries_override.json 不会随代码发布更新，导致人工修好的
 """
 
 TITLE_OVERRIDES = {
+    'MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)': 'MoE 路由策略详解：Top-K、专家选择、Sigmoid 门控与动态路由（2026 指南）',
     'Gemini 4 Argon for Robotics': 'Gemini 4 Argon 面向机器人技术',
     'Gemini 4 Argon: Built to solve your hardest problems': 'Gemini 4 Argon：为解决最困难的问题而生',
     'Developing Gemini 4 Argon responsibly and safely': '负责任且安全地开发 Gemini 4 Argon',
