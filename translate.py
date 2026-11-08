@@ -956,6 +956,9 @@ TERM_FIXES = [
     # "frontier AI model" 被译成「边界AI模型」，统一为「前沿 AI 模型」
     ("边界AI模型", "前沿 AI 模型", ["frontier ai model", "frontier model"]),
     ("边界AI", "前沿 AI", ["frontier"]),
+    # "frontier AI" 单独出现时，模型会译成「边界 AI」（带空格），
+    # 与无空格的「边界AI」并存，需单独补一条带空格的规则。
+    ("边界 AI", "前沿 AI", ["frontier"]),
     # "frontier AI" 单独出现时，模型会译成「边境 AI」「跨界 AI」。
     # 这两种译法在中文里都读作「地理边境」，与 AI 语境下的
     # 「前沿 / 最先进」语义完全不符，属于需要确定性纠正的误译。
