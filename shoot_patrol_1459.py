@@ -1,60 +1,67 @@
-from playwright.sync_api import sync_playwright
-import os, json
-os.makedirs('/workspace/ai-news/screenshots', exist_ok=True)
-base = "http://127.0.0.1:8080/?sharecode=YM64NRHD37"
-out = "/workspace/ai-news/screenshots"
-ts = "1459"
-with sync_playwright() as p:
-    b = p.chromium.launch(args=["--no-sandbox"])
-    pg = b.new_page(viewport={"width": 1280, "height": 1400})
-    pg.goto(base, wait_until="networkidle")
-    pg.wait_for_timeout(2500)
+import asyncio
+from playwright.async_api import async_playwright
 
-    # default light (默认浅色)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','light')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-{ts}-默认浅色.png", full_page=False)
+URL = 'http://127.0.0.1:8080'
+OUT = '/workspace/ai-news'
 
-    # dark (暗黑)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','dark')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-{ts}-暗黑.png", full_page=False)
-
-    # auto 跟随系统：深
-    pg.emulate_media(color_scheme="dark")
-    pg.evaluate("document.documentElement.setAttribute('data-theme','auto')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-{ts}-系统自动-深.png", full_page=False)
-    pg.emulate_media(color_scheme="light")
-    pg.evaluate("document.documentElement.setAttribute('data-theme','auto')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-{ts}-系统自动-浅.png", full_page=False)
-
-    # english source view (英文原文视图, 默认浅色)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','light')")
-    pg.emulate_media(color_scheme="no-preference")
-    pg.evaluate("window.scrollTo(0,0)")
-    pg.wait_for_timeout(400)
-    try:
-        pg.click('#viewToggle .seg-btn[data-mode="en"]', timeout=5000)
-    except Exception as e:
-        print("en click skipped:", e)
-    pg.wait_for_timeout(800)
-    pg.screenshot(path=f"{out}/巡检-{ts}-英文原文视图.png", full_page=False)
-
-    # assertions: metrics padding 0, entry::before removed, no manual sync button
-    res = pg.evaluate("""()=>{
-      const m=document.querySelector('.metrics');
-      const cs=m?getComputedStyle(m):null;
-      const hasEntryBefore=[...document.styleSheets].some(s=>{try{return [...s.cssRules].some(r=>r.selectorText&&r.selectorText.includes('entry::before'))}catch(e){return false}});
-      const syncBtns=document.querySelectorAll('[class*=sync],[id*=sync],button:not([data-view]):not(.seg-btn)').length;
-      const entries=document.querySelectorAll('.entry').length;
-      return {
-        metricsPadding: cs?cs.padding:'none',
-        entryBefore: hasEntryBefore,
-        syncButtons: syncBtns,
-        entries: entries
-      }
+async def check_styles(page):
+    return await page.evaluate("""() => {
+        const res = {};
+        let beforeCount = 0;
+        for (const sheet of document.styleSheets) {
+            let rules;
+            try { rules = sheet.cssRules; } catch (e) { continue; }
+            for (const rule of rules) {
+                if (rule.selectorText && rule.selectorText.includes('.entry::before')) beforeCount++;
+            }
+        }
+        res.entry_before_rules = beforeCount;
+        const entry = document.querySelector('.entry');
+        res.entry_before_content = entry ? getComputedStyle(entry, '::before').content : '(no .entry)';
+        const m = document.querySelector('.metrics');
+        if (m) {
+            const cs = getComputedStyle(m);
+            res.metrics_padding_all_zero = [cs.paddingTop, cs.paddingRight, cs.paddingBottom, cs.paddingLeft].every(v => parseFloat(v) === 0);
+        } else { res.metrics_padding_all_zero = 'no .metrics'; }
+        const btns = Array.from(document.querySelectorAll('button, a'));
+        res.sync_buttons = btns.filter(b => /同步|sync|refresh|刷新/i.test(b.textContent || '')).map(b => (b.textContent||'').trim());
+        res.entries = document.querySelectorAll('.entry').length;
+        res.theme = document.documentElement.getAttribute('data-theme');
+        return res;
     }""")
-    print("ASSERTIONS:", json.dumps(res, ensure_ascii=False))
-    b.close()
+
+async def shoot(pw, name, color_scheme='light', theme=None, viewport=None):
+    browser = await pw.chromium.launch(args=['--no-sandbox'])
+    ctx = await browser.new_context(
+        viewport=viewport or {'width': 1440, 'height': 1000},
+        device_scale_factor=2,
+        locale='zh-CN',
+        color_scheme=color_scheme,
+    )
+    page = await ctx.new_page()
+    await page.goto(URL, wait_until='networkidle', timeout=90000)
+    await page.wait_for_function("() => document.querySelectorAll('.entry').length > 3", timeout=60000)
+    await page.wait_for_timeout(2500)
+    if theme:
+        try:
+            await page.click(f'#themeToggle button[data-theme="{theme}"]')
+        except Exception as e:
+            print('  theme click skipped:', e)
+        await page.wait_for_timeout(1500)
+    path = f'{OUT}/{name}'
+    await page.screenshot(path=path, full_page=False)
+    print('saved:', path)
+    styles = await check_styles(page)
+    print('  styles:', styles)
+    await browser.close()
+    return styles
+
+async def main():
+    async with async_playwright() as pw:
+        await shoot(pw, '巡检截图-1459-默认浅色.png', color_scheme='light')
+        await shoot(pw, '巡检截图-1459-暗黑.png', color_scheme='dark', theme='dark')
+        await shoot(pw, '巡检截图-1459-系统自动.png', color_scheme='light', theme='auto')
+        print('ALL DONE')
+
+if __name__ == '__main__':
+    asyncio.run(main())
