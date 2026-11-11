@@ -683,7 +683,7 @@ button:focus-visible {
 
 /* 更窄的手机：指标改 2 列（末格跨满整行），控制区纵向排布 */
 @media (max-width: 460px) {
-  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0; }
   .metric:last-child { grid-column: span 2; }
   .controls { flex-direction: column; align-items: flex-start; gap: 10px; }
   .readout { width: 100%; justify-content: space-between; }
