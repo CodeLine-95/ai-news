@@ -1,0 +1,17 @@
+{
+  "entry_before_rules": 0,
+  "metrics_padding_all_zero": true,
+  "metrics_rule_padding": "0px",
+  "entries": 1438,
+  "theme_btns": [
+    "dark",
+    "light",
+    "auto"
+  ],
+  "view_btns": [
+    null,
+    null
+  ],
+  "sync_btns": 0,
+  "total_metric": "63"
+}

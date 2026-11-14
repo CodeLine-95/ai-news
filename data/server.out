@@ -1,0 +1,35 @@
+[server] 已加载 1317 条历史资讯
+INFO:     Started server process [13885]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[translate] bfloat16 加速可用=True
+[translate] NLLB-200 加载成功（主引擎, dtype=torch.bfloat16）
+[cycle] 翻译引擎已就绪，开始首轮抓取
+[cycle] 开始拉取资讯 ...
+INFO:     127.0.0.1:36206 - "GET /api/status HTTP/1.1" 200 OK
+[main] 翻译引擎预热完成
+[fetcher] NVIDIA Blog 过滤掉 1 条非 AI 相关内容
+[fetcher] Simon Willison 过滤掉 5 条非 AI 相关内容
+[fetcher] 源跳过 VentureBeat: HTTP 429
+[fetcher] SiliconANGLE 过滤掉 6 条非 AI 相关内容
+[fetcher] ML Mastery 用文章页补全 5 条半句摘要
+[fetcher] Unite.AI 用文章页正文补全 1 条截断摘要
+[fetcher] 本轮空结果源补抓: MIT News AI
+[cycle] 确认失效的源: MIT News AI, VentureBeat
+[cycle] 高质量译文升级 1 条
+[cycle] 术语确定性重清洗 34 条
+[cycle] 应用人工标题覆盖 18 条
+[cycle] 应用人工摘要覆盖 19 条
+报告已生成: /workspace/ai-news/AI资讯摘要.md（1317 条 / 32 天 / 翻译覆盖率 100%）
+[cycle] 本次新增 0 条，当前共 1317 条
+[cycle] 跳过跨源重复标题 2 条
+[cycle] 下轮抓取将在 2026-11-11 17:00:00 执行（3122 秒后）
+INFO:     127.0.0.1:51148 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52618 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52618 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52630 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52630 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52618 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52204 - "GET /api/status HTTP/1.1" 200 OK

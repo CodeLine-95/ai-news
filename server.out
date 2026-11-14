@@ -1,5 +1,5 @@
-[server] 已加载 972 条历史资讯
-INFO:     Started server process [16907]
+[server] 已加载 1632 条历史资讯
+INFO:     Started server process [17454]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
@@ -7,36 +7,50 @@ INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 [translate] NLLB-200 加载成功（主引擎, dtype=torch.bfloat16）
 [cycle] 翻译引擎已就绪，开始首轮抓取
 [cycle] 开始拉取资讯 ...
-[main] 翻译引擎预热完成
-[fetcher] Simon Willison 过滤掉 5 条非 AI 相关内容
 [fetcher] NVIDIA Blog 过滤掉 1 条非 AI 相关内容
-[fetcher] SiliconANGLE 过滤掉 7 条非 AI 相关内容
-[fetcher] ML Mastery 用文章页补全 5 条半句摘要
-[fetcher] Unite.AI 用文章页正文补全 3 条截断摘要
+[fetcher] SiliconANGLE 过滤掉 1 条非 AI 相关内容
+[fetcher] Simon Willison 过滤掉 5 条非 AI 相关内容
+[fetcher] Unite.AI 用文章页正文补全 1 条截断摘要
+[main] 翻译引擎预热完成
+[fetcher] ML Mastery 用文章页补全 3 条半句摘要
 [fetcher] 源跳过 VentureBeat: HTTP 429
-[fetcher] 本轮空结果源补抓: MIT News AI
+INFO:     127.0.0.1:38344 - "GET /api/status HTTP/1.1" 200 OK
+[fetcher] 源连接异常 Google Blog（第 1 次）: HTTPSConnectionPool(host='blog.google', port=443): Max retries exceeded with url: /innovation-and-ai/technology/ai/rss/ (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))，重试中
+[fetcher] 源连接异常 Google Blog（第 2 次）: HTTPSConnectionPool(host='blog.google', port=443): Read timed out. (read timeout=15)，重试中
 [cycle] 确认失效的源: VentureBeat
-[cycle] 本轮偶发无数据(不判失效): MIT News AI
-[cycle] 待重试未翻译条目 6 条
-[cycle] 批量翻译进度 6/6（方式: nllb）
-[cycle] 批量翻译 6 条英文资讯完成（方式: nllb）
-[cycle] 高质量译文升级 2 条
-[cycle] 术语确定性重清洗 41 条
+[cycle] 高质量译文升级 1 条
+[cycle] 从文章页补齐摘要并翻译 1 条
+[cycle] 术语确定性重清洗 33 条
 [cycle] 应用人工标题覆盖 18 条
 [cycle] 应用人工摘要覆盖 19 条
-报告已生成: /workspace/ai-news/AI资讯摘要.md（972 条 / 31 天 / 翻译覆盖率 100%）
-[cycle] 本次新增 0 条，当前共 972 条
-[cycle] 跳过跨源重复标题 2 条
-[cycle] 下轮抓取将在 2026-11-09 15:00:00 执行（3271 秒后）
-INFO:     127.0.0.1:51416 - "GET /api/status HTTP/1.1" 200 OK
-INFO:     ::ffff:172.24.0.1:0 - "GET /api/status HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50298 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50298 - "GET /static/style.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50308 - "GET /static/app.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50298 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50308 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59566 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59566 - "GET /static/style.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59578 - "GET /static/app.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59566 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59578 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+报告已生成: /workspace/ai-news/AI资讯摘要.md（1632 条 / 32 天 / 翻译覆盖率 100%）
+[cycle] 本次新增 0 条，当前共 1632 条
+[cycle] 跳过跨源重复标题 4 条
+[cycle] 下轮抓取将在 2026-11-13 10:00:00 执行（2026 秒后）
+INFO:     127.0.0.1:57320 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48266 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48266 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48278 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48278 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48266 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40376 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40384 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40376 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40384 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40376 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40392 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40392 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40398 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40392 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40398 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56428 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56428 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56438 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56428 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56438 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56452 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56452 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56468 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56468 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56452 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45210 - "GET /api/status HTTP/1.1" 200 OK

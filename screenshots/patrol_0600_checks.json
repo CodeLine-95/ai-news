@@ -1,0 +1,34 @@
+[
+  {
+    "mode": "light",
+    "view": "zh",
+    "entry_before": "none",
+    "metrics_padding": "0px",
+    "sync_buttons": 0,
+    "entries": 952
+  },
+  {
+    "mode": "dark",
+    "view": "zh",
+    "entry_before": "none",
+    "metrics_padding": "0px",
+    "sync_buttons": 0,
+    "entries": 952
+  },
+  {
+    "mode": "auto",
+    "view": "zh",
+    "entry_before": "none",
+    "metrics_padding": "0px",
+    "sync_buttons": 0,
+    "entries": 952
+  },
+  {
+    "mode": "light",
+    "view": "en",
+    "entry_before": "none",
+    "metrics_padding": "0px",
+    "sync_buttons": 0,
+    "entries": 952
+  }
+]
