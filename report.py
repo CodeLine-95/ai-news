@@ -201,11 +201,14 @@ def main():
     dates = sorted(groups.keys(), reverse=True)
     last_update = (data.get("last_update") or "")[:16].replace("T", " ")
 
-    # 翻译覆盖率统计
+    # 翻译覆盖率统计（口径与 /api/status 一致：以 translated 字段为准）
     en_items = [it for it in items if it.get("lang") == "en"]
     zh_items = [it for it in items if it.get("lang") == "zh"]
-    translated = sum(
-        1 for it in en_items if it.get("translated") and it.get("title_zh") != it.get("title")
+    translated = sum(1 for it in en_items if it.get("translated"))
+    # 版本号/技术标识符等按原文保留（title_zh == title），属正常，不算漏译
+    kept_verbatim = sum(
+        1 for it in en_items
+        if it.get("translated") and it.get("title_zh") == it.get("title")
     )
     cover = (translated / len(en_items) * 100) if en_items else 100.0
 
@@ -214,9 +217,10 @@ def main():
     L.append(
         f"> 共 **{len(items)}** 条 · 覆盖 **{len(dates)}** 天 · 最后更新 **{last_update}**\n"
     )
+    verbatim_note = f"，其中 {kept_verbatim} 条为版本号/技术标识符按原文保留（非漏译）" if kept_verbatim else ""
     L.append(
         f"> 英文资讯已译为中文（括注原文标题），翻译覆盖率 **{cover:.0f}%**"
-        f"（{translated}/{len(en_items)} 条英文，另有 {len(zh_items)} 条中文原文）；\n"
+        f"（{translated}/{len(en_items)} 条英文，另有 {len(zh_items)} 条中文原文{verbatim_note}）；\n"
         "> 数据每小时自动抓取，网站同步更新，无需手动触发。\n"
     )
 
