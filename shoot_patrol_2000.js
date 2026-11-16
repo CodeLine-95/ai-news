@@ -1,58 +1,73 @@
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
 
-const URL = 'http://127.0.0.1:8080';
+const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
+const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const TAG = '2000';
+const STAMP = 'deliverable_1116_2000';
 
-(async () => {
-  const fs = require('fs');
-  if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
-  const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1280, height: 1600 } });
-  await page.goto(URL, { waitUntil: 'networkidle' });
-  await page.waitForSelector('.entry', { timeout: 15000 });
-  await page.waitForTimeout(1500);
-
-  const res = await page.evaluate(() => {
+async function checkStyles(page) {
+  return await page.evaluate(() => {
+    const res = {};
     let beforeCount = 0;
-    let metricsPad = null;
     for (const sheet of document.styleSheets) {
-      let rules; try { rules = sheet.cssRules; } catch (e) { continue; }
+      let rules;
+      try { rules = sheet.cssRules; } catch (e) { continue; }
       for (const rule of rules) {
         if (rule.selectorText && rule.selectorText.includes('.entry::before')) beforeCount++;
-        if (rule.selectorText === '.metrics') metricsPad = rule.style.padding;
       }
     }
+    res.entry_before_rules = beforeCount;
+    const entry = document.querySelector('.entry');
+    res.entry_before_content = entry ? getComputedStyle(entry, '::before').content : '(no .entry)';
     const m = document.querySelector('.metrics');
-    const cs = getComputedStyle(m);
-    return {
-      entry_before_rules: beforeCount,
-      metrics_padding_all_zero: [cs.paddingTop, cs.paddingRight, cs.paddingBottom, cs.paddingLeft].every(v => parseFloat(v) === 0),
-      metrics_rule_padding: metricsPad,
-      entries: document.querySelectorAll('.entry').length,
-      theme_btns: Array.from(document.querySelectorAll('#themeToggle .seg-btn')).map(b => b.dataset.theme),
-      view_btns: Array.from(document.querySelectorAll('#viewToggle .seg-btn')).map(b => b.dataset.view),
-      sync_btns: document.querySelectorAll('[class*="sync"]').length,
-    };
+    if (m) {
+      const cs = getComputedStyle(m);
+      res.metrics_padding = [cs.paddingTop, cs.paddingRight, cs.paddingBottom, cs.paddingLeft];
+      res.metrics_padding_all_zero = res.metrics_padding.every(v => parseFloat(v) === 0);
+    }
+    const btns = Array.from(document.querySelectorAll('button, a'));
+    res.sync_buttons = btns.filter(b => /同步|sync|refresh|刷新/i.test(b.textContent || '')).map(b => (b.textContent || '').trim());
+    res.entries = document.querySelectorAll('.entry').length;
+    res.data_theme = document.documentElement.getAttribute('data-theme');
+    return res;
   });
-  console.log('ASSERTIONS', JSON.stringify(res));
+}
 
-  await page.evaluate(() => { localStorage.setItem('themeMode','auto'); document.documentElement.setAttribute('data-theme', window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'); });
-  await page.waitForTimeout(400);
-  await page.screenshot({ path: `${OUT}/巡检截图-${TAG}-系统自动.png`, fullPage: false });
-
-  await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
-  await page.waitForTimeout(400);
-  await page.screenshot({ path: `${OUT}/巡检截图-${TAG}-暗黑.png`, fullPage: false });
-
-  await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'light'));
-  await page.waitForTimeout(400);
-  await page.screenshot({ path: `${OUT}/巡检截图-${TAG}-默认浅色.png`, fullPage: false });
-
-  await page.evaluate(() => { const b = document.querySelector('#viewToggle .seg-btn[data-mode="en"]'); if (b) b.click(); });
-  await page.waitForTimeout(500);
-  await page.screenshot({ path: `${OUT}/巡检截图-${TAG}-英文原文视图.png`, fullPage: false });
-
+async function shoot(pw, name, opts, url) {
+  const browser = await pw.launch({ args: ['--no-sandbox'] });
+  const ctx = await browser.newContext({
+    viewport: { width: 1440, height: 1100 },
+    device_scale_factor: 2,
+    locale: 'zh-CN',
+    colorScheme: opts.colorScheme || 'light',
+  });
+  const page = await ctx.newPage();
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
+  await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
+  await page.waitForTimeout(2000);
+  if (opts.theme) {
+    await page.click(`#themeToggle button[data-theme="${opts.theme}"]`).catch(() => {});
+    await page.waitForTimeout(800);
+  }
+  if (opts.mode) {
+    await page.click(`#viewToggle button[data-mode="${opts.mode}"]`).catch(() => {});
+    await page.waitForTimeout(1000);
+  }
+  const path = `${OUT}/${STAMP}_${name}.png`;
+  await page.screenshot({ path, full_page: false });
+  const styles = await checkStyles(page);
+  console.log(name, '=>', path, '|', JSON.stringify(styles));
   await browser.close();
-  console.log('screenshots saved');
+  return styles;
+}
+
+(async () => {
+  const r = {};
+  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' }, LOCAL);
+  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' }, LOCAL);
+  r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' }, LOCAL);
+  r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' }, LOCAL);
+  try { r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light' }, ONLINE); }
+  catch (e) { r.online = { error: String(e).slice(0, 200) }; }
+  console.log('\nDONE', JSON.stringify(r));
 })();
