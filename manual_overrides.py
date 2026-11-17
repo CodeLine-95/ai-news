@@ -335,6 +335,7 @@ TITLE_OVERRIDES = {
     'Apple’s latest watchOS beta includes its new always-on Audio Intelligence features': '苹果最新 watchOS 测试版加入全新的常亮音频智能功能',
     'Apple restricts dating apps and AI companions to users 18 and up': '苹果将约会应用与 AI 伴侣限制为仅 18 岁及以上用户',
     'Apple is all in on AI — its own and everyone else’s': '苹果全力押注 AI——自家的以及其他公司的',
+    'llm 0.37.3': 'LLM 0.37.3 发布',
 }
 
 SUMMARY_OVERRIDES = {
@@ -673,4 +674,5 @@ SUMMARY_OVERRIDES = {
     'Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI': '城市从摄像头、传感器和业务系统中产生大量数据，但将其转化为有用的行动，用于规划、维护和公共服务，仍然是一个挑战。物理和智能体人工智能提供了解决这一差距的新方法，从数字孪生的基础设施规划到视觉和服务智能体，同时让地方政府控制如何处理和使用敏感数据。基于 GTC Berlin 公布的倡议，NVIDIA 及其合作伙伴正在扩大物理人工智能和 AI 智能体到世界各地的城市。共享的计算基础设施为城市部门、邻近的市政和当地开发人员提供了共同的基础，可以建立在扩展服务的基础上，而每个组织都不需要收购和管理自己的资源。',
     'Please stop asking me when the AI bubble will pop': '太平洋投资管理公司（Pimco）首席执行官 Emmanuel Roman 于 2026 年 11 月 3 日（星期二）在中国香港举行的全球金融领导人投资峰会上表示，包括本栏目编辑在内的许多人，都带着或兴奋或不安的情绪不断追问他：AI 泡沫何时会破裂。他的回答是：如果真能预知，他就会在市场上下重注、尽可能加足杠杆，赚到钱后去海边退休，说不定再开个猫咪收容所。他真正想说的是，今早他在彭博社读到一篇感兴趣的报道——《华尔街 CEO 与重量级基金经理在 AI 风险上意见分歧》，内容正是对此次香港全球金融领导人投资峰会上各方观点的综述。',
     'Advancing computer-use agents for healthcare teams': 'OpenAI 探讨将计算机使用智能体引入医疗团队：让 AI 智能体能够安全地操作软件界面、处理临床与运营流程中的重复性电脑任务，从而帮助医护人员把更多时间投入到患者照护中。',
+    'llm 0.37.3': 'LLM 0.37.3 发布：这是一个错误修复版本，主要解决最新版 Homebrew 软件包带来的问题。Homebrew 现搭载最新的 SQLite 3.54.1，其中包含一项修复，曾导致 LLM 的日志代码出错。简而言之：在 SQLite 3.54.0 中，SQL 查询 select json_object(\'a\', (select json_array(1))) 返回 {"a":[1]}；但在 3.54.1 中，同一查询返回 {"a":"[1]"}。据 SQLite 作者 D. Richard Hipp 解释，这其实是一次错误修复：根据文档，(SELECT json_array(...)) 返回的是 SQL 文本而非 JSON，因此 3.54.1 的行为才是正确的，3.54.0 才是缺陷。',
 }
