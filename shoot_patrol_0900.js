@@ -3,7 +3,7 @@ const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1117_0900';
+const STAMP = 'deliverable_1118_0900';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -29,13 +29,11 @@ async function checkStyles(page) {
     res.sync_buttons = btns.filter(b => /同步|sync|refresh|刷新/i.test(b.textContent || '')).map(b => (b.textContent || '').trim());
     res.entries = document.querySelectorAll('.entry').length;
     res.data_theme = document.documentElement.getAttribute('data-theme');
-    res.theme_btns = Array.from(document.querySelectorAll('#themeToggle .seg-btn')).map(b => b.dataset.theme);
-    res.view_btns = Array.from(document.querySelectorAll('#viewToggle .seg-btn')).map(b => b.dataset.mode);
     return res;
   });
 }
 
-async function shoot(pw, name, opts) {
+async function shoot(pw, name, opts, url) {
   const browser = await pw.launch({ args: ['--no-sandbox'] });
   const ctx = await browser.newContext({
     viewport: { width: 1440, height: 1100 },
@@ -44,7 +42,6 @@ async function shoot(pw, name, opts) {
     colorScheme: opts.colorScheme || 'light',
   });
   const page = await ctx.newPage();
-  const url = opts.online ? ONLINE : LOCAL;
   await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
   await page.waitForTimeout(2000);
@@ -66,10 +63,11 @@ async function shoot(pw, name, opts) {
 
 (async () => {
   const r = {};
-  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' });
-  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' });
-  r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' });
-  r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' });
-  r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light', online: true });
+  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' }, LOCAL);
+  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' }, LOCAL);
+  r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' }, LOCAL);
+  r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' }, LOCAL);
+  try { r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light' }, ONLINE); }
+  catch (e) { r.online = { error: String(e).slice(0, 200) }; }
   console.log('\nDONE', JSON.stringify(r));
 })();
