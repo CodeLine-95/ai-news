@@ -3,7 +3,7 @@ const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1116_2000';
+const STAMP = 'deliverable_1118_2000';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {

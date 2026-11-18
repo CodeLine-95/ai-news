@@ -362,6 +362,13 @@ TITLE_OVERRIDES = {
     'Lovable Wants You to Vibe Code Your Dream Job': 'Lovable 希望你用 Vibe Coding 打造理想工作',
     'Exclusive: Wherobots AI agents automate complex spatial data engineering': '独家：Wherobots AI 智能体自动化复杂的空间数据工程',
     "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story": '演讲：Booking.com AI 演进背后的故事——不为人知的曲折',
+    'Suno now lets you make AI videos for your AI music': 'Suno 现可为 AI 音乐生成 AI 视频',
+    'Propel Adds Plaid Cash-Flow Data to AI Credit Underwriting': 'Propel 引入 Plaid 现金流数据升级 AI 信贷承销',
+    'India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need': '印度 Humyn Labs 融资 4700 万美元，为美国机器人公司提供所需训练数据',
+    'The App Economy Is Changing: What Happens When Anyone Can Build Their Own Software?': '应用经济正在改变：当人人都能开发自己的软件时会怎样？',
+    'Subtle Medical Secures Japan Clearance for SubtleHD AI Software': 'Subtle Medical 的 SubtleHD AI 软件获日本上市批准',
+    'From store outlets to methane leaks, every scrap of power is now fair game for AI compute': '从门店插座到甲烷泄漏，每一份电力都成为 AI 算力的争夺对象',
+    'Will AI Coding Eat Video Game Engines?': 'AI 编程会颠覆游戏引擎吗？',
 
 }
 
@@ -727,5 +734,12 @@ SUMMARY_OVERRIDES = {
     'Lovable Wants You to Vibe Code Your Dream Job': '这家瑞典初创公司曾引领 Vibe Coding（氛围式编程）应用热潮。成立两年后，Lovable 正调整方向，帮助用户运营以 Vibe Coding 方式开发出来的业务。',
     'Exclusive: Wherobots AI agents automate complex spatial data engineering': '云原生空间分析与人工智能初创公司 Wherobots Inc. 今日推出了一款 AI 智能体，让用户用自然语言指令即可构建和部署空间数据管道，降低对专业编程技能的需求。这款名为 Waldo 的智能体能够发现数据源、生成查询、执行分析、可视化结果，并调度重复性操作。',
     "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story": 'Jabez Eliezer Manuel 分享了 Booking.com 数据管理与机器学习平台 20 年的演进历程。他讲解了团队如何扩展 MySQL 拓扑架构、逐步以云架构取代 Hadoop，并构建起每天支撑 4000 亿次预测的高吞吐量模型服务与特征存储系统。他还分享了对个性化推荐、交错实验以及全新智能体 AI 基础的见解。',
+    'Suno now lets you make AI videos for your AI music': 'AI 音乐平台 Suno 推出名为「Visuals（视觉）」的图像与视频生成新功能，可将 Suno 歌曲转化为自动与歌词对口型的 AI 视频片段，也可通过提示词生成用作缩略图和专辑封面的图像。该功能已在网页、iOS 和 Android 上线，位于「创建」模式下的新 Visuals 标签页；网页用户还可通过曲库中歌曲的三点菜单进入。',
+    'Propel Adds Plaid Cash-Flow Data to AI Credit Underwriting': '2026 年 11 月 18 日，Propel Holdings 宣布升级其 AI 现金流承销模型，并与 Plaid 达成合作引入经消费者授权的财务数据，估计可将信贷覆盖面扩大最多 15%。该模型旨在评估传统征信机构数据可能无法充分覆盖的消费者，其内部系统已于 2026 年第三季度末投入运营。',
+    'India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need': 'Humyn Labs 成立于今年 2 月，与 Mecka AI、XDOF 等初创公司竞争，约 90% 营收来自美国。',
+    'The App Economy Is Changing: What Happens When Anyone Can Build Their Own Software?': '从「选应用」到「描述应用」：2026 年 10 月 13 日，Google 宣布 Android 用户现可通过 Google AI Studio 自行构建应用，并通过 Google Play 在自己手机上私密运行，无需公开上架。这些应用采用「氛围编程（vibe coding）」方式：你用日常语言描述需求，AI 负责编写代码。',
+    'Subtle Medical Secures Japan Clearance for SubtleHD AI Software': '2026 年 11 月 18 日，Subtle Medical 宣布其 AI 软件 SubtleHD 获得日本市场准入认证。该软件可将 MRI 扫描序列加速最多 80%，并在现有扫描仪上提升图像质量。获得认证后，日本各地的医院与影像中心均可使用该软件。该认证由日本医疗设备进步协会依据《药品与医疗器械法》（日本医疗产品监管框架）颁发。',
+    'From store outlets to methane leaks, every scrap of power is now fair game for AI compute': '随着模型规模不断扩大、分布式推理从概念走向部署，AI 工厂正在突破传统数据中心的边界。支撑这些模型的基础设施如今必须横跨机架、站点，甚至分散各处的小型电力资源。戴尔科技公司（Dell Technologies）表示，AI 工厂最难的部分不再是采购硬件，而是让机架、交换机、GPU 与冷却系统在通电后持续稳定运行。',
+    'Will AI Coding Eat Video Game Engines?': '2026 年 9 月，Travis McGeathy 的工作室 Seeker Entertainment 资金耗尽，其游戏 KinForge 也随之停摆。KinForge 是一款基于 Unreal Engine 5.7 打造的在线游戏，原本运行在亚马逊云科技（AWS）的服务器上。无人续付服务器账单后，即便持有代码的少数开发者（包括联合创始人 McGeathy）也无法再游玩。后来 McGeathy 一时兴起，让 Anthropic 的 Claude Code 处理该项目，要求它在不依赖 AWS 的情况下让 KinForge 可运行。经过约四小时、基本无需人工干预的工作，他得到一个可让玩家自行托管游戏的构建版本。Claude 加入了对互联网和局域网点对点联机的支持；令 McGeathy 意外的是，它还加入了持久化存档功能，让玩家断线后可以恢复游戏。',
 
 }
