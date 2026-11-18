@@ -390,6 +390,15 @@ TITLE_OVERRIDES = {
     'OneTrust’s Fall ’26 Release expands AI visibility, privacy and third-party risk tools': 'OneTrust 2026 秋季版发布，扩展 AI 可见性、隐私与第三方风险工具',
     'Will Wright’s next game uses AI to map your memories': '威尔·赖特的新作利用 AI 描绘你的记忆',
     'Acclaim Names Veeam Co-Founder Ratmir Timashev CEO for U.S. Voice AI Expansion': 'Acclaim 任命 Veeam 联合创始人 Ratmir Timashev 为 CEO，推进美国语音 AI 扩张',
+    'Vero Security Raises $11M Seed to Expand AI Security Platform': 'Vero Security 完成 1100 万美元种子轮融资，扩展 AI 安全平台',
+    'Supermicro Ships Petascale All-Flash Servers With PCIe Gen 6': 'Supermicro 出货搭载 PCIe Gen 6 的 PB 级全闪存服务器',
+    'NVIDIA Expands RTX Spark to Compact Desktops for Always-On Local AI': 'NVIDIA 将 RTX Spark 扩展至紧凑型台式机，支持常驻本地 AI',
+    'Hugging Face now routes model requests through OpenRouter for the best price or speed': 'Hugging Face 现通过 OpenRouter 路由模型请求，以获得最优价格或速度',
+    'Sequel.io Raises $15M Series B to Expand AI Agents and Personalization': 'Sequel.io 完成 1500 万美元 B 轮融资，扩展 AI 智能体与个性化能力',
+    'Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems': '竞争对手已掌控完整操作系统，Mistral 借 Vibe Desktop 奋起直追',
+    'Disney Introduces Autonomous Star Wars Audio-Animatronics With AWS': '迪士尼携手 AWS 推出自主式《星球大战》电子与动画人偶',
+    'Downgrading From Claude Fable Barely Affected Dev Productivity During Ban': '禁令期间从 Claude Fable 降级，对开发生产力影响甚微',
+    'AI’s hidden energy tax: More than 80% of scale-up traffic is just memory moving around': 'AI 隐藏的能源税：超 80% 的扩容流量只是内存在搬移',
 }
 
 SUMMARY_OVERRIDES = {
@@ -782,4 +791,13 @@ SUMMARY_OVERRIDES = {
     'OneTrust’s Fall ’26 Release expands AI visibility, privacy and third-party risk tools': "治理平台提供商 OneTrust LLC 今日宣布推出其 2026 秋季版（Fall '26 Release），这是一组平台更新，据称可将治理能力嵌入业务决策所在的工作流程之中。",
     'Will Wright’s next game uses AI to map your memories': '《模拟城市》与《模拟人生》等传奇系列的创作者威尔·赖特（Will Wright）正在开发一款新游戏，且围绕 AI 打造。这款聚焦玩家记忆的新作名为《MyMems》。与赖特的其他作品一样，它听起来极具雄心，为玩家提供一种探索自己创造世界的新方式。他告诉 The Verge：「我们想把你的自传变成一个玩具世界。」MyMems 官网将这款手游描述为一款「社交模拟」游戏，其中的世界「由你的记忆以及塑造了你的人构建而成」。',
     'Acclaim Names Veeam Co-Founder Ratmir Timashev CEO for U.S. Voice AI Expansion': 'Acclaim 任命 Ratmir Timashev 为首席执行官，并任命 Frank Schneider 负责北美增长业务；其语音 AI 平台瞄准受监管行业的客户运营场景。',
+    'Vero Security Raises $11M Seed to Expand AI Security Platform': 'Vero Security 于 2026 年 11 月 18 日宣布完成由 TLV Partners 领投的 1100 万美元种子轮融资，同时推出 AISecurityEngineering.org——一个面向「保护企业 AI 工具与智能体」这一新兴领域的开放社区。GTM Capital、Maple Capital 及多位天使投资人也参与本轮。',
+    'Supermicro Ships Petascale All-Flash Servers With PCIe Gen 6': 'Supermicro 于 2026 年 11 月 18 日宣布，其基于第六代 AMD EPYC 9006 处理器的全新全闪存存储家族首批系统已开始出货，主打机型是一款 Petascale 服务器，采用 PCIe Gen 6 连接，在 2U 机箱中提供高达 3.93 PB 的闪存容量。Supermicro 称，新服务器的顺序读取带宽较 PCIe Gen 5 最高提升 100%，这是其首批采用 PCIe Gen 6 的存储产品，面向高性能计算、AI 训练与推理。该 Petascale 服务器采用 AMD 的 SP7 平台，随着 AMD 推出 SP8 版本 CPU，后续还计划推出更多存储产品。',
+    'NVIDIA Expands RTX Spark to Compact Desktops for Always-On Local AI': 'NVIDIA 于 2026 年 11 月 18 日宣布，来自华硕（ASUS）、戴尔（Dell）和微星（MSI）的 RTX Spark 紧凑型台式机现已开售，为专用 Windows PC 带来本地 AI 智能体、图像与视频生成及模型微调能力，统一内存最高达 128GB。NVIDIA 点名华硕 ProArt GR1X 与微星 EdgeMesa N AI+ 系列属于这批新台式机，它们与此前已开售的 RTX Spark 笔记本形成互补。',
+    'Hugging Face now routes model requests through OpenRouter for the best price or speed': 'Hugging Face 现已通过 OpenRouter 路由语言模型请求，后者会自动选择最便宜或最快的供应商。「自带 API 密钥」（bring-your-own API keys）的语言模型调用方式正在退出。据 OpenRouter 称，新路由机制将容量错误减少了 46%。两家公司均面临数十亿美元的收购。',
+    'Sequel.io Raises $15M Series B to Expand AI Agents and Personalization': 'Sequel.io 于 2026 年 11 月 18 日宣布完成超额认购的 1500 万美元 B 轮融资，由 Sorenson Capital 领投，累计融资额达 2600 万美元。公司将在 AI 智能体、底层数据基础设施、网站个性化及其视频驱动营销平台的集成方面加大投入。High Alpha、Album VC 与 Webflow Ventures 作为新投资人加入，Javelin Venture Partners、Struck Capital、Alumni Ventures 与 Social Leverage 继续跟投。',
+    'Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems': 'Mistral 的 AI 智能体 Vibe 现拥有了自己的桌面应用。竞争对手已掌控完整的操作系统，Mistral 正借 Vibe Desktop 奋起追赶。',
+    'Disney Introduces Autonomous Star Wars Audio-Animatronics With AWS': "迪士尼体验公司于 2026 年 11 月 18 日宣布，华特迪士尼幻想工程研发部门与 AWS 打造了一个由三个角色组成的《星球大战》电子与动画人偶（Audio-Animatronics）原型，可实时选择对白与动作。这三个安泽兰人（Anzellan）角色——Vilo Vele、Kado Bre'a 与 Jibu Bre'a——无需木偶师操控或固定表演循环即可运行。这些角色来自《星球大战》宇宙中的一个外星种族。",
+    'Downgrading From Claude Fable Barely Affected Dev Productivity During Ban': '要准确评估新 AI 模型是否较前代有所改进非常困难——甚至难以界定「生产力提升」究竟意味着什么，因为新版本可能在一个领域表现更好，却在另一个领域性能下降，这与传统软件和框架的情况如出一辙。有时这是人为主动选择的取舍，有时则是「附带损害」。而这还假设各方是在「公平竞技」。',
+    'AI’s hidden energy tax: More than 80% of scale-up traffic is just memory moving around': '随着推理任务超过训练，内存瓶颈正成为 AI 基础设施中代价最高的问题之一。GPU 空闲等待数据，而高带宽内存（HBM）却被固定绑定在无法共享的处理器上。光子学正成为一条潜在出路。迈威尔科技（Marvell Technology Inc.）',
 }
