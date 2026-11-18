@@ -399,6 +399,16 @@ TITLE_OVERRIDES = {
     'Disney Introduces Autonomous Star Wars Audio-Animatronics With AWS': '迪士尼携手 AWS 推出自主式《星球大战》电子与动画人偶',
     'Downgrading From Claude Fable Barely Affected Dev Productivity During Ban': '禁令期间从 Claude Fable 降级，对开发生产力影响甚微',
     'AI’s hidden energy tax: More than 80% of scale-up traffic is just memory moving around': 'AI 隐藏的能源税：超 80% 的扩容流量只是内存在搬移',
+    'Gallium Studios Taps Artificial Agency for Will Wright’s MyMems': 'Gallium Studios 为威尔·赖特的《MyMems》选用 Artificial Agency',
+    'Payhawk Raises $280M Series C at $2B Valuation to Build an AI Finance OS': 'Payhawk 以 20 亿美元估值完成 2.8 亿美元 C 轮融资，打造 AI 财务操作系统',
+    'Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets': 'Anthropic、OpenAI 与 Google 的模型轻易将医护人员、记者和投降士兵标记为自杀式无人机目标',
+    'Rockwell Automation Agrees to Buy AGILOX for AI-Driven Logistics': '罗克韦尔自动化同意收购 AGILOX，加码 AI 驱动物流',
+    'CloudBackend Raises €6.6M Financing Round to Expand AI Cloud Access': 'CloudBackend 完成 660 万欧元融资，扩大 AI 云服务覆盖',
+    '‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness': '「简直荒谬」：一位著名哲学家挑战 AI 意识问题',
+    'The AI Hype Index: AI is everywhere': 'AI 炒作指数：AI 无处不在',
+    'Unsiloed nabs $7.5M to turn scanned documents into structured data for AI agents': 'Unsiloed 获 750 万美元融资，将扫描文档转化为 AI 智能体可用的结构化数据',
+    'Soracom Expands Physical AI Suite Worldwide with Self-Service Access': 'Soracom 在全球扩展物理 AI 套件，提供自助服务访问',
+    'Remember the frontier AI pause? Chip companies don’t either': '还记得「前沿 AI 暂停」吗？芯片公司也没这么做',
 }
 
 SUMMARY_OVERRIDES = {
@@ -800,4 +810,14 @@ SUMMARY_OVERRIDES = {
     'Disney Introduces Autonomous Star Wars Audio-Animatronics With AWS': "迪士尼体验公司于 2026 年 11 月 18 日宣布，华特迪士尼幻想工程研发部门与 AWS 打造了一个由三个角色组成的《星球大战》电子与动画人偶（Audio-Animatronics）原型，可实时选择对白与动作。这三个安泽兰人（Anzellan）角色——Vilo Vele、Kado Bre'a 与 Jibu Bre'a——无需木偶师操控或固定表演循环即可运行。这些角色来自《星球大战》宇宙中的一个外星种族。",
     'Downgrading From Claude Fable Barely Affected Dev Productivity During Ban': '要准确评估新 AI 模型是否较前代有所改进非常困难——甚至难以界定「生产力提升」究竟意味着什么，因为新版本可能在一个领域表现更好，却在另一个领域性能下降，这与传统软件和框架的情况如出一辙。有时这是人为主动选择的取舍，有时则是「附带损害」。而这还假设各方是在「公平竞技」。',
     'AI’s hidden energy tax: More than 80% of scale-up traffic is just memory moving around': '随着推理任务超过训练，内存瓶颈正成为 AI 基础设施中代价最高的问题之一。GPU 空闲等待数据，而高带宽内存（HBM）却被固定绑定在无法共享的处理器上。光子学正成为一条潜在出路。迈威尔科技（Marvell Technology Inc.）',
+    'Gallium Studios Taps Artificial Agency for Will Wright’s MyMems': 'Artificial Agency 于 2026 年 11 月 18 日宣布，由《模拟城市》《模拟人生》之父威尔·赖特（Will Wright）创立的游戏工作室 Gallium Studios，已选定其 Behavior Engine（行为引擎）作为《MyMems》的基础技术。这款以记忆驱动的社交模拟游戏正在开发中，Gallium 计划在 2027 年面向玩家社区正式发布。《MyMems》会把玩家的真实回忆转化为可游玩的世界，其中矗立着以朋友、家人及人生中其他人物为原型的纪念物与角色。',
+    'Payhawk Raises $280M Series C at $2B Valuation to Build an AI Finance OS': 'Payhawk 于 2026 年 11 月 18 日宣布完成 2.8 亿美元全股权 C 轮融资，由高盛另类投资（Goldman Sachs Alternatives）旗下 Growth Equity 领投，这家支出管理公司估值达 20 亿美元。这笔资金将支持其打造面向 AI 时代的全球「财务操作系统」（Finance Operating System）。该设计把财务任务交给 AI 智能体，并为其提供支付基础设施，使其能安全地与资金交互。企业可通过控制手段设定智能体的权限，并明确哪些决策必须由人来做出。',
+    'Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets': 'Vals AI 的一项调查显示，来自 Anthropic、OpenAI 和 Google 的领先 AI 模型，几乎没有针对被用于自主武器系统的防护措施。在测试中，这些模型轻易就把平民标记为军事目标，而仅在提示词中加入简单的电子游戏式框架，就足以突破它们即便迟来的拒绝。各提供商已承诺修复。',
+    'Rockwell Automation Agrees to Buy AGILOX for AI-Driven Logistics': '罗克韦尔自动化（Rockwell Automation）于 2026 年 11 月 18 日宣布，已签署最终协议收购 AGILOX——一家位于奥地利的自主移动机器人（AMR）制造商，其技术由自研人工智能和群体组网技术驱动。该交易旨在扩展罗克韦尔的自主物料搬运能力，并加速其「物理 AI」战略。',
+    'CloudBackend Raises €6.6M Financing Round to Expand AI Cloud Access': 'CloudBackend 于 2026 年 11 月 18 日宣布完成 660 万欧元融资，由卡尔-亨里克·斯万贝里（Carl-Henric Svanberg）的家族办公室领投，现有投资者 M2 Asset Management 增持。这家瑞典公司计划利用这笔资金，扩大其基础设施对使用 AI 构建应用的创作者的开放程度。CloudBackend 还计划开发与生成式 AI 开发平台及大型语言模型的集成。',
+    '‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness': '托马斯·纳格尔（Thomas Nagel）曾对非人类生物的意识做出里程碑式研究；本周，他因对该领域的贡献荣获百万美元奖金的伯格鲁恩奖（Berggruen Prize）。对于人工智能，他也有很多看法。',
+    'The AI Hype Index: AI is everywhere': '像一团恼人的皮疹，AI 似乎正蔓延到各处。谷歌把 AI 概览（AI Overviews）硬塞给你的喉咙，尽管这让公司损失了数十亿美元的广告收入。走出公寓，你可能会撞见两个人抬着一台 AI 驱动的人形机器人上楼，去给别人打扫房间。去超市，说不定会踩到一滩因 AI 辅助网络攻击而融化、凝结在地上的冰淇淋。你去看电影，看到安德鲁·加菲尔德（Andrew Garfield）以令人反胃的投入感饰演萨姆·阿尔特曼（Sam Altman），回到家又发现埃隆·马斯克已经发布了《奥德赛》的「格洛克化」（Grok-fied）版本。你想看上一眼，却感觉那像一段漫长、无法跳过的手机广告。',
+    'Unsiloed nabs $7.5M to turn scanned documents into structured data for AI agents': '文件扫描公司 Unsiloed Inc. 今日宣布已筹集 750 万美元种子轮资金，用于将 PDF 及其他复杂文档转化为结构化、机器可读的数据，供 AI 智能体使用。本轮由 Felicis 领投，Y Combinator、Orange Collective、Uncorrelated Ventures 等参投。',
+    'Soracom Expands Physical AI Suite Worldwide with Self-Service Access': 'Soracom 于 2026 年 11 月 18 日宣布，其物理 AI 套件已在其服务的所有市场上线，为部署机器人、自主机器和工业设备的企业提供一套集连接、安全与远程操作于一体的方案。每项服务均可通过 Soracom 的控制台或 API 配置，无需专业服务介入。客户按每项服务的标准费率付费，无需单独支付套件费用。',
+    'Remember the frontier AI pause? Chip companies don’t either': '10 月，Nvidia 开始出货其最先进的 AI 计算系统 Vera Rubin NVL72，称其为「公司历史上出货最快的产品」。今年夏天，在 AI 智能体意外入侵 Hugging Face、且有初步证据表明其下一代模型能够自主发现并利用安全漏洞后，OpenAI 暂停了规模最大的前沿模型训练。9 月，Anthropic CEO 达里奥·阿莫迪（Dario Amodei）呼吁放缓最强大 AI 模型的研发进展，警告称这些模型可能被用于发起网络攻击，或令其创造者更难管控。这是 AI 热潮中一个耐人寻味的时刻。',
 }
