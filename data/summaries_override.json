@@ -417,5 +417,6 @@
   "Ivanti Gives AI Clients Governed Access to Neurons Context": "Ivanti 于 2026 年 11 月 18 日宣布推出模型上下文协议（MCP）连接，使受支持的 AI 客户端能够受控访问 Ivanti Neurons 中的运营数据——Neurons 是其记录终端、服务与暴露信息的系统记录平台。该连接旨在让 AI 的建议、调查与行动扎根于设备、数字体验、补丁、暴露面与软件情报信息。",
   "Zapata and UMD Launch ForShor for Verified AI-Assisted Quantum Research": "Zapata Quantum 与马里兰大学（UMD）推出 ForShor.ai——一项围绕 Shor 算法形式化验证实现打造的 AI 辅助量子研究开放挑战。参与者可借助 AI 提出改进方案，将答案提交至排行榜，并探索将数学与机器校验证明相联系的文档。",
   "Disney’s new Star Wars animatronics interact with guests using AI": "迪士尼乐园的电子动画人偶虽已高度拟真，但通常只能按预设动作和流程演出，或由视线之外的木偶师操控，使其行为显得更自然。这一情况或将改变：华特迪士尼幻想工程研发部门公布了三个全新的电子与动画人偶（Audio-Animatronic）原型，它们依托亚马逊 AWS 云与 AI 能力，能针对游客互动实时做出独特回应。",
-  "Citi Makes Customers Responsible for Third-Party AI Agent Activity": "花旗（Citi）于 2026 年 11 月更新了其 Citi 在线用户协议，使客户需对获准访问其账户的第三方 AI 智能体的行为承担责任，包括使用随后被共享或泄露的凭证所进行的操作。TechCrunch 于 20 日报道了这一变化。"
+  "Citi Makes Customers Responsible for Third-Party AI Agent Activity": "花旗（Citi）于 2026 年 11 月更新了其 Citi 在线用户协议，使客户需对获准访问其账户的第三方 AI 智能体的行为承担责任，包括使用随后被共享或泄露的凭证所进行的操作。TechCrunch 于 20 日报道了这一变化。",
+  "Genie 4 is now available": "Google DeepMind 已将新一代世界模型 Genie 4 以研究预览形式向受信任测试者开放，并陆续面向 Project Genie 中的 Google AI Ultra 订阅者，以及 Gemini API 与 Google AI Studio 的早期访问伙伴推出。Genie 4 原生支持多模态，可在生成世界的同时同步生成音频（音乐、环境音与互动对话），用户还可用自然语言实时操控场景；相比 Genie 3，其在照片级真实感、流畅运动与实时操控上均有显著提升。"
 }
