@@ -508,5 +508,15 @@
   "The race is on to sue Nvidia": "在董事会对黄仁勋与一名涉嫌中国间的关系进行调查后，Nvidia 股票下跌了 4%，一名证券法专家说，该公司之前坚持认为一切正常，可能会变成一个非常昂贵的问题。",
   "Nvidia CEO's affair becomes a national security problem": "据报道，两天前，Nvidia 公司首席执行官黄仁勋承认他和一名美国情报界认为是为中国间的女人建立了据称浪漫关系。黄在周日向员工发送的内部信息中透露了这件事情。我欠我的家人和你们所有的人道歉，黄在消息中说。我不忠于我的妻子。我的行为伤害了她和我们的孩子。我所做的没有借口。我深感抱歉。",
   "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls": "Nvidia 首席执行官黄仁勋承认与一名美国情报机构认为是涉嫌中国告密者的外婚关系。董事会已经启动了独立调查。这起事件削弱了黄反对更严格的人工智能芯片出口管制的游说努力，而新当选的民主党国会准备加快对人工智能芯片走私到中国的审查，并推动更严格的限制。",
-  "Yale’s Sonnenfeld Gives Huang Roughly Even Odds of Staying NVIDIA CEO": "2026 年 11 月 8 日，TechCrunch 报道说，耶鲁领导学家杰弗里·索南菲尔德将黄仁勋（Jensen Huang）作为 NVIDIA 首席执行官的机会设置在 50-50 左右。索南菲尔德称他的职业生涯是可挽救的，同时警告说，正在审查的行为仍然可能导致不可逆转的失去信心。2026 年 11 月 8 日，NVIDIA 宣布独立调查，报告 Huang 被外国情报机构准。"
+  "Yale’s Sonnenfeld Gives Huang Roughly Even Odds of Staying NVIDIA CEO": "2026 年 11 月 8 日，TechCrunch 报道说，耶鲁领导学家杰弗里·索南菲尔德将黄仁勋（Jensen Huang）作为 NVIDIA 首席执行官的机会设置在 50-50 左右。索南菲尔德称他的职业生涯是可挽救的，同时警告说，正在审查的行为仍然可能导致不可逆转的失去信心。2026 年 11 月 8 日，NVIDIA 宣布独立调查，报告 Huang 被外国情报机构准。",
+  "Synaptiq Combines AI Tumor and Organ Contouring to Speed Radiotherapy Planning": "Synaptiq 正通过其 Mediq RT 平台，将 AI 辅助的肿瘤勾画与危及器官（organ-at-risk）勾画整合到统一的放射治疗规划工作流程中。这家罗马尼亚医疗科技公司表示，临床评估显示 CT 勾画时间平均减少 92.6%，其中已包含临床医生审核与修正 AI 结果所花的时间。",
+  "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways": "特朗普政府宣布计划收紧中国获取 AI 芯片的渠道。显然，「世纪作弊丑闻」正是他们此前所缺少的动机。",
+  "Kulicke & Soffa Ships Panel-Level Bonding Systems for AI Packages": "库力索法（Kulicke & Soffa）于 2026 年 11 月 18 日宣布，已向台湾两家主要客户交付 APTURA WSX 面板级键合系统，将其无助焊剂热压（FTC）工艺从晶圆生产扩展到面向人工智能（AI）与高性能计算（HPC）的更大尺寸封装。此举将 K&S 现有的 FTC 工艺从细间距晶圆上芯片（chip-on-wafer）生产，拓展到更大尺寸的面板上芯片（chip-on-panel）流程。",
+  "Palo Alto Networks Reaches $4.5B Agreement for Applied Compute": "Palo Alto Networks 于 2026 年 11 月 18 日宣布，已达成最终协议，以全股票交易方式收购 Applied Compute，交易价值 45 亿美元（可作调整）。Applied Compute 的平台让企业能够适配并运行开放权重 AI 模型。该交易仍需满足包括监管批准在内的常规交割条件，Palo Alto Networks 预计将于其 2027 财年第三季度完成交易。",
+  "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated": "Anduril 首席执行官帕尔默·卢基在谈到被罢免的英伟达领导人黄仁勋时表示：「把他赶下台会让美国变得更弱。」",
+  "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’": "这家 Anduril 联合创始人表示，过时的技术正使系统容易受到新一波 AI 驱动攻击的侵害。",
+  "Introducing Gemini 4 Neon": "Google DeepMind 发布 Gemini 4 Neon。这是面向软件开发、知识工作与科学任务的新一代前沿模型，支持文本、图像、视频、音频与 PDF 文件输入，并具备百万 token 的上下文窗口。该模型已通过 Gemini API 与 Google AI Studio 开放使用。",
+  "Google Launches Gemini 4 Neon for Coding, Knowledge Work and Science": "2026 年 11 月 18 日，Google 在其 Gemini API 发布说明中宣布 Gemini 4 Neon 正式可用，推出面向软件工程、知识工作与科学的付费模型：每百万输入 token 3 美元、每百万输出 token 15 美元。稳定的 gemini-4-neon 端点可通过 generateContent 与 Interactions API 调用，也可通过 Google AI Studio 中的 Google AI Pro 与 Ultra 套餐使用。",
+  "Recent spate of outages attributed to technical issues amid accelerated AI bug discovery": "美国当局认为，近期联邦机构与顶尖科技公司发生的故障并非由网络攻击造成。受影响的组织包括美国联邦航空管理局、联合航空、Apple 与微软。四者均表示，其系统中断源于技术问题而非黑客攻击。专家指出，人工智能模型正加速漏洞发现，使此类技术问题的暴露与修复节奏加快。",
+  "Nvidia created a weird bit of intrigue by not filing a routine SEC report": "一位华尔街分析师厘清了英伟达这则令人意外的公告的来龙去脉：该公司将延迟数周才提交正式的季度业绩文件（10-Q）。"
 }
