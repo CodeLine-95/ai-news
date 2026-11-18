@@ -350,8 +350,6 @@ TITLE_OVERRIDES = {
     'Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript': 'Anthropic 为 Claude Code 增加代码模式：Claude 现在可在 JavaScript 中链式调用多个工具',
     'OpenAI to Surface Le Figaro Reporting in ChatGPT Partnership': 'OpenAI 将在 ChatGPT 合作中呈现《费加罗报》的报道',
     'The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward': 'Apple Watch 的 Live Rewind 可录制并回放对话，但体验相当尴尬',
-
-    "Suno's new Visuals feature pairs AI-generated music with AI-generated video": 'Suno 新功能 Visuals 将 AI 生成音乐与 AI 生成视频配对',
     'Scripts can’t run AI factories: Dell moves cluster management from the server to the rack': '脚本跑不转 AI 工厂：戴尔把集群管理从服务器搬到机架',
     'Marble Draws $5.5M in Seed Funding After Signing 150+ Restaurants': '签约 150 多家餐厅后，Marble 获得 550 万美元种子轮融资',
     'Synthesia Adds AI Video Creation and Editing to Claude Chats': 'Synthesia 将 AI 视频创作与剪辑带入 Claude 对话',
@@ -369,7 +367,11 @@ TITLE_OVERRIDES = {
     'Subtle Medical Secures Japan Clearance for SubtleHD AI Software': 'Subtle Medical 的 SubtleHD AI 软件获日本上市批准',
     'From store outlets to methane leaks, every scrap of power is now fair game for AI compute': '从门店插座到甲烷泄漏，每一份电力都成为 AI 算力的争夺对象',
     'Will AI Coding Eat Video Game Engines?': 'AI 编程会颠覆游戏引擎吗？',
-
+    'Startup Makes Headway Towards Formalizing All of Math With AI': '初创公司借助 AI 推动数学形式化取得进展',
+    'Nvidia clarifies when it will — and won’t —keep financing neoclouds': '英伟达澄清何时会、何时不会继续为新型云服务商提供资金',
+    'Unsiloed AI Raises $7.5M Seed to Grow Research, Engineering and Sales': 'Unsiloed AI 完成 750 万美元种子轮融资，扩充研究、工程与销售团队',
+    'Humyn Labs raises $47M to bridge the gap between AI training and real-world robotics': 'Humyn Labs 融资 4700 万美元，弥合 AI 训练与真实机器人应用之间的差距',
+    'Stalled data center buildouts send inference chips hunting for space in telco and colo sites': '数据中心建设停滞，推理芯片转向电信机房与托管站点寻找空间',
 }
 
 SUMMARY_OVERRIDES = {
@@ -722,8 +724,6 @@ SUMMARY_OVERRIDES = {
     'Anthropic has added Code Mode to Claude Code as an experimental, opt-in feature. Claude Code Code Mode is a mode in which Claude writes JavaScript that makes several tool calls in 1 step. It shipped in Claude Code v2.1.323 last week . For developers, it changes how the agent spends round-trips on multi-step work. You can check the deployment options and specs here through our GPULeaderboard.com chrome extension . TL;DR Works with: It works with Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 and Fable 5.2. Runs on: An interactive terminal session on the native build, v2.1.323 or later. Windows needs Git for Windows. Anthropic API or Claude subscription only. Performance: Anthropic publishes no benchmark or token-saving figure for Code Mode. Best: Background code can run for up to 2 hours while you keep talking to Claude. Worst: Code that Claude waits on stops after 10 minutes.': 'Anthropic 为 Claude Code 新增了实验性的、可选择启用的代码模式（Code Mode）。该模式让 Claude 编写 JavaScript，从而在一步中完成多次工具调用。它于上周随 Claude Code v2.1.323 一同发布。对开发者而言，这改变了智能体在多步骤任务中消耗往返调用的方式。',
     'OpenAI to Surface Le Figaro Reporting in ChatGPT Partnership': '2026 年 11 月 18 日，OpenAI 与费加罗报业集团（Groupe Figaro）宣布达成战略合作，将通过摘要与摘录（并链接至原文）让用户能在 ChatGPT 中发现《费加罗报》的现刊与历史报道内容。费加罗报还计划在各个团队中部署 ChatGPT 企业版。该协议涵盖《费加罗报》及其关联刊物，内容横跨新闻、商业、文化与生活方式领域。',
     'The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward': 'Live Rewind（实时回放）与 Siri Recap（对话回顾）可以转录你错过的对话片段、总结你的一天——前提是你不介意那一点点社交上的尴尬。',
-
-    "Suno's new Visuals feature pairs AI-generated music with AI-generated video": '借助名为 Visuals（视觉）的新功能，AI 音乐生成器 Suno 现在可以为歌曲配套生成图像和视频片段。',
     'Scripts can’t run AI factories: Dell moves cluster management from the server to the rack': '随着人工智能集群扩展到超级计算规模，AI 工厂最难的部分不再是采购硬件，而是让机架、交换机、GPU 和冷却系统在通电后持续稳定运行。这份运维负担正在重塑基础设施供应商的销售内容。戴尔科技（Dell Technologies）便是其中之一。',
     'Marble Draws $5.5M in Seed Funding After Signing 150+ Restaurants': 'Marble 于 2026 年 11 月 17 日宣布完成 550 万美元种子轮融资，由 Contrary 领投，用于打造面向餐厅后厨运营的 AI 原生操作系统。这家纽约初创公司将库存盘点、需求预测、采购、备餐和排班整合到一个系统中，聚焦每家餐厅服务背后的运营工作。Y Combinator、Robinhood Ventures 和 Restive Ventures 也参与本轮投资。',
     'Synthesia Adds AI Video Creation and Editing to Claude Chats': 'Synthesia 于 2026 年 11 月 18 日宣布推出一款定制连接器，将其 AI 视频平台接入 Claude，让用户能在对话中创作和修改视频。它还能与其他 Claude 连接器协同工作，把已连接商业工具中的素材用于生成单个视频或自动化工作流。用户可以从一段简短提示入手，也可以提供文档、演示文稿或电子表格等源材料。',
@@ -741,5 +741,9 @@ SUMMARY_OVERRIDES = {
     'Subtle Medical Secures Japan Clearance for SubtleHD AI Software': '2026 年 11 月 18 日，Subtle Medical 宣布其 AI 软件 SubtleHD 获得日本市场准入认证。该软件可将 MRI 扫描序列加速最多 80%，并在现有扫描仪上提升图像质量。获得认证后，日本各地的医院与影像中心均可使用该软件。该认证由日本医疗设备进步协会依据《药品与医疗器械法》（日本医疗产品监管框架）颁发。',
     'From store outlets to methane leaks, every scrap of power is now fair game for AI compute': '随着模型规模不断扩大、分布式推理从概念走向部署，AI 工厂正在突破传统数据中心的边界。支撑这些模型的基础设施如今必须横跨机架、站点，甚至分散各处的小型电力资源。戴尔科技公司（Dell Technologies）表示，AI 工厂最难的部分不再是采购硬件，而是让机架、交换机、GPU 与冷却系统在通电后持续稳定运行。',
     'Will AI Coding Eat Video Game Engines?': '2026 年 9 月，Travis McGeathy 的工作室 Seeker Entertainment 资金耗尽，其游戏 KinForge 也随之停摆。KinForge 是一款基于 Unreal Engine 5.7 打造的在线游戏，原本运行在亚马逊云科技（AWS）的服务器上。无人续付服务器账单后，即便持有代码的少数开发者（包括联合创始人 McGeathy）也无法再游玩。后来 McGeathy 一时兴起，让 Anthropic 的 Claude Code 处理该项目，要求它在不依赖 AWS 的情况下让 KinForge 可运行。经过约四小时、基本无需人工干预的工作，他得到一个可让玩家自行托管游戏的构建版本。Claude 加入了对互联网和局域网点对点联机的支持；令 McGeathy 意外的是，它还加入了持久化存档功能，让玩家断线后可以恢复游戏。',
-
+    'Startup Makes Headway Towards Formalizing All of Math With AI': '10 月 25 日（周日），Axiom Math 的 AI 智能体集群正为「有限单群分类」（CFSG，俗称「庞限定理」）长达 1.5 万页的证明完成自动验证做最后收尾，公司创始数学家 Ken Ono 无事可做，只能静静观看并感慨这一成就。作为数学家之子，他从小身边就围绕着 CFSG 证明的部分缔造者——这份证明被公认为人类写出的最长数学证明。如今，他正参与对父亲与同行们成果的正式验证。他回忆道：「我妻子陪在我身边，我们一起看团队倒数验证完成的那一刻。」',
+    'Nvidia clarifies when it will — and won’t —keep financing neoclouds': '临时首席执行官 Colette Kress 解释说：如果英伟达为某笔数据中心贷款提供兜底担保，只有在新型云服务商（neocloud）具备独立融资、建成设施并装好英伟达设备的前提下，英伟达才会承担相应责任。',
+    'Unsiloed AI Raises $7.5M Seed to Grow Research, Engineering and Sales': 'TechCrunch 于 2026 年 11 月 18 日报道，Unsiloed AI 完成由 Felicis 领投的 750 万美元种子轮融资，用于开发将企业文档转化为 AI 智能体可用的结构化数据的技术。Y Combinator、Orange Collective、Uncorrelated Ventures 以及天使投资人 Aarthi Ramamurthy 和 Beth Turner 也参与本轮。首席执行官 Aman Mishra 表示，资金将用于招聘研究与工程人才、扩大销售团队，并构建专有数据集以改进技术。',
+    'Humyn Labs raises $47M to bridge the gap between AI training and real-world robotics': 'Humyn Labs 是一家将人类经验转化为机器人与 AI 训练数据的公司。该公司今日宣布完成 4700 万美元早期融资，用于加速智能机器人在巴西、韩国和印度真实环境中的部署就绪。',
+    'Stalled data center buildouts send inference chips hunting for space in telco and colo sites': '推理需求增长已超过新建 AI 数据中心的建设速度——电力、资金和审批延误让新增产能一再推迟。这一缺口正促使芯片厂商在现有设施中寻找空间。许多较老的电信机房和托管（colo）站点拥有可用空间与电力。',
 }
