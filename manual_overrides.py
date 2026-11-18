@@ -421,6 +421,16 @@ TITLE_OVERRIDES = {
     'Disney’s new Star Wars animatronics interact with guests using AI': '迪士尼新款《星球大战》电子动画人偶借助 AI 与游客互动',
     'Citi Makes Customers Responsible for Third-Party AI Agent Activity': '花旗（Citi）让客户对第三方 AI 智能体的行为负责',
     'Genie 4 is now available': 'Genie 4 现已开放',
+    'Databricks Launches Native Genie Plugins for Four AI Agents': 'Databricks 为四款 AI 智能体推出原生 Genie 插件',
+    'Weebit Nano Launches Matrix ReRAM Research Program for In-Memory AI Computing': 'Weebit Nano 推出面向存内 AI 计算的 Matrix ReRAM 研究计划',
+    'SoundCloud Adds Direct Publishing for ElevenMusic Creators': 'SoundCloud 为 ElevenMusic 创作者新增直接发布功能',
+    'Reddit Tests AI Product Reviews Built From Community Comments': 'Reddit 测试基于社区评论生成的 AI 产品评测',
+    'Ramp data shows AI spending stalling just as Anthropic nears its IPO': 'Ramp 数据显示：Anthropic 临近 IPO 之际，AI 支出却陷入停滞',
+    'Instagram’s Edits for Mac Lets AI Agents Build Rough Cuts': 'Instagram 的 Edits Mac 版让 AI 智能体制作粗剪',
+    'Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets': '前沿雷达 #5：AGI 近在眼前，为何众人纷纷离开？新兴实验室及其押注',
+    'StitchStudio Raises $8M to Expand Insurance AI Products and Support': 'StitchStudio 融资 800 万美元，扩展保险 AI 产品与客户支持',
+    'Agents may soon be the main workload, and most of the time they’re doing nothing': '智能体或很快成为主要工作负载，而大多数时候它们什么也没做',
+    'What Will Remain After AI? Where Value Survives': 'AI 之后还剩什么？价值何处存续',
 }
 
 SUMMARY_OVERRIDES = {
@@ -844,4 +854,14 @@ SUMMARY_OVERRIDES = {
     'Disney’s new Star Wars animatronics interact with guests using AI': '迪士尼乐园的电子动画人偶虽已高度拟真，但通常只能按预设动作和流程演出，或由视线之外的木偶师操控，使其行为显得更自然。这一情况或将改变：华特迪士尼幻想工程研发部门公布了三个全新的电子与动画人偶（Audio-Animatronic）原型，它们依托亚马逊 AWS 云与 AI 能力，能针对游客互动实时做出独特回应。',
     'Citi Makes Customers Responsible for Third-Party AI Agent Activity': '花旗（Citi）于 2026 年 11 月更新了其 Citi 在线用户协议，使客户需对获准访问其账户的第三方 AI 智能体的行为承担责任，包括使用随后被共享或泄露的凭证所进行的操作。TechCrunch 于 20 日报道了这一变化。',
     'Genie 4 is now available': 'Google DeepMind 已将新一代世界模型 Genie 4 以研究预览形式向受信任测试者开放，并陆续面向 Project Genie 中的 Google AI Ultra 订阅者，以及 Gemini API 与 Google AI Studio 的早期访问伙伴推出。Genie 4 原生支持多模态，可在生成世界的同时同步生成音频（音乐、环境音与互动对话），用户还可用自然语言实时操控场景；相比 Genie 3，其在照片级真实感、流畅运动与实时操控上均有显著提升。',
+    'Databricks Launches Native Genie Plugins for Four AI Agents': '2026 年 11 月 11 日，Databricks 为 ChatGPT、Claude、Microsoft Copilot Cowork 和 Grok Bot 推出原生 Genie 插件。这些集成让四款智能体都能受控访问 Databricks 中保存的业务上下文，其他兼容智能体仍可通过 Genie One MCP 服务器连接。在此次发布前，Databricks 就已将 Genie 接入外部助手。',
+    'Weebit Nano Launches Matrix ReRAM Research Program for In-Memory AI Computing': 'Weebit Nano 启动了 Weebit Matrix 存内计算研究计划，向学术界和产业界研究人员开放 ReRAM 硬件，以测试一种运行 AI 计算的不同路径：在数据存储的位置直接完成计算。该计划提供基于 32×32 交叉开关阵列构建的研究套件，支持向量矩阵乘法、卷积以及脉冲神经网络等运算。',
+    'SoundCloud Adds Direct Publishing for ElevenMusic Creators': 'SoundCloud 于 2026 年 11 月 5 日宣布，创作者可以直接将音乐从 ElevenMusic 发布到 SoundCloud；新旧 SoundCloud Artist Pro 订阅用户可免费获得三个月 ElevenMusic Pro。直接发布功能省去了制作曲目与分发之间单独的导出、上传步骤。',
+    'Reddit Tests AI Product Reviews Built From Community Comments': 'Reddit 于 2026 年 11 月 10 日宣布，正在测试 Reddit Reviews——一项由 AI 整理的购物功能，将符合条件的社区讨论整合为产品页面，包含情绪总结、反复出现的主题以及原始评论链接。初始测试覆盖约 1 万款被频繁讨论的商品。该功能将在未来数周面向美国 iOS、Android 和网页端用户推出，首批涵盖电子、健康与美容、家居与园艺、时尚与服饰等品类。',
+    'Ramp data shows AI spending stalling just as Anthropic nears its IPO': 'AI 使用量持续攀升，但支出已经停滞。最大支出方纷纷降价并采取更精细的成本控制，这可能挑战投资者对 AI 高速增长的预期。',
+    'Instagram’s Edits for Mac Lets AI Agents Build Rough Cuts': 'The Verge 于 2026 年 11 月 5 日报道，Instagram 的独立视频编辑器 Edits 现已推出免费的 macOS 应用，新增 4K 导出，并支持 AI 智能体通过模型上下文协议（MCP）使用其桌面工具。Instagram 的 Edits 产品管理负责人 Matthew Simari 表示，桌面版为应用内所有工具提供了 MCP 接口，创作者对桌面版和 AI 计划的需求共同促成了这次扩展。',
+    'Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets': 'OpenAI 声称已进入 AGI 时代，NVIDIA 首席执行官黄仁勋也称 AGI 已经到来。与此同时，当今模型的共同缔造者正离开 OpenAI、Google DeepMind 和 Meta 去创办自己的实验室，在没有产品的情况下募集数十亿美元。原因何在？他们押注仅靠现有路线远远不够。我们按研究押注梳理了 45 家新兴实验室，描绘它们试图克服的当前 AI 局限，审视其成果中已初现端倪的部分，并解释为何 NVIDIA 总能笑到最后。',
+    'StitchStudio Raises $8M to Expand Insurance AI Products and Support': 'StitchStudio 于 2026 年 11 月 11 日宣布完成 800 万美元融资，由 Voyager Capital 领投，用于扩展其保险 AI 产品、客户成功团队，以及面向运营商和经纪商的自助服务工具。Lookout Ventures 和 Grit Capital Partners 参投，ManchesterStory 与 BrokerTech Fund 继续追加投资，另有多位保险业资深人士提供支持。',
+    'Agents may soon be the main workload, and most of the time they’re doing nothing': '随着 AI 智能体承担越来越多的企业工作，智能体沙箱已从可选的补充措施变成基本要求。每一个编写代码、运行工具或驱动浏览器的智能体都需要坚固的隔离边界；而这些边界又不能带来失控的算力账单。',
+    'What Will Remain After AI? Where Value Survives': '今年 10 月，多位重量级投资者指出，AI 市场越来越像 1990 年代末的互联网泡沫。亿万富翁、桥水基金（Bridgewater Associates）创始人瑞·达利欧（Ray Dalio）将这一局面形容为「典型泡沫」——企业在利率上升之际通过举债为 AI 基础设施融资。紧随其后，城堡投资（Citadel LLC）创始人兼首席执行官肯·格里芬（Ken Griffin）也对 AI 领域的巨额投资能否获得回报表示怀疑。',
 }
