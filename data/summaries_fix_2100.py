@@ -71,4 +71,10 @@ SUMMARY_OVERRIDES = {
     "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents":
         "团队仅有 7 人的 Unsiloed AI 计划在竞争激烈的 AI 文档处理市场中，"
         "与科技巨头及专业初创公司展开竞争。",
+
+    "Plaid Connects Financial Accounts to Instinct’s AI Assistant":
+        "Plaid 于 2026 年 11 月 18 日宣布，为个人 AI 助手 Instinct 提供只读金融账户连接服务。"
+        "Instinct 可通过 iMessage 和 WhatsApp 使用，为数千名美国用户提供实时财务洞察。"
+        "此次集成让美国消费者能在这些消息服务中连接自己的金融数据，进行个性化对话。"
+        "创建 Instinct 账户后，用户可直接在 iMessage 或 WhatsApp 中提问财务问题。",
 }

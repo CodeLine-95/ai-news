@@ -377,6 +377,7 @@ TITLE_OVERRIDES = {
     'Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents': 'Vero Security 完成 1100 万美元种子轮融资，为 AI 智能体落实安全策略',
     'Humyn Labs Secures $47M Series A for Real-World Robotics Data': 'Humyn Labs 完成 4700 万美元 A 轮融资，提供真实世界机器人数据',
     'Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents': 'Felicis 领投 750 万美元，押注 Unsiloed AI 让企业文档可为 AI 智能体所用',
+    'Plaid Connects Financial Accounts to Instinct’s AI Assistant': 'Plaid 为 Instinct 的 AI 助手接入金融账户',
 }
 
 SUMMARY_OVERRIDES = {
@@ -756,4 +757,5 @@ SUMMARY_OVERRIDES = {
     'Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents': 'Vero Security 完成 1100 万美元种子轮融资，帮助企业将 AI 安全策略转化为可在员工使用 AI 工具与智能体时实时执行的管控措施。本轮由 TLV Partners 领投，GTM Capital、Maple Capital 及天使投资人参投。Vero 成立于 2025 年，公司称已有多家《财富》500 强企业使用其平台。',
     'Humyn Labs Secures $47M Series A for Real-World Robotics Data': 'TechCrunch 于 2026 年 11 月 18 日报道，总部位于班加罗尔的 Humyn Labs 完成 4700 万美元 A 轮融资，其业务是为在物理环境中运行的 AI 与机器人模型提供训练数据。本轮包括由 Accel 领投的 2600 万美元股权融资，以及 2100 万美元风险债务。',
     'Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents': '团队仅有 7 人的 Unsiloed AI 计划在竞争激烈的 AI 文档处理市场中，与科技巨头及专业初创公司展开竞争。',
+    'Plaid Connects Financial Accounts to Instinct’s AI Assistant': 'Plaid 于 2026 年 11 月 18 日宣布，为个人 AI 助手 Instinct 提供只读金融账户连接服务。Instinct 可通过 iMessage 和 WhatsApp 使用，为数千名美国用户提供实时财务洞察。此次集成让美国消费者能在这些消息服务中连接自己的金融数据，进行个性化对话。创建 Instinct 账户后，用户可直接在 iMessage 或 WhatsApp 中提问财务问题。',
 }

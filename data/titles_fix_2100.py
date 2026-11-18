@@ -26,4 +26,6 @@ TITLE_OVERRIDES = {
         "Humyn Labs 完成 4700 万美元 A 轮融资，提供真实世界机器人数据",
     "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents":
         "Felicis 领投 750 万美元，押注 Unsiloed AI 让企业文档可为 AI 智能体所用",
+    "Plaid Connects Financial Accounts to Instinct’s AI Assistant":
+        "Plaid 为 Instinct 的 AI 助手接入金融账户",
 }
