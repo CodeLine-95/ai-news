@@ -409,6 +409,17 @@ TITLE_OVERRIDES = {
     'Unsiloed nabs $7.5M to turn scanned documents into structured data for AI agents': 'Unsiloed 获 750 万美元融资，将扫描文档转化为 AI 智能体可用的结构化数据',
     'Soracom Expands Physical AI Suite Worldwide with Self-Service Access': 'Soracom 在全球扩展物理 AI 套件，提供自助服务访问',
     'Remember the frontier AI pause? Chip companies don’t either': '还记得「前沿 AI 暂停」吗？芯片公司也没这么做',
+    'More banks says customers using AI agents are on their own — even if they get hacked': '更多银行称，使用 AI 智能体的客户需自担风险——即便遭遇黑客攻击',
+    'Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity': '直击英伟达「后黄仁勋时代」首场全员大会：加薪与更多股权',
+    'Andus Labs Index Puts AI Pilot Sprawl and Workflow Gaps at the Top of Enterprise Risks': 'Andus Labs 指数：AI 试点泛滥与工作流断层位居企业风险榜首',
+    'Qodo Adds Policy-Driven Approvals and Session Reviews for AI-Generated Code': 'Qodo 为 AI 生成代码新增策略驱动的审批与会话审查功能',
+    'OneTrust Expands AI Governance With Model Intelligence and Continuous Oversight': 'OneTrust 通过模型智能与持续监督扩展 AI 治理能力',
+    'Trina Storage Debuts Gas-Battery System for AI Data Center Power': '天合储能推出燃气-电池混合系统，为 AI 数据中心供电',
+    'Team Cymru Report Examines China-Nexus Espionage Threats to Financial Services': 'Team Cymru 报告审视关联中国的间谍活动对金融服务业的威胁',
+    'Ivanti Gives AI Clients Governed Access to Neurons Context': 'Ivanti 让 AI 客户端受控访问 Neurons 上下文数据',
+    'Zapata and UMD Launch ForShor for Verified AI-Assisted Quantum Research': 'Zapata 与马里兰大学推出 ForShor，用于经验证的 AI 辅助量子研究',
+    'Disney’s new Star Wars animatronics interact with guests using AI': '迪士尼新款《星球大战》电子动画人偶借助 AI 与游客互动',
+    'Citi Makes Customers Responsible for Third-Party AI Agent Activity': '花旗（Citi）让客户对第三方 AI 智能体的行为负责',
 }
 
 SUMMARY_OVERRIDES = {
@@ -820,4 +831,15 @@ SUMMARY_OVERRIDES = {
     'Unsiloed nabs $7.5M to turn scanned documents into structured data for AI agents': '文件扫描公司 Unsiloed Inc. 今日宣布已筹集 750 万美元种子轮资金，用于将 PDF 及其他复杂文档转化为结构化、机器可读的数据，供 AI 智能体使用。本轮由 Felicis 领投，Y Combinator、Orange Collective、Uncorrelated Ventures 等参投。',
     'Soracom Expands Physical AI Suite Worldwide with Self-Service Access': 'Soracom 于 2026 年 11 月 18 日宣布，其物理 AI 套件已在其服务的所有市场上线，为部署机器人、自主机器和工业设备的企业提供一套集连接、安全与远程操作于一体的方案。每项服务均可通过 Soracom 的控制台或 API 配置，无需专业服务介入。客户按每项服务的标准费率付费，无需单独支付套件费用。',
     'Remember the frontier AI pause? Chip companies don’t either': '10 月，Nvidia 开始出货其最先进的 AI 计算系统 Vera Rubin NVL72，称其为「公司历史上出货最快的产品」。今年夏天，在 AI 智能体意外入侵 Hugging Face、且有初步证据表明其下一代模型能够自主发现并利用安全漏洞后，OpenAI 暂停了规模最大的前沿模型训练。9 月，Anthropic CEO 达里奥·阿莫迪（Dario Amodei）呼吁放缓最强大 AI 模型的研发进展，警告称这些模型可能被用于发起网络攻击，或令其创造者更难管控。这是 AI 热潮中一个耐人寻味的时刻。',
+    'More banks says customers using AI agents are on their own — even if they get hacked': '花旗（Citi）成为最新一家对个人理财 AI 智能体踩下刹车的主要金融机构。',
+    'Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity': '临时首席执行官科莱特·克雷斯（Collette Kress）试图缓解员工对黄仁勋（Jensen Huang）离职的担忧，部分举措是承诺全面加薪。',
+    'Andus Labs Index Puts AI Pilot Sprawl and Workflow Gaps at the Top of Enterprise Risks': 'Andus Labs 将 AI 试点泛滥与浅层助理采用列为主要企业障碍，凸显工具使用与运营变革之间的落差。',
+    'Qodo Adds Policy-Driven Approvals and Session Reviews for AI-Generated Code': 'Qodo 推出测试版审批工作流与会话审查预览，帮助团队在拉取请求和代码库中治理 AI 生成的代码。',
+    'OneTrust Expands AI Governance With Model Intelligence and Continuous Oversight': "OneTrust 2026 秋季版（Fall '26 Release）新增模型智能、AI 血缘视图与运营仪表板，同时扩展了隐私与第三方风险工具。",
+    'Trina Storage Debuts Gas-Battery System for AI Data Center Power': '天合储能（Trina Storage）于 2026 年 11 月 18 日在拉斯维加斯 RE+ 2026 展会上正式推出 Elementa 混合发电机组，为 AI 数据中心开发商提供一种模块化方案——在市政电网接入延迟、受限或不可用时实现现场发电。其控制架构面向 5 MW 至 1 GW 的应用规模。AI 算力需求可能骤然变化，对持续供能与即时响应提出了不同要求。',
+    'Team Cymru Report Examines China-Nexus Espionage Threats to Financial Services': 'Team Cymru 的新研究审视了关联中国的间谍活动如何借由恶意软件与隐蔽中继网络背后的基础设施瞄准金融服务业。该分析于 11 月 17 日发布，将全行业威胁评估与公司对互联网基础设施的独立追踪相结合。2026 年 1 月 1 日至 6 月 1 日期间，Team Cymru 识别出 64 台符合已知 ShadowPad 命令与控制模式的服务器，以及 115 台符合 Vshell 模式的服务器。',
+    'Ivanti Gives AI Clients Governed Access to Neurons Context': 'Ivanti 于 2026 年 11 月 18 日宣布推出模型上下文协议（MCP）连接，使受支持的 AI 客户端能够受控访问 Ivanti Neurons 中的运营数据——Neurons 是其记录终端、服务与暴露信息的系统记录平台。该连接旨在让 AI 的建议、调查与行动扎根于设备、数字体验、补丁、暴露面与软件情报信息。',
+    'Zapata and UMD Launch ForShor for Verified AI-Assisted Quantum Research': 'Zapata Quantum 与马里兰大学（UMD）推出 ForShor.ai——一项围绕 Shor 算法形式化验证实现打造的 AI 辅助量子研究开放挑战。参与者可借助 AI 提出改进方案，将答案提交至排行榜，并探索将数学与机器校验证明相联系的文档。',
+    'Disney’s new Star Wars animatronics interact with guests using AI': '迪士尼乐园的电子动画人偶虽已高度拟真，但通常只能按预设动作和流程演出，或由视线之外的木偶师操控，使其行为显得更自然。这一情况或将改变：华特迪士尼幻想工程研发部门公布了三个全新的电子与动画人偶（Audio-Animatronic）原型，它们依托亚马逊 AWS 云与 AI 能力，能针对游客互动实时做出独特回应。',
+    'Citi Makes Customers Responsible for Third-Party AI Agent Activity': '花旗（Citi）于 2026 年 11 月更新了其 Citi 在线用户协议，使客户需对获准访问其账户的第三方 AI 智能体的行为承担责任，包括使用随后被共享或泄露的凭证所进行的操作。TechCrunch 于 20 日报道了这一变化。',
 }
