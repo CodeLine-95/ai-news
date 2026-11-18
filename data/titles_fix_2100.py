@@ -16,4 +16,8 @@ TITLE_OVERRIDES = {
         "Humyn Labs 融资 4700 万美元，弥合 AI 训练与真实机器人应用之间的差距",
     "Stalled data center buildouts send inference chips hunting for space in telco and colo sites":
         "数据中心建设停滞，推理芯片转向电信机房与托管站点寻找空间",
+    "Nvidia isn’t selling any more AI chips to China":
+        "英伟达不再向中国销售任何 AI 芯片",
+    "Starburst adds context support to give AI agents consistent access to business data definitions":
+        "Starburst 新增上下文支持，让 AI 智能体始终一致地访问业务数据定义",
 }
