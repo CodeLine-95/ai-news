@@ -20,4 +20,6 @@ TITLE_OVERRIDES = {
         "英伟达不再向中国销售任何 AI 芯片",
     "Starburst adds context support to give AI agents consistent access to business data definitions":
         "Starburst 新增上下文支持，让 AI 智能体始终一致地访问业务数据定义",
+    "Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents":
+        "Vero Security 完成 1100 万美元种子轮融资，为 AI 智能体落实安全策略",
 }

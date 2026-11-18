@@ -374,6 +374,7 @@ TITLE_OVERRIDES = {
     'Stalled data center buildouts send inference chips hunting for space in telco and colo sites': '数据中心建设停滞，推理芯片转向电信机房与托管站点寻找空间',
     'Nvidia isn’t selling any more AI chips to China': '英伟达不再向中国销售任何 AI 芯片',
     'Starburst adds context support to give AI agents consistent access to business data definitions': 'Starburst 新增上下文支持，让 AI 智能体始终一致地访问业务数据定义',
+    'Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents': 'Vero Security 完成 1100 万美元种子轮融资，为 AI 智能体落实安全策略',
 }
 
 SUMMARY_OVERRIDES = {
@@ -750,4 +751,5 @@ SUMMARY_OVERRIDES = {
     'Stalled data center buildouts send inference chips hunting for space in telco and colo sites': '推理需求增长已超过新建 AI 数据中心的建设速度——电力、资金和审批延误让新增产能一再推迟。这一缺口正促使芯片厂商在现有设施中寻找空间。许多较老的电信机房和托管（colo）站点拥有可用空间与电力。',
     'Nvidia isn’t selling any more AI chips to China': '尽管去年 12 月获得白宫批准，英伟达已停止向中国出货先进的 AI 芯片。临时首席执行官 Colette Kress 在周二的财报电话会议上宣布了这一消息，标志着公司立场明显转变——在前首席执行官黄仁勋（Jensen Huang）任内，公司曾力争获得向中国出货 Hopper 架构 H200 芯片的许可。Kress 表示：「我们的业绩指引不包含任何已获许可的 Hopper 数据中心产品，我们不再向中国出货已获许可的 Hopper 数据中心产品。」',
     'Starburst adds context support to give AI agents consistent access to business data definitions': 'Starburst Data Inc. 正将其数据联邦平台拓展至业务上下文管理领域，并推出新功能 Context Studio，帮助 AI 智能体在跨企业系统的分散信息中生成更准确、更可信的答案。',
+    'Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents': 'Vero Security 完成 1100 万美元种子轮融资，帮助企业将 AI 安全策略转化为可在员工使用 AI 工具与智能体时实时执行的管控措施。本轮由 TLV Partners 领投，GTM Capital、Maple Capital 及天使投资人参投。Vero 成立于 2025 年，公司称已有多家《财富》500 强企业使用其平台。',
 }

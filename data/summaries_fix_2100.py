@@ -56,4 +56,10 @@ SUMMARY_OVERRIDES = {
         "Starburst Data Inc. 正将其数据联邦平台拓展至业务上下文管理领域，"
         "并推出新功能 Context Studio，帮助 AI 智能体在跨企业系统的分散信息中"
         "生成更准确、更可信的答案。",
+
+    "Vero Security Raises $11 Million Seed Round to Enforce Policies Across AI Agents":
+        "Vero Security 完成 1100 万美元种子轮融资，"
+        "帮助企业将 AI 安全策略转化为可在员工使用 AI 工具与智能体时实时执行的管控措施。"
+        "本轮由 TLV Partners 领投，GTM Capital、Maple Capital 及天使投资人参投。"
+        "Vero 成立于 2025 年，公司称已有多家《财富》500 强企业使用其平台。",
 }
