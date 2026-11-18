@@ -62,4 +62,13 @@ SUMMARY_OVERRIDES = {
         "帮助企业将 AI 安全策略转化为可在员工使用 AI 工具与智能体时实时执行的管控措施。"
         "本轮由 TLV Partners 领投，GTM Capital、Maple Capital 及天使投资人参投。"
         "Vero 成立于 2025 年，公司称已有多家《财富》500 强企业使用其平台。",
+
+    "Humyn Labs Secures $47M Series A for Real-World Robotics Data":
+        "TechCrunch 于 2026 年 11 月 18 日报道，总部位于班加罗尔的 Humyn Labs 完成 "
+        "4700 万美元 A 轮融资，其业务是为在物理环境中运行的 AI 与机器人模型提供训练数据。"
+        "本轮包括由 Accel 领投的 2600 万美元股权融资，以及 2100 万美元风险债务。",
+
+    "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents":
+        "团队仅有 7 人的 Unsiloed AI 计划在竞争激烈的 AI 文档处理市场中，"
+        "与科技巨头及专业初创公司展开竞争。",
 }
