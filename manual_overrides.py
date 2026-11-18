@@ -348,6 +348,8 @@ TITLE_OVERRIDES = {
     'At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work': '在 Microsoft Ignite 2026 上，Microsoft 将 Copilot 重塑为企业工作的自主引擎',
     'Microsoft Makes Office and Home Generally Available in Copilot': 'Microsoft 宣布 Copilot 中的 Office 与 Home 正式全面开放',
     'Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript': 'Anthropic 为 Claude Code 增加代码模式：Claude 现在可在 JavaScript 中链式调用多个工具',
+    'OpenAI to Surface Le Figaro Reporting in ChatGPT Partnership': 'OpenAI 将在 ChatGPT 合作中呈现《费加罗报》的报道',
+    'The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward': 'Apple Watch 的 Live Rewind 可录制并回放对话，但体验相当尴尬',
 }
 
 SUMMARY_OVERRIDES = {
@@ -698,4 +700,6 @@ SUMMARY_OVERRIDES = {
     'Copilot is "the new OS for work," and now Office runs inside of it': '在 Microsoft 的 Ignite 活动开幕主题演讲中，首席执行官 Satya Nadella 概述了公司对全新「前沿生态」的愿景，并于周二宣布 Word、Excel 和 PowerPoint 已在 Copilot 中全面可用，他称 Copilot 为「新一代工作操作系统」。这一发布彻底颠覆了我们以往使用软件的方式：过去是 Word 这类应用唱主角、Clippy 之类的助手从旁协助；Microsoft 设想的新版 Copilot 集成中，将由智能体主导，软件包退居辅助。应用将变成智能体工作的插件组件，并由组织知识层提供支撑，从电子邮件、会议、日历、聊天和文件中获取上下文。',
     'Anthropic has added Code Mode to Claude Code as an experimental, opt-in feature. Claude Code Code Mode is a mode in which Claude writes JavaScript that makes several tool calls in 1 step. It shipped in Claude Code v2.1.323 last week. For developers, it changes how agents spend round trips on multistep work.': 'Anthropic 为 Claude Code 新增了实验性的、可选择启用的代码模式（Code Mode）。该模式让 Claude 编写 JavaScript，从而在一步中完成多次工具调用。它于上周随 Claude Code v2.1.323 一同发布。对开发者而言，这改变了智能体在多步骤任务中消耗往返调用的方式。',
     'Anthropic has added Code Mode to Claude Code as an experimental, opt-in feature. Claude Code Code Mode is a mode in which Claude writes JavaScript that makes several tool calls in 1 step. It shipped in Claude Code v2.1.323 last week . For developers, it changes how the agent spends round-trips on multi-step work. You can check the deployment options and specs here through our GPULeaderboard.com chrome extension . TL;DR Works with: It works with Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 and Fable 5.2. Runs on: An interactive terminal session on the native build, v2.1.323 or later. Windows needs Git for Windows. Anthropic API or Claude subscription only. Performance: Anthropic publishes no benchmark or token-saving figure for Code Mode. Best: Background code can run for up to 2 hours while you keep talking to Claude. Worst: Code that Claude waits on stops after 10 minutes.': 'Anthropic 为 Claude Code 新增了实验性的、可选择启用的代码模式（Code Mode）。该模式让 Claude 编写 JavaScript，从而在一步中完成多次工具调用。它于上周随 Claude Code v2.1.323 一同发布。对开发者而言，这改变了智能体在多步骤任务中消耗往返调用的方式。',
+    'OpenAI to Surface Le Figaro Reporting in ChatGPT Partnership': '2026 年 11 月 18 日，OpenAI 与费加罗报业集团（Groupe Figaro）宣布达成战略合作，将通过摘要与摘录（并链接至原文）让用户能在 ChatGPT 中发现《费加罗报》的现刊与历史报道内容。费加罗报还计划在各个团队中部署 ChatGPT 企业版。该协议涵盖《费加罗报》及其关联刊物，内容横跨新闻、商业、文化与生活方式领域。',
+    'The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward': 'Live Rewind（实时回放）与 Siri Recap（对话回顾）可以转录你错过的对话片段、总结你的一天——前提是你不介意那一点点社交上的尴尬。',
 }
