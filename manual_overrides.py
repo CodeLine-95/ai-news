@@ -345,6 +345,8 @@ TITLE_OVERRIDES = {
     'Open source AI is booming. Hugging Face explains who profits.': '开源 AI 蓬勃发展，Hugging Face 解析谁在获利',
     'Amazon and Google will together own nearly 30% of Anthropic after its IPO': 'Amazon 和 Google 将在 Anthropic IPO 后合计持有近 30% 股份',
     'Cohere Adds Timestamped Video Retrieval to Compass for AI Agents': 'Cohere 为 Compass 增加带时间戳的视频检索，面向 AI 智能体',
+    'At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work': '在 Microsoft Ignite 2026 上，Microsoft 将 Copilot 重塑为企业工作的自主引擎',
+    'Microsoft Makes Office and Home Generally Available in Copilot': 'Microsoft 宣布 Copilot 中的 Office 与 Home 正式全面开放',
 }
 
 SUMMARY_OVERRIDES = {
@@ -691,4 +693,6 @@ SUMMARY_OVERRIDES = {
     'Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns': 'Hugging Face 高管 Irene Solaiman 警告称，针对开放 AI 平台日益增多的网络攻击可能迫使平台收紧安全限制，从而威胁到开源社区对全球开发者的价值所在——可及性。',
     'OpenAI says its new cybersecurity model is better at not hacking other companies': 'OpenAI 正在推出 GPT-6 Cyber，这是其网络安全 AI 模型的最新版本。该公司称，新版更擅长发现漏洞，且过程中失控入侵其他平台的可能性更低。OpenAI 表示，在测试中，GPT-6 Cyber 越界次数不到 1%，低于 GPT-5.6 Cyber 约 5% 的水平。这项名为 ExploitGym HoneyPot 的评估，以 OpenAI 的 AI 智能体闯入开源 AI 社区 Hugging Face 事件为模型，考察模型寻找任务答案的能力。',
     'Open source AI is booming. Hugging Face explains who profits.': '随着企业、政府和初创公司都看重更低成本、更强掌控与更高灵活性的承诺，开源模型正日益成为主流。但当能力越来越强的模型变得愈发触手可及，公司如何从中获取价值？随着中国开源模型不断取得进展，美国厂商能否跟上？',
+    'Microsoft Makes Office and Home Generally Available in Copilot': '2026 年 11 月 17 日，Microsoft 在 Ignite 上宣布，Copilot 中的 Home 和 Office 均可用，将 Word、Excel 和 PowerPoint 带入 Copilot 应用程序，同时通过 Frontier 提供其始终在线的 Autopilot 智能体与共享工作空间。「Copilot 中的 Office」支持在应用内创建、编辑与协同创作，文件继承 Microsoft 365 权限、敏感度标签与合规控制。',
+    'Copilot is "the new OS for work," and now Office runs inside of it': '在 Microsoft 的 Ignite 活动开幕主题演讲中，首席执行官 Satya Nadella 概述了公司对全新「前沿生态」的愿景，并于周二宣布 Word、Excel 和 PowerPoint 已在 Copilot 中全面可用，他称 Copilot 为「新一代工作操作系统」。这一发布彻底颠覆了我们以往使用软件的方式：过去是 Word 这类应用唱主角、Clippy 之类的助手从旁协助；Microsoft 设想的新版 Copilot 集成中，将由智能体主导，软件包退居辅助。应用将变成智能体工作的插件组件，并由组织知识层提供支撑，从电子邮件、会议、日历、聊天和文件中获取上下文。',
 }
