@@ -2053,6 +2053,16 @@ TERM_FIXES = [
     # 16) "enormous amounts of data"（海量数据）——模型逐词直译成
     #     「大量的数据」，「的」字冗余，中文习惯说「大量数据」。
     ("大量的数据", "大量数据", ["enormous amounts of data"]),
+
+    # ---- 2026-11-19 05:00 巡检新增 ----
+    # Jensen Huang 是 NVIDIA 创始人兼 CEO，中文标准译名为「黄仁勋」。
+    # NLLB 把姓氏 Huang 按拼音机械音译成「胡安」，全名译成「詹森·胡安」或
+    # 「詹森·黄」，中文读者无法辨认（本轮存量命中 40 条）。以英文原文出现
+    # "jensen huang" 为触发，统一还原为「黄仁勋」。
+    ("詹森·胡安", "黄仁勋", ["jensen huang", "huang"]),
+    ("詹森·黄", "黄仁勋", ["jensen huang", "huang"]),
+    ("詹森胡安", "黄仁勋", ["jensen huang", "huang"]),
+    ("杰森·黄", "黄仁勋", ["jensen huang", "huang"]),
 ]
 
 # 译文中冗余的结构助词/后缀（品牌名还原后可能残留）
