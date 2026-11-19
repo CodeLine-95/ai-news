@@ -551,6 +551,7 @@ TITLE_OVERRIDES = {
     'Fathom Urges Rapid Implementation of California’s AI Oversight Plan': 'AI 治理组织 Fathom 敦促加州快速落实 AI 监管计划',
     'Google’s AI Controls Have Major Districts Rethinking Search': 'Google 的 AI 管控措施促使多个主要学区重新考虑搜索引擎',
     'Google’s latest midtier model Gemini 4 Neon is three-times faster than Carbon and wins on some metrics': 'Google 最新中端模型 Gemini 4 Neon 比 Carbon 快三倍，并在部分指标上胜出',
+    "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework": 'Discord 用 Zed 的 GPU 加速渲染框架，以 Rust 重写桌面与移动端客户端',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1104,4 +1105,5 @@ SUMMARY_OVERRIDES = {
     'Fathom Urges Rapid Implementation of California’s AI Oversight Plan': '人工智能治理组织 Fathom 于 2026 年 11 月 18 日表示，加州州长加文·纽森（Gavin Newsom）新出台的前沿 AI 路线图反映了其多项建议，并敦促加州尽快针对灾难性风险实施强制性的独立评估。Fathom 提出并倡导了独立验证组织（IVO）模式——由外部评估机构对 AI 模型与系统进行风险评估。',
     'Google’s AI Controls Have Major Districts Rethinking Search': '据《纽约时报》2026 年 11 月 18 日报道（由 The Verge 转载），纽约市、洛杉矶和芝加哥的学区官员正在考虑替换 Google 搜索，因为 Google 即将面向学校推出的管控措施会把搜索访问与其 AI 功能绑定。这项定于 2027 年生效的调整将两项设置关联在一起：学区一旦关闭由 Gemini 驱动的功能，搜索也会一并关闭。',
     'Google’s latest midtier model Gemini 4 Neon is three-times faster than Carbon and wins on some metrics': '在夏季低调蛰伏、竞争对手如 Anthropic PBC 与 OpenAI Group PBC 相继推出强大的新前沿模型之后，Google LLC 正发起反击。',
+    "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework": 'Discord 首席技术官 Stanislav Vishnevskiy 近日宣布，公司已用 Rust 重写桌面端与移动端客户端，不再使用 Electron 和 React Native。该项目剔除了多层抽象，直接调用设备的 GPU、原生移动视图，以及跨共享的 Rust 核心。初步结果显示，聊天、语音与直播功能的内存占用和启动时间均显著下降。',
 }
