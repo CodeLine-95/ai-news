@@ -574,5 +574,14 @@
   "Isomorphic Labs and MSD Partner on AI Oncology Drug Discovery": "Isomorphic Labs 于 2026 年 11 月 19 日宣布与 MSD 达成战略研究合作，共同发现小分子肿瘤药物候选物，将其 AI 药物设计引擎与该药企精选的专有数据集及研发专长相结合。MSD 是 Merck & Co., Inc.（默克）在美国和加拿大以外使用的商号。双方将针对一个他们称为具有重要战略意义的肿瘤靶点展开研究。",
   "Sovereignty is the AI story everyone mentions and few have planned for ahead of 2027": "随着企业越过「建起 AI 工厂」的阶段、开始思考如何盈利运营，AI 基础设施经济学正进入一个更清醒的阶段。如今，能否持久、是否有真实需求、是否具备长期价值，成为区分能长期存在的供应商与泡沫的标准。",
   "Enterprises fear AI success more than failure, because success means lock-in they can’t escape": "超算领域凭借科学模拟建立了声誉，而如今占据同一批数据中心的 AI 基础设施提出了一个更棘手的问题：当模型把数据转化为收入时，对数据及其所产生智能的控制权，就成为很少有公司公开讨论的董事会级议题。",
-  "Visualizing Information Entropy in Language Models": "在本文中，你将了解信息熵与交叉熵损失如何把经典信息论同大语言模型「预测下一个词」的训练方式联系起来。"
+  "Visualizing Information Entropy in Language Models": "在本文中，你将了解信息熵与交叉熵损失如何把经典信息论同大语言模型「预测下一个词」的训练方式联系起来。",
+  "Superhuman pushes its Go assistant everywhere": "Superhuman 正将 Go 打造为核心智能体，并让其覆盖 Docs 和 Mail。",
+  "Metano Raises $12M Seed to Secure AI Agents Across the Enterprise": "Metano 于 2026 年 11 月 19 日宣布结束隐身状态，推出面向企业 AI 智能体的通用安全与治理平台，并获得由 Sierra Ventures 领投的 1200 万美元种子轮融资。Correlation Ventures、High Alpha 和 360 ONE 也参与了本轮投资。",
+  "Salesforce Details Sovereign SI Package for U.S. Export Program": "Salesforce 于 2026 年 11 月 19 日详细介绍了其指定超级智能（SI）出口方案所包含的云、数据、AI 模型、安全与应用组件。此前美国商务部将该公司的联盟列为美国 SI 出口计划首批 33 个预选联盟之一，并于 2026 年 11 月 16 日公布了首批名单。",
+  "Google Plans Orbital AI Satellite Launch on Blue Origin’s New Glenn": "Google 于 2026 年 11 月 19 日宣布，蓝色起源的「新格伦」火箭将执行「日光捕获者计划」（Project Suncatcher）的首次专属重型发射任务，目标时间为 2029 年第一季度。双方的发射服务协议涵盖将搭载 Google 张量处理单元（TPU）的太阳能卫星部署至太阳同步轨道。每颗卫星的设计算力约相当于一个数据中心机架的规模。",
+  "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues": "OpenAI 内部对编程智能体的使用正快速增长，理论上消耗的 token 成本如今已超过研究员的基本工资。尽管团队不愿在没有这些工具的情况下工作，但模型在日常任务之外仍会产生大量「AI 垃圾内容」（AI slop）。",
+  "Metano launches with $12M to help enterprises secure AI agents": "AI 智能体安全初创公司 Metano Inc. 今日正式亮相，获得 1200 万美元融资，帮助企业保护其端点、云基础设施和软件即服务（SaaS）应用中的 AI 智能体。Metano 的平台旨在让企业对其 AI 智能体保持一致的可视性和控制力，将智能体发现、上下文感知的威胁检测和实时处置整合到同一层。",
+  "I let Apple’s always-listening AI summarize my life for two weeks": "Siri Recap 可在手腕上手动开启或关闭。它值得吗？过去一个月，我在 Apple Watch Ultra 4 上同时试用 Amazon Bee Frontier 和 Siri Recap 时，一直反复问自己这个问题。两者都能让可穿戴设备环境式地聆听你的对话，并用 AI 为你生成总结。为什么？为了让你记得更牢，也希望能更专注当下。主要区别在于：Amazon 的 Bee 采取的是「最大化」（坦率说，近乎扭曲现实）的路线，而 Apple 则走更简约、隐私优先的路线。",
+  "Topview Adds AI Relighting and Editing Tools for Hybrid Filmmaking": "Topview 正在扩展其混合影视制作工具集，新增用于重新布光、选择性编辑、新机位、背景替换以及其他实拍素材调整的 AI 后期制作控制功能。该套件的灯光组件 Video Relight 将于 11 月 19 日推出。这一方法以电影人已拍摄的素材为起点。",
+  "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer": "在 QCon 旧金山 2026 大会上，Pinterest 高级资深工程师兼 Web 平台技术负责人 Jordan Cutler 介绍了当每位工程师都能使用相同的 AI 工具时，资深工程师（Staff Engineer）这一角色将如何变化。"
 }
