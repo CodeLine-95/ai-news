@@ -533,6 +533,14 @@ TITLE_OVERRIDES = {
     'Anthropic’s Reported $83 IPO Price Exceeds Preliminary Range': '报道称 Anthropic 的 83 美元 IPO 定价超出初步区间',
     'AWS Adds Quality, Speed and Cost Rankings to SageMaker JumpStart': 'AWS 为 SageMaker JumpStart 新增质量、速度与成本排名',
     'Satya Nadella predicts AI agents will reshuffle the economics of the web': '萨蒂亚·纳德拉预测，AI 智能体将重塑互联网经济格局',
+    'Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’': '埃隆·马斯克称罢黜黄仁勋如同「把迈克尔·乔丹踢出你的团队」',
+    'Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit': '黄仁勋卸任后，微软 CEO 萨蒂亚·纳德拉仍对英伟达有信心',
+    'AWS Adds Training Validation and Hung-Job Detection to HyperPod': 'AWS 为 HyperPod 新增训练校验与挂起作业检测',
+    'Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’': '担忧 AI 网络攻击之际，萨蒂亚·纳德拉称大量关键基础设施「无法修补」',
+    'The nation’s largest school districts consider ditching Google Search': '美国最大几个学区考虑弃用 Google 搜索',
+    'Nadella Backs NVIDIA Team Led by Interim CEO Colette Kress': '纳德拉支持临时 CEO Colette Kress 领衔的 NVIDIA 团队',
+    'Google upgrades Gemini’s agentic Task mode with new model, e-commerce features': 'Google 升级 Gemini 智能体任务模式：新增模型与电商功能',
+    'Anthropic’s record-breaking IPO priced at $83 per share, higher than expected': 'Anthropic 创纪录 IPO 定价每股 83 美元，高于预期',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1068,4 +1076,12 @@ SUMMARY_OVERRIDES = {
     'Anthropic’s Reported $83 IPO Price Exceeds Preliminary Range': 'TechCrunch 于 2026 年 11 月 18 日报道，Anthropic 已将其首次公开募股（IPO）定价为每股 83 美元，高于 70–78 美元的初步区间，早于这家 Claude 开发商预期的纳斯达克上市。据报道的价格使 Anthropic 按完全稀释后估值达到 1.5 万亿美元。',
     'AWS Adds Quality, Speed and Cost Rankings to SageMaker JumpStart': '亚马逊云科技（AWS）于 2026 年 11 月 18 日推出 Amazon SageMaker JumpStart 模型排行榜，让 SageMaker Studio 用户能够在一个统一视图中查看 70 多个模型的基准测试结果、响应性能和预估实例定价。',
     'Satya Nadella predicts AI agents will reshuffle the economics of the web': '微软 CEO 表示，AI 智能体可能颠覆以广告为驱动的商业模式，迫使亚马逊等公司重新思考如何争夺客户。',
+    'Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’': '马斯克表示：「我不认为[黄仁勋]对美国不忠。」',
+    'Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit': '微软 CEO 萨蒂亚·纳德拉对黄仁勋的继任者、现任英伟达临时 CEO Colette Kress 表示信心。',
+    'AWS Adds Training Validation and Hung-Job Detection to HyperPod': '亚马逊云科技于 2026 年 11 月 18 日宣布为 Amazon SageMaker HyperPod 推出三项可靠性功能，针对数值训练故障、Kubernetes 故障以及停滞的 Slurm 作业——这些作业会在单个节点看似健康的情况下占用 GPU 算力。HyperPod 已可监控硬件错误、运行深度诊断检查并测试实例间通信，自动恢复故障节点。',
+    'Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’': '微软 CEO 淡化了近期的 Outlook 中断事件，同时指出 AI 正带来机遇，也为保障大部分互联网世界的安全带来新挑战。',
+    'The nation’s largest school districts consider ditching Google Search': '据《纽约时报》报道，纽约、洛杉矶和芝加哥的学校正考虑 Google 的替代方案；该公司表示将屏蔽拒绝其 AI 功能的学校的搜索服务。从明年起，学校将无法在保留搜索的同时禁用 Gemini 驱动的功能。Google 教育副总裁 Chris Phillips 告诉该报：「搜索与 AI 已深度集成。」',
+    'Nadella Backs NVIDIA Team Led by Interim CEO Colette Kress': '微软 CEO 萨蒂亚·纳德拉在 2026 年 11 月 18 日于纽约市举行的 DealBook 峰会上表示，他信赖 NVIDIA 临时 CEO Colette Kress 的团队。据 TechCrunch 报道，黄仁勋在执掌公司 33 年后辞任。纳德拉称他认识克雷斯已久，并指出她此前在微软任职。',
+    'Google upgrades Gemini’s agentic Task mode with new model, e-commerce features': 'Google 正在为其 Gemini AI 助手推出新版本，提升多步骤任务执行能力。负责 Gemini 应用的副总裁 Josh Woodward 在周四的博客文章中详述了此次更新。该 AI 助手提供两种模式，可通过独立界面标签访问。',
+    'Anthropic’s record-breaking IPO priced at $83 per share, higher than expected': '人工智能巨头 Anthropic PBC 今天以每股 83 美元的价格定价了历史上最期待的首次公开上市之一，为历史上最大的股市上市奠定了基础。',
 }
