@@ -548,6 +548,8 @@ TITLE_OVERRIDES = {
     'Harbour BioMed’s AI-Enabled Obesity Antibody LET003 Has IND Accepted': '和铂医药 AI 驱动的肥胖抗体 LET003 获临床试验申请受理',
     'AWS Brings Full-Weight Training To Serverless SageMaker Customization': 'AWS 将全权重训练引入无服务器 SageMaker 定制',
     'Microsoft CEO Satya Nadella explains why he asked 60K employees to quit': '微软 CEO 萨蒂亚·纳德拉解释为何要求 6 万名员工离职',
+    'Fathom Urges Rapid Implementation of California’s AI Oversight Plan': 'AI 治理组织 Fathom 敦促加州快速落实 AI 监管计划',
+    'Google’s AI Controls Have Major Districts Rethinking Search': 'Google 的 AI 管控措施促使多个主要学区重新考虑搜索引擎',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1098,4 +1100,6 @@ SUMMARY_OVERRIDES = {
     'Harbour BioMed’s AI-Enabled Obesity Antibody LET003 Has IND Accepted': '和铂医药（Harbour BioMed）于 2026 年 11 月 18 日宣布，中国国家药品监督管理局已受理 LET003 的临床试验新药（IND）申请。LET003 是公司利用 Hu-mAtrIx AI 平台开发的首个候选药物。这款单克隆抗体旨在通过阻断激活素受体 ACVR2A 和 ACVR2B 来治疗超重或肥胖。这一里程碑意味着进入临床开发的申请获得受理，并非已公布的临床结果。',
     'AWS Brings Full-Weight Training To Serverless SageMaker Customization': '亚马逊云科技（AWS）于 2026 年 11 月 18 日宣布为 SageMaker AI 无服务器模型定制提供全量微调（FFT）支持，并报告在一项使用超过 10 万个训练样本的编码实验中达到 90.0% 的语义正确率，同时警告称过于激进的参数设置会造成严重的通用知识流失。',
     'Microsoft CEO Satya Nadella explains why he asked 60K employees to quit': '微软 CEO 萨蒂亚·纳德拉解释了为何在 10 月向 6 万名员工提供自愿离职买断方案，实质上是敦促他们主动辞职，而非通过又一轮大规模裁员来缩减员工队伍。简短的答案是人工智能，但原因并非你可能想象的那样。',
+    'Fathom Urges Rapid Implementation of California’s AI Oversight Plan': '人工智能治理组织 Fathom 于 2026 年 11 月 18 日表示，加州州长加文·纽森（Gavin Newsom）新出台的前沿 AI 路线图反映了其多项建议，并敦促加州尽快针对灾难性风险实施强制性的独立评估。Fathom 提出并倡导了独立验证组织（IVO）模式——由外部评估机构对 AI 模型与系统进行风险评估。',
+    'Google’s AI Controls Have Major Districts Rethinking Search': '据《纽约时报》2026 年 11 月 18 日报道（由 The Verge 转载），纽约市、洛杉矶和芝加哥的学区官员正在考虑替换 Google 搜索，因为 Google 即将面向学校推出的管控措施会把搜索访问与其 AI 功能绑定。这项定于 2027 年生效的调整将两项设置关联在一起：学区一旦关闭由 Gemini 驱动的功能，搜索也会一并关闭。',
 }
