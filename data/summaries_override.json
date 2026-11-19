@@ -538,5 +538,12 @@
   "The nation’s largest school districts consider ditching Google Search": "据《纽约时报》报道，纽约、洛杉矶和芝加哥的学校正考虑 Google 的替代方案；该公司表示将屏蔽拒绝其 AI 功能的学校的搜索服务。从明年起，学校将无法在保留搜索的同时禁用 Gemini 驱动的功能。Google 教育副总裁 Chris Phillips 告诉该报：「搜索与 AI 已深度集成。」",
   "Nadella Backs NVIDIA Team Led by Interim CEO Colette Kress": "微软 CEO 萨蒂亚·纳德拉在 2026 年 11 月 18 日于纽约市举行的 DealBook 峰会上表示，他信赖 NVIDIA 临时 CEO Colette Kress 的团队。据 TechCrunch 报道，黄仁勋在执掌公司 33 年后辞任。纳德拉称他认识克雷斯已久，并指出她此前在微软任职。",
   "Google upgrades Gemini’s agentic Task mode with new model, e-commerce features": "Google 正在为其 Gemini AI 助手推出新版本，提升多步骤任务执行能力。负责 Gemini 应用的副总裁 Josh Woodward 在周四的博客文章中详述了此次更新。该 AI 助手提供两种模式，可通过独立界面标签访问。",
-  "Anthropic’s record-breaking IPO priced at $83 per share, higher than expected": "人工智能巨头 Anthropic PBC 今天以每股 83 美元的价格定价了历史上最期待的首次公开上市之一，为历史上最大的股市上市奠定了基础。"
+  "Anthropic’s record-breaking IPO priced at $83 per share, higher than expected": "人工智能巨头 Anthropic PBC 今天以每股 83 美元的价格定价了历史上最期待的首次公开上市之一，为历史上最大的股市上市奠定了基础。",
+  "ClickUp vs. Notion: Which Is Better for Your Team?": "一个项目可能有清晰的任务简报，却依然错过最后期限；也可能每项任务都已分配，却没人说得清背后的理由。ClickUp 与 Notion 都能解决这两个问题，但组织工作的方式不同。在协调团队交付方面，ClickUp 是我们的更强选择；当文档、共享知识和灵活数据库成为工作核心时，Notion 则是我们的首选。两者都出现在我们的最佳 AI 协作工具指南中。",
+  "TRM Labs’ Ardence Will Anchor New Threat Disruption Center Probes": "美国国土安全特别工作组国家协调中心宣布，将于 2026 年 11 月 18 日启动威胁打击中心，并选定 TRM Labs 的 Ardence 平台，帮助调查人员绘制犯罪网络图谱，并针对针对美国民众的诈骗与网络犯罪协调更快速的干预。该协调中心由国土安全部与司法部共同领导。",
+  "Google Cloud brings AI agents to the supercomputing bottleneck": "高性能计算（HPC）正与人工智能加速融合，其速度超出许多研究团队的适应能力。算力难以获取，工作负载如今跨云端和本地集群运行。真正重要的指标，正从峰值性能转向「获得发现所需的时间」。",
+  "Perplexity Brings Voice-Controlled AI Teammates to Mobile": "Perplexity 于 2026 年 11 月 18 日为其 AI 队友在 iOS 和 Android 上新增语音模式，让 Max 订阅用户可通过电话分配项目、接收更新并调整正在进行的工作。此举为 Perplexity Computer 中的个人智能体提供了一个移动端控制点，使用户无需守在办公桌前也能工作。用户可点按通话按钮开始一项任务，随后回拨电话讨论调整后的优先事项。AI 队友会规划工作、核查结果，并返回成果供用户审阅。",
+  "Harbour BioMed’s AI-Enabled Obesity Antibody LET003 Has IND Accepted": "和铂医药（Harbour BioMed）于 2026 年 11 月 18 日宣布，中国国家药品监督管理局已受理 LET003 的临床试验新药（IND）申请。LET003 是公司利用 Hu-mAtrIx AI 平台开发的首个候选药物。这款单克隆抗体旨在通过阻断激活素受体 ACVR2A 和 ACVR2B 来治疗超重或肥胖。这一里程碑意味着进入临床开发的申请获得受理，并非已公布的临床结果。",
+  "AWS Brings Full-Weight Training To Serverless SageMaker Customization": "亚马逊云科技（AWS）于 2026 年 11 月 18 日宣布为 SageMaker AI 无服务器模型定制提供全量微调（FFT）支持，并报告在一项使用超过 10 万个训练样本的编码实验中达到 90.0% 的语义正确率，同时警告称过于激进的参数设置会造成严重的通用知识流失。",
+  "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit": "微软 CEO 萨蒂亚·纳德拉解释了为何在 10 月向 6 万名员工提供自愿离职买断方案，实质上是敦促他们主动辞职，而非通过又一轮大规模裁员来缩减员工队伍。简短的答案是人工智能，但原因并非你可能想象的那样。"
 }
