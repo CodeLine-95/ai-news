@@ -592,6 +592,14 @@ TITLE_OVERRIDES = {
     'Superhuman unveils personal AI assistant and expands Go across entire suite': 'Superhuman 推出个人 AI 助理，将 Go 扩展至整个产品套件',
     'Nodal Networks raises $11.3M to solve global shipping bottlenecks': 'Nodal Networks 融资 1130 万美元，破解全球航运瓶颈',
     'Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW': '节日串流与优惠：黑色星期五特惠登陆 GeForce NOW',
+    'Yes, the EU AI Act Covers Agentic AI—Here’s How': '是的，欧盟《AI 法案》涵盖智能体 AI——具体如此',
+    'Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check': '认识 Shepherd：约束失控 AI 的元智能体',
+    'Anthropic’s IPO puts AI’s circular financing boom to the test': 'Anthropic 上市，检验 AI 循环融资热潮',
+    'Abridge Details Controls for AI-Generated Physical-Exam Notes': 'Abridge 详解 AI 生成体检记录的管控功能',
+    'LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls': 'LangChain 推出 LangSmith Tool Gateway，治理智能体工具调用',
+    'Oliver Wyman to Acquire Synpulse for AI and Technology Consulting': 'Oliver Wyman 收购 Synpulse，强化 AI 与技术咨询业务',
+    'AI’s next build-out: Inference racks that resize themselves for every new model': 'AI 下一轮建设：可为每个新模型自动调整规格的推理机架',
+    'ChatGPT can transcribe as you speak now with Live Dictation': 'ChatGPT 上线实时听写，可边说边转写',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1186,4 +1194,12 @@ SUMMARY_OVERRIDES = {
     'Superhuman unveils personal AI assistant and expands Go across entire suite': 'Superhuman Inc.（前身为 Grammarly）今日宣布扩展其主动式 AI 助理与多智能体平台 Go，并为整个产品套件带来功能更新。',
     'Nodal Networks raises $11.3M to solve global shipping bottlenecks': 'Nodal Networks Inc. 是一家构建 AI 决策网络以管理全球海运集装箱码头的企业，今日宣布已完成 1130 万美元种子轮融资，帮助港口与铁路枢纽缓解拥堵、提升货运量。全球货运网络每年运输逾 10 亿个集装箱。',
     'Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW': 'GeForce NOW 开启黑色星期五活动，为玩家提供更多畅玩理由。限时回归六个月会员订阅：Performance 或 Ultimate 会员前六个月可享七折优惠。大作畅玩，价格更实惠。更多 NVIDIA 节日优惠面向玩家、创作者与 AI 爱好者。客厅娱乐体验也升级了——运行 Vega OS 的 Amazon Fire TV Stick HD、Fire TV Stick 4K Select 及 Fire TV Stick 4K（2026 款）现已支持 GeForce NOW；今日稍晚还将推出 Amazon 专属优惠，参与国家的符合条件的 Performance 或 Ultimate 会员首月可享一折（减免 90%）折扣，用户可直接从 Amazon 购物车将主机级游戏体验带到电视上。Bethesda 粉丝还有更多惊喜：本周加入 GeForce NOW 的九款游戏中，有五款人气作品新增 GOG 支持。',
+    'Yes, the EU AI Act Covers Agentic AI—Here’s How': '当下有一种很强的论调，认为智能体 AI 和 AI 智能体落入某种监管空白——欧盟《AI 法案》无力对此加以治理。我们在挪威知名媒体（Morgenbladet 和 Dagensnæringsliv）上读到这种说法，奥斯陆大学的顶尖学者也反复提及。我们认为这些论断存在两个根本缺陷……而且它们基于恐惧，而非事实。首先，智能体 AI 受欧盟《AI 法案》监管。',
+    'Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check': 'AI 智能体正在互联网上失控肆虐，它们被赋予完成特定任务的指令，却常常以不受欢迎或意想不到的方式行事。这些失控事件从删光整个收件箱，到入侵网站，甚至发起网络攻击，不一而足。就像人类员工需要管理者一样，东北大学助理教授 Weiyan Shi 认为 AI 智能体也需要监督。她说：『它们可能长时间运行。然而，运行时间越长，就越可能出错，并可能采取一些危险、不安全的行动。我们认为应该有一个中间层。』这个中间层以元智能体的形式出现，负责监督行为、提供质量控制，并在适当的时候将问题上报给人类。',
+    'Anthropic’s IPO puts AI’s circular financing boom to the test': '随着公司上市，Anthropic 面临巨额算力承诺，但其最大的基础设施合作伙伴（包括 Amazon 和 Google）即便在 Anthropic 失去领先地位后，也可能继续从 AI 中获利。',
+    'Abridge Details Controls for AI-Generated Physical-Exam Notes': 'Abridge 于 2026 年 11 月 19 日发布临床指南，说明临床医生如何结合检查模板、风格设置、常用偏好和提示词编辑，将就诊对话转化为结构化的体检记录。儿科医生兼 Abridge 临床成功总监 Casey Hribar 撰文，围绕一名捂着头部一侧的两岁患儿的就诊经历展开。',
+    'LangChain Launches LangSmith Tool Gateway to Govern Agent Tool Calls': 'LangChain 于 2026 年 11 月 19 日推出公开测试版 LangSmith Tool Gateway，为企业提供一种托管方式，控制 AI 智能体可以调用哪些工具、使用谁的凭证，以及如何记录每项操作。Tool Gateway 通过 LangSmith 智能体平台上的共享控制层，将智能体请求路由到 MCP 工具服务器。它集中管理原本需要为每个智能体单独构建的身份验证、访问规则和调用记录。',
+    'Oliver Wyman to Acquire Synpulse for AI and Technology Consulting': 'Marsh 旗下企业 Oliver Wyman 于 2026 年 11 月 19 日宣布，已同意收购 Synpulse——一家为金融机构提供服务的全球技术咨询与 AI 平台公司。该交易将增加约 1200 名员工，预计于 2027 年初完成，尚需监管批准并满足惯常交割条件。此次合并将把 Oliver Wyman 的战略咨询业务与 Synpulse 的技术咨询及实施能力结合起来。',
+    'AI’s next build-out: Inference racks that resize themselves for every new model': '内存池化正迅速成为 AI 推理经济学中最锋利的工具之一，各家公司竞相从每块图形处理单元（GPU）中榨取更多产出。目前大多数 AI 服务器仍采用固定的 GPU 与内存配比，且这一配比在机器整个生命周期内保持不变。',
+    'ChatGPT can transcribe as you speak now with Live Dictation': '现在，ChatGPT 可通过实时听写（Live Dictation）功能更快地接收来自麦克风的音频提示，边说边转写，而无需等到录音结束。该功能现已在网页、桌面应用以及 iOS 和 Android 应用上向所有 ChatGPT 套餐全球推出。在 ChatGPT 中使用听写时，你可以点按音频波形查看 AI 正在生成的实时文字转录，完成后再在提示框中编辑。ChatGPT 的听写功能正变得更快、更可靠。借助实时听写，你的语音会在说话过程中转化为文字，从而减少等待转写完成的时间。',
 }
