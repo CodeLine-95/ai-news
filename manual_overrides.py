@@ -569,6 +569,14 @@ TITLE_OVERRIDES = {
     'ChronoScale Plans 350 MW AI Data Center Campus with STN in Odessa': 'ChronoScale 与 STN 计划在得州奥德萨建设 350 兆瓦 AI 数据中心园区',
     'Nscale Activates Its First Vera Rubin NVL72 Racks for Global AI Cloud': 'Nscale 为其全球 AI 云启用首批 Vera Rubin NVL72 机架',
     'Why a Computer Scientist Thinks Superintelligence Won’t Happen': '为何一位计算机科学家认为超级智能不会发生',
+    'Canva adds an AI ‘off’ button': 'Canva 新增 AI「关闭」开关',
+    'DarioHealth Expands AI Care Distribution Through WebMD Health Services': 'DarioHealth 通过 WebMD Health Services 扩大 AI 护理服务分发',
+    'From Intent to Autonomous Action: Governing AI Agents in the Enterprise': '从意图到自主行动：企业中的 AI 智能体治理',
+    'MegaRobo Raises Nearly $200M to Expand AI for Science Globally': 'MegaRobo 融资近 2 亿美元，在全球扩展 AI for Science 业务',
+    'Isomorphic Labs and MSD Partner on AI Oncology Drug Discovery': 'Isomorphic Labs 与 MSD 合作开展 AI 肿瘤药物研发',
+    'Sovereignty is the AI story everyone mentions and few have planned for ahead of 2027': '主权是人人都在谈、却少有人为 2027 年之前做好规划的 AI 议题',
+    'Enterprises fear AI success more than failure, because success means lock-in they can’t escape': '企业更怕 AI 成功而非失败，因为成功意味着陷入无法摆脱的锁定',
+    'Visualizing Information Entropy in Language Models': '可视化语言模型中的信息熵',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1140,4 +1148,12 @@ SUMMARY_OVERRIDES = {
     'ChronoScale Plans 350 MW AI Data Center Campus with STN in Odessa': 'ChronoScale 于 2026 年 11 月 18 日宣布，已与 STN 签署最终协议，将在得克萨斯州奥德萨分三期开发一座 AI 数据中心园区，总容量 350 兆瓦，并配套高达 7.5 亿美元的融资方案。目前仅首期 65 兆瓦已下单。STN 是该园区的初始开发商，该场址拟用于承载一家未具名的领先前沿 AI 实验室的大规模部署。',
     'Nscale Activates Its First Vera Rubin NVL72 Racks for Global AI Cloud': 'Nscale 于 2026 年 11 月 18 日宣布，其首批 NVIDIA Vera Rubin NVL72 机架级 AI 系统已上线，标志着全球推广的开始，预计将在未来数月持续推进。戴尔 PowerEdge XE9812 系统为客户训练和部署大型模型增加了算力，包括需要多步骤推理的工作负载。',
     'Why a Computer Scientist Thinks Superintelligence Won’t Happen': '今年夏天，当全球一家领先 AI 公司的员工开始随意讨论「自家产品是否会导致人类灭绝」时，许多人措手不及。事情始于 Anthropic 研究员 Jacob Coxon 宣布辞职，他警告称自己的雇主与 OpenAI 正「直奔自我改进的超级智能，拿我们的生命赌博」。Anthropic 对齐科学负责人 Evan Hubinger 回应：「Jacob 说得对——我们确实真诚地相信 AI 可能杀死全人类！」随后 Anthropic CEO Dario Amodei 告诉 CNN：「我同意 Jacob 的程度，远大于我不同意他的程度。」',
+    'Canva adds an AI ‘off’ button': 'Canva 现已允许用户关闭其生成式 AI 功能。通过这一变化，用户可以禁用该平面设计平台的一系列 AI 工具，例如 AI 照片扩展功能 Magic Expand，也可以关闭用 Canva 聊天机器人生成图像的能力。不过这个开关并不会关闭 Canva 上所有由 AI 驱动的功能——背景移除工具和 Magic Grab（可选中图片中的对象并移动到别处）仍然可用。Canva 表示：「当生成式 AI 开关关闭时，这两项功能仍可用，因为它们只处理设计中已有的内容。」',
+    'DarioHealth Expands AI Care Distribution Through WebMD Health Services': 'DarioHealth 于 2026 年 11 月 19 日宣布与 WebMD Health Services 达成合作，将其 AI 驱动的多病症护理平台分发至后者覆盖 3500 多家雇主、健康计划、医疗系统和公共部门机构的健康服务网络。WebMD Health Services 称其网络覆盖 6500 万人。这一数字代表的是潜在分发范围，而非已承诺加入 DarioHealth 项目的人数。',
+    'From Intent to Autonomous Action: Governing AI Agents in the Enterprise': '像「恢复服务」这样的指令看似简单，但当 AI 智能体必须决定授权什么时就不那么简单了。重启应用、修改配置、调配基础设施都可能服务于这一目标，但各自的后果截然不同。随着智能体从推荐行动转向执行行动，组织需要在业务意图与运营权限之间建立明确的关联。',
+    'MegaRobo Raises Nearly $200M to Expand AI for Science Globally': 'MegaRobo Technologies 于 2026 年 11 月 19 日宣布，已筹集近 2 亿美元新融资，用于在国际上扩展其 AI for Science（AI 驱动科学）业务，并建设连接 AI 与实验室仪器、机器人及其他物理系统的基础设施。阿曼主权财富基金 Oman Investment Authority（阿曼投资局）参与本轮，招银国际（CMB International）作为新投资者加入。',
+    'Isomorphic Labs and MSD Partner on AI Oncology Drug Discovery': 'Isomorphic Labs 于 2026 年 11 月 19 日宣布与 MSD 达成战略研究合作，共同发现小分子肿瘤药物候选物，将其 AI 药物设计引擎与该药企精选的专有数据集及研发专长相结合。MSD 是 Merck & Co., Inc.（默克）在美国和加拿大以外使用的商号。双方将针对一个他们称为具有重要战略意义的肿瘤靶点展开研究。',
+    'Sovereignty is the AI story everyone mentions and few have planned for ahead of 2027': '随着企业越过「建起 AI 工厂」的阶段、开始思考如何盈利运营，AI 基础设施经济学正进入一个更清醒的阶段。如今，能否持久、是否有真实需求、是否具备长期价值，成为区分能长期存在的供应商与泡沫的标准。',
+    'Enterprises fear AI success more than failure, because success means lock-in they can’t escape': '超算领域凭借科学模拟建立了声誉，而如今占据同一批数据中心的 AI 基础设施提出了一个更棘手的问题：当模型把数据转化为收入时，对数据及其所产生智能的控制权，就成为很少有公司公开讨论的董事会级议题。',
+    'Visualizing Information Entropy in Language Models': '在本文中，你将了解信息熵与交叉熵损失如何把经典信息论同大语言模型「预测下一个词」的训练方式联系起来。',
 }
