@@ -612,6 +612,14 @@ TITLE_OVERRIDES = {
     'Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories': '前阿里巴巴高管创办的 Everful 融资 4850 万美元，连接零售商与中国工厂',
     'Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents': 'Google 打造庞大「镜像维度」互联网，用于测试 Chrome AI 智能体',
     'Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears': '芯片出货中断、海外云访问消失，中国科技公司面临双重打击',
+    'Emerson to Link AspenTech Inmation with Databricks for Industrial AI': '埃默森将 AspenTech Inmation 与 Databricks 连接，赋能工业 AI',
+    'pgEdge Adds Jev to Triage PostgreSQL Alerts in AI DBA Workbench': 'pgEdge 在 AI DBA 工作台中引入 Jev 以分流 PostgreSQL 告警',
+    'vCluster Adds Self-Service Private Clouds for Dedicated AI Hardware': 'vCluster 为专用 AI 硬件推出自助式私有云',
+    'AI inference servers shrink to fit the air-cooled racks enterprises already run': 'AI 推理服务器缩小体积，适配企业现有风冷机架',
+    'Google Quantum AI Demonstrates Contextuality Across 105 Qubits': 'Google Quantum AI 在 105 个量子比特上演示情境性',
+    'Whitesides, Moran and Beyer Lead New Bipartisan House AI Caucus': '怀特赛德斯、莫兰与比耶尔领导新一届众议院两党 AI 小组',
+    'D-Matrix bets stacked DRAM can solve inference’s memory bandwidth problem': 'D-Matrix 押注堆叠式 DRAM 解决推理的内存带宽难题',
+    'Anthropic’s IPO could deliver $156 billion to charity': 'Anthropic 上市或为慈善事业带来 1560 亿美元',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1226,4 +1234,12 @@ SUMMARY_OVERRIDES = {
     'Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories': 'Everful 已融资 4850 万美元，用于扩展其工厂直采平台，帮助零售商从海外制造商直接采购产品。',
     'Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents': '该公司的「平行宇宙」互联网充当一个巨型沙箱，使 Chrome 团队能够在其中妥善训练 AI 浏览智能体，而不必担心它们失控（go rogue）。',
     'Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears': '美国对 AI 芯片的出口管制收紧正迅速产生影响。中国的月之暗面（Moonshot AI）退出了在印度尼西亚的一笔 1.5 亿美元交易，台积电（TSMC）和三星也已停止向中国客户出货。《纽约时报》的调查发现，阿里巴巴通过一个空壳公司网络，将英伟达（Nvidia）芯片转交给了中国军方研究人员。',
+    'Emerson to Link AspenTech Inmation with Databricks for Industrial AI': '埃默森于 2026 年 11 月 19 日宣布与 Databricks 合作，将情境化的工业运营数据引入 Databricks Data + AI 平台，使工业企业能够利用工厂信息进行分析、AI 应用与智能体。原生访问 AspenTech Inmation OT Data Fabric 是实现这一点的关键机制。',
+    'pgEdge Adds Jev to Triage PostgreSQL Alerts in AI DBA Workbench': 'pgEdge 在其工作台测试版中加入 TypeSafe AI 模型 Jev，用于分拣 PostgreSQL 告警。厂商数据显示其在速度与成本上有提升，但准确性尚未得到验证。',
+    'vCluster Adds Self-Service Private Clouds for Dedicated AI Hardware': 'vCluster Platform v5.0 让 AI 云客户可自助访问专用服务器，以及经服务商批准的 Kubernetes、Slurm 和推理环境。',
+    'AI inference servers shrink to fit the air-cooled racks enterprises already run': '对希望在自有硬件上运行 AI 的企业而言，高能效推理芯片正成为入门门槛。随着 AI 从模型构建转向日常运行，昂贵的 GPU 机架及其所需的液冷让许多企业仍选择租用算力。',
+    'Google Quantum AI Demonstrates Contextuality Across 105 Qubits': 'Google Quantum AI 于 2026 年 11 月 19 日宣布，登上《科学》杂志封面的研究在其超导处理器上实现了规模化的测量情境性验证，其中一项协调游戏的胜率达 98.3%，超过 88.9% 的经典极限。情境性意味着测量结果并非预设值，而取决于同时进行哪些其他相容测量。',
+    'Whitesides, Moran and Beyer Lead New Bipartisan House AI Caucus': '莫兰办公室宣布，众议员乔治·怀特赛德斯、纳塔尼尔·莫兰与唐·比耶尔于 2026 年 11 月 19 日发起成立两党众议院人工智能安全与创新小组，另有 23 名创始成员加入。该小组将制定并支持旨在应对严重 AI 风险的立法，同时支持美国在 AI 领域的持续领先地位。莫兰为得克萨斯州共和党人，与加利福尼亚州民主党人怀特赛德斯、弗吉尼亚州民主党人比耶尔共同担任联合主席。',
+    'D-Matrix bets stacked DRAM can solve inference’s memory bandwidth problem': '随着 AI 工作负载转向推理，内存带宽决定了硬件是快速生成 token 还是闲置等待。D-Matrix 公司为此推出第二代芯片 Raptor，将 3D DRAM 堆叠在计算逻辑之下。',
+    'Anthropic’s IPO could deliver $156 billion to charity': '按 95 美元的股价计算，这家前沿实验室的公益基金会、员工捐赠及公司配捐合计可达 1560 亿美元。',
 }
