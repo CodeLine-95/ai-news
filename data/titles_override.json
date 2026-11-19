@@ -541,5 +541,7 @@
   "Google’s latest midtier model Gemini 4 Neon is three-times faster than Carbon and wins on some metrics": "Google 最新中端模型 Gemini 4 Neon 比 Carbon 快三倍，并在部分指标上胜出",
   "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework": "Discord 用 Zed 的 GPU 加速渲染框架，以 Rust 重写桌面与移动端客户端",
   "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence": "Nutrient 数据提取 API：按自定义结构匹配 JSON，并对每个字段附上引用与置信度",
-  "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index": "Google DeepMind 发布 Gemini 4 Neon：100 万 token 上下文，登顶 AA 编码智能体指数"
+  "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index": "Google DeepMind 发布 Gemini 4 Neon：100 万 token 上下文，登顶 AA 编码智能体指数",
+  "Wilgot Raises $3 Million Seed Round to Improve Product Visibility in AI Shopping": "Wilgot 融资 300 万美元种子轮，提升产品在 AI 购物中的可见性",
+  "llm-gemini 0.38": "llm-gemini 0.38 发布：Google 推出 Gemini 4 Neon 及定价解析"
 }
