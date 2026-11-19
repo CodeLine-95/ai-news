@@ -586,6 +586,12 @@ TITLE_OVERRIDES = {
     'I let Apple’s always-listening AI summarize my life for two weeks': '我让 Apple 的「常听」AI 为我总结了两周的生活',
     'Topview Adds AI Relighting and Editing Tools for Hybrid Filmmaking': 'Topview 为混合影视制作新增 AI 重新布光与剪辑工具',
     'QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer': 'QCon 旧金山 2026：作为资深工程师，如何用 AI 让团队效能倍增',
+    "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector": '利率上升与政治逆风冲击行业，Anthropic 813 亿美元 IPO 打破 SpaceX 纪录',
+    'Today’s data centers weren’t built for AI racks, so liquid-cooling sidecars get bolted on': '如今的数据中心并非为 AI 机架而建，液冷「侧挂」装置被加装上来',
+    'Groundcover launches Agent Investigations, a shared workspace for AI agents and engineers': 'Groundcover 推出 Agent Investigations：AI 智能体与工程师的共享工作空间',
+    'Superhuman unveils personal AI assistant and expands Go across entire suite': 'Superhuman 推出个人 AI 助理，将 Go 扩展至整个产品套件',
+    'Nodal Networks raises $11.3M to solve global shipping bottlenecks': 'Nodal Networks 融资 1130 万美元，破解全球航运瓶颈',
+    'Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW': '节日串流与优惠：黑色星期五特惠登陆 GeForce NOW',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1174,4 +1180,10 @@ SUMMARY_OVERRIDES = {
     'I let Apple’s always-listening AI summarize my life for two weeks': 'Siri Recap 可在手腕上手动开启或关闭。它值得吗？过去一个月，我在 Apple Watch Ultra 4 上同时试用 Amazon Bee Frontier 和 Siri Recap 时，一直反复问自己这个问题。两者都能让可穿戴设备环境式地聆听你的对话，并用 AI 为你生成总结。为什么？为了让你记得更牢，也希望能更专注当下。主要区别在于：Amazon 的 Bee 采取的是「最大化」（坦率说，近乎扭曲现实）的路线，而 Apple 则走更简约、隐私优先的路线。',
     'Topview Adds AI Relighting and Editing Tools for Hybrid Filmmaking': 'Topview 正在扩展其混合影视制作工具集，新增用于重新布光、选择性编辑、新机位、背景替换以及其他实拍素材调整的 AI 后期制作控制功能。该套件的灯光组件 Video Relight 将于 11 月 19 日推出。这一方法以电影人已拍摄的素材为起点。',
     'QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer': '在 QCon 旧金山 2026 大会上，Pinterest 高级资深工程师兼 Web 平台技术负责人 Jordan Cutler 介绍了当每位工程师都能使用相同的 AI 工具时，资深工程师（Staff Engineer）这一角色将如何变化。',
+    "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector": 'Anthropic 启动史上最大规模 IPO，取代 SpaceX 成为此前纪录保持者。早期投资者 Dustin Moskovitz 正公开与此划清界限，警告称自己早期的这笔投资可能是一桩「终结世界」的行为。',
+    'Today’s data centers weren’t built for AI racks, so liquid-cooling sidecars get bolted on': '随着买家发现交付硬件只是工作的一半，部署服务正成为 AI 基础设施真正的竞争战场。GPU 供应紧张、更新周期加快，新型云服务商和企业开始以 AI 工厂实际投产的速度来评判供应商。',
+    'Groundcover launches Agent Investigations, a shared workspace for AI agents and engineers': '可观测性公司 Groundcover Inc. 今日宣布推出 Agent Investigations——一个共享工作空间，让 Groundcover 的 AI 智能体、团队自有的编码智能体以及值班工程师协同处理生产事故。该产品旨在解决调查线索分散的问题，因为 AI 智能体在事故响应中扮演的角色正越来越重要。',
+    'Superhuman unveils personal AI assistant and expands Go across entire suite': 'Superhuman Inc.（前身为 Grammarly）今日宣布扩展其主动式 AI 助理与多智能体平台 Go，并为整个产品套件带来功能更新。',
+    'Nodal Networks raises $11.3M to solve global shipping bottlenecks': 'Nodal Networks Inc. 是一家构建 AI 决策网络以管理全球海运集装箱码头的企业，今日宣布已完成 1130 万美元种子轮融资，帮助港口与铁路枢纽缓解拥堵、提升货运量。全球货运网络每年运输逾 10 亿个集装箱。',
+    'Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW': 'GeForce NOW 开启黑色星期五活动，为玩家提供更多畅玩理由。限时回归六个月会员订阅：Performance 或 Ultimate 会员前六个月可享七折优惠。大作畅玩，价格更实惠。更多 NVIDIA 节日优惠面向玩家、创作者与 AI 爱好者。客厅娱乐体验也升级了——运行 Vega OS 的 Amazon Fire TV Stick HD、Fire TV Stick 4K Select 及 Fire TV Stick 4K（2026 款）现已支持 GeForce NOW；今日稍晚还将推出 Amazon 专属优惠，参与国家的符合条件的 Performance 或 Ultimate 会员首月可享一折（减免 90%）折扣，用户可直接从 Amazon 购物车将主机级游戏体验带到电视上。Bethesda 粉丝还有更多惊喜：本周加入 GeForce NOW 的九款游戏中，有五款人气作品新增 GOG 支持。',
 }
