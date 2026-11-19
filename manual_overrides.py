@@ -645,6 +645,8 @@ TITLE_OVERRIDES = {
     'Mast Releases NVIDIA and AMD AI Chip License Records for China': 'Mast 公布 NVIDIA 与 AMD 对华 AI 芯片许可证记录',
     'Enterprise AI is pushing cloud infrastructure beyond the GPU': '企业 AI 正将云基础设施推向 GPU 之外',
     'A brief history of Nvidia’s recent stock fluctuations': 'Nvidia 近期股价波动简史',
+    'Apple is hiring engineers to build its own AI agent': '苹果正招聘工程师打造自家 AI 智能体',
+    'Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate': 'Wiz 将 Microsoft Agent Framework 软件包遭入侵事件与发布管道证书关联',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1292,4 +1294,6 @@ SUMMARY_OVERRIDES = {
     'Mast Releases NVIDIA and AMD AI Chip License Records for China': '2026 年 11 月 19 日，美国众议院外交事务委员会主席 Brian Mast 公布了商务部针对中国企业申请的 NVIDIA H200 与 AMD MI325X 芯片许可证记录。记录显示，截至 2026 年 5 月 11 日，21 份申请共涉及 3,444,160 颗芯片的申请、覆盖 879,868 颗芯片的获批，且每一条获批记录均尚未发货。',
     'Enterprise AI is pushing cloud infrastructure beyond the GPU': '企业采用人工智能正在为企业 AI 基础设施带来新的要求。尽管早期 AI 投资多集中于获取强大的 GPU，但将 AI 应用与智能体投入生产的组织发现，加速器只是整体拼图中的一部分。',
     'A brief history of Nvidia’s recent stock fluctuations': '交易员 2026 年 11 月 18 日在纽约证券交易所交易大厅工作。图片：盖蒂图片社。周二晚间，Nvidia 临时首席执行官 Colette Kress 在结束这家深陷困境的芯片公司第三季度财报电话会议时说：「我们挺过来了。」截至周四，该公司股价在每股 150 美元左右徘徊，较 10 月 6 日的历史高点下跌近 40%，抹去了周二晚间财报后短暂上涨的涨幅。与此同时，华尔街正追捧 Nvidia 最大的客户之一——Anthropic 以每股 111.50 美元登陆纳斯达克，比预期高出 34%。单看财报数字，Nvidia 本季度表现亮眼。',
+    'Apple is hiring engineers to build its own AI agent': '据彭博社发现的一份招聘信息，苹果正在研发自有 AI 智能体，可替用户完成浏览网页、跨应用操作、编写代码和调用服务等一系列任务。招聘信息显示，苹果正在寻找一名工程师来主导打造一款智能体式 AI 助手。若苹果推出 AI 智能体，这家 iPhone 制造商将加入与 Meta Muse、OpenAI Dots、Anthropic Duet 和 Google Tasks 等产品的竞争。Muse、ChatGPT 和 Perplexity 已可通过各自的 Mac 应用控制计算机，而 Google 最近也开始让 Gemini 实现同样功能。',
+    'Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate': '本周早些时候，Microsoft 用于其 Agent Framework AI 智能体工具包的官方 Python 软件包遭入侵，攻击者在 Python Package Index（PyPI）上发布了两个恶意版本，意图窃取云凭证和开发者凭证。这两个恶意版本号为 1.26.1 和 1.26.2。云端安全公司 Wiz 将此次供应链攻击与发布管道证书泄露联系起来，研究员表示攻击者可能利用了暴露的凭据侵入软件包的发布流程。Microsoft 已下架恶意版本并展开调查，建议使用该工具包的用户检查依赖版本并及时更新。',
 }
