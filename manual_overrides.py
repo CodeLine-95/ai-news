@@ -552,6 +552,7 @@ TITLE_OVERRIDES = {
     'Google’s AI Controls Have Major Districts Rethinking Search': 'Google 的 AI 管控措施促使多个主要学区重新考虑搜索引擎',
     'Google’s latest midtier model Gemini 4 Neon is three-times faster than Carbon and wins on some metrics': 'Google 最新中端模型 Gemini 4 Neon 比 Carbon 快三倍，并在部分指标上胜出',
     "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework": 'Discord 用 Zed 的 GPU 加速渲染框架，以 Rust 重写桌面与移动端客户端',
+    'Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence': 'Nutrient 数据提取 API：按自定义结构匹配 JSON，并对每个字段附上引用与置信度',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1106,4 +1107,5 @@ SUMMARY_OVERRIDES = {
     'Google’s AI Controls Have Major Districts Rethinking Search': '据《纽约时报》2026 年 11 月 18 日报道（由 The Verge 转载），纽约市、洛杉矶和芝加哥的学区官员正在考虑替换 Google 搜索，因为 Google 即将面向学校推出的管控措施会把搜索访问与其 AI 功能绑定。这项定于 2027 年生效的调整将两项设置关联在一起：学区一旦关闭由 Gemini 驱动的功能，搜索也会一并关闭。',
     'Google’s latest midtier model Gemini 4 Neon is three-times faster than Carbon and wins on some metrics': '在夏季低调蛰伏、竞争对手如 Anthropic PBC 与 OpenAI Group PBC 相继推出强大的新前沿模型之后，Google LLC 正发起反击。',
     "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework": 'Discord 首席技术官 Stanislav Vishnevskiy 近日宣布，公司已用 Rust 重写桌面端与移动端客户端，不再使用 Electron 和 React Native。该项目剔除了多层抽象，直接调用设备的 GPU、原生移动视图，以及跨共享的 Rust 核心。初步结果显示，聊天、语音与直播功能的内存占用和启动时间均显著下降。',
+    'Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence': '大型语言模型会把从文档中提取的错误值当作事实呈现给你，这种错误代价高昂，尤其是在据此做决策时。Nutrient 数据提取 API 正是针对这一问题。它能将 PDF、扫描件、图像和 Office 文件解析为空间 JSON 或 Markdown；Extract 可把文档中的字段映射到你的 JSON 结构，而拆分、分类和表单端点则为文档处理流程提供实用的基础能力。每个提取值都通过边界框、匹配标签和置信度分数锚定到页面上。Nutrient（原 PSPDFKit）在 MCP 服务器、智能体技能、Mac 应用和 SDK 背后运行同一套引擎。速览 规模：一个托管 API，提供 4 种解析模式及自动路由。运行环境：Nutrient 云、通过 SDK 部署在你自己的服务器，或 Apple 芯片 Mac。试用方式：Studio——一个用于配置并测试解析、提取、分类、拆分和表单填写的浏览器工作区。',
 }
