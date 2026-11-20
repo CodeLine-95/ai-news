@@ -675,6 +675,10 @@ TITLE_OVERRIDES = {
     'Fidelity Sets Retail Participation Terms for Anthropic’s Planned IPO': '富达（Fidelity）为 Anthropic 计划中的 IPO 设定散户参与条款',
     'Asian Markets Slide as Anthropic’s Debut Fails to Lift AI Stocks': 'Anthropic 上市首日未能提振 AI 股票，亚洲市场下滑',
     'QCon San Francisco 2026: The Future of Apache Iceberg': 'QCon 旧金山 2026：Apache Iceberg 的未来',
+    'ARCS∙ai Opens Shared ARPI Center for Physical AI Training': 'ARCS∙ai 开设面向物理 AI 训练的共享 ARPI 中心',
+    'Muse Is Unleashing a World of Pettiness on Instagram': 'Muse 在 Instagram 上掀起一场「小心眼」风潮',
+    'Signal Adds Screenshot Restrictions to Limit Mobile AI Data Capture': 'Signal 新增截图限制，防止移动端 AI 抓取数据',
+
 }
 
 SUMMARY_OVERRIDES = {
@@ -1351,4 +1355,8 @@ SUMMARY_OVERRIDES = {
     'This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’': 'Henrijs Dandzbergs 从高中辍学，加入创业加速器 Y Combinator。他希望凭借一种新型导弹，让美国及其军事盟友尽可能高效地实现「杀伤」——把每一发弹药的成本压到最低。',
     'Asian Markets Slide as Anthropic’s Debut Fails to Lift AI Stocks': '据路透社报道，2026 年 11 月 20 日，MSCI 除日本外最广泛的亚太指数下跌 3.3%，亚洲股市或将迎来自 2020 年以来最糟糕的一周。此前 Anthropic 在纳斯达克上市首日未能提振市场对更广泛 AI 交易的信心。路透社称，此举使该基准指数的周跌幅扩大至 8.5%，为 2020 年 3 月新冠疫情全球蔓延以来最差的单周表现。亚洲市场普遍大幅下挫：日本日经指数下跌 5%，周跌幅达 7.7%。',
     'QCon San Francisco 2026: The Future of Apache Iceberg': 'Apache Iceberg V4 提议重新设计表元数据，以提升可扩展性并支持更频繁的写入操作，同时引入数据管理与模式演进（schema evolution）方面的新能力。Apache Iceberg 联合创始人、Databricks 技术团队成员 Daniel Weeks 在 QCon 旧金山大会上介绍了这一开放表格式规范的第四个版本的演讲。',
+    'ARCS∙ai Opens Shared ARPI Center for Physical AI Training': '计算科学与人工智能先进研究中心（ARCS∙ai）宣布，于 2026 年 11 月 20 日在埃里温启动 ARPI 中心。这座共享的机器人与物理 AI 中心的目标是：整合三所亚美尼亚大学的师资、学生与设备，每年培养 50 名专业工程师。ARPI 代表「亚美尼亚机器人技术与物理智能」（Armenian Robotics & Physical Intelligence）。',
+    'Muse Is Unleashing a World of Pettiness on Instagram': 'Meta 的 AI 助手可以追踪并取消关注那些没有回关你的 Instagram 用户，而有些人正在充分利用这一功能。',
+    'Signal Adds Screenshot Restrictions to Limit Mobile AI Data Capture': 'Meredith Whittaker 于 2026 年 11 月 20 日宣布，这款加密通讯应用将在 iOS 27 与 Android 上限制屏幕截图——当检测到 AI 助手试图读取屏幕时即加以阻止，以免操作系统智能体捕获私人聊天内容。这些保护措施尚不完整，Signal 无法可靠阻止 macOS 上的截图。在 iOS 27 上，相关公告会显示已启用的「阻止 Siri AI」设置。',
+
 }
