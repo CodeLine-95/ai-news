@@ -726,6 +726,8 @@ TITLE_OVERRIDES = {
     'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '莱文特·阿尔波格未经证实的黎曼猜想主张，让 Claude 的 Lean 代码成为焦点',
     'Anthropic Slides After Debut as AI Stocks Extend Losses': 'Anthropic 上市首日股价下跌，AI 类股票延续跌势',
     'Following the “mathocalypse,” mathematicians consider the future': '「数学末日」之后，数学家们思考未来',
+    'AI Can Scale Security. But Scale What?': 'AI 可以规模化安全能力，但规模化的到底是什么？',
+    'Anthropic goes public, but is it too late to save the AI trade?': 'Anthropic 上市了，但 AI 交易是否已见顶、为时已晚？',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1453,4 +1455,6 @@ SUMMARY_OVERRIDES = {
     'Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others': '彭博新闻社对 1000 万份招聘信息的分析显示，AI 正在加剧中国本已疲软的劳动力市场。入门级从业者与创意产业受到的影响最为明显——目前超过 90% 的中国微短剧已使用 AI 制作。前央行顾问蔡昉警告称，AI 带来的更大冲击仍将到来。',
     'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '2026 年 11 月 20 日，莱文特·阿尔波格表示，他认为自己与 Claude 发现了黎曼猜想的证明，以及解决广义黎曼猜想的方法。Anthropic 的数学家发布了一份个人声明，附上相关 Lean 代码链接，但并未给出对这一完整论证的独立验证。阿尔波格也是哈佛大学学会的会员。',
     'Anthropic Slides After Debut as AI Stocks Extend Losses': '据路透社 2026 年 11 月 20 日报道，Anthropic 股价在纳斯达克上市后回落，拖累美股低开：纳斯达克综合指数开盘下跌 286.5 点（1.20%），报 23592.669 点；标普 500 指数下跌 25.4 点（0.35%），报 7150.39 点；道琼斯工业平均指数下跌 25.2 点（0.05%），报 49071.82 点。Anthropic 最新价报 88.24 美元，较 11 月 19 日收盘价低约 9%。大型科技股普跌表明，这次上市几乎未能扭转更广泛的市场抛售。',
+    'AI Can Scale Security. But Scale What?': '如今企业安全团队面临的活动、遥测数据与告警数量，远超其人工调查的实际能力。各方估计不一，一些研究表明，平均每个安全运营团队每天会收到 4,400 多条告警。随着组织扩张、工具增多，AI 也让更多攻击成为可能，这一数字势必继续增长。',
+    'Anthropic goes public, but is it too late to save the AI trade?': 'Anthropic 周四完成了首次公开募股（IPO），但这是否预示着 AI 交易已经见顶？',
 }
