@@ -661,6 +661,11 @@ TITLE_OVERRIDES = {
     'Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises': '沃尔玛上调全年业绩展望，AI 购物助手 Sparky 使用量飙升 129%',
     'Apple may be developing its own AI agent that runs your Mac': '苹果或正研发可操控用户 Mac 的自家 AI 智能体',
     'Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO': 'Anthropic 7 位创始人在创纪录 IPO 中套现近 20 亿美元',
+    'Lawmakers form bipartisan caucus to create meaningful AI safety legislation': '立法者组建两党党团，推动制定有意义的 AI 安全立法',
+    'J-POWER, Hitachi and Macnica Agree on Physical AI Platform Study': 'J-POWER、日立与 Macnica 就物理 AI 平台研究达成协议',
+    'DeepMind Institute Maps Four Routes From AGI to Superintelligence': 'DeepMind 研究所梳理从 AGI 到超级智能的四条路径',
+    'John Deere Buys Orchard AI to Pair Crop Scans with Farm Equipment': '约翰迪尔收购 Orchard AI，将作物扫描与农机设备相结合',
+    'Token fraud is here and it’s BAD (YouTube)': 'Token 欺诈已然出现，而且很严重（YouTube）',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1324,4 +1329,9 @@ SUMMARY_OVERRIDES = {
     'Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises': '沃尔玛在 2026 年 11 月 19 日第三季度营收增长 5.2% 至 1888 亿美元后，上调了全年销售与利润展望。这家零售商在财报电话会上表示，其 AI 购物助手 Sparky 在美国的用量同比增长 129%，不过受投资结果由盈转亏影响，GAAP 每股收益降至 0.62 美元。首席执行官约翰·弗纳（John Furner）表示，随着顾客发现更多商品，与 Sparky 相关的购物篮金额增长了 40%，Sparky 也在持续增加功能并拓展市场。',
     'Apple may be developing its own AI agent that runs your Mac': '这家 iPhone 制造商似乎正在打造能够与 Meta Muse、Instinct、Claude 和 OpenAI Dots 等产品竞争的 AI 智能体。',
     'Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO': '在上调至每股 83 美元的 IPO 定价下，Anthropic 的七位创始人每人套现约 2.8 亿美元，而公司本身则募得近 1050 亿美元。',
+    'Lawmakers form bipartisan caucus to create meaningful AI safety legislation': '由二十多名国会议员组成的两党议员团体今天表示，他们正在组建一个新的「AI 安全与创新党团」，以应对先进人工智能模型进步所带来的日益增长的安全风险。议员们提到了 7 月 Hugging Face Inc. 遭黑客攻击的事件。',
+    'J-POWER, Hitachi and Macnica Agree on Physical AI Platform Study': '2026 年 11 月 19 日，J-POWER、日立（Hitachi）与 Macnica 宣布，三方已同意联合研究面向关键基础设施的物理 AI 开发平台，并将下一代输电线路巡检无人机作为首个拟议用例。现阶段，该协议涵盖联合研究与示范规划。物理 AI 是指将人工智能应用于机器人、无人机等在现实世界中运行的机器。',
+    'DeepMind Institute Maps Four Routes From AGI to Superintelligence': '2026 年 11 月 19 日，DeepMind 研究所发表文章，概述了人工智能从人类水平的通用人工智能（AGI）迈向人工通用超级智能（ASI）的四种路径，同时强调持续的快速进步虽有可能，但远非板上钉钉。',
+    'John Deere Buys Orchard AI to Pair Crop Scans with Farm Equipment': '2026 年 11 月 19 日，约翰迪尔宣布收购 Orchard Robotics（以 Orchard AI 名义运营），并加装车载摄像头与软件，旨在将逐棵树的作物测量数据转化为建议，指导高价值特种作物种植者的田间作业。这家旧金山公司成立于 2022 年，为高价值特种作物种植者开发作物智能产品。',
+    'Token fraud is here and it’s BAD (YouTube)': 'Claire Vo 运营着 ChatPRD——一个帮助产品经理「把想法变成规格说明」的 AI 平台。该产品自 GPT-4 时代就已上线，Claire 也基本一直在公开构建它。在这段 YouTube 视频中（另见配套的 Twitter 帖子），Claire 描述了她所遭遇的大量 token 欺诈：一些团伙滥用该产品的免费试用，有时只是想白嫖 AI 用量，但更多是为了转售 token，或在 ChatPRD 智能体之上经营其他商业项目。我正资助一家国际 Roblox 和 Fortnite 地图工作室。他们不断循环使用免费试用和优惠码，然后通过隧道接入我的智能体，用它来制作 Roblox 和 Fortnite 地图。显然，Claire 看到的最常见提示之一，竟是让她的智能体生成鹈鹕骑自行车的 SVG 图！',
 }
