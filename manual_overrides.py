@@ -669,6 +669,7 @@ TITLE_OVERRIDES = {
     'Bonta Demands NVIDIA Records On China Transfers And Disclosures': '邦塔要求 NVIDIA 提交对华芯片转移与信息披露的相关记录',
     'Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model': 'Ripple-65B 预览版展现出强劲的智能体编程能力，是完全采用 Apache 2.0 许可的美国开放模型',
     'Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1': 'Ricursive AI 发布 Ripple-65B 预览版：一款在 Terminal-Bench 2.1 上得分 80.5 的 650 亿参数稠密开放权重模型',
+    'Apple Job Listing Points to Early Development of a Mac AI Agent': '苹果招聘信息显示其正早期开发 Mac AI 智能体',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1340,4 +1341,5 @@ SUMMARY_OVERRIDES = {
     'Bonta Demands NVIDIA Records On China Transfers And Disclosures': '加利福尼亚州总检察长 Rob Bonta 于 2026 年 11 月 19 日向 NVIDIA 发出调查传票，要求其提供先进芯片或机密信息是否流入中国、以及该公司是否就相关风险误导投资者与公众等信息。加州方面将依据答复评估其是否可能违反加州法律。加州司法部正在调查 NVIDIA 与时任首席执行官黄仁勋（Jensen Huang）的行为。',
     'Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model': 'Ricursive Intelligence 正在发布 Ripple-65B 预览版——一款 650 亿参数的开放权重语言模型。该公司称，该模型在 TerminalBench 2.1 编程基准上取得美国开源模型中的最高分，总研发成本为 3200 万美元。不过在其他基准上，Ripple 仍落后于同样新发布的西方开放模型 Inkling 2 Small。',
     'Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1': 'Ricursive Intelligence 刚刚发布 Ripple-65B 预览版。这是 Ricursive 推出的一款 650 亿参数稠密开放权重模型，从零开始针对智能体编程进行预训练，是其 AI 芯片设计平台背后专有模型的通用版本。官方宣称其在 Terminal-Bench 2.1 上得分 80.52，是美国开放权重模型中自报的最高分；它在该测试中击败的每一个 MoE 竞品，总参数量都在 5010 亿至 9750 亿之间。',
+    'Apple Job Listing Points to Early Development of a Mac AI Agent': '彭博社 2026 年 11 月 19 日报道，据 TechCrunch 转述，苹果近期一则招聘信息描述了一款能够操作 Mac 的内部 AI 智能体。该职位为高级工程经理，负责监督该项目。报道称开发仍处于早期阶段，并表示苹果曾考虑最快于 2027 年底推出该服务——但这是据报道的可能性，而非已宣布的发布承诺。',
 }
