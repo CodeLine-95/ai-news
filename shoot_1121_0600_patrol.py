@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 LOCAL = "http://127.0.0.1:8080/?sharecode=YM64NRHD37"
 ONLINE = "https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37"
 OUT = "/workspace/ai-news/screenshots"
-PREFIX = "deliverable_1121_0600"
+PREFIX = "deliverable_1121_0600f"
 os.makedirs(OUT, exist_ok=True)
 
 

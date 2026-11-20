@@ -763,6 +763,7 @@ TITLE_OVERRIDES = {
     "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working": 'Google 的 Gemini 现已可在 Mac 上运行应用，并在后台完成桌面任务，用户可继续工作',
     'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '特朗普威胁对将 AI 数据中心迁至美国境外的公司征收「巨额税收」',
     'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': 'Körber 调查发现：随着商业决策愈发艰难，AI 的应用正在上升',
+    "Google's latest search page redesign drops the search button, adds AI sidebar": 'Google 最新搜索页改版：取消搜索按钮，加入 AI 侧边栏',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1527,4 +1528,5 @@ SUMMARY_OVERRIDES = {
     "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working": 'Google 正把「计算机使用」能力带到 Mac 版 Gemini，让 AI 在一个隔离的后台窗口中操作桌面应用、本地文件和网站，并提供实时预览，用户可同时继续自己的工作。',
     'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '唐纳德·特朗普总统承诺，将对在美国境外建设数据中心的公司征收「巨额税收」，与此同时，全美各州和城市正限制新建数据中心的申请。特朗普在与中国国家主席习近平和俄罗斯总统普京会晤后于周五的新闻发布会上表示：「我们不会允许我们的公司在境外建设数据中心。他们任由芯片和其他一切发生这种事，这对我们的国家极具破坏性。这正是我们开始落后的地方。」',
     'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': '企业正让 AI 在决策中发挥更大作用，但这并不意味着领导者觉得决策更容易了。在 Körber 发布的一项调查中，76% 的高级决策者表示决策变得更复杂，同样比例的人表示允许 AI 发挥更大作用。这些答案描述的是同时发生的两个趋势，并不能证明其中之一是另一者的原因。该调查覆盖 2000 名高管，美国与德国各占一半。',
+    "Google's latest search page redesign drops the search button, adds AI sidebar": 'Google 的旗舰搜索体验正以惊人速度演变为 AI 体验。即使是经久不变的搜索元素也在接受 AI 改造，最新接受改造的是 Google.com 的搜索首页。过去几周一直在测试的重新设计现已正式上线，让用户更容易访问 AI 聊天，并完全取消了专用的搜索按钮。Google 搜索副总裁 Robby Stein 在 X 上证实，Google 在成功测试后正在部署新的桌面搜索页面。该页面现将在搜索栏下方增设几个按钮，全部连接到 AI 功能：一个图像生成按钮、一个用于分析文件，还有一个用于与 Gemini 一起集思广益。「手气不错」按钮得以保留，但过去紧邻它的「Google 搜索」按钮已消失。显然，搜索按钮一直都是 Google 搜索页面的一部分。',
 }
