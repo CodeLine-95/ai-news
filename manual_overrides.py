@@ -670,6 +670,9 @@ TITLE_OVERRIDES = {
     'Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model': 'Ripple-65B 预览版展现出强劲的智能体编程能力，是完全采用 Apache 2.0 许可的美国开放模型',
     'Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1': 'Ricursive AI 发布 Ripple-65B 预览版：一款在 Terminal-Bench 2.1 上得分 80.5 的 650 亿参数稠密开放权重模型',
     'Apple Job Listing Points to Early Development of a Mac AI Agent': '苹果招聘信息显示其正早期开发 Mac AI 智能体',
+    'AWS Releases a Free Local Emulator of AWS Built Entirely by Agents': 'AWS 发布完全由智能体构建的免费 AWS 本地模拟器',
+    'This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’': '这名 16 岁少年创办了一家 AI 导弹初创公司，主打「单次杀伤成本」',
+    'Fidelity Sets Retail Participation Terms for Anthropic’s Planned IPO': '富达（Fidelity）为 Anthropic 计划中的 IPO 设定散户参与条款',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1342,4 +1345,6 @@ SUMMARY_OVERRIDES = {
     'Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model': 'Ricursive Intelligence 正在发布 Ripple-65B 预览版——一款 650 亿参数的开放权重语言模型。该公司称，该模型在 TerminalBench 2.1 编程基准上取得美国开源模型中的最高分，总研发成本为 3200 万美元。不过在其他基准上，Ripple 仍落后于同样新发布的西方开放模型 Inkling 2 Small。',
     'Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1': 'Ricursive Intelligence 刚刚发布 Ripple-65B 预览版。这是 Ricursive 推出的一款 650 亿参数稠密开放权重模型，从零开始针对智能体编程进行预训练，是其 AI 芯片设计平台背后专有模型的通用版本。官方宣称其在 Terminal-Bench 2.1 上得分 80.52，是美国开放权重模型中自报的最高分；它在该测试中击败的每一个 MoE 竞品，总参数量都在 5010 亿至 9750 亿之间。',
     'Apple Job Listing Points to Early Development of a Mac AI Agent': '彭博社 2026 年 11 月 19 日报道，据 TechCrunch 转述，苹果近期一则招聘信息描述了一款能够操作 Mac 的内部 AI 智能体。该职位为高级工程经理，负责监督该项目。报道称开发仍处于早期阶段，并表示苹果曾考虑最快于 2027 年底推出该服务——但这是据报道的可能性，而非已宣布的发布承诺。',
+    'AWS Releases a Free Local Emulator of AWS Built Entirely by Agents': 'AWS 发布了 AWS Emulator——一款免费、采用 CC0 许可的本地替代方案，可模拟其 200 多项服务，由公开 API 模型生成，面向编码智能体的测试循环。AWS 称全部代码均由智能体编写和维护，并随每个版本发布保真度评分。文档说明它不评估 IAM（身份与访问管理），从业者对于是否信任一个无人审查的模拟器看法不一。',
+    'This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’': 'Henrijs Dandzbergs 从高中辍学，加入创业加速器 Y Combinator。他希望凭借一种新型导弹，让美国及其军事盟友尽可能高效地实现「杀伤」——把每一发弹药的成本压到最低。',
 }
