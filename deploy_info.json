@@ -34,13 +34,13 @@
   "report_file": "/workspace/ai-news/AI资讯摘要.md",
   "data_file": "/workspace/ai-news/data/news.json",
   "checks": {
-    "total_items": 2336,
-    "translated": 2336,
-    "translation_coverage": "2336/2336",
-    "day_groups": 31,
+    "total_items": 2527,
+    "translated": 2527,
+    "translation_coverage": "2527/2527",
+    "day_groups": 32,
     "timestamp_precision": "HH:MM",
     "manual_sync_button": false,
-    "this_cycle_added": 16,
+    "this_cycle_added": 6,
     "no_cjk": 0,
     "date_format_error": 0,
     "timestamp_format_error": 0,
@@ -49,20 +49,20 @@
     "empty_summary_zh": 0,
     "coverage": "100%",
     "online_local_in_sync": true,
-    "last_update": "2026-11-19T22:00:12+08:00",
+    "last_update": "2026-11-21T06:00:10+08:00",
     "next_update": "2026-11-19T23:00:00+08:00",
     "model": "NLLB-200 离线模型(bf16)",
     "screenshots": [
-      "deliverable_1119_2200_light.png",
-      "deliverable_1119_2200_dark.png",
-      "deliverable_1119_2200_auto.png",
-      "deliverable_1119_2200_en.png",
-      "deliverable_1119_2200_online.png"
+      "deliverable_1121_0600_light.png",
+      "deliverable_1121_0600_dark.png",
+      "deliverable_1121_0600_auto.png",
+      "deliverable_1121_0600_en.png",
+      "deliverable_1121_0600_online.png"
     ],
     "duplicate_ids": 0,
     "entry_before": 0,
     "metrics_padding": "0px",
-    "today_count": 146,
+    "today_count": 37,
     "quality_gate": {
       "untranslated": 0,
       "date_format_error": 0,
@@ -71,10 +71,13 @@
       "empty_summary_zh": 0,
       "cyrillic_mix": 0,
       "duplicate_ids": 0,
+      "apple_trunc": 0,
       "gate_failures": 0
     },
     "cyrillic_mix": 0,
-    "git_commit": "71072d5"
+    "git_commit": "2026-11-21T06:00 巡检版本（详见 git log）",
+    "apple_trunc": 0,
+    "patrol": "2026-11-21 06:00 例行巡检：新增6条、定稿8条NLLB硬伤(5新+3历史)，覆盖表752/761"
   },
   "this_run": {
     "time": "22点例行巡检：服务22:00由平台自动拉起(main.py)，NLLB-200就绪；22:00整点调度抓取(+9条 2320→2329)，/api/refresh再触发一轮(+7 达2336)；人工定稿本轮9条NLLB机翻硬伤(Superhuman→将其Go助手推向全平台/Metano→公司名补全+安全/Meta诺→Metano/Salesforce详情→详述主权SI/Google蓝色起源新格伦+日光捕获者/OpenAI研究员价值超过近半数同事+AI slop垃圾内容漏译补全/Metano携1200万亮相/Apple常听AI+Amazon Bee Frontier/Topview重新布光/QCon资深工程师团队效能倍增)，写覆盖表(标题575/摘要585)+regen代码层manual_overrides.py。报告2336条/31组YYYY-MM-DD/每条HH:MM/中文为主括注英文原题。五态实测entry::before=0/metrics四边0px/三态主题auto跟随系统/无同步按钮/在线本地一致。质量门禁0未翻译/0空摘要/0日期时间格式错/0重复ID/0西里尔混入。",

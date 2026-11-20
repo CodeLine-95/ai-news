@@ -755,6 +755,14 @@ TITLE_OVERRIDES = {
     'Spotify’s new tool aims to stop deepfakes from being attributed to real artists': 'Spotify 新工具旨在阻止深度伪造内容被归到真实艺人名下',
     'Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active': 'Thinking Machines 发布 Inkling 2 Small：5940 亿总参数、170 亿激活参数的 MoE 模型',
     'Thinking Machines Lab Launches Inkling 2 Small with Open Weights Pending': 'Thinking Machines Lab 发布 Inkling 2 Small，权重即将开放',
+    'Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers': 'AI 数据中心排放创纪录，Meta 重新考虑 2030 年净零目标',
+    'Anthropic Closes Enlarged $93.5B IPO and $26B Private Placement': 'Anthropic 完成规模扩大后的 935 亿美元 IPO 与 260 亿美元私募配售',
+    'MIT Framework Keeps AI Models of Chaos Within Physical Bounds': 'MIT 框架将混沌系统的 AI 模型约束在物理边界内',
+    'Anthropic researcher claims to have proven Riemann hypothesis using Claude': 'Anthropic 研究人员声称用 Claude 证明了黎曼猜想',
+    'SEC Enforcement Staff Examine NVIDIA Accounting, Reuters Reports': '据路透社报道，美国证监会执法人员正审查 NVIDIA 会计问题',
+    "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working": 'Google 的 Gemini 现已可在 Mac 上运行应用，并在后台完成桌面任务，用户可继续工作',
+    'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '特朗普威胁对将 AI 数据中心迁至美国境外的公司征收「巨额税收」',
+    'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': 'Körber 调查发现：随着商业决策愈发艰难，AI 的应用正在上升',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1511,4 +1519,12 @@ SUMMARY_OVERRIDES = {
     'Spotify’s new tool aims to stop deepfakes from being attributed to real artists': '此次更新之前，Billboard 上月报道称，索尼音乐已要求数字平台下架超过 26 万首深度伪造歌曲，这一数字几乎是该公司 3 月公布数量的两倍。',
     'Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active': 'Thinking Machines Lab 发布了 Inkling 2 Small，这是其第二代 Inkling 系列的首款模型。Inkling 2 Small 是一个稀疏专家混合（MoE）模型，总参数量 5940 亿、激活参数 170 亿，支持文本与图像输入，并支持可变的计算预算。',
     'Thinking Machines Lab Launches Inkling 2 Small with Open Weights Pending': 'Thinking Machines Lab 于 2026 年 11 月 5 日推出 Inkling 2 Small，使其第二代模型可通过 Tinker 使用。这个稀疏专家混合（MoE）系统拥有 5940 亿总参数和170 亿激活参数，面向文本与图像任务，权重将在稍后开放。',
+    'Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers': 'Meta 高管正在重新审视公司最初提出的 2030 年实现净零排放的目标。Meta 最新可持续发展报告披露这一变化时，公司报告的温室气体排放量增幅创下纪录，超过了任何一家竞相新建 AI 数据中心的科技巨头。据 Meta 数据中心副总裁 Rachel Peterson 与净零及可持续发展全球负责人 Blair Swedeen在报告序言中所称，公司 2026 年可持续发展报告表示「我们的长期目标没有改变，但运营环境已经改变」。',
+    'Anthropic Closes Enlarged $93.5B IPO and $26B Private Placement': 'Anthropic 于 2026 年 11 月 20 日宣布，完成 11.27 亿股 A 类股首次公开募股，发行价每股 83 美元，其中包括承销商全额行使增购 1.47 亿股的期权。在扣除承销折扣、佣金及其他发行费用前，该 IPO 募集总金额约 935 亿美元。',
+    'MIT Framework Keeps AI Models of Chaos Within Physical Bounds': '麻省理工学院研究人员开发出一种机器学习框架，可保证混沌系统 AI 模型的轨迹有界，解决长时间模拟中模型可能漂移至物理上不可能数值的问题。MIT 于 2026 年 11 月 20 日宣布了这项成果。研究生 Sunbochen Tang 与教授 Navid Azizan、Themistoklis Sapsis 的研究涉及天气、气候、湍流及其他非线性过程的模型。',
+    'Anthropic researcher claims to have proven Riemann hypothesis using Claude': 'Anthropic PBC 一名研究人员声称借助 Claude 证明了黎曼猜想——这被广泛认为是数学中最重要的未解难题。Levent Alpöge 今日在其个人网站上宣布了这一发现。Anthropic 尚未就此发布官方公告。',
+    'SEC Enforcement Staff Examine NVIDIA Accounting, Reuters Reports': '据路透社 2026 年 11 月 20 日报道，两名知情人士透露，美国证券交易委员会执法人员正在审查 NVIDIA 可能存在的会计问题。据 LSEG 数据，消息传出后 NVIDIA 股价下跌约 13%，此前已下跌逾 6%。《华尔街日报》于 2026 年 11 月 17 日报道了这项调查的存在，但称无法确定调查重点。',
+    "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working": 'Google 正把「计算机使用」能力带到 Mac 版 Gemini，让 AI 在一个隔离的后台窗口中操作桌面应用、本地文件和网站，并提供实时预览，用户可同时继续自己的工作。',
+    'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '唐纳德·特朗普总统承诺，将对在美国境外建设数据中心的公司征收「巨额税收」，与此同时，全美各州和城市正限制新建数据中心的申请。特朗普在与中国国家主席习近平和俄罗斯总统普京会晤后于周五的新闻发布会上表示：「我们不会允许我们的公司在境外建设数据中心。他们任由芯片和其他一切发生这种事，这对我们的国家极具破坏性。这正是我们开始落后的地方。」',
+    'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': '企业正让 AI 在决策中发挥更大作用，但这并不意味着领导者觉得决策更容易了。在 Körber 发布的一项调查中，76% 的高级决策者表示决策变得更复杂，同样比例的人表示允许 AI 发挥更大作用。这些答案描述的是同时发生的两个趋势，并不能证明其中之一是另一者的原因。该调查覆盖 2000 名高管，美国与德国各占一半。',
 }
