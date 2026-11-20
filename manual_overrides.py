@@ -764,6 +764,12 @@ TITLE_OVERRIDES = {
     'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '特朗普威胁对将 AI 数据中心迁至美国境外的公司征收「巨额税收」',
     'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': 'Körber 调查发现：随着商业决策愈发艰难，AI 的应用正在上升',
     "Google's latest search page redesign drops the search button, adds AI sidebar": 'Google 最新搜索页改版：取消搜索按钮，加入 AI 侧边栏',
+    'AWS Routes HyperPod Inference Across Regions From One Endpoint': 'AWS 通过一个端点跨区域路由 HyperPod 推理请求',
+    'Potential Cognition AI Round Would Raise $2B-Plus at $75B Valuation': 'Cognition AI 拟融资逾 20 亿美元，估值达 750 亿美元',
+    'CrowdStrike Reportedly in Talks to Acquire AI Security Partner Zscaler': '据报道 CrowdStrike 正洽谈收购 AI 安全合作伙伴 Zscaler',
+    'CrowdStrike to acquire cybersecurity startups Fiddler AI, Dreadnode for reported $495M': 'CrowdStrike 拟以约 4.95 亿美元收购网络安全初创公司 Fiddler AI 与 Dreadnode',
+    'CrowdStrike Adds AI Kill Switch to Falcon Guardian for Rogue Agents': 'CrowdStrike 为 Falcon Guardian 新增 AI 终止开关，应对失控智能体',
+    'CrowdStrike Plans Fiddler and Dreadnode Acquisitions for AI Security': 'CrowdStrike 计划收购 Fiddler 与 Dreadnode 以强化 AI 安全',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1529,4 +1535,10 @@ SUMMARY_OVERRIDES = {
     'Trump threatens ‘tremendous tax’ for moving AI data centers outside the US': '唐纳德·特朗普总统承诺，将对在美国境外建设数据中心的公司征收「巨额税收」，与此同时，全美各州和城市正限制新建数据中心的申请。特朗普在与中国国家主席习近平和俄罗斯总统普京会晤后于周五的新闻发布会上表示：「我们不会允许我们的公司在境外建设数据中心。他们任由芯片和其他一切发生这种事，这对我们的国家极具破坏性。这正是我们开始落后的地方。」',
     'Körber Survey Finds AI Use Is Rising as Business Decisions Get Harder': '企业正让 AI 在决策中发挥更大作用，但这并不意味着领导者觉得决策更容易了。在 Körber 发布的一项调查中，76% 的高级决策者表示决策变得更复杂，同样比例的人表示允许 AI 发挥更大作用。这些答案描述的是同时发生的两个趋势，并不能证明其中之一是另一者的原因。该调查覆盖 2000 名高管，美国与德国各占一半。',
     "Google's latest search page redesign drops the search button, adds AI sidebar": 'Google 的旗舰搜索体验正以惊人速度演变为 AI 体验。即使是经久不变的搜索元素也在接受 AI 改造，最新接受改造的是 Google.com 的搜索首页。过去几周一直在测试的重新设计现已正式上线，让用户更容易访问 AI 聊天，并完全取消了专用的搜索按钮。Google 搜索副总裁 Robby Stein 在 X 上证实，Google 在成功测试后正在部署新的桌面搜索页面。该页面现将在搜索栏下方增设几个按钮，全部连接到 AI 功能：一个图像生成按钮、一个用于分析文件，还有一个用于与 Gemini 一起集思广益。「手气不错」按钮得以保留，但过去紧邻它的「Google 搜索」按钮已消失。显然，搜索按钮一直都是 Google 搜索页面的一部分。',
+    'AWS Routes HyperPod Inference Across Regions From One Endpoint': 'AWS 于 2026 年 11 月 20 日推出 Amazon SageMaker HyperPod 全球推理网关（Global Inference Gateway），为客户提供一个统一管理端点，可向单个 AWS 区域或多个区域中已注册的 HyperPod 集群发起推理请求。该服务依据容量、队列长度、远近和错误信号来选择集群，并在某个集群不可用时自动故障转移。此次上线在现有的 SageMaker HyperPod 推理网关之上增加了第二层路由。',
+    'Potential Cognition AI Round Would Raise $2B-Plus at $75B Valuation': '据彭博社 2026 年 11 月 20 日援引知情人士报道（路透社转载），Cognition AI 正在商谈新一轮融资，估值达 750 亿美元，并考虑募集 20 亿美元或更多资金。谈判仍在进行，细节可能生变。报道描述的是潜在融资，而非已完成的投资。Cognition 方面未立即回应路透社的置评请求。',
+    'CrowdStrike Reportedly in Talks to Acquire AI Security Partner Zscaler': '据彭博社 2026 年 11 月 20 日援引知情人士报道（CNBC 转载），CrowdStrike 正就收购 Zscaler 进行持续谈判。消息传出后，Zscaler 股价在盘后交易中上涨 18%，CrowdStrike 股价则下跌逾 8%。目前尚未宣布任何收购协议。CrowdStrike 拒绝就该报道置评，Zscaler 也未立即回应置评请求。',
+    'CrowdStrike to acquire cybersecurity startups Fiddler AI, Dreadnode for reported $495M': 'CrowdStrike Holdings Inc. 今日披露了收购 Fiddler AI Inc. 与 Dreadnode Inc. 的计划，这两家初创公司专注于保护人工智能智能体。该公司在宣布这些交易的同时，还更新了其 Falcon Guardian 产品。《华尔街日报》报道称，CrowdStrike 将为这两笔收购花费 4.95 亿美元。',
+    'CrowdStrike Adds AI Kill Switch to Falcon Guardian for Rogue Agents': 'CrowdStrike 于 2026 年 11 月 3 日宣布为 Falcon Guardian 推出 AI 终止开关（AI Kill Switch），为安全团队提供一种由人工掌控的方式来中断失控的 AI 智能体。该功能随产品上线即可使用，并通过相连的 AI 网关拒绝智能体访问 AI 模型。此次上线针对的是那些能够串联任务、并在端点、云环境和 SaaS 应用中以系统级权限运行的智能体。',
+    'CrowdStrike Plans Fiddler and Dreadnode Acquisitions for AI Security': 'CrowdStrike 于 2026 年 11 月 3 日宣布，拟收购 Fiddler，其技术将成为 Falcon Observe，用于评估和解释 AI 智能体的行为。另一份公告则详述了收购 Dreadnode 的计划，将在系统投入生产之前把自动化 AI 安全测试加入 Falcon 平台。两项公告均发布于 Fal.Con EU 2026，描述的均为拟议中的收购。',
 }
