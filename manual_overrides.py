@@ -726,12 +726,8 @@ TITLE_OVERRIDES = {
     'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '莱文特·阿尔波格未经证实的黎曼猜想主张，让 Claude 的 Lean 代码成为焦点',
     'Anthropic Slides After Debut as AI Stocks Extend Losses': 'Anthropic 上市首日股价下跌，AI 类股票延续跌势',
     'Following the “mathocalypse,” mathematicians consider the future': '「数学末日」之后，数学家们思考未来',
-    'AI Can Scale Security. But Scale What?': 'AI 可以规模化安全能力，但规模化的到底是什么？',
-    'Anthropic goes public, but is it too late to save the AI trade?': 'Anthropic 上市了，但 AI 交易是否已见顶、为时已晚？',
-    'RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only': 'RadixArk 发布 DaisyRose-27B：一款仅用强化学习训练的 27B 智能体编程模型',
-    'BoodleBox Joins Montana’s AI Procurement Program': 'BoodleBox 加入蒙大拿州 AI 采购计划',
-    'Databricks Brings PostgreSQL 19 to Lakebase and Neon': 'Databricks 将 PostgreSQL 19 引入 Lakebase 与 Neon',
-    'Brizy AI 1.9.5 Generates Website Images and Lets Users Rework Individual Sections': 'Brizy AI 1.9.5 生成网站图像，让用户重新编辑单个区块',
+    'The most misunderstood graph in AI just got a major update': 'AI 领域最被误解的图表刚刚迎来重大更新',
+    'Kakao Mobility Signs NVIDIA MOU for Level 4 Autonomous Driving': 'Kakao Mobility 与 NVIDIA 签署 L4 级自动驾驶谅解备忘录',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1459,10 +1455,6 @@ SUMMARY_OVERRIDES = {
     'Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others': '彭博新闻社对 1000 万份招聘信息的分析显示，AI 正在加剧中国本已疲软的劳动力市场。入门级从业者与创意产业受到的影响最为明显——目前超过 90% 的中国微短剧已使用 AI 制作。前央行顾问蔡昉警告称，AI 带来的更大冲击仍将到来。',
     'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '2026 年 11 月 20 日，莱文特·阿尔波格表示，他认为自己与 Claude 发现了黎曼猜想的证明，以及解决广义黎曼猜想的方法。Anthropic 的数学家发布了一份个人声明，附上相关 Lean 代码链接，但并未给出对这一完整论证的独立验证。阿尔波格也是哈佛大学学会的会员。',
     'Anthropic Slides After Debut as AI Stocks Extend Losses': '据路透社 2026 年 11 月 20 日报道，Anthropic 股价在纳斯达克上市后回落，拖累美股低开：纳斯达克综合指数开盘下跌 286.5 点（1.20%），报 23592.669 点；标普 500 指数下跌 25.4 点（0.35%），报 7150.39 点；道琼斯工业平均指数下跌 25.2 点（0.05%），报 49071.82 点。Anthropic 最新价报 88.24 美元，较 11 月 19 日收盘价低约 9%。大型科技股普跌表明，这次上市几乎未能扭转更广泛的市场抛售。',
-    'AI Can Scale Security. But Scale What?': '如今企业安全团队面临的活动、遥测数据与告警数量，远超其人工调查的实际能力。各方估计不一，一些研究表明，平均每个安全运营团队每天会收到 4,400 多条告警。随着组织扩张、工具增多，AI 也让更多攻击成为可能，这一数字势必继续增长。',
-    'Anthropic goes public, but is it too late to save the AI trade?': 'Anthropic 周四完成了首次公开募股（IPO），但这是否预示着 AI 交易已经见顶？',
-    'RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only': '本周，RadixArk 发布了其首个开放权重模型 DaisyRose-27B。DaisyRose-27B 是 RadixArk 的智能体编程模型，基于 Qwen3.8-27B 通过强化学习（RL）进行后训练。模型卡页面称其仅使用 RL，未采用监督微调（SFT）或蒸馏，并以 Apache 2.0 许可发布，可作为基础模型的直接替代品。主要结果：Terminal Bench 4.1 的 pass@1 从 5.6 提升至 12.0。可通过 GPULeaderboard.com 的 Chrome 扩展查看部署选项与规格。规格速览：27.8B 稠密参数（0.46B 视觉编码器、0.42B MTP 头），262,144 token 上下文，单张 GPU 即可运行；BF16 约 52 GB、FP8 约 29 GB、NVFP4 约 23 GB（仅 Blackwell 支持）。目标平台包括 H200、B200、GB300、RTX PRO 6000、RTX 5090、DGX Spark，也提供 GGUF 版本。性能方面，在全部 7 项公布的基准测试中均击败其 Qwen3.8-27B 基础模型。',
-    'BoodleBox Joins Montana’s AI Procurement Program': 'BoodleBox 表示，蒙大拿州已批准其成为该州「AI 产品与服务主采购计划」的供应商。该入选为符合条件的机构、学院和大学提供了一条采购这款协作式 AI 工作空间的途径。但这并不意味着这些机构已经下单、部署该产品，或同意在全州范围内使用。',
-    'Databricks Brings PostgreSQL 19 to Lakebase and Neon': 'Databricks 已将 PostgreSQL 19 引入 Lakebase 和 Neon，让团队能够在托管基础设施上试用这一开源数据库的新维护、查询规划与复制工具。Databricks 称，PostgreSQL 项目发布新版本的当天，这两项服务就已提供支持。PostgreSQL 官方公告显示，社区版发布于 2026 年 11 月 19 日。',
-    'Brizy AI 1.9.5 Generates Website Images and Lets Users Rework Individual Sections': 'Brizy 发布了其 AI 网站构建器的 1.9.5 版本，在 AI 生成工作流中以生成的图像取代 Unsplash 库存照片。该更新还改变了构建器组装页面的方式：Brizy 表示现在可根据提示生成单个区块，而不必依赖页面设计的现成模板块。这些改动让用户能在不丢弃已有可用草稿的情况下，仅修改网站的某一部分。',
+    'The most misunderstood graph in AI just got a major update': 'AI 评估非营利组织 METR 发布的新报告发现，部分 AI 能力仍在沿指数级轨迹持续提升——但报告也指出，模型在需要判断力的任务上，表现并不像在编程任务上那么出色。这份报告是对该机构「时间跨度图」（time horizon plot）的更新版本；由于所采用衡量指标十分复杂，该图此前被广泛传播，也被广泛误解。METR 通过让模型尝试大量任务来开展评估，其中每项任务也都由人类完成过。每项任务的难度以人类测试者完成任务所需的时间来评分，随后按模型能够完成的任务时长对模型进行评级。该图显示，AI 系统正在快速进步：前沿模型能够成功完成的任务时长，每四个月翻一番。',
+    'Kakao Mobility Signs NVIDIA MOU for Level 4 Autonomous Driving': 'Kakao Mobility 于 2026 年 11 月 9 日宣布，已与 NVIDIA 签署谅解备忘录，双方将共同开发 L4 级自动驾驶技术，初期在起亚（Kia）专用车辆（PBV）上整合各自系统。该合作把 Kakao Mobility 的自动驾驶 AI 与出行平台，同 NVIDIA 的计算、传感与安全技术相结合。',
 }
