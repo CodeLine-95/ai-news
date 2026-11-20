@@ -722,6 +722,10 @@ TITLE_OVERRIDES = {
     'The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are': 'AI 安全辩论已偏离主题：我们询问了 10 位专家真正的噩梦是什么',
     'MIT-led team receives funding to develop next-generation alternatives to modern weed killers': '麻省理工学院团队获资助，研发现代除草剂的下一代替代品',
     'Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents': '科学迈入智能体时代，伊恩·巴克拉开 NVIDIA 在 SC26 活动周序幕',
+    'Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others': '彭博社对 1000 万份招聘信息的分析显示，中国受 AI 影响的岗位下降速度比其他岗位快 10 个百分点',
+    'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '莱文特·阿尔波格未经证实的黎曼猜想主张，让 Claude 的 Lean 代码成为焦点',
+    'Anthropic Slides After Debut as AI Stocks Extend Losses': 'Anthropic 上市首日股价下跌，AI 类股票延续跌势',
+    'Following the “mathocalypse,” mathematicians consider the future': '「数学末日」之后，数学家们思考未来',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1446,4 +1450,7 @@ SUMMARY_OVERRIDES = {
     'Apple starts giving Siri AI access to third-party apps': '苹果现在将允许 Siri AI 在第三方应用中执行操作。作为周二推出的 iOS 27.3 更新的一部分，苹果宣布开发者如今可将 Siri AI 的新功能集成到「所有应用」中，使语音助手能够调用用户的个人情境、处理自然语言提示，并借助屏幕感知来完成请求。该更新还作为开发者预览的一部分，新增了「应用技能」功能，第三方开发者可借此将多项任务整合为一个操作。',
     'Apple Opens U.S. Study of Trust in Conversational Health AI': '苹果于 2026 年 11 月 15 日宣布在美国启动「苹果健康 AI 使用研究」，这是一项与 OpenEvidence 合作开展的线上研究项目，面向最多 20 万名参与者开放。研究将考察人们使用对话式健康 AI 时的信任度、回答质量、理解程度及日常健康行动。此次启动属于研究计划，而非诊断产品发布。苹果表示，研究结果旨在指导其自身及其他公司如何负责任地设计健康 AI。',
     'Following the “mathocalypse,” mathematicians consider the future': '对数学界而言，这是动荡的一年。困扰数学家数十年的重大开放问题，如今被 AI 智能体在几小时内解决——各公司部署数以千计的智能体，不知疲倦地协同攻克同一难题。AI 的迅猛崛起给这一领域带来了根本性问题：这些工具将如何影响人类对数学概念的理解？面对 AI 的蛮力式生产力，数学家是否还有立足之地？这对作为知识追求的数学又意味着什么？',
+    'Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others': '彭博新闻社对 1000 万份招聘信息的分析显示，AI 正在加剧中国本已疲软的劳动力市场。入门级从业者与创意产业受到的影响最为明显——目前超过 90% 的中国微短剧已使用 AI 制作。前央行顾问蔡昉警告称，AI 带来的更大冲击仍将到来。',
+    'Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus': '2026 年 11 月 20 日，莱文特·阿尔波格表示，他认为自己与 Claude 发现了黎曼猜想的证明，以及解决广义黎曼猜想的方法。Anthropic 的数学家发布了一份个人声明，附上相关 Lean 代码链接，但并未给出对这一完整论证的独立验证。阿尔波格也是哈佛大学学会的会员。',
+    'Anthropic Slides After Debut as AI Stocks Extend Losses': '据路透社 2026 年 11 月 20 日报道，Anthropic 股价在纳斯达克上市后回落，拖累美股低开：纳斯达克综合指数开盘下跌 286.5 点（1.20%），报 23592.669 点；标普 500 指数下跌 25.4 点（0.35%），报 7150.39 点；道琼斯工业平均指数下跌 25.2 点（0.05%），报 49071.82 点。Anthropic 最新价报 88.24 美元，较 11 月 19 日收盘价低约 9%。大型科技股普跌表明，这次上市几乎未能扭转更广泛的市场抛售。',
 }
