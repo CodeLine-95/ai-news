@@ -658,6 +658,9 @@ TITLE_OVERRIDES = {
     'Anthropic IPO Expected to Price Above Preliminary Range': 'Anthropic IPO 预计定价高于初步区间',
     'Anthropic IPO Could Raise $64 Billion as Orders Reach Six Times': 'Anthropic IPO 或募资 640 亿美元，认购订单达六倍',
     'Anthropic IPO Valuation Expectations Fall After Technology Selloff': '科技股抛售后，Anthropic IPO 估值预期下调',
+    'Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises': '沃尔玛上调全年业绩展望，AI 购物助手 Sparky 使用量飙升 129%',
+    'Apple may be developing its own AI agent that runs your Mac': '苹果或正研发可操控用户 Mac 的自家 AI 智能体',
+    'Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO': 'Anthropic 7 位创始人在创纪录 IPO 中套现近 20 亿美元',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1318,4 +1321,7 @@ SUMMARY_OVERRIDES = {
     'Anthropic IPO Expected to Price Above Preliminary Range': '2026 年 11 月 17 日，CNBC 的 David Faber 援引多个消息来源报道称，Anthropic 很可能将其首次公开募股（IPO）定价高于每股 70 至 78 美元的初步区间。这一预期出现在该公司计划于纳斯达克上市之前，并非最终定价决定。消息人士称，Anthropic 计划于 11 月 17 日美东时间下午 4 点结束簿记并锁定总需求。他们要求匿名，因为无权公开发表言论。结束簿记确定了可用于定价的需求情况，但最终定价仍由另行决定。',
     'Anthropic IPO Could Raise $64 Billion as Orders Reach Six Times': '路透社 2026 年 11 月 13 日报道，Anthropic 的首次公开募股在路演第三天已获六倍超额认购，投资者正评估 Claude 能否抵御来自 Google 等竞争对手的挑战。熟悉此次发行的人士称，路演首日结束时订单量约为可售股份的两倍，两天后簿记获六倍超额认购，机构投资者的兴趣超过了 SpaceX 路演初期的水平。',
     'Anthropic IPO Valuation Expectations Fall After Technology Selloff': 'CNBC 2026 年 11 月 6 日报道称，在科技股抛售后，部分 Anthropic 投资者正在下调估值预期，其中一家认为更可能的区间为 1 万亿至 1.25 万亿美元。Anthropic 仍预计在 2026 年 11 月 9 日当周启动 IPO 路演。该区间低于某投资者称为「偏高」的 1.5 万亿美元估值，也低于 Anthropic 近期 2 万亿美元的目标。这一估计可能随市场状况变化。',
+    'Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises': '沃尔玛在 2026 年 11 月 19 日第三季度营收增长 5.2% 至 1888 亿美元后，上调了全年销售与利润展望。这家零售商在财报电话会上表示，其 AI 购物助手 Sparky 在美国的用量同比增长 129%，不过受投资结果由盈转亏影响，GAAP 每股收益降至 0.62 美元。首席执行官约翰·弗纳（John Furner）表示，随着顾客发现更多商品，与 Sparky 相关的购物篮金额增长了 40%，Sparky 也在持续增加功能并拓展市场。',
+    'Apple may be developing its own AI agent that runs your Mac': '这家 iPhone 制造商似乎正在打造能够与 Meta Muse、Instinct、Claude 和 OpenAI Dots 等产品竞争的 AI 智能体。',
+    'Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO': '在上调至每股 83 美元的 IPO 定价下，Anthropic 的七位创始人每人套现约 2.8 亿美元，而公司本身则募得近 1050 亿美元。',
 }
