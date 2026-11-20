@@ -673,6 +673,8 @@ TITLE_OVERRIDES = {
     'AWS Releases a Free Local Emulator of AWS Built Entirely by Agents': 'AWS 发布完全由智能体构建的免费 AWS 本地模拟器',
     'This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’': '这名 16 岁少年创办了一家 AI 导弹初创公司，主打「单次杀伤成本」',
     'Fidelity Sets Retail Participation Terms for Anthropic’s Planned IPO': '富达（Fidelity）为 Anthropic 计划中的 IPO 设定散户参与条款',
+    'Asian Markets Slide as Anthropic’s Debut Fails to Lift AI Stocks': 'Anthropic 上市首日未能提振 AI 股票，亚洲市场下滑',
+
 }
 
 SUMMARY_OVERRIDES = {
@@ -1347,4 +1349,6 @@ SUMMARY_OVERRIDES = {
     'Apple Job Listing Points to Early Development of a Mac AI Agent': '彭博社 2026 年 11 月 19 日报道，据 TechCrunch 转述，苹果近期一则招聘信息描述了一款能够操作 Mac 的内部 AI 智能体。该职位为高级工程经理，负责监督该项目。报道称开发仍处于早期阶段，并表示苹果曾考虑最快于 2027 年底推出该服务——但这是据报道的可能性，而非已宣布的发布承诺。',
     'AWS Releases a Free Local Emulator of AWS Built Entirely by Agents': 'AWS 发布了 AWS Emulator——一款免费、采用 CC0 许可的本地替代方案，可模拟其 200 多项服务，由公开 API 模型生成，面向编码智能体的测试循环。AWS 称全部代码均由智能体编写和维护，并随每个版本发布保真度评分。文档说明它不评估 IAM（身份与访问管理），从业者对于是否信任一个无人审查的模拟器看法不一。',
     'This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’': 'Henrijs Dandzbergs 从高中辍学，加入创业加速器 Y Combinator。他希望凭借一种新型导弹，让美国及其军事盟友尽可能高效地实现「杀伤」——把每一发弹药的成本压到最低。',
+    'Asian Markets Slide as Anthropic’s Debut Fails to Lift AI Stocks': '据路透社报道，2026 年 11 月 20 日，MSCI 除日本外最广泛的亚太指数下跌 3.3%，亚洲股市或将迎来自 2020 年以来最糟糕的一周。此前 Anthropic 在纳斯达克上市首日未能提振市场对更广泛 AI 交易的信心。路透社称，此举使该基准指数的周跌幅扩大至 8.5%，为 2020 年 3 月新冠疫情全球蔓延以来最差的单周表现。亚洲市场普遍大幅下挫：日本日经指数下跌 5%，周跌幅达 7.7%。',
+
 }
