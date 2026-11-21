@@ -1,8 +1,9 @@
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
 
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
+const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1116_1900';
+const STAMP = 'deliverable_1121_1900';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -32,7 +33,7 @@ async function checkStyles(page) {
   });
 }
 
-async function shoot(pw, name, opts) {
+async function shoot(pw, url, name, opts) {
   const browser = await pw.launch({ args: ['--no-sandbox'] });
   const ctx = await browser.newContext({
     viewport: { width: 1440, height: 1100 },
@@ -41,7 +42,7 @@ async function shoot(pw, name, opts) {
     colorScheme: opts.colorScheme || 'light',
   });
   const page = await ctx.newPage();
-  await page.goto(LOCAL, { waitUntil: 'networkidle', timeout: 90000 });
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
   await page.waitForTimeout(2000);
   if (opts.theme) {
@@ -61,10 +62,14 @@ async function shoot(pw, name, opts) {
 }
 
 (async () => {
+  const fs = require('fs');
+  if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const r = {};
-  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' });
-  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' });
-  r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' });
-  r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' });
+  r.light = await shoot(chromium, LOCAL, 'light', { theme: 'light', colorScheme: 'light' });
+  r.dark = await shoot(chromium, LOCAL, 'dark', { theme: 'dark', colorScheme: 'dark' });
+  r.auto = await shoot(chromium, LOCAL, 'auto', { theme: 'auto', colorScheme: 'dark' });
+  r.en = await shoot(chromium, LOCAL, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' });
+  r.online = await shoot(chromium, ONLINE, 'online', { colorScheme: 'light' });
+  fs.writeFileSync(`${OUT}/${STAMP}_checks.json`, JSON.stringify(r, null, 2));
   console.log('\nDONE', JSON.stringify(r));
-})();
+})().catch(e => { console.error('ERR', e); process.exit(1); });

@@ -1,0 +1,31 @@
+{
+  "entry_before_rules": 0,
+  "entry_before_content": "none",
+  "metrics_padding": [
+    "0px",
+    "0px",
+    "0px",
+    "0px"
+  ],
+  "metrics_padding_all_zero": true,
+  "sync_buttons": [],
+  "entries": 2462,
+  "themes": {
+    "light": "light",
+    "dark": "dark",
+    "auto": "dark(system dark)"
+  },
+  "online_local_in_sync": true,
+  "coverage": "100%(2462/2462)",
+  "this_cycle_added": 5,
+  "quality_gate": {
+    "untranslated": 0,
+    "empty_title_zh": 0,
+    "empty_summary_zh": 0,
+    "cyrillic_mix": 0,
+    "dup_ids": 0,
+    "date_format_error": 0,
+    "timestamp_format_error": 0
+  },
+  "git_commit": "6878e72"
+}

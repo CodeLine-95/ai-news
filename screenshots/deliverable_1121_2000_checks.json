@@ -1,0 +1,122 @@
+{
+  "light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "light",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  },
+  "dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "dark",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  },
+  "auto_light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "light",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  },
+  "auto_dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "dark",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  },
+  "en": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "light",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  },
+  "online": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2531,
+    "data_theme": "light",
+    "theme_buttons": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "readout": "\n          视图\n          \n            中文译文\n            英文原文\n          \n        "
+  }
+}

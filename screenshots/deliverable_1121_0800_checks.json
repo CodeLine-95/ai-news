@@ -1,0 +1,117 @@
+{
+  "light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2532,
+    "themes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "views": [
+      "zh",
+      "en"
+    ],
+    "data_theme": "light"
+  },
+  "dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2532,
+    "themes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "views": [
+      "zh",
+      "en"
+    ],
+    "data_theme": "dark"
+  },
+  "auto": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2532,
+    "themes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "views": [
+      "zh",
+      "en"
+    ],
+    "data_theme": "dark"
+  },
+  "en": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2532,
+    "themes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "views": [
+      "zh",
+      "en"
+    ],
+    "data_theme": "light"
+  },
+  "online": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2532,
+    "themes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "views": [
+      "zh",
+      "en"
+    ],
+    "data_theme": "light"
+  }
+}
