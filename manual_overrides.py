@@ -811,6 +811,10 @@ TITLE_OVERRIDES = {
     'The Inference Economics Scorecard Challenges GPU Utilization as an AI Performance Metric': '「推理经济学记分卡」挑战以 GPU 利用率作为 AI 性能指标',
     "The UN fails to agree on rules regulating 'killer robots'": '联合国未能就规范「杀手机器人」的规则达成一致',
     'The UN fails to agree on rules regulating ‘killer robots’': '联合国未能就规范「杀手机器人」的规则达成一致',
+    'Sovereignty starts with data, not chips, says Stuttgart AI factory chief': '斯图加特 AI 工厂负责人：主权始于数据，而非芯片',
+    'Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance': 'Signal 限制移动端截图，因其直面 AI 监控这一「生存威胁」',
+    'Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof': 'Lean 与 Mathlib 社区认证 Claude 辅助完成的黎曼猜想证明',
+    'A tale of two Nvidias': '两个英伟达的故事',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1622,4 +1626,8 @@ SUMMARY_OVERRIDES = {
     'Rack-scale AI: How Dell and AMD are building infrastructure': '戴尔科技及其合作伙伴超威半导体（AMD）面临相似的竞争压力。这两家科技巨头所处的商业环境中，成功的衡量标准如今已扩展到中央处理器、图形处理器、机架级系统、内存容量、网络带宽以及每美元所能获得的 token 数。',
     'The UN fails to agree on rules regulating ‘killer robots’': '本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。',
     "The UN fails to agree on rules regulating 'killer robots'": '本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。',
+    'Sovereignty starts with data, not chips, says Stuttgart AI factory chief': '一座主权 AI 工厂的价值，取决于真正能用它做事的企业。在全欧洲，由公共资金支持的 AI 工厂正争相为初创企业和小型制造商提供超级计算机级 GPU，同时避免把它们推入供应商锁定或松散的数据处理。',
+    'Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance': 'Signal 正在限制用户在 Android 与 iOS 应用中截取屏幕的能力。',
+    'Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof': 'Lean 与 Mathlib 社区于 2026 年 11 月 21 日确认：经过一整天的编译、命题匹配与证明内核校验，Levent Alpöge 的 1700 万行 Lean 代码库正确表述并证明了黎曼猜想。双方的联合声明获得 Lean FRO 与 Mathlib 倡议组织背书。此次认证源自 Alpöge 于 2026 年 11 月 20 日宣布的成果——他表示自己是在与 Claude 协作的过程中发现并形式化了这一证明。',
+    'A tale of two Nvidias': '关于英伟达，我们看到了两幅截然不同的图景——公司最新发布的财报，与那些高声呼吁黄仁勋（Jensen Huang）回归的科技高管。',
 }
