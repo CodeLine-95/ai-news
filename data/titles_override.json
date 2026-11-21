@@ -773,5 +773,7 @@
   "llm-gemini 0.36": "llm-gemini 0.36",
   "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model": "字节跳动认为大多数 AI 训练阶段并无必要，并以一款有竞争力的开放模型予以佐证",
   "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop": "新型开放模型 Inkling 2 Mini 以「循环思考」用更少文字解题，且仍可在笔记本电脑上运行",
-  "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up": "随着 AI 疑虑不断累积，美国科技股遭遇自疫情以来最严重的单周亏损"
+  "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up": "随着 AI 疑虑不断累积，美国科技股遭遇自疫情以来最严重的单周亏损",
+  "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft": "Anthropic 声称用 Claude 证明黎曼假设数小时后，斯坦福发布了一份完全由人类完成的竞争性证明草稿",
+  "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade": "2026 年面向 MCP、A2A 与 LLM 流量的 13 款最佳智能体网关：Kong、Bifrost、AgentCore、Arcade"
 }
