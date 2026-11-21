@@ -781,6 +781,8 @@ TITLE_OVERRIDES = {
     'Rafay Adds Confidential AI Orchestration for Kubernetes Pods': 'Rafay 为 Kubernetes Pod 新增机密 AI 编排能力',
     'Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index': 'Baseten 发布 Bison-1 与 Groundhog-1，登顶决策模型指数',
     'Baseten Extends Decision Models to 128K Context and Image Input': 'Baseten 将决策模型扩展至 128K 上下文与图像输入',
+    'llm-gemini 0.37': 'llm-gemini 0.37',
+    'llm-gemini 0.36': 'llm-gemini 0.36',
 }
 
 SUMMARY_OVERRIDES = {
