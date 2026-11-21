@@ -791,7 +791,10 @@ TITLE_OVERRIDES = {
     'Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac': 'Thinking Machines 发布 Inkling 2 Mini：260 亿参数循环 MoE，可在 32GB Mac 上运行',
     'The Outages Are Just Getting Started': '服务中断才刚刚开始',
     'OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min': 'OpenAI 推出面向语音智能体的 GPT-Live-1.1，将闲置成本降至每分钟 0.02 美元',
-
+    'Anthropic Shares Drop 8.5% in Second Session During AI Selloff': 'AI 抛售潮中 Anthropic 股价第二个交易日下跌 8.5%',
+    'OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions': 'OpenAI 分享新提示技巧：修复 GPT-6.2 Astra 与 Sol 回答过短、追问过多的问题',
+    'Chess.com’s next move is a new hub for classic games, from mahjong to sudoku': 'Chess.com 下一步推出经典游戏新平台：从麻将到数独',
+    'AI Governance in 2027: Accountability Moves Into the Workflow': '2027 年 AI 治理：问责机制进入工作流',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1582,5 +1585,8 @@ SUMMARY_OVERRIDES = {
     'Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac': 'Thinking Machines Lab 发布了 Inkling 2 Mini——一款开放权重的循环 Transformer，总参数 264 亿。该模型对每个 token 重复使用其中间层 3 次，而非堆叠更多权重，使检查点体积控制在约 20GB，足以在 32GB 内存的 Mac 或单台 NVIDIA DGX Spark 上运行。对开发者而言，Inkling 2 Mini 是本地运行智能体编程、工具调用与文档处理任务的选项。模型以 Apache 2.0 许可证在 Hugging Face 上开放，并在 Tinker 平台提供托管推理与微调。要点速览——规模：总参数 264 亿、激活参数 34 亿（结合循环后每 token 有效参数 54 亿），上下文最高 100 万 token。运行硬件：32GB 及以上内存的 Apple 芯片、单台 NVIDIA DGX Spark，或 32GB 以上显存的 GPU。GGUF 构建由 Unsloth 与 llama.cpp 提供。性能：在 Artificial Analysis 指数上得分 20.1，与 Qwen3.8-27B 持平（自报数据）；最佳成绩为 SWE-bench Verified（仅 bash）79.2%。',
     'The Outages Are Just Getting Started': '人工智能正迫使企业更快地修补系统，因为攻击者正争相利用新发现的漏洞。欢迎来到互联网大面积中断的地狱。',
     'OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min': 'OpenAI 已在 API 中提供 GPT-Live-1.1，模型 ID 为 gpt-live-1.1。GPT-Live-1.1 是一款面向多语言对话的全双工语音模型，可以边说边听。OpenAI 团队表示，它在各种语言中的口音更自然、更一致，任务完成也更可靠。此次发布还新增了待机（standby）计费状态，针对会话闲置时段收费更低；对运行语音智能体的团队而言，通话中的等待时间成本由此降低。要点速览——规模：实时会话默认上下文窗口为 128,000 token。运行方式：仅限 OpenAI 云端，通过 v1/live/sessions 接入，客户端以 WebRTC 或 WebSocket 连接，不开放权重、无量化版本。性能：OpenAI 称其在口音、转录、字母与数字处理以及任务完成方面均优于 GPT-Live-1。',
-
+    'Anthropic Shares Drop 8.5% in Second Session During AI Selloff': 'CNBC 于 2026 年 11 月 21 日报道，Anthropic 股价在 2026 年 11 月 20 日的第二个交易日收于 88.91 美元，下跌 8.5%，此前纳斯达克综合指数单周下跌 10%，创下自 2020 年新冠疫情初期市场动荡以来最糟的一周。这一收盘价使这家 Claude 开发商的完全稀释市值达到 1.6 万亿美元，仅落后于六家美国公司。纳斯达克官方历史报价显示，Anthropic 在 2026 年 11 月 19 日上市首日开盘 111.50 美元、收盘 97.17 美元，较发行价上涨 17%。次日股价在 83.05 至 92.56 美元之间交易，回吐了首日的大部分涨幅。',
+    'OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions': 'OpenAI 发布了针对 GPT-6.2 Astra 与 Sol 的新提示模板，旨在修正模型的常见行为问题，例如回答过于简短、不必要的后续追问，以及编码时过度测试。API 也在调整：编辑对话历史可能丢弃推理内容，从而降低响应质量。',
+    'Chess.com’s next move is a new hub for classic games, from mahjong to sudoku': 'Chess.com 的下一步将远远超出国际象棋。继今年早些时候推出无赌博扑克网站 Gambit 后，该公司现新增 10 款游戏：双陆棋、跳棋、围棋、红心大战、麻将、将棋、数独、纸牌、象棋，以及一款名为 Word 的 Scrabble 替代品。它们都属于 Chess.com 全新的「经典游戏」平台，将于周六以公开测试形式在网页端及 iOS、Android 新应用上线。联合创始人称，常有人向他们提到自己周三晚上办麻将局，或在芝加哥一家酒吧和几个人一起下围棋，却缺少一个类似 Chess.com 的线上平台。',
+    'AI Governance in 2027: Accountability Moves Into the Workflow': '一个人收到一项自己无法理解的自动化决策，于是申请复核。组织内部某项政策指定了一位负责任的负责人，但支持团队找不到任何有权更改结果的人。治理停留在纸面上，当事人依旧陷入困境。到 2027 年，这一落差将越来越难以辩解。',
 }
