@@ -770,6 +770,9 @@ TITLE_OVERRIDES = {
     'CrowdStrike to acquire cybersecurity startups Fiddler AI, Dreadnode for reported $495M': 'CrowdStrike 拟以约 4.95 亿美元收购网络安全初创公司 Fiddler AI 与 Dreadnode',
     'CrowdStrike Adds AI Kill Switch to Falcon Guardian for Rogue Agents': 'CrowdStrike 为 Falcon Guardian 新增 AI 终止开关，应对失控智能体',
     'CrowdStrike Plans Fiddler and Dreadnode Acquisitions for AI Security': 'CrowdStrike 计划收购 Fiddler 与 Dreadnode 以强化 AI 安全',
+    'Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop': '警方正借《侠盗猎车手 6》玩极其老套的梗',
+    'Anysphere Weighs Moving Cursor Away From Chinese Open-Weight Models': 'Anysphere 考虑让 Cursor 逐步弃用中国开发的开放权重模型',
+    'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 为 SageMaker HyperPod Slurm 新增托管集群扩展',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1541,4 +1544,7 @@ SUMMARY_OVERRIDES = {
     'CrowdStrike to acquire cybersecurity startups Fiddler AI, Dreadnode for reported $495M': 'CrowdStrike Holdings Inc. 今日披露了收购 Fiddler AI Inc. 与 Dreadnode Inc. 的计划，这两家初创公司专注于保护人工智能智能体。该公司在宣布这些交易的同时，还更新了其 Falcon Guardian 产品。《华尔街日报》报道称，CrowdStrike 将为这两笔收购花费 4.95 亿美元。',
     'CrowdStrike Adds AI Kill Switch to Falcon Guardian for Rogue Agents': 'CrowdStrike 于 2026 年 11 月 3 日宣布为 Falcon Guardian 推出 AI 终止开关（AI Kill Switch），为安全团队提供一种由人工掌控的方式来中断失控的 AI 智能体。该功能随产品上线即可使用，并通过相连的 AI 网关拒绝智能体访问 AI 模型。此次上线针对的是那些能够串联任务、并在端点、云环境和 SaaS 应用中以系统级权限运行的智能体。',
     'CrowdStrike Plans Fiddler and Dreadnode Acquisitions for AI Security': 'CrowdStrike 于 2026 年 11 月 3 日宣布，拟收购 Fiddler，其技术将成为 Falcon Observe，用于评估和解释 AI 智能体的行为。另一份公告则详述了收购 Dreadnode 的计划，将在系统投入生产之前把自动化 AI 安全测试加入 Falcon 平台。两项公告均发布于 Fal.Con EU 2026，描述的均为拟议中的收购。',
+    'Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop': '这款大热游戏毫不掩饰对执法部门的嘲讽。现实中的警察部门却用它来招募新警员、训诫公众，显然没人把这层意思告诉他们。',
+    'Anysphere Weighs Moving Cursor Away From Chinese Open-Weight Models': '根据 2026 年 11 月 20 日发布的一份国会联合报告，Cursor AI 编程平台的开发商 Anysphere 告诉众议院调查人员，出于地缘政治风险，公司正考虑探索逐步淘汰中国开发的开放权重 AI 模型。披露的内容属于探索性计划，并非已完成淘汰；两个委员会也未说明最终决定或时间表。',
+    'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 于 2026 年 11 月 20 日为 Amazon SageMaker HyperPod Slurm 推出托管集群扩展，通过 API 或 SageMaker AI 控制台以声明式配置为运行中的节点部署软件。首批两项扩展分别覆盖可观测性与用户管理（含目录集成）。此次上线解决了共享 AI 训练集群在配置完成后仍需变更软件的部分。',
 }
