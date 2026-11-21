@@ -797,6 +797,12 @@ TITLE_OVERRIDES = {
     'AI Governance in 2027: Accountability Moves Into the Workflow': '2027 年 AI 治理：问责机制进入工作流',
     'Sovereign AI: Where control becomes an architectural requirement': '主权 AI：控制权成为一项架构要求',
     'Can Anthropic afford to put safety first?': 'Anthropic 负担得起把安全放在第一位吗？',
+    'llm-gemini 0.38.1': 'llm-gemini 0.38.1 发布：Gemini 4 Hydrogen/Neon 新增 xhigh 推理档',
+    'Is selling an AI version of your face to this microdrama startup the future of Hollywood?': '把你的脸的 AI 版本卖给这家微短剧创业公司，是好莱坞的未来吗？',
+    "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion": '硅谷对 AI 末日的日益痴迷，正让科技行业的部分角落走向邪教式的狂热',
+    'Nvidia researchers argue huge AI context windows are a dead end': '英伟达研究人员认为，超大的 AI 上下文窗口是一条死胡同',
+    'Here are the top AI agents that can live in your text messages': '以下是可以「住进」你短信里的顶级 AI 智能体',
+    'Inference now drives two-thirds of AI workloads, changing where chips get deployed': '推理现已成为三分之二的 AI 工作负载，正在改变芯片的部署位置',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1591,4 +1597,10 @@ SUMMARY_OVERRIDES = {
     'OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions': 'OpenAI 发布了针对 GPT-6.2 Astra 与 Sol 的新提示模板，旨在修正模型的常见行为问题，例如回答过于简短、不必要的后续追问，以及编码时过度测试。API 也在调整：编辑对话历史可能丢弃推理内容，从而降低响应质量。',
     'Chess.com’s next move is a new hub for classic games, from mahjong to sudoku': 'Chess.com 的下一步将远远超出国际象棋。继今年早些时候推出无赌博扑克网站 Gambit 后，该公司现新增 10 款游戏：双陆棋、跳棋、围棋、红心大战、麻将、将棋、数独、纸牌、象棋，以及一款名为 Word 的 Scrabble 替代品。它们都属于 Chess.com 全新的「经典游戏」平台，将于周六以公开测试形式在网页端及 iOS、Android 新应用上线。联合创始人称，常有人向他们提到自己周三晚上办麻将局，或在芝加哥一家酒吧和几个人一起下围棋，却缺少一个类似 Chess.com 的线上平台。',
     'AI Governance in 2027: Accountability Moves Into the Workflow': '一个人收到一项自己无法理解的自动化决策，于是申请复核。组织内部某项政策指定了一位负责任的负责人，但支持团队找不到任何有权更改结果的人。治理停留在纸面上，当事人依旧陷入困境。到 2027 年，这一落差将越来越难以辩解。',
+    'llm-gemini 0.38.1': '发布：llm-gemini 0.38.1。Gemini 4 Carbon 只支持 low、medium、high 三档推理级别，但 Gemini 4 Hydrogen 和 Gemini 4 Neon 都额外提供了一档 xhigh。我之前把这两款模型加入 llm-gemini 插件时漏掉了这一档，这个修订版本已经修复。Hydrogen 上的 xhigh 设置效果显著——我更新了 Gemini 4 对比表：Hydrogen 在 high 档下输出 5,311 个 token、花费 3.99 美分；同一模型切到 xhigh 后输出 31,477 个 token、花费 23 美分。',
+    'Is selling an AI version of your face to this microdrama startup the future of Hollywood?': '一名演员已将自己的面部授权给一家微短剧创业公司——这在中国已是流行趋势。专家质疑，若这一做法在好莱坞也成为风潮，长期来看会带来怎样的后果。',
+    "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion": '佛蒙特州一座名为 Maple 的佛教寺院希望确立自己作为硅谷精神权威的地位，同时创造自己的 AI 之神。据《纽约客》报道，领袖 Soryu Forall 的团体记录成员每一次呼吸，用以按他的形象训练一个 AI。前成员讲述了操纵与精神崩溃的经历。',
+    'Nvidia researchers argue huge AI context windows are a dead end': '英伟达研究人员认为，语言模型往往并不需要完整的上下文窗口——它速度慢、成本高且容易出错——并提出一种替代方案。在测试中，定期摘要与针对性关键词搜索通常能以极低的成本达到与全上下文相当的效果。团队甚至提出了一类新模型：用简短笔记代替长上下文来工作。',
+    'Here are the top AI agents that can live in your text messages': '我们整理了一份最值得关注的 AI 智能体清单，它们可以运行在你的短信应用中，从通用助手到专为家庭、旅行和工作设计的智能体不一而足。',
+    'Inference now drives two-thirds of AI workloads, changing where chips get deployed': 'AI 支出正从大型训练集群转向规模更小、建设更快的站点，模块化数据中心正成为推理工作负载的天然归宿。如今，电力、散热与内存供应对 token 生成地点的影响，已不亚于原始芯片性能。以推理为核心的芯片厂商希望抓住这一转变。Positron AI Inc.',
 }
