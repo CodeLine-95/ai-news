@@ -773,6 +773,8 @@ TITLE_OVERRIDES = {
     'Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop': '警方正借《侠盗猎车手 6》玩极其老套的梗',
     'Anysphere Weighs Moving Cursor Away From Chinese Open-Weight Models': 'Anysphere 考虑让 Cursor 逐步弃用中国开发的开放权重模型',
     'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 为 SageMaker HyperPod Slurm 新增托管集群扩展',
+    'Oracle Says Funding for OpenAI Infrastructure Contract Is Secured': 'Oracle 称 OpenAI 基础设施合同资金已落实',
+    'Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium': '你可能错过的 theCUBE 对 Dell Technologies 纽约研讨会报道中的三点洞见',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1547,4 +1549,6 @@ SUMMARY_OVERRIDES = {
     'Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop': '这款大热游戏毫不掩饰对执法部门的嘲讽。现实中的警察部门却用它来招募新警员、训诫公众，显然没人把这层意思告诉他们。',
     'Anysphere Weighs Moving Cursor Away From Chinese Open-Weight Models': '根据 2026 年 11 月 20 日发布的一份国会联合报告，Cursor AI 编程平台的开发商 Anysphere 告诉众议院调查人员，出于地缘政治风险，公司正考虑探索逐步淘汰中国开发的开放权重 AI 模型。披露的内容属于探索性计划，并非已完成淘汰；两个委员会也未说明最终决定或时间表。',
     'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 于 2026 年 11 月 20 日为 Amazon SageMaker HyperPod Slurm 推出托管集群扩展，通过 API 或 SageMaker AI 控制台以声明式配置为运行中的节点部署软件。首批两项扩展分别覆盖可观测性与用户管理（含目录集成）。此次上线解决了共享 AI 训练集群在配置完成后仍需变更软件的部分。',
+    'Oracle Says Funding for OpenAI Infrastructure Contract Is Secured': 'Oracle 在 2026 年 11 月 20 日的声明中表示，其 OpenAI 基础设施合同所需的全部资金均已落实，并称自己是本轮投资周期中首个获得全额资金保障的超大规模云服务商。此前 Oracle 于 11 月上旬完成了其所谓的最后一轮融资。Oracle 投资者日披露的融资方案（包括供应商融资）均已到位。',
+    'Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium': 'AI 运营就绪不仅仅在于选对服务器、存储与算力。对金融机构而言，这些考量尤为关键——可靠性、监管合规义务，以及证明技术投资回报的需求，都会影响其部署决策。',
 }
