@@ -775,6 +775,10 @@ TITLE_OVERRIDES = {
     'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 为 SageMaker HyperPod Slurm 新增托管集群扩展',
     'Oracle Says Funding for OpenAI Infrastructure Contract Is Secured': 'Oracle 称 OpenAI 基础设施合同资金已落实',
     'Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium': '你可能错过的 theCUBE 对 Dell Technologies 纽约研讨会报道中的三点洞见',
+    'AWS Quick Adds Chat-Built Flows and Multi-Agent Orchestration': 'AWS Quick 新增聊天式构建流程与多智能体编排',
+    'Ambience Healthcare Adds Care Orchestration to Inpatient AI Suite': 'Ambience Healthcare 为住院 AI 套件新增护理编排功能',
+    'Agents idling while they wait on humans push Kubernetes to hand back unused resources': '智能体因等待人工而闲置，促使 Kubernetes 归还闲置资源',
+    'Rafay Adds Confidential AI Orchestration for Kubernetes Pods': 'Rafay 为 Kubernetes Pod 新增机密 AI 编排能力',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1551,4 +1555,8 @@ SUMMARY_OVERRIDES = {
     'AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm': 'AWS 于 2026 年 11 月 20 日为 Amazon SageMaker HyperPod Slurm 推出托管集群扩展，通过 API 或 SageMaker AI 控制台以声明式配置为运行中的节点部署软件。首批两项扩展分别覆盖可观测性与用户管理（含目录集成）。此次上线解决了共享 AI 训练集群在配置完成后仍需变更软件的部分。',
     'Oracle Says Funding for OpenAI Infrastructure Contract Is Secured': 'Oracle 在 2026 年 11 月 20 日的声明中表示，其 OpenAI 基础设施合同所需的全部资金均已落实，并称自己是本轮投资周期中首个获得全额资金保障的超大规模云服务商。此前 Oracle 于 11 月上旬完成了其所谓的最后一轮融资。Oracle 投资者日披露的融资方案（包括供应商融资）均已到位。',
     'Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium': 'AI 运营就绪不仅仅在于选对服务器、存储与算力。对金融机构而言，这些考量尤为关键——可靠性、监管合规义务，以及证明技术投资回报的需求，都会影响其部署决策。',
+    'AWS Quick Adds Chat-Built Flows and Multi-Agent Orchestration': '亚马逊云科技于 2026 年 11 月 20 日发布 AWS Quick 的一次广泛更新，新增通过聊天构建的业务工作流，以及可汇集多个专业智能体输出的编排能力。重新设计的网页应用、新连接器与扩展的管理控制，支撑其推动 AI 辅助流程在团队间可重复执行。',
+    'Ambience Healthcare Adds Care Orchestration to Inpatient AI Suite': 'Ambience Healthcare 于 2026 年 11 月 17 日宣布为其住院 AI 套件推出两项护理编排功能——Rounding Assistant（查房助手）与 Discharge Readiness（出院准备），为医院工作流增加任务优先级排序与更早识别出院障碍的能力。这些功能在已支持住院病历记录与编码的软件之上，新增了一层协调机制。',
+    'Agents idling while they wait on humans push Kubernetes to hand back unused resources': '智能体 AI 负载正让 Kubernetes 迎来意想不到的第二春。这个曾被认为可靠但乏味的编排器，如今成为企业规划运行自主软件的核心。',
+    'Rafay Adds Confidential AI Orchestration for Kubernetes Pods': 'Rafay Systems 与 Fortanix 于 2026 年 11 月 11 日宣布，Rafay 平台现已编排运行在 CNCF 机密容器（CoCo）上的 Fortanix 机密 AI 工作负载，将其既有的机密虚拟机集成扩展到 Kubernetes Pod。该联合方案现已面向新云服务商、主权 AI 云与企业开放，补足了传统加密方案的空白。',
 }

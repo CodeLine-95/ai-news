@@ -762,5 +762,9 @@
   "Anysphere Weighs Moving Cursor Away From Chinese Open-Weight Models": "Anysphere 考虑让 Cursor 逐步弃用中国开发的开放权重模型",
   "AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm": "AWS 为 SageMaker HyperPod Slurm 新增托管集群扩展",
   "Oracle Says Funding for OpenAI Infrastructure Contract Is Secured": "Oracle 称 OpenAI 基础设施合同资金已落实",
-  "Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium": "你可能错过的 theCUBE 对 Dell Technologies 纽约研讨会报道中的三点洞见"
+  "Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium": "你可能错过的 theCUBE 对 Dell Technologies 纽约研讨会报道中的三点洞见",
+  "AWS Quick Adds Chat-Built Flows and Multi-Agent Orchestration": "AWS Quick 新增聊天式构建流程与多智能体编排",
+  "Ambience Healthcare Adds Care Orchestration to Inpatient AI Suite": "Ambience Healthcare 为住院 AI 套件新增护理编排功能",
+  "Agents idling while they wait on humans push Kubernetes to hand back unused resources": "智能体因等待人工而闲置，促使 Kubernetes 归还闲置资源",
+  "Rafay Adds Confidential AI Orchestration for Kubernetes Pods": "Rafay 为 Kubernetes Pod 新增机密 AI 编排能力"
 }
