@@ -795,6 +795,8 @@ TITLE_OVERRIDES = {
     'OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions': 'OpenAI 分享新提示技巧：修复 GPT-6.2 Astra 与 Sol 回答过短、追问过多的问题',
     'Chess.com’s next move is a new hub for classic games, from mahjong to sudoku': 'Chess.com 下一步推出经典游戏新平台：从麻将到数独',
     'AI Governance in 2027: Accountability Moves Into the Workflow': '2027 年 AI 治理：问责机制进入工作流',
+    'Sovereign AI: Where control becomes an architectural requirement': '主权 AI：控制权成为一项架构要求',
+    'Can Anthropic afford to put safety first?': 'Anthropic 负担得起把安全放在第一位吗？',
 }
 
 SUMMARY_OVERRIDES = {
