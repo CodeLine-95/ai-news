@@ -788,6 +788,9 @@ TITLE_OVERRIDES = {
     'US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up': '随着 AI 疑虑不断累积，美国科技股遭遇自疫情以来最严重的单周亏损',
     'Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft': 'Anthropic 声称用 Claude 证明黎曼假设数小时后，斯坦福发布了一份完全由人类完成的竞争性证明草稿',
     '13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade': '2026 年面向 MCP、A2A 与 LLM 流量的 13 款最佳智能体网关：Kong、Bifrost、AgentCore、Arcade',
+    'Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac': 'Thinking Machines 发布 Inkling 2 Mini：260 亿参数循环 MoE，可在 32GB Mac 上运行',
+    'The Outages Are Just Getting Started': '服务中断才刚刚开始',
+    'OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min': 'OpenAI 推出面向语音智能体的 GPT-Live-1.1，将闲置成本降至每分钟 0.02 美元',
 
 }
 
@@ -1576,5 +1579,8 @@ SUMMARY_OVERRIDES = {
     'US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up': '纳斯达克 100 指数在经历新冠疫情以来最严重的单周亏损后跌入熊市。因 SEC 审查其会计问题，英伟达大跌 14%；Anthropic 在创纪录 IPO 后仅一天就几乎回吐全部涨幅。对 AI 的质疑、丑闻、利率上升和政治逆风正同时冲击着过高的估值。',
     'Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft': 'Anthropic 数学家 Levent Alpöge 称，他用 Claude 证明了黎曼假设——数学界 167 年来最著名的未解难题——相关证明已在 Lean 中形式化，长达 25 万余页。仅数小时后，斯坦福研究人员便发表了一份独立的、完全由人类完成的竞争性证明。数学家目前正在核验这两份证明是否站得住脚。',
     '13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade': '智能体不再只是调用模型。它们通过 MCP 调用工具、通过 A2A 将任务委托给其他智能体，并在业务系统内执行操作。优秀的智能体网关正位于这条链路上，决定谁能做什么。本文从流量覆盖、身份、部署和价格四个维度对其中 13 款进行比较。什么是智能体网关？智能体网关是一个控制点，负责认证智能体、过滤其可见的工具，并记录每一次调用。普通的 LLM 网关只路由模型请求。智能体网关则增加了 MCP 工具治理、智能体身份，以及越来越多的 A2A 流量控制。下面的排名为编辑整理，权衡 5 项标准：流量覆盖、身份与授权、部署选项、成熟度与价格透明度。13 款最佳智能体网关排名：1. Kong AI Gateway——Kong 通过一个统一控制面管理 LLM、MCP 与 A2A 流量。',
+    'Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac': 'Thinking Machines Lab 发布了 Inkling 2 Mini——一款开放权重的循环 Transformer，总参数 264 亿。该模型对每个 token 重复使用其中间层 3 次，而非堆叠更多权重，使检查点体积控制在约 20GB，足以在 32GB 内存的 Mac 或单台 NVIDIA DGX Spark 上运行。对开发者而言，Inkling 2 Mini 是本地运行智能体编程、工具调用与文档处理任务的选项。模型以 Apache 2.0 许可证在 Hugging Face 上开放，并在 Tinker 平台提供托管推理与微调。要点速览——规模：总参数 264 亿、激活参数 34 亿（结合循环后每 token 有效参数 54 亿），上下文最高 100 万 token。运行硬件：32GB 及以上内存的 Apple 芯片、单台 NVIDIA DGX Spark，或 32GB 以上显存的 GPU。GGUF 构建由 Unsloth 与 llama.cpp 提供。性能：在 Artificial Analysis 指数上得分 20.1，与 Qwen3.8-27B 持平（自报数据）；最佳成绩为 SWE-bench Verified（仅 bash）79.2%。',
+    'The Outages Are Just Getting Started': '人工智能正迫使企业更快地修补系统，因为攻击者正争相利用新发现的漏洞。欢迎来到互联网大面积中断的地狱。',
+    'OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min': 'OpenAI 已在 API 中提供 GPT-Live-1.1，模型 ID 为 gpt-live-1.1。GPT-Live-1.1 是一款面向多语言对话的全双工语音模型，可以边说边听。OpenAI 团队表示，它在各种语言中的口音更自然、更一致，任务完成也更可靠。此次发布还新增了待机（standby）计费状态，针对会话闲置时段收费更低；对运行语音智能体的团队而言，通话中的等待时间成本由此降低。要点速览——规模：实时会话默认上下文窗口为 128,000 token。运行方式：仅限 OpenAI 云端，通过 v1/live/sessions 接入，客户端以 WebRTC 或 WebSocket 连接，不开放权重、无量化版本。性能：OpenAI 称其在口音、转录、字母与数字处理以及任务完成方面均优于 GPT-Live-1。',
 
 }
