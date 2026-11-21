@@ -784,6 +784,8 @@ TITLE_OVERRIDES = {
     'llm-gemini 0.37': 'llm-gemini 0.37',
     'llm-gemini 0.36': 'llm-gemini 0.36',
     'Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model': '字节跳动认为大多数 AI 训练阶段并无必要，并以一款有竞争力的开放模型予以佐证',
+    'New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop': '新型开放模型 Inkling 2 Mini 以「循环思考」用更少文字解题，且仍可在笔记本电脑上运行',
+    'US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up': '随着 AI 疑虑不断累积，美国科技股遭遇自疫情以来最严重的单周亏损',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1567,4 +1569,6 @@ SUMMARY_OVERRIDES = {
     'Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index': 'Baseten 发布了基于 Google Gemma 4 构建的两款开放权重决策模型 bison-1 与 groundhog-1。决策模型不生成文本，而是针对是/否、选择与评分类问题返回经过校准的概率。在 Artificial Analysis 决策指数 v2.1 中，Baseten 的 bison-1 得分 76，在 19 个模型中排名第 1。两款模型均将上下文从 16k 提升至 128k tokens，并支持图像输入；对于路由、分流与护栏流水线而言，这意味着一次调用即可纳入完整的策略与历史记录。简而言之，规模方面：bison-1 为 310 亿参数的稠密模型，groundhog-1 为 260 亿参数的混合专家（MoE）模型、约 40 亿参数激活，两者均支持 128k tokens（131,072）。运行方式：可通过 Baseten Model APIs 使用，权重以 BF16 格式在 Hugging Face 上开放；未列出推理 GPU 或量化版本。仅 BF16 权重一项，按估算约为 62 GB（bison-1）与 52 GB（groundhog-1）。',
     'Baseten Extends Decision Models to 128K Context and Image Input': 'Baseten 于 2026 年 11 月 20 日发布 bison-1 与 groundhog-1，这是两款基于 Google Gemma 4 后训练、对外开放权重的模型，用于针对预定义决策返回经过校准的概率。在 Artificial Analysis 决策指数 v2.1 中，bison-1 得分 76，在 19 个参评决策模型中位列第一。两款模型均可通过 Baseten Model APIs 使用，权重在 Hugging Face 上开放。',
     'Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model': '字节跳动与数所美国大学推出 Axion 1.0——一款 AI 智能体，仅经历三个训练阶段便在基准测试中对标 OpenAI 与 Anthropic 的顶级商业模型。研究者将这些提升归因于精心策划的训练数据，而非不断增加的训练步骤。该模型、数据与代码均已免费开放。',
+    'New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop': 'Thinking Machines 发布了 Inkling 2 Mini——一款开放式循环 Transformer，把 24 层中的 12 层对每个 token 重复运行三次。这让模型在内部推理更久，却无需生成额外文本。在 Artificial Analysis 智能指数上，它与 Qwen3.8 27B 持平，成本却低约六倍。',
+    'US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up': '纳斯达克 100 指数在经历新冠疫情以来最严重的单周亏损后跌入熊市。因 SEC 审查其会计问题，英伟达大跌 14%；Anthropic 在创纪录 IPO 后仅一天就几乎回吐全部涨幅。对 AI 的质疑、丑闻、利率上升和政治逆风正同时冲击着过高的估值。',
 }
