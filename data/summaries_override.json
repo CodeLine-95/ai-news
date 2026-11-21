@@ -804,5 +804,7 @@
   "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU": "Google 在第八代 TPU 产品线中新增两套系统。TPU 8i Max 面向超大上下文窗口和机架密度，TPU 8tx 则面向安全的机密推理。Google TPU 8i Max 是一款由两颗 TPU 8i 芯片构成的双芯片封装。两者都与 4 月发布的 TPU 8t 和 TPU 8i 一同供货。规格速览：TPU 8i Max = 单个封装内 2 颗 TPU 8i 芯片；8tx = TPU 8t 加第五代 AMD EPYC 主机。运行于 Google Cloud TPU 系统。性能方面，8i Max 将 TPU 8i 的计算能力、SRAM 与……",
   "NVIDIA Deepens Korean Sovereign AI Work on Chips and Rack Systems": "2026 年 11 月 9 日，NVIDIA 宣布扩大与韩国科学技术信息通信部的合作，涵盖 AI 芯片、数据中心、模型、技能与智能体安全。该硬件项目以 Rebellions 的 R200 处理器和基于 NVLink 的机架系统为核心，预计 2028 年具备部署条件。",
   "Rebellions to Use NVIDIA NVLink Fusion for Korean Sovereign AI": "2026 年 11 月 8 日，NVIDIA 宣布与 Rebellions 及 SK Telecom 合作，将 Rebellions 下一代 R200 处理器接入 NVLink Fusion，用于韩国主权 AI 基础设施，由此构建的系统预计 2028 年具备部署条件。根据协议，Rebellions 将通过 NVLink Fusion 连接其 Rebel R200 神经处理单元（NPU），并围绕 NVIDIA MGX 架构开发机架级系统。",
-  "Rack-scale AI: How Dell and AMD are building infrastructure": "戴尔科技及其合作伙伴超威半导体（AMD）面临相似的竞争压力。这两家科技巨头所处的商业环境中，成功的衡量标准如今已扩展到中央处理器、图形处理器、机架级系统、内存容量、网络带宽以及每美元所能获得的 token 数。"
+  "Rack-scale AI: How Dell and AMD are building infrastructure": "戴尔科技及其合作伙伴超威半导体（AMD）面临相似的竞争压力。这两家科技巨头所处的商业环境中，成功的衡量标准如今已扩展到中央处理器、图形处理器、机架级系统、内存容量、网络带宽以及每美元所能获得的 token 数。",
+  "The UN fails to agree on rules regulating ‘killer robots’": "本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。",
+  "The UN fails to agree on rules regulating 'killer robots'": "本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。"
 }

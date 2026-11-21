@@ -809,6 +809,8 @@ TITLE_OVERRIDES = {
     'Rebellions to Use NVIDIA NVLink Fusion for Korean Sovereign AI': 'Rebellions 采用 NVIDIA NVLink Fusion 构建韩国主权 AI',
     'Rack-scale AI: How Dell and AMD are building infrastructure': '机架级 AI：戴尔与 AMD 如何构建基础设施',
     'The Inference Economics Scorecard Challenges GPU Utilization as an AI Performance Metric': '「推理经济学记分卡」挑战以 GPU 利用率作为 AI 性能指标',
+    "The UN fails to agree on rules regulating 'killer robots'": '联合国未能就规范「杀手机器人」的规则达成一致',
+    'The UN fails to agree on rules regulating ‘killer robots’': '联合国未能就规范「杀手机器人」的规则达成一致',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1618,4 +1620,6 @@ SUMMARY_OVERRIDES = {
     'NVIDIA Deepens Korean Sovereign AI Work on Chips and Rack Systems': '2026 年 11 月 9 日，NVIDIA 宣布扩大与韩国科学技术信息通信部的合作，涵盖 AI 芯片、数据中心、模型、技能与智能体安全。该硬件项目以 Rebellions 的 R200 处理器和基于 NVLink 的机架系统为核心，预计 2028 年具备部署条件。',
     'Rebellions to Use NVIDIA NVLink Fusion for Korean Sovereign AI': '2026 年 11 月 8 日，NVIDIA 宣布与 Rebellions 及 SK Telecom 合作，将 Rebellions 下一代 R200 处理器接入 NVLink Fusion，用于韩国主权 AI 基础设施，由此构建的系统预计 2028 年具备部署条件。根据协议，Rebellions 将通过 NVLink Fusion 连接其 Rebel R200 神经处理单元（NPU），并围绕 NVIDIA MGX 架构开发机架级系统。',
     'Rack-scale AI: How Dell and AMD are building infrastructure': '戴尔科技及其合作伙伴超威半导体（AMD）面临相似的竞争压力。这两家科技巨头所处的商业环境中，成功的衡量标准如今已扩展到中央处理器、图形处理器、机架级系统、内存容量、网络带宽以及每美元所能获得的 token 数。',
+    'The UN fails to agree on rules regulating ‘killer robots’': '本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。',
+    "The UN fails to agree on rules regulating 'killer robots'": '本周在日内瓦举行的联合国外交官会议上，议程之一是推动制定关于使用自主武器（即所谓「杀手机器人」）的规则。但在为期一周、基本无果的谈判后，各国代表最终只同意「开始讨论各种选项」。据 NPR 报道，谈判开始前，《日内瓦公约》的守护者红十字国际委员会表示，亟需在一年内起草具有法律约束力的规则。这一呼吁得到联合国秘书长与教皇利奥（Pope Leo）的支持。',
 }
