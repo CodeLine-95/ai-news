@@ -783,6 +783,7 @@ TITLE_OVERRIDES = {
     'Baseten Extends Decision Models to 128K Context and Image Input': 'Baseten 将决策模型扩展至 128K 上下文与图像输入',
     'llm-gemini 0.37': 'llm-gemini 0.37',
     'llm-gemini 0.36': 'llm-gemini 0.36',
+    'Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model': '字节跳动认为大多数 AI 训练阶段并无必要，并以一款有竞争力的开放模型予以佐证',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1565,4 +1566,5 @@ SUMMARY_OVERRIDES = {
     'Rafay Adds Confidential AI Orchestration for Kubernetes Pods': 'Rafay Systems 与 Fortanix 于 2026 年 11 月 11 日宣布，Rafay 平台现已编排运行在 CNCF 机密容器（CoCo）上的 Fortanix 机密 AI 工作负载，将其既有的机密虚拟机集成扩展到 Kubernetes Pod。该联合方案现已面向新云服务商、主权 AI 云与企业开放，补足了传统加密方案的空白。',
     'Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index': 'Baseten 发布了基于 Google Gemma 4 构建的两款开放权重决策模型 bison-1 与 groundhog-1。决策模型不生成文本，而是针对是/否、选择与评分类问题返回经过校准的概率。在 Artificial Analysis 决策指数 v2.1 中，Baseten 的 bison-1 得分 76，在 19 个模型中排名第 1。两款模型均将上下文从 16k 提升至 128k tokens，并支持图像输入；对于路由、分流与护栏流水线而言，这意味着一次调用即可纳入完整的策略与历史记录。简而言之，规模方面：bison-1 为 310 亿参数的稠密模型，groundhog-1 为 260 亿参数的混合专家（MoE）模型、约 40 亿参数激活，两者均支持 128k tokens（131,072）。运行方式：可通过 Baseten Model APIs 使用，权重以 BF16 格式在 Hugging Face 上开放；未列出推理 GPU 或量化版本。仅 BF16 权重一项，按估算约为 62 GB（bison-1）与 52 GB（groundhog-1）。',
     'Baseten Extends Decision Models to 128K Context and Image Input': 'Baseten 于 2026 年 11 月 20 日发布 bison-1 与 groundhog-1，这是两款基于 Google Gemma 4 后训练、对外开放权重的模型，用于针对预定义决策返回经过校准的概率。在 Artificial Analysis 决策指数 v2.1 中，bison-1 得分 76，在 19 个参评决策模型中位列第一。两款模型均可通过 Baseten Model APIs 使用，权重在 Hugging Face 上开放。',
+    'Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model': '字节跳动与数所美国大学推出 Axion 1.0——一款 AI 智能体，仅经历三个训练阶段便在基准测试中对标 OpenAI 与 Anthropic 的顶级商业模型。研究者将这些提升归因于精心策划的训练数据，而非不断增加的训练步骤。该模型、数据与代码均已免费开放。',
 }
