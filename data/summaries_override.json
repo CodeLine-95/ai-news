@@ -831,5 +831,6 @@
  "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls": "PostgreSQL 全球开发组发布了 PostgreSQL 19，在数据库维护、查询规划、复制和应用开发方面带来多项变化。该版本聚焦降低管理开销并提升性能，新增无需停机即可重组表的工具，并强化了对查询计划的控制。",
  "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog": "Perplexity 推出 Monitor API：它按计划定时搜索网络，仅在出现相关变化时才通过 webhook 通知智能体，其自研决策模型会过滤掉不重要的结果。对 Perplexity 而言，该 API 是其更宏观战略的一部分——借助开发者工具，从日趋同质化的聊天机器人业务中脱颖而出。",
  "monday.com vs. ClickUp: Which Is Better for Managing Work?": "项目经理需要通盘掌握整个项目进展，设计师则需要清楚下一项任务、任务简报以及相关讨论。monday.com 与 ClickUp 都服务这两类用户群，但侧重点不同：monday.com 更适合想要清晰看板与可复用部门工作流的团队；当任务、文档、聊天和交付细节需要集中在同一处时，我们更推荐 ClickUp。",
- "Robotics in 2027: The Winners Will Be Measured in Hours Without Human Help": "机器人完成抓取，观众鼓掌。短视频无法显示的是：重新摆放托盘的工人、挽救上一次失败尝试的远程操作员，以及机器等待帮助所耗费的小时数。一场演示可以完全真实，却依然无法回答商业上的问题。"
+ "Robotics in 2027: The Winners Will Be Measured in Hours Without Human Help": "机器人完成抓取，观众鼓掌。短视频无法显示的是：重新摆放托盘的工人、挽救上一次失败尝试的远程操作员，以及机器等待帮助所耗费的小时数。一场演示可以完全真实，却依然无法回答商业上的问题。",
+ "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace": "一项新的贴近现实的测试将 AI 编码智能体置于模拟的开发者岗位：有同事、项目看板和残缺的交接文档，它们必须自主持续开发软件，并在混乱的日常工作流程中可靠地关闭待办工单。即便是 Opus 5.5 和 Astra 也远未达标——能完整解决的任务不到十分之一。这些模型能迅速完成清晰、独立的任务，但一旦作为自主开发者持续工作就会失去条理。"
 }
