@@ -820,6 +820,11 @@ TERM_FIXES = [
     # ---- 2026-11-03 01:00 巡检新增 ----
     # 1) NLLB 把 Perplexity 当普通名词译成「困惑性」「困惑」，须还原品牌名。
     ("困惑性", "Perplexity", ["perplexity"]),
+    # 2026-11-22 23:00：NLLB 把 Perplexity 误译成单字「迷」（品牌名当普通词）。
+    ("迷的新监测", "Perplexity 的新 Monitor", ["perplexity", "monitor api"]),
+    ("迷正在", "Perplexity 正在", ["perplexity"]),
+    ("对于迷", "对 Perplexity 而言", ["perplexity"]),
+    ("监视犬", "监测哨兵", ["watchdog", "monitor api"]),
     # Anthropic 在标题开头被模型译成「人类细节」，实为 Anthropic + Details 混译。
     ("人类细节", "Anthropic", ["anthropic"]),
     # AI stack（AI 技术栈）被直译成「AI 堆」。

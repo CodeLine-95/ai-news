@@ -828,5 +828,8 @@
  "Security researchers show how cheap AI inference providers steal keys and snoop on users": "Dragos 安全研究人员利用 200 万个虚假 AI 请求，揭露了 AI 供应链中的严重漏洞：至少发现三家服务商遭到入侵、数百个 AWS 密钥被盗，以及直接读取客户请求的应用商店转售商。OpenRouter 随后移除了三家服务商和 125 个端点作为回应。",
  "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns": "METR 报告称，Opus 5.5 和 GPT-6 Astra 等领先 AI 模型在研究任务上的进步速度很快，但越来越难以衡量。该机构警告，现有数据无法排除 AI 研发出现危险加速的可能；不过它也表示，常见的测试可能高估了模型的实际能力。",
  "The vibe-coding revolution is coming to all the gadgets": "这是《The Stepback》——每周一封通讯，拆解科技界的一个重要故事。想了解更多关于万物「Vibe 黑客化」的内容，请关注 David Pierce。《The Stepback》于美国东部时间周日上午 8 点送达订阅者邮箱，可在此处订阅。事情是如何开始的？和许多与 AI 有关的事情一样，并不是大语言模型开启了某种全新能力。自从有了智能设备，就有少数用户在对它们进行破解、改装、越狱，并按自己的喜好调整。新的变化在于：现在这件事变得容易了。",
- "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls": "PostgreSQL 全球开发组发布了 PostgreSQL 19，在数据库维护、查询规划、复制和应用开发方面带来多项变化。该版本聚焦降低管理开销并提升性能，新增无需停机即可重组表的工具，并强化了对查询计划的控制。"
+ "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls": "PostgreSQL 全球开发组发布了 PostgreSQL 19，在数据库维护、查询规划、复制和应用开发方面带来多项变化。该版本聚焦降低管理开销并提升性能，新增无需停机即可重组表的工具，并强化了对查询计划的控制。",
+ "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog": "Perplexity 推出 Monitor API：它按计划定时搜索网络，仅在出现相关变化时才通过 webhook 通知智能体，其自研决策模型会过滤掉不重要的结果。对 Perplexity 而言，该 API 是其更宏观战略的一部分——借助开发者工具，从日趋同质化的聊天机器人业务中脱颖而出。",
+ "monday.com vs. ClickUp: Which Is Better for Managing Work?": "项目经理需要通盘掌握整个项目进展，设计师则需要清楚下一项任务、任务简报以及相关讨论。monday.com 与 ClickUp 都服务这两类用户群，但侧重点不同：monday.com 更适合想要清晰看板与可复用部门工作流的团队；当任务、文档、聊天和交付细节需要集中在同一处时，我们更推荐 ClickUp。",
+ "Robotics in 2027: The Winners Will Be Measured in Hours Without Human Help": "机器人完成抓取，观众鼓掌。短视频无法显示的是：重新摆放托盘的工人、挽救上一次失败尝试的远程操作员，以及机器等待帮助所耗费的小时数。一场演示可以完全真实，却依然无法回答商业上的问题。"
 }
