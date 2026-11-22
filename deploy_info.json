@@ -34,13 +34,13 @@
     "report_file": "/workspace/ai-news/AI资讯摘要.md",
     "data_file": "/workspace/ai-news/data/news.json",
     "checks": {
-        "total_items": 2547,
-        "translated": 2547,
-        "translation_coverage": "2547/2547",
+        "total_items": 2548,
+        "translated": 2548,
+        "translation_coverage": "2548/2548",
         "day_groups": 32,
         "timestamp_precision": "HH:MM",
         "manual_sync_button": false,
-        "this_cycle_added": 1,
+        "this_cycle_added": 0,
         "no_cjk": 7,
         "date_format_error": 0,
         "timestamp_format_error": 0,
@@ -49,20 +49,20 @@
         "empty_summary_zh": 0,
         "coverage": "100%",
         "online_local_in_sync": true,
-        "last_update": "2026-11-22T09:18:41.580813+08:00",
-        "next_update": "2026-11-22T10:00:00+08:00",
+        "last_update": "2026-11-22T10:59:58.660970+08:00",
+        "next_update": "2026-11-22T12:00:00+08:00",
         "model": "NLLB-200 离线模型(bf16)",
         "screenshots": [
-            "deliverable_1122_0900_light.png",
-            "deliverable_1122_0900_dark.png",
-            "deliverable_1122_0900_auto.png",
-            "deliverable_1122_0900_en.png",
-            "deliverable_1122_0900_online.png"
+            "deliverable_1122_1100_light.png",
+            "deliverable_1122_1100_dark.png",
+            "deliverable_1122_1100_auto.png",
+            "deliverable_1122_1100_en.png",
+            "deliverable_1122_1100_online.png"
         ],
         "duplicate_ids": 0,
         "entry_before": 0,
         "metrics_padding": "0px",
-        "today_count": 13,
+        "today_count": 14,
         "quality_gate": {
             "untranslated": 0,
             "date_format_error": 0,
@@ -74,24 +74,31 @@
             "gate_failures": 0
         },
         "cyrillic_mix": 0,
-        "git_commit": "004f307",
+        "git_commit": "240ae81",
         "apple_trunc": 0,
-        "patrol": "2026-11-21 06:00 例行巡检：新增7条、定稿9条NLLB硬伤(6新+3历史)，覆盖表753/762,报告2528条100%全译"
+        "verbatim_identifiers": 7,
+        "retained_window_days": 30,
+        "expired_this_cycle": 2,
+        "git_push": "已推送240ae81（08:00巡检：定稿Together AI硬伤+五态截图+状态）",
+        "republish": "未重新发布——本轮 0 新增、无前后端逻辑与样式变更；线上经持久卷同一服务即时同步，域名/sharecode 完整保留",
+        "this_cycle_added_0700": 0,
+        "this_cycle_added_0800": 1
     },
     "this_run": {
-        "time": "09:00例行巡检（平台09:18重启+NLLB就绪，首轮补抓落地；本轮新增1条07:56 Simon Willison/Muru）",
+        "time": "11:00例行巡检（平台10:59重启+NLLB就绪，10:59:58首轮抓取落地；整点调度确认 next_update 12:00）",
         "service_online": true,
-        "local_total": 2547,
-        "local_translated": 2547,
-        "online_total": 2547,
-        "online_translated": 2547,
+        "local_total": 2548,
+        "local_translated": 2548,
+        "online_total": 2548,
+        "online_translated": 2548,
         "online_local_in_sync": true,
-        "coverage": "100%(2547/2547)",
-        "new_items_this_cycle": 1,
-        "quality_fix": "人工定稿1条新增机翻硬伤：Muru（Rust服务器产品名）被音译为『摩鲁』、人名 Graham Dumpleton/项目 wrapture 断裂；标题改为『Muru：Graham Dumpleton 打造的 AI 辅助 Rust 服务器』并重写摘要，写入三层覆盖表(news.json+JSON表+代码层)",
-        "retranslate": "未批量重译——质量门禁全0，仅1条专名硬伤人工定稿",
-        "republish": "未重新发布——线上与本地为同一服务经持久卷实时同步，域名/sharecode完整保留；本轮仅覆盖表与巡检脚本变更，无前后端运行逻辑或样式变更",
-        "git_push": "已推送004f307（09:00巡检：定稿Muru机翻硬伤+三层覆盖表+五态截图）",
+        "coverage": "100%(2548/2548)",
+        "new_items_this_cycle": 0,
+        "quality_fix": "未重译——质量门禁全0；无新增条目，无专名硬伤需人工定稿",
+        "retranslate": "未批量重译——质量门禁全0",
+        "refresh": "报告与数据已按最新2548条校验一致，无需重生成",
+        "republish": "未重新发布——无运行逻辑/样式变更，线上持久卷即时同步，域名/sharecode不变",
+        "git_push": "待回填",
         "entry_before": "已满足(::before规则0,content=none,五态实测)",
         "metrics_padding": "已满足(四边0px,五态实测)",
         "theme_modes": "已满足(light/dark/auto三态,auto跟随系统prefers-color-scheme,五态实测)",
@@ -99,21 +106,23 @@
         "sources_silent": [
             "VentureBeat"
         ],
-        "sources_flapping": [],
-        "screenshots": [
-            "deliverable_1122_0900_light.png",
-            "deliverable_1122_0900_dark.png",
-            "deliverable_1122_0900_auto.png",
-            "deliverable_1122_0900_en.png",
-            "deliverable_1122_0900_online.png"
+        "sources_flapping": [
+            "MIT News AI"
         ],
-        "last_update": "2026-11-22T09:18:41.580813+08:00",
-        "next_update": "2026-11-22T10:00:00+08:00"
+        "screenshots": [
+            "deliverable_1122_1100_light.png",
+            "deliverable_1122_1100_dark.png",
+            "deliverable_1122_1100_auto.png",
+            "deliverable_1122_1100_en.png",
+            "deliverable_1122_1100_online.png"
+        ],
+        "last_update": "2026-11-22T10:59:58.660970+08:00",
+        "next_update": "2026-11-22T12:00:00+08:00"
     },
     "report_url": "https://a7888a7e046ffc95b.app.workbuddy.host/api/report?sharecode=YM64NRHD37",
     "fixes_this_run": [
-        "人工定稿10条NLLB机翻硬伤：Databricks/Weebit Nano/SoundCloud/Reddit/Ramp/StitchStudio(金额)/Instagram Edits/neolabs/sandboxing/dot-com boom",
-        "04:00整点调度+10条、重启首轮+2条，全部NLLB自动翻译，100%全译，线上本地一致"
+        "01:50 SiliconANGLE architectural requirement 建筑要求→架构要求",
+        "11-21 23:00 The Verge Anthropic 人类→Anthropic"
     ],
     "start_cmd": "python3.11 main.py",
     "entrypoint_note": "发布脚本对 Python 项目默认生成 `python main.py`；本项目原入口是 server.py，已新增 main.py 作为平台入口（复用 server.py 的 app 与启动逻辑），并固定 --start-cmd \"python3.11 main.py\"。",
@@ -128,7 +137,8 @@
         "unchanged": [
             "entry_before 已去除",
             "metrics padding 0px",
-            "无手动同步按钮"
+            "无手动同步按钮",
+            "本轮未改动前端样式代码"
         ],
         "verified_online": "2026-11-04T12:30（线上 Playwright 实测：两控件选中态深/浅主题下一致——暗黑青色 #38bdf8、浅色蓝色 #0284c7；点击主题后视图选中态保留；entry::before=0、metrics padding 0px）"
     },
@@ -139,48 +149,58 @@
         "timestamp_format_error": 0,
         "empty_title_zh": 0,
         "empty_summary_zh": 0,
+        "cyrillic_mix": 0,
         "duplicate_ids": 0,
         "gate_failures": 0
     },
     "last_inspection": {
-        "time": "23点例行巡检：23:00整点调度触发本级抓取(+12条)，人工定稿9条NLLB机翻缺陷(Vero Security/Vero音译、Supermicro超级微型船舶+全闪电、NVIDIA紧桌面语义崩坏、Hugging Face拥抱面孔、Sequel.io B系列→B轮、Mistral相继语义崩坏、Disney音频动画、Claude Fable降级语义反、AI能源税memory→记忆/内存)，写入三层覆盖表(manual_overrides.py标题388/摘要398)；重启加载定稿触发首轮抓取再+1，达2178条，100%全译。报告31组YYYY-MM-DD、每条HH:MM、中文为主括注英文原标题。五态实测entry::before=none/metrics四边0px/三态主题auto跟随系统/无手动同步按钮/线上本地2178一致。代码变更git push(63193f8)，线上域名代理同一服务数据自动同步，保留sharecode域名不变。",
-        "type": "例行巡检(23点调度+9条译文定稿+五态实测+git push)",
+        "time": "16:00整点例行巡检：服务在线(16:00平台重启+NLLB就绪)，16:00整点抓取16:00:12落地，本轮新增0条；受30天滚动保留窗口影响，2条10月22日旧条目自然过期，全库2535→2533条，仍为100%全译(2533/2533)。高质量译文升级3条、术语确定性重清洗93条、人工标题覆盖45条/摘要77条。修复2条llm-gemini版本号标题NLLB截断(Gemini 0.37 ll→llm-gemini 0.37)，覆盖表772/779。质量门禁全0：0未翻译/0空摘要/0空标题/0日期格式错/0时间格式错/0重复ID/0西里尔残留；32个YYYY-MM-DD分组、每条HH:MM、2526条中文主标题括注英文原题(另7条版本号/技术标识符按原文保留)。五态实测(浅/暗/自动浅/自动深/英文/线上)：entry::before规则0/content=none、metrics四边0px、无手动同步按钮、auto跟随系统、线上本地2533完全一致。代码变更已git push(9f88099)；未重新发布以完整保留sharecode，域名不变，线上经持久卷JSON覆盖表即时生效。",
         "service_online": true,
-        "local_total": 2178,
-        "local_translated": 2178,
-        "online_total": 2178,
-        "online_translated": 2178,
+        "local_total": 2533,
+        "local_translated": 2533,
+        "online_total": 2533,
+        "online_translated": 2533,
         "online_local_in_sync": true,
-        "coverage": "100%（2178/2178）",
-        "new_items_this_cycle": 13,
-        "retranslate": "未全量重译——9条机翻缺陷人工定稿精准修复(同引擎重译会重复错误)；0未翻译残留",
-        "republish": "未重新发布——线上域名代理同一服务，数据自动同步，保留sharecode，域名不变",
-        "entry_before": "已满足(::before rules=0, content=none, 五态实测)",
-        "metrics_padding": "已满足(四边0px, 五态实测)",
-        "theme_modes": "已满足(light/dark/auto, auto跟随系统)",
-        "no_manual_sync": "已满足(sync_btns=0, 五态实测)",
-        "quality_gate": "0未翻译/0空中文/0日期格式错/0时间格式错/0重复ID/0西里尔混入;31个YYYY-MM-DD分组;2178条",
+        "coverage": "100%(2533/2533)",
+        "new_items_this_cycle": 0,
+        "expired_items_this_cycle": 2,
+        "retranslate": "未批量重译——质量门禁全0；仅人工定稿2条llm-gemini版本号标题截断并写入三层覆盖表",
+        "republish": "未重新发布——变更仅为人工覆盖表(已通过持久卷JSON即时生效)，无前后端运行逻辑/样式变更；重发有sharecode风险，域名不变",
+        "git_push": "已推送 9f88099（cover表772/779 + 巡检脚本）",
+        "entry_before": "已满足(::before rules=0,content=none,六态实测)",
+        "metrics_padding": "已满足(四边0px,六态实测)",
+        "theme_modes": "已满足(light/dark/auto三态,auto跟随系统prefers-color-scheme,六态实测)",
+        "no_manual_sync": "已满足(sync_btns=0,六态实测)",
+        "quality_gate": {
+            "untranslated": 0,
+            "date_format_error": 0,
+            "timestamp_format_error": 0,
+            "empty_title_zh": 0,
+            "empty_summary_zh": 0,
+            "cyrillic_mix": 0,
+            "duplicate_ids": 0,
+            "gate_failures": 0
+        },
         "screenshots": [
-            "deliverable_1118_2300_light.png",
-            "deliverable_1118_2300_dark.png",
-            "deliverable_1118_2300_auto.png",
-            "deliverable_1118_2300_en.png",
-            "deliverable_1118_2300_online.png"
+            "deliverable_1121_1600_light.png",
+            "deliverable_1121_1600_dark.png",
+            "deliverable_1121_1600_auto.png",
+            "deliverable_1121_1600_en.png",
+            "deliverable_1121_1600_online.png"
         ],
-        "git_commits": [
-            "63193f8"
-        ]
+        "last_update": "2026-11-21T16:00:12.468525+08:00",
+        "next_update": "2026-11-21T17:00:00+08:00"
     },
-    "this_cycle_added": 1,
-    "this_run_time": "08点例行巡检：沙箱恢复后平台08:04自动拉起服务(main.py pid19797)，NLLB-200就绪；本轮08:07调度去重后新增0条(自上次07点报告2275累计+10达2285)，全库100%全译(2285/2285)。人工定稿8条NLLB机翻硬伤(Google Gemini任务模式/Anthropic创纪录IPO/纳德拉关键基础设施无法修补/Nadella支持ColetteKress团队/马斯克踢乔丹/AWS HyperPod挂起作业检测/学区弃用Google搜索/黄仁勋卸任纳德拉挺英伟达)，三层覆盖表(标题530/摘要540)。报告2285条/32组YYYY-MM-DD/每条HH:MM/中文为主括注英文原题。五态实测entry::before=0/metrics四边0px/三态主题auto跟随系统/无同步按钮/线上本地2285一致。代码变更git push。",
-    "last_inspection_time": "09:00例行巡检（09:18重启后首轮补抓，新增1条Muru）",
-    "last_update_time": "09:00例行巡检（09:18重启后首轮补抓，新增1条Muru）",
-    "total_items": 2547,
-    "translated": 2547,
-    "translation_coverage": "2547/2547",
+    "this_cycle_added": 0,
+    "this_run_time": "11:00例行巡检（0新增，全库2548条100%全译，五态实测通过）",
+    "last_inspection_time": "11:00例行巡检（0新增，全库2548条100%全译，五态实测通过）",
+    "last_update_time": "11:00例行巡检（0新增，全库2548条100%全译，五态实测通过）",
+    "total_items": 2548,
+    "translated": 2548,
+    "translation_coverage": "2548/2548",
     "coverage": "100%",
-    "last_update": "2026-11-22T09:18:41.580813+08:00",
-    "next_update": "2026-11-22T10:00:00+08:00",
-    "git_commit": "004f307",
-    "git_push": "已推送004f307（09:00巡检：定稿Muru机翻硬伤+三层覆盖表同步）"
+    "last_update": "2026-11-22T10:59:58.660970+08:00",
+    "next_update": "2026-11-22T12:00:00+08:00",
+    "git_commit": "240ae81",
+    "git_push": "已推送240ae81（08:00巡检：定稿Together AI机翻硬伤+三层覆盖表同步）"
 }

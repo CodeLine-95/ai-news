@@ -1,0 +1,92 @@
+{
+  "light": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1100_light.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2548,
+      "data_theme": "light",
+      "data_view": null
+    }
+  },
+  "dark": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1100_dark.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2548,
+      "data_theme": "dark",
+      "data_view": null
+    }
+  },
+  "auto": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1100_auto.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2548,
+      "data_theme": "dark",
+      "data_view": null
+    }
+  },
+  "en": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1100_en.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2548,
+      "data_theme": "light",
+      "data_view": null
+    }
+  },
+  "online": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1100_online.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2548,
+      "data_theme": "light",
+      "data_view": null
+    }
+  }
+}
