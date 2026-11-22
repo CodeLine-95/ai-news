@@ -830,6 +830,9 @@ TITLE_OVERRIDES = {
     'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': 'Anthropic 拟限制 IPO 交易团队规模及与竞争对手的合作',
     "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区正式确认 Levent Alpöge 对黎曼猜想的证明正确',
     'Security researchers show how cheap AI inference providers steal keys and snoop on users': '安全研究人员揭示廉价 AI 推理服务商如何窃取密钥并窥探用户',
+    'AI is getting better faster than experts can reliably test whether new systems are safe, METR warns': 'METR 警告：AI 能力提升速度快于专家可靠检验新系统安全性的速度',
+    'The vibe-coding revolution is coming to all the gadgets': 'Vibe 编程革命正席卷各类智能设备',
+    'PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls': 'PostgreSQL 19 发布：支持在线表重组与查询规划控制',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1660,4 +1663,7 @@ SUMMARY_OVERRIDES = {
     'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': '2026 年 11 月 22 日，路透社报道称，Anthropic 在其 22 家 IPO 承销商中，将部分交易团队限定为 4 名高级银行家，并要求一些银行高管接受为期 6 个月的限制，不得与 AI 竞争对手合作，作为严格受控上市流程的一部分。多位接近此次发行的人士描述了被压缩的时间表、临时变更、财务预测迟交以及文件审批仓促等情况。',
     "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区已正式确认 Levent Alpöge 对黎曼猜想的证明正确。数十名独立验证者核验了这份长达 1700 万行的计算机代码。这一成果比预期提前数年到来：陶哲轩（Terence Tao）此前曾预测要到 2050 年左右才会出现，也未曾料到 AI 能独立解决它。',
     'Security researchers show how cheap AI inference providers steal keys and snoop on users': 'Dragos 安全研究人员利用 200 万个虚假 AI 请求，揭露了 AI 供应链中的严重漏洞：至少发现三家服务商遭到入侵、数百个 AWS 密钥被盗，以及直接读取客户请求的应用商店转售商。OpenRouter 随后移除了三家服务商和 125 个端点作为回应。',
+    'AI is getting better faster than experts can reliably test whether new systems are safe, METR warns': 'METR 报告称，Opus 5.5 和 GPT-6 Astra 等领先 AI 模型在研究任务上的进步速度很快，但越来越难以衡量。该机构警告，现有数据无法排除 AI 研发出现危险加速的可能；不过它也表示，常见的测试可能高估了模型的实际能力。',
+    'The vibe-coding revolution is coming to all the gadgets': '这是《The Stepback》——每周一封通讯，拆解科技界的一个重要故事。想了解更多关于万物「Vibe 黑客化」的内容，请关注 David Pierce。《The Stepback》于美国东部时间周日上午 8 点送达订阅者邮箱，可在此处订阅。事情是如何开始的？和许多与 AI 有关的事情一样，并不是大语言模型开启了某种全新能力。自从有了智能设备，就有少数用户在对它们进行破解、改装、越狱，并按自己的喜好调整。新的变化在于：现在这件事变得容易了。',
+    'PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls': 'PostgreSQL 全球开发组发布了 PostgreSQL 19，在数据库维护、查询规划、复制和应用开发方面带来多项变化。该版本聚焦降低管理开销并提升性能，新增无需停机即可重组表的工具，并强化了对查询计划的控制。',
 }

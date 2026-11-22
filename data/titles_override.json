@@ -817,5 +817,8 @@
  "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature": "Claude Code 通过「Don't Ask Again」功能泄露机密信息",
  "Anthropic Sought Limits on IPO Deal Teams and Work with Rivals": "Anthropic 拟限制 IPO 交易团队规模及与竞争对手的合作",
  "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": "Lean 与 Mathlib 社区正式确认 Levent Alpöge 对黎曼猜想的证明正确",
- "Security researchers show how cheap AI inference providers steal keys and snoop on users": "安全研究人员揭示廉价 AI 推理服务商如何窃取密钥并窥探用户"
+ "Security researchers show how cheap AI inference providers steal keys and snoop on users": "安全研究人员揭示廉价 AI 推理服务商如何窃取密钥并窥探用户",
+ "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns": "METR 警告：AI 能力提升速度快于专家可靠检验新系统安全性的速度",
+ "The vibe-coding revolution is coming to all the gadgets": "Vibe 编程革命正席卷各类智能设备",
+ "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls": "PostgreSQL 19 发布：支持在线表重组与查询规划控制"
 }
