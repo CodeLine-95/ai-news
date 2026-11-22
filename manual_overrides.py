@@ -819,6 +819,8 @@ TITLE_OVERRIDES = {
     'Muru': 'Muru：Graham Dumpleton 打造的 AI 辅助 Rust 服务器',
     'A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels': '哥伦比亚大学与 CertiK 团队推出 TensorLean：面向 GPU 内核形式化验证的框架',
     'OpenRouter Cuts Three Providers After AI Prompt Exposure Findings': '提示词泄露调查结果公布后，OpenRouter 终止三家供应商合作',
+    'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现支持 GPU 推理：每块 GPU 可由 48 个并发调用共享同一模型',
+    'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 发布 Agent Compute Engine，为 AI 智能体提供安全执行环境',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1638,4 +1640,6 @@ SUMMARY_OVERRIDES = {
     'Muru': 'Graham Dumpleton 于 20 年前创建了 mod_wsgi，此后他一直在思考在生产环境中运行 Python Web 应用的最佳方式。Muru 是他全新打造的 AI 辅助 Rust 服务器，旨在为开发和生产环境中的 ASGI、WSGI Python 应用提供尽可能出色的运行工具。正如他在 wrapture 项目中一样，他一边开发一边持续发布极其详尽的项目记录，将其作为开发流程的一部分。',
     'A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels': '来自哥伦比亚大学和 CertiK 的研究人员推出了 TensorLean——一个在 PTX 层面对 GPU 内核进行形式化验证的框架。TensorLean 是基于 Lean 的验证器，可证明编译后的内核符合张量级数学规范。研究团队检查了 149 个内核实例，涵盖 FlashAttention-2/-3/-4 以及 DeepGEMM 的全部内核，其中 83 个被证明正确，其余 66 个暴露出 38 个正确性缺陷。要点速览：规模——1800 行 PTX 解析器；规范共 10,278 行，对应 151,285 行内核源码，比例接近 1:15；运行于 16 核工作站，可检查针对 A100、H100 和 B200 编译的 PTX 内核；性能——149 个内核实例中 83 个验证通过，在 6 个项目中发现 38 个缺陷；亮点——捕获了一处在 17,760 次测试运行中从未出现的 FlashAttention-4 数据竞争。',
     'OpenRouter Cuts Three Providers After AI Prompt Exposure Findings': '2026 年 11 月 22 日，OpenRouter 宣布已下线三家推理供应商，并将 125 个端点移出「零数据留存（ZDR）」资格范围——该设置下提示词与响应不会被存储。公司还通知了所有可能受影响的客户。OpenRouter 表示，调查结果未显示其自身遭到入侵或发生未经授权访问。此次移除既包括被研究人员标记的供应商，也包括作为预防措施撤下的其他端点。',
+    'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现已通过 Lambda Managed Instances 在 EC2 G 系列 GPU 实例上运行事件函数，每块 GPU 最多支持 48 个并发调用共享同一模型，提供无需编写处理器代码的 vLLM 与 SGLang 基础镜像，并将异步超时延长至 90 分钟。计费方式为实例价格外加 9.75% 服务费；首批上手测试报告显示发布耗时约八分钟，且不支持响应流式传输。',
+    'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 近日宣布推出 Agent Compute Engine——一项在隔离微虚拟机（microVM）中运行 AI 智能体的托管服务，具备检查点功能，可暂停与恢复执行环境。该设计将凭证、API 密钥与 OAuth 刷新令牌置于智能体沙盒之外，由外部 Agent Gateway 对请求进行认证并注入所需的密钥。',
 }

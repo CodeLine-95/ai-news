@@ -806,5 +806,7 @@
   "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential": "Together AI 披露：编码智能体暴露凭证后发生提示词泄露",
   "Muru": "Muru：Graham Dumpleton 打造的 AI 辅助 Rust 服务器",
   "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels": "哥伦比亚大学与 CertiK 团队推出 TensorLean：面向 GPU 内核形式化验证的框架",
-  "OpenRouter Cuts Three Providers After AI Prompt Exposure Findings": "提示词泄露调查结果公布后，OpenRouter 终止三家供应商合作"
+  "OpenRouter Cuts Three Providers After AI Prompt Exposure Findings": "提示词泄露调查结果公布后，OpenRouter 终止三家供应商合作",
+  "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU": "AWS Lambda 现支持 GPU 推理：每块 GPU 可由 48 个并发调用共享同一模型",
+  "Google Announces Agent Compute Engine for Secure AI Agent Execution": "Google 发布 Agent Compute Engine，为 AI 智能体提供安全执行环境"
 }
