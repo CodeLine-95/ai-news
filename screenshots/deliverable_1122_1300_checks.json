@@ -1,0 +1,110 @@
+{
+  "light": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_light.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light",
+      "bg": "rgb(244, 247, 251)"
+    }
+  },
+  "dark": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_dark.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "dark",
+      "bg": "rgb(7, 12, 22)"
+    }
+  },
+  "auto_dark": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_auto_dark.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "dark",
+      "bg": "rgb(7, 12, 22)"
+    }
+  },
+  "auto_light": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_auto_light.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light",
+      "bg": "rgb(244, 247, 251)"
+    }
+  },
+  "en": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_en.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light",
+      "bg": "rgb(244, 247, 251)"
+    }
+  },
+  "online": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1300_online.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light",
+      "bg": "rgb(244, 247, 251)"
+    }
+  }
+}
