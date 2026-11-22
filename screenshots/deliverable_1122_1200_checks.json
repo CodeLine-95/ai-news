@@ -1,0 +1,87 @@
+{
+  "light": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1200_light.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light"
+    }
+  },
+  "dark": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1200_dark.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "dark"
+    }
+  },
+  "auto": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1200_auto.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "dark"
+    }
+  },
+  "en": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1200_en.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light"
+    }
+  },
+  "online": {
+    "path": "/workspace/ai-news/screenshots/deliverable_1122_1200_online.png",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "metrics_padding_all_zero": true,
+      "sync_buttons": [],
+      "entries": 2549,
+      "data_theme": "light"
+    }
+  }
+}
