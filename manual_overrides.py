@@ -839,6 +839,14 @@ TITLE_OVERRIDES = {
     'AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace': 'AI 编码智能体轻松通过隔离测试，但在模拟工作场所完成的任务不到十分之一',
     'Binding of Isaac developer removes AI music from Repentance Plus': '《以撒的结合》开发者从《Repentance Plus》中移除 AI 音乐',
     'Perplexity and Intelligence': '困惑度与智能',
+    'Why data centers are at the center of the Big Tech backlash': '为何数据中心成为大型科技公司遭到反弹的焦点',
+    'Musk Allocates AI5 to Optimus, Leaving Tesla Cars on AI4': '马斯克将 AI5 芯片用于 Optimus，特斯拉汽车继续搭载 AI4',
+    'Sarvam AI Releases Open-Weight 105B Checkpoint for Enterprise Agents': 'Sarvam AI 发布面向企业智能体的开放权重 105B 检查点',
+    'NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor': '英伟达发布 Alpamayo 2 Edge：面向 DRIVE Thor 的 2B 推理 VLA 模型',
+    'OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones': 'OpenAI 提议将共享的 AI 研发限制与安全里程碑挂钩',
+    'Employee Health Benefits End at Foundation Future Industries': 'Foundation Future Industries 终止员工健康福利',
+    'Nonprofits Build Capacity for Potential Giving After Anthropic’s IPO': 'Anthropic IPO 后，非营利组织为潜在捐赠扩充能力',
+    'Decoding Policies in a Serving Engine': '服务引擎中的解码策略',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1678,4 +1686,12 @@ SUMMARY_OVERRIDES = {
     'AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace': '一项新的贴近现实的测试将 AI 编码智能体置于模拟的开发者岗位：有同事、项目看板和残缺的交接文档，它们必须自主持续开发软件，并在混乱的日常工作流程中可靠地关闭待办工单。即便是 Opus 5.5 和 Astra 也远未达标——能完整解决的任务不到十分之一。这些模型能迅速完成清晰、独立的任务，但一旦作为自主开发者持续工作就会失去条理。',
     'Binding of Isaac developer removes AI music from Repentance Plus': '《以撒的结合：Repentance Plus》过去几天在 Steam 上遭到差评轰炸，起因是玩家发现游戏中某个特定段落使用了 AI 音乐。Reddit 用户 ShweetsStuff 发现了《侠盗猎车手》（GTA）主题段落中使用的歌曲——多个音频文件带有 Suno 元数据，指向 Suno 网站上的曲目。游戏创作者埃德蒙·麦克米伦（Edmund McMillen）随后在 X 上道歉，称自己「完全不知道」游戏中的 GTA 恶搞桥段用了生成式 AI 音乐。更富戏剧性的是，Valve 要求开发者披露在开发过程中使用生成式 AI 的方式与时机，而 Nicalis, Inc.……',
     'Perplexity and Intelligence': '困惑度（perplexity）如何衡量 AI 模型的进步，以及它为何能帮助开发者建立一套评估新兴能力的通用方法。',
+    'Why data centers are at the center of the Big Tech backlash': '记者帕丽斯·马克思（Paris Marx）在新书《Hyperscale》（超大规模）中剖析了这一议题。',
+    'Musk Allocates AI5 to Optimus, Leaving Tesla Cars on AI4': '埃隆·马斯克在 2026 年 11 月 22 日的 X 回复中表示，特斯拉的 AI5 计算机将用于 Optimus，汽车将继续使用 AI4，而 AI4 已足以实现「超人级驾驶」。他是在回应一位车主的提问——新车何时能用上 AI5、是否值得在从 AI3 升级前再等等。该回复承接同一讨论中早前的一篇技术帖，马斯克在其中解释了特斯拉的 Reality View 可视化如何适配 AI4。这一解释背后是两类车载工作负载：一个生成驾驶动作的模型，以及一个生成界面可视化的独立生成式模型。',
+    'Sarvam AI Releases Open-Weight 105B Checkpoint for Enterprise Agents': 'Sarvam AI 于 2026 年 11 月 22 日发布 Sarvam-105B-1711，这是一个面向客户支持、语音智能体及其他高负载企业场景的新开放权重检查点。该版本包含可用于进一步训练的 BF16 权重，以及一款紧凑的 4 位 NVFP4 版本，可在单张工作站 GPU 上运行。模型卡显示，它采用与 Sarvam-105B 相同的 1050 亿参数混合专家基座，其中激活参数为 103 亿。',
+    'NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor': '英伟达发布了 Alpamayo 2 Edge，这是一款面向自动驾驶的紧凑型推理视觉-语言-动作（VLA）模型。Alpamayo 2 Edge 是一个 20 亿参数模型，可在车内规划行驶轨迹并给出解释。它面向 NVIDIA DRIVE AGX Thor，而非数据中心 GPU，目标是在车载算力与延迟预算内实现基于推理的规划。你可通过 GPULeaderboard.com 的 Chrome 扩展查看部署选项与规格。要点速览：规模为 2B 级，模型构成为 2.45B 主干 + 0.2B 动作专家（约 20 亿 + 2 亿参数；HuggingFace 元数据标为 3B），上下文长度未披露（实测提示为 3,236 个 token）。运行平台：NVIDIA DRIVE AGX Thor，采用 FP8 + TensorRT Edge-LLM 方案；BF16 PyTorch 需要 16 GB 以上显存，已在 1× H100 80GB 上验证。性能方面：以该体量而言是强劲的闭环驾驶模型，推理问答处于中游水平。',
+    'OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones': 'OpenAI 首席科学家 Jakub Pachocki 于 2026 年 11 月 22 日公布了内部困惑度（perplexity）测量结果，并提议对前沿 AI 研发设定共享限制，警告称若预训练进展在 2027 年之前加速，对齐与监测研究可能跟不上步伐。此次披露涉及对数困惑度（log-perplexity），即困惑度的对数，也称交叉熵损失。困惑度衡量模型平均预测下一个词元（token）的能力，数值越低表示预测越准确。',
+    'Employee Health Benefits End at Foundation Future Industries': 'CNBC 于 2026 年 11 月 22 日援引获取的内部备忘录报道称，人形机器人初创公司 Foundation Future Industries 告知员工，因其未能按时发薪并寻求紧急融资，通过管理员 Rippling 提供的健康福利已被追溯至 2026 年 10 月终止。致员工的邮件称，他们将获得 2026 年 11 月的 COBRA 医保覆盖；Foundation 承诺报销保费，并正在启用新的福利供应商。',
+    'Nonprofits Build Capacity for Potential Giving After Anthropic’s IPO': '美联社于 2026 年 11 月 22 日报道称，在这家 AI 公司 IPO 之后，非营利组织正为接收 Anthropic 员工与创始人的潜在捐赠做准备。按 IPO 价格计算，联合创始人承诺的股份价值 1120 亿美元，但许多员工要到 2027 年春季才能出售或赠与多数股份，因此非营利组织在扩大能力的同时，并不指望立即收到捐款。报道称 Anthropic 上市首日估值创纪录地达到 1.5 万亿美元。',
+    'Decoding Policies in a Serving Engine': '本文概述分为六个部分：使用 vLLM 运行解码策略、采样过滤器与逐词元处理、多输出与束搜索、停止条件与请求生命周期、结构化输出，以及批处理与运行时成本。在使用 vLLM 运行解码策略部分，vLLM 将模型执行与词元选择分离开来。',
 }
