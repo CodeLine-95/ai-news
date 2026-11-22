@@ -822,6 +822,7 @@ TITLE_OVERRIDES = {
     'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现支持 GPU 推理：每块 GPU 可由 48 个并发调用共享同一模型',
     'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 发布 Agent Compute Engine，为 AI 智能体提供安全执行环境',
     'Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades': 'Tesla 推出 FSD V15，带来 Reality View 实景视图与视觉升级',
+    'GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude': 'GPT-6.2 Astra 与 Sol 回答更快切入要点，但透明度得分低于 Claude',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1644,4 +1645,5 @@ SUMMARY_OVERRIDES = {
     'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现已通过 Lambda Managed Instances 在 EC2 G 系列 GPU 实例上运行事件函数，每块 GPU 最多支持 48 个并发调用共享同一模型，提供无需编写处理器代码的 vLLM 与 SGLang 基础镜像，并将异步超时延长至 90 分钟。计费方式为实例价格外加 9.75% 服务费；首批上手测试报告显示发布耗时约八分钟，且不支持响应流式传输。',
     'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 近日宣布推出 Agent Compute Engine——一项在隔离微虚拟机（microVM）中运行 AI 智能体的托管服务，具备检查点功能，可暂停与恢复执行环境。该设计将凭证、API 密钥与 OAuth 刷新令牌置于智能体沙盒之外，由外部 Agent Gateway 对请求进行认证并注入所需的密钥。',
     'Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades': 'Tesla 于 2026 年 11 月 21 日宣布，全自动驾驶（FSD）v15 开始推送，带来升级的驾驶网络、实时 Tesla Reality View 实景可视化，以及据公司称关键干预率提升 25 倍。本版本还调整了导航、泊车、驾驶员监控与速度处理。Tesla AI 负责人 Ashok Elluswamy 表示，该版本将首先推送给第一批客户。',
+    'GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude': 'Artificial Analysis 的一项评测显示，OpenAI 新推出的 GPT-6.2 Astra 与 Sol 回答比前代短 34% 至 40%，更直接切入要点，使用的标题和破折号也更少；但两款模型承认不确定性的倾向大幅下降——Astra 该项得分从 96 跌至 24，Sol 从 98 跌至 51。与 Anthropic 的 Claude Fable 5.2 和 Opus 5.5 相比，Astra 与 Sol 在结构和透明度上均落后：Anthropic 两款模型透明度指数为 81 和 90，明显高于 Astra（41）与 Sol（57）；Opus 5.5 信息量指数达 90，为四款模型最高。该指数涵盖承认不确定性、真实性、声明假设、标注细微差别与谄媚（反向计分）五项特质。需强调的是，性格分数反映的是沟通风格差异，透明度较低并不等于答案错误率更高。',
 }
