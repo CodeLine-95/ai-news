@@ -77,7 +77,13 @@ def _acceptable_keys(text):
             scaled.setdefault(m.group(1), set()).add(_key(val * mult))
     for m in re.finditer(r"\d+(?:[.,]\d+)*", text or ""):
         n = m.group(0)
-        acc = {n, _key(float(n.replace(",", "")))}
+        # 版本号（如 1.9.5、2.45B 里的多段点号数字）无法直接转 float，
+        # 只保留字面 token，跳过数值归一化，避免 ValueError 中断整轮体检。
+        acc = {n}
+        try:
+            acc.add(_key(float(n.replace(",", ""))))
+        except ValueError:
+            pass
         acc |= scaled.get(n, set())
         pairs.append((n, acc))
     return pairs
