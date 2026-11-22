@@ -74,7 +74,7 @@
             "gate_failures": 0
         },
         "cyrillic_mix": 0,
-        "git_commit": "2026-11-21T06:00 巡检版本（详见 git log）",
+        "git_commit": "004f307",
         "apple_trunc": 0,
         "patrol": "2026-11-21 06:00 例行巡检：新增7条、定稿9条NLLB硬伤(6新+3历史)，覆盖表753/762,报告2528条100%全译"
     },
@@ -91,7 +91,7 @@
         "quality_fix": "人工定稿1条新增机翻硬伤：Muru（Rust服务器产品名）被音译为『摩鲁』、人名 Graham Dumpleton/项目 wrapture 断裂；标题改为『Muru：Graham Dumpleton 打造的 AI 辅助 Rust 服务器』并重写摘要，写入三层覆盖表(news.json+JSON表+代码层)",
         "retranslate": "未批量重译——质量门禁全0，仅1条专名硬伤人工定稿",
         "republish": "未重新发布——线上与本地为同一服务经持久卷实时同步，域名/sharecode完整保留；本轮仅覆盖表与巡检脚本变更，无前后端运行逻辑或样式变更",
-        "git_push": "待推送本轮覆盖表定稿+巡检脚本",
+        "git_push": "已推送004f307（09:00巡检：定稿Muru机翻硬伤+三层覆盖表+五态截图）",
         "entry_before": "已满足(::before规则0,content=none,五态实测)",
         "metrics_padding": "已满足(四边0px,五态实测)",
         "theme_modes": "已满足(light/dark/auto三态,auto跟随系统prefers-color-scheme,五态实测)",
@@ -180,5 +180,7 @@
     "translation_coverage": "2547/2547",
     "coverage": "100%",
     "last_update": "2026-11-22T09:18:41.580813+08:00",
-    "next_update": "2026-11-22T10:00:00+08:00"
+    "next_update": "2026-11-22T10:00:00+08:00",
+    "git_commit": "004f307",
+    "git_push": "已推送004f307（09:00巡检：定稿Muru机翻硬伤+三层覆盖表同步）"
 }
