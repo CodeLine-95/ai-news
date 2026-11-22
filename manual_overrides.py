@@ -829,6 +829,7 @@ TITLE_OVERRIDES = {
     'Claude Code Has Been Leaking Secrets Through Its "Don\'t Ask Again" Feature': "Claude Code 通过「Don't Ask Again」功能泄露机密信息",
     'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': 'Anthropic 拟限制 IPO 交易团队规模及与竞争对手的合作',
     "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区正式确认 Levent Alpöge 对黎曼猜想的证明正确',
+    'Security researchers show how cheap AI inference providers steal keys and snoop on users': '安全研究人员揭示廉价 AI 推理服务商如何窃取密钥并窥探用户',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1658,4 +1659,5 @@ SUMMARY_OVERRIDES = {
     'Claude Code Has Been Leaking Secrets Through Its "Don\'t Ask Again" Feature': "智能体安全公司 Apiiro 发现，Claude Code 一直在公共存储库中泄露机密信息——原因是它把机密存储在开发者机器上的本地文件中，以实现「Don't Ask Again」（不要再问）功能。该公司在 claude/settings.local.json 文件中识别出 1122 个机密；此外，在 git 历史、共享的 settings.json 文件以及存储的智能体对话转录中，还发现了另外 1160 个机密。",
     'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': '2026 年 11 月 22 日，路透社报道称，Anthropic 在其 22 家 IPO 承销商中，将部分交易团队限定为 4 名高级银行家，并要求一些银行高管接受为期 6 个月的限制，不得与 AI 竞争对手合作，作为严格受控上市流程的一部分。多位接近此次发行的人士描述了被压缩的时间表、临时变更、财务预测迟交以及文件审批仓促等情况。',
     "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区已正式确认 Levent Alpöge 对黎曼猜想的证明正确。数十名独立验证者核验了这份长达 1700 万行的计算机代码。这一成果比预期提前数年到来：陶哲轩（Terence Tao）此前曾预测要到 2050 年左右才会出现，也未曾料到 AI 能独立解决它。',
+    'Security researchers show how cheap AI inference providers steal keys and snoop on users': 'Dragos 安全研究人员利用 200 万个虚假 AI 请求，揭露了 AI 供应链中的严重漏洞：至少发现三家服务商遭到入侵、数百个 AWS 密钥被盗，以及直接读取客户请求的应用商店转售商。OpenRouter 随后移除了三家服务商和 125 个端点作为回应。',
 }
