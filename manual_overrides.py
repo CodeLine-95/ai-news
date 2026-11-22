@@ -821,6 +821,7 @@ TITLE_OVERRIDES = {
     'OpenRouter Cuts Three Providers After AI Prompt Exposure Findings': '提示词泄露调查结果公布后，OpenRouter 终止三家供应商合作',
     'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现支持 GPU 推理：每块 GPU 可由 48 个并发调用共享同一模型',
     'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 发布 Agent Compute Engine，为 AI 智能体提供安全执行环境',
+    'Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades': 'Tesla 推出 FSD V15，带来 Reality View 实景视图与视觉升级',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1642,4 +1643,5 @@ SUMMARY_OVERRIDES = {
     'OpenRouter Cuts Three Providers After AI Prompt Exposure Findings': '2026 年 11 月 22 日，OpenRouter 宣布已下线三家推理供应商，并将 125 个端点移出「零数据留存（ZDR）」资格范围——该设置下提示词与响应不会被存储。公司还通知了所有可能受影响的客户。OpenRouter 表示，调查结果未显示其自身遭到入侵或发生未经授权访问。此次移除既包括被研究人员标记的供应商，也包括作为预防措施撤下的其他端点。',
     'AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU': 'AWS Lambda 现已通过 Lambda Managed Instances 在 EC2 G 系列 GPU 实例上运行事件函数，每块 GPU 最多支持 48 个并发调用共享同一模型，提供无需编写处理器代码的 vLLM 与 SGLang 基础镜像，并将异步超时延长至 90 分钟。计费方式为实例价格外加 9.75% 服务费；首批上手测试报告显示发布耗时约八分钟，且不支持响应流式传输。',
     'Google Announces Agent Compute Engine for Secure AI Agent Execution': 'Google 近日宣布推出 Agent Compute Engine——一项在隔离微虚拟机（microVM）中运行 AI 智能体的托管服务，具备检查点功能，可暂停与恢复执行环境。该设计将凭证、API 密钥与 OAuth 刷新令牌置于智能体沙盒之外，由外部 Agent Gateway 对请求进行认证并注入所需的密钥。',
+    'Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades': 'Tesla 于 2026 年 11 月 21 日宣布，全自动驾驶（FSD）v15 开始推送，带来升级的驾驶网络、实时 Tesla Reality View 实景可视化，以及据公司称关键干预率提升 25 倍。本版本还调整了导航、泊车、驾驶员监控与速度处理。Tesla AI 负责人 Ashok Elluswamy 表示，该版本将首先推送给第一批客户。',
 }
