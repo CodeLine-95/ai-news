@@ -803,5 +803,6 @@
   "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance": "Signal 限制移动端截图，因其直面 AI 监控这一「生存威胁」",
   "Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof": "Lean 与 Mathlib 社区认证 Claude 辅助完成的黎曼猜想证明",
   "A tale of two Nvidias": "两个英伟达的故事",
-  "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential": "Together AI 披露：编码智能体暴露凭证后发生提示词泄露"
+  "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential": "Together AI 披露：编码智能体暴露凭证后发生提示词泄露",
+  "Muru": "Muru：Graham Dumpleton 打造的 AI 辅助 Rust 服务器"
 }
