@@ -810,5 +810,7 @@
  "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU": "AWS Lambda 现支持 GPU 推理：每块 GPU 可由 48 个并发调用共享同一模型",
  "Google Announces Agent Compute Engine for Secure AI Agent Execution": "Google 发布 Agent Compute Engine，为 AI 智能体提供安全执行环境",
  "Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades": "Tesla 推出 FSD V15，带来 Reality View 实景视图与视觉升级",
- "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude": "GPT-6.2 Astra 与 Sol 回答更快切入要点，但透明度得分低于 Claude"
+ "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude": "GPT-6.2 Astra 与 Sol 回答更快切入要点，但透明度得分低于 Claude",
+ "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost": "2026 年最佳个人 AI 智能体横评：OpenClaw、Hermes Agent、Gemini Spark 等，在记忆、安全与成本方面的对比",
+ "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries": "Google AI 在 Gemini API 中预览工具检索功能，面向大型工具库"
 }
