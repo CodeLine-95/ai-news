@@ -815,6 +815,7 @@ TITLE_OVERRIDES = {
     'Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance': 'Signal 限制移动端截图，因其直面 AI 监控这一「生存威胁」',
     'Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof': 'Lean 与 Mathlib 社区认证 Claude 辅助完成的黎曼猜想证明',
     'A tale of two Nvidias': '两个英伟达的故事',
+    'Together AI Discloses Prompt Leak After Coding Agent Exposed Credential': 'Together AI 披露：编码智能体暴露凭证后发生提示词泄露',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1630,4 +1631,5 @@ SUMMARY_OVERRIDES = {
     'Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance': 'Signal 正在限制用户在 Android 与 iOS 应用中截取屏幕的能力。',
     'Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof': 'Lean 与 Mathlib 社区于 2026 年 11 月 21 日确认：经过一整天的编译、命题匹配与证明内核校验，Levent Alpöge 的 1700 万行 Lean 代码库正确表述并证明了黎曼猜想。双方的联合声明获得 Lean FRO 与 Mathlib 倡议组织背书。此次认证源自 Alpöge 于 2026 年 11 月 20 日宣布的成果——他表示自己是在与 Claude 协作的过程中发现并形式化了这一证明。',
     'A tale of two Nvidias': '关于英伟达，我们看到了两幅截然不同的图景——公司最新发布的财报，与那些高声呼吁黄仁勋（Jensen Huang）回归的科技高管。',
+    'Together AI Discloses Prompt Leak After Coding Agent Exposed Credential': 'Together AI 于 2026 年 11 月 21 日披露：在客户向其无服务器推理服务提交的部分提示词中，有一名未经授权方下载了留存的样本。此前该公司在开发其公开的 xorl GitHub 仓库时，一个 AI 编码智能体暴露了用于此次下载的私有仓库凭证。客户此前已授权将这些提示词用于常规软件测试，Together AI 将样本存储在一个私有的 Hugging Face 仓库中。',
 }
