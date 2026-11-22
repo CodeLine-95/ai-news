@@ -98,7 +98,7 @@
         "retranslate": "未批量重译——质量门禁全0",
         "refresh": "报告与数据已按最新2548条校验一致，无需重生成",
         "republish": "未重新发布——无运行逻辑/样式变更，线上持久卷即时同步，域名/sharecode不变",
-        "git_push": "待回填",
+        "git_push": "已推送44f50e2（11:00巡检：0新增全库2548条100%全译，五态实测 entry::before=0/metrics 0px/三态主题/无手动同步）",
         "entry_before": "已满足(::before规则0,content=none,五态实测)",
         "metrics_padding": "已满足(四边0px,五态实测)",
         "theme_modes": "已满足(light/dark/auto三态,auto跟随系统prefers-color-scheme,五态实测)",
@@ -201,6 +201,6 @@
     "coverage": "100%",
     "last_update": "2026-11-22T10:59:58.660970+08:00",
     "next_update": "2026-11-22T12:00:00+08:00",
-    "git_commit": "240ae81",
-    "git_push": "已推送240ae81（08:00巡检：定稿Together AI机翻硬伤+三层覆盖表同步）"
+    "git_commit": "44f50e2",
+    "git_push": "已推送44f50e2（11:00巡检：0新增全库2548条100%全译，五态实测 entry::before=0/metrics 0px/三态主题/无手动同步）"
 }
