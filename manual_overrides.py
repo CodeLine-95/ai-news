@@ -827,6 +827,8 @@ TITLE_OVERRIDES = {
     'Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries': 'Google AI 在 Gemini API 中预览工具检索功能，面向大型工具库',
     'Banks Have Had It Up to Here With Your AI Agent': '银行已经受够了你的 AI 智能体',
     'Claude Code Has Been Leaking Secrets Through Its "Don\'t Ask Again" Feature': "Claude Code 通过「Don't Ask Again」功能泄露机密信息",
+    'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': 'Anthropic 拟限制 IPO 交易团队规模及与竞争对手的合作',
+    "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区正式确认 Levent Alpöge 对黎曼猜想的证明正确',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1654,4 +1656,6 @@ SUMMARY_OVERRIDES = {
     'Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries': 'Google 推出了 Gemini API 中的工具检索（Tool Retrieval）功能，目前在互动 API（Interactions API）中提供预览。Gemini API 工具检索让智能体能够使用庞大的工具库，而不必在每次提示中都发送每个参数方案——模型只会在任务确实需要某个工具时才加载相应的方案。对于连接了数十个函数或 MCP 服务器的智能体来说，这直接针对一项现实成本：工具定义本身。要点速览：该功能是没有工具数量声明限制的 API 特性；Google 建议对 20 个以内的稳定工具采用静态加载。运行方式既可以是 Google 的服务器（服务器端检索），也可以是你自己的注册表（客户端检索）。API 互动目前仅提供 v1beta 版本。性能方面，检索、方案加载与函数调用在服务器模式下可在一次 API 请求中完成。最佳场景：零额外往返，且服务器端检索无需自建索引。',
     'Banks Have Had It Up to Here With Your AI Agent': '美国主要金融机构正在禁止第三方智能体机器人登录用户账户，并警告说：机器人犯下的任何代价高昂的错误，责任都由用户自己承担。随着 AI 智能体开始代替用户执行转账、支付等操作，银行正收紧对自动化程序访问账户的控制，试图在便利性与安全风险之间重新划出界限。',
     'Claude Code Has Been Leaking Secrets Through Its "Don\'t Ask Again" Feature': "智能体安全公司 Apiiro 发现，Claude Code 一直在公共存储库中泄露机密信息——原因是它把机密存储在开发者机器上的本地文件中，以实现「Don't Ask Again」（不要再问）功能。该公司在 claude/settings.local.json 文件中识别出 1122 个机密；此外，在 git 历史、共享的 settings.json 文件以及存储的智能体对话转录中，还发现了另外 1160 个机密。",
+    'Anthropic Sought Limits on IPO Deal Teams and Work with Rivals': '2026 年 11 月 22 日，路透社报道称，Anthropic 在其 22 家 IPO 承销商中，将部分交易团队限定为 4 名高级银行家，并要求一些银行高管接受为期 6 个月的限制，不得与 AI 竞争对手合作，作为严格受控上市流程的一部分。多位接近此次发行的人士描述了被压缩的时间表、临时变更、财务预测迟交以及文件审批仓促等情况。',
+    "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct": 'Lean 与 Mathlib 社区已正式确认 Levent Alpöge 对黎曼猜想的证明正确。数十名独立验证者核验了这份长达 1700 万行的计算机代码。这一成果比预期提前数年到来：陶哲轩（Terence Tao）此前曾预测要到 2050 年左右才会出现，也未曾料到 AI 能独立解决它。',
 }
