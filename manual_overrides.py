@@ -852,6 +852,8 @@ TITLE_OVERRIDES = {
     'QCon San Francisco 2026: The Harness Is the New Operating System': 'QCon 旧金山 2026：Harness（智能体框架）才是新操作系统',
     'We haven’t seen the last of the major tech outages': '重大科技故障还没到尽头',
     'Jay Clayton to Temporarily Serve as Acting National Cyber Director': '杰伊·克莱顿将暂时兼任代理国家网络总监',
+    'Visa CLI Adds Card Verification for AI Agents and OUSD Task Payouts': 'Visa CLI 为 AI 智能体新增卡片验证与 OUSD 任务支付',
+    'AI-driven technique could help engineers design analog chips faster and with less expense': 'AI 驱动的新技术可帮助工程师更快、更低成本地设计模拟芯片',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1704,4 +1706,6 @@ SUMMARY_OVERRIDES = {
     'QCon San Francisco 2026: The Harness Is the New Operating System': '在 2026 年 QCon 旧金山大会上，Mad Labs 创始人兼首席执行官 Manju Rajashekhar 为大会开幕，提出观点：决定智能体能做什么、以及能做得多安全的，是包裹在 AI 模型外层的 harness（智能体框架），而非模型本身。这场主题演讲把 harness 的各个组成部分——上下文、工具、状态、权限与反馈循环——逐一对应到操作系统早已承担的职责上。',
     'We haven’t seen the last of the major tech outages': '过去一周左右，我们目睹了 FAA（美国联邦航空管理局）全国性停飞、持续数日令整家公司停摆的 Outlook 故障，以及摩根大通（JPMorgan Chase）的银行系统故障。但各方共识是：类似故障还会更多。美国国家情报总监杰伊·克莱顿（Jay Clayton）对 CNN 表示：「美国民众应当做好大规模投入升级系统的准备；应当做好投资网络安全的准备；还应当明白，每当技术、算力与应用发生阶跃式变革，路上难免会有颠簸。」',
     'Jay Clayton to Temporarily Serve as Acting National Cyber Director': 'Axios 于 2026 年 11 月 23 日报道，国家情报总监杰伊·克莱顿（Jay Clayton）将在克尔斯滕·A·戴维斯（Kirsten A. Davies）等待参议院确认期间，暂时兼任代理国家网络总监，把他的情报与 AI 协调职责同政府网络政策办公室的领导职责合并于一身。在戴维斯获得参议院确认前，她将在国家网络总监办公室（ONCD）担任高级顾问。',
+    'Visa CLI Adds Card Verification for AI Agents and OUSD Task Payouts': 'Visa 加密实验室（Visa Crypto Labs）负责人 Cuy Sheffield 于 2026 年 11 月 22 日宣布推出新版 Visa CLI——一款智能体钱包，允许美国用户通过符合条件的 Visa 卡验证 AI 智能体，并通过创意任务与其协作赚取美元稳定币 OUSD。Visa CLI 产品页展示了三步流程：连接现有智能体、通过持卡人的卡片完成验证、接收任务付款。',
+    'AI-driven technique could help engineers design analog chips faster and with less expense': '麻省理工学院研究人员开发的一项新技术，可帮助工程师运用人工智能简化模拟集成电路——这类半导体芯片在电子设备中承担通信、电源管理等重要功能——的设计与创新过程。未来，该方法能让工程师更快制作原型、探索更广泛的芯片设计方案，并发现可能提升机器人、医疗监护仪或工业传感器性能与能效的新设计。由于可选方案数量庞大，设计满足特定要求的模拟集成电路通常是一项繁琐的人工流程。',
 }
