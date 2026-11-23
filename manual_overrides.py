@@ -847,6 +847,11 @@ TITLE_OVERRIDES = {
     'Employee Health Benefits End at Foundation Future Industries': 'Foundation Future Industries 终止员工健康福利',
     'Nonprofits Build Capacity for Potential Giving After Anthropic’s IPO': 'Anthropic IPO 后，非营利组织为潜在捐赠扩充能力',
     'Decoding Policies in a Serving Engine': '服务引擎中的解码策略',
+    'Bessent Declines to Back Huang’s Return Amid Nvidia Investigations': '英伟达调查之际，贝森特拒绝支持黄仁勋回归',
+    'OpenAI’s chief scientist has thoughts on how to limit AI development': 'OpenAI 首席科学家谈如何限制 AI 发展',
+    'QCon San Francisco 2026: The Harness Is the New Operating System': 'QCon 旧金山 2026：Harness（智能体框架）才是新操作系统',
+    'We haven’t seen the last of the major tech outages': '重大科技故障还没到尽头',
+    'Jay Clayton to Temporarily Serve as Acting National Cyber Director': '杰伊·克莱顿将暂时兼任代理国家网络总监',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1694,4 +1699,9 @@ SUMMARY_OVERRIDES = {
     'Employee Health Benefits End at Foundation Future Industries': 'CNBC 于 2026 年 11 月 22 日援引获取的内部备忘录报道称，人形机器人初创公司 Foundation Future Industries 告知员工，因其未能按时发薪并寻求紧急融资，通过管理员 Rippling 提供的健康福利已被追溯至 2026 年 10 月终止。致员工的邮件称，他们将获得 2026 年 11 月的 COBRA 医保覆盖；Foundation 承诺报销保费，并正在启用新的福利供应商。',
     'Nonprofits Build Capacity for Potential Giving After Anthropic’s IPO': '美联社于 2026 年 11 月 22 日报道称，在这家 AI 公司 IPO 之后，非营利组织正为接收 Anthropic 员工与创始人的潜在捐赠做准备。按 IPO 价格计算，联合创始人承诺的股份价值 1120 亿美元，但许多员工要到 2027 年春季才能出售或赠与多数股份，因此非营利组织在扩大能力的同时，并不指望立即收到捐款。报道称 Anthropic 上市首日估值创纪录地达到 1.5 万亿美元。',
     'Decoding Policies in a Serving Engine': '本文概述分为六个部分：使用 vLLM 运行解码策略、采样过滤器与逐词元处理、多输出与束搜索、停止条件与请求生命周期、结构化输出，以及批处理与运行时成本。在使用 vLLM 运行解码策略部分，vLLM 将模型执行与词元选择分离开来。',
+    'Bessent Declines to Back Huang’s Return Amid Nvidia Investigations': '美国财政部长斯科特·贝森特（Scott Bessent）在 2026 年 11 月 22 日播出的 CBS 新闻采访中表示，特朗普政府仍未从英伟达方面获得有关向中国销售先进 AI 芯片问题的答复，并拒绝在出口管制失职责任被厘清之前支持黄仁勋（Jensen Huang）回归首席执行官一职。当被问及特朗普总统关于黄仁勋应当复职的立场时，贝森特表示，官员们首先需要看清「最终责任由谁承担」。',
+    'OpenAI’s chief scientist has thoughts on how to limit AI development': '要为 AI 发展设定速度上限，各方需先就如何衡量速度达成一致。',
+    'QCon San Francisco 2026: The Harness Is the New Operating System': '在 2026 年 QCon 旧金山大会上，Mad Labs 创始人兼首席执行官 Manju Rajashekhar 为大会开幕，提出观点：决定智能体能做什么、以及能做得多安全的，是包裹在 AI 模型外层的 harness（智能体框架），而非模型本身。这场主题演讲把 harness 的各个组成部分——上下文、工具、状态、权限与反馈循环——逐一对应到操作系统早已承担的职责上。',
+    'We haven’t seen the last of the major tech outages': '过去一周左右，我们目睹了 FAA（美国联邦航空管理局）全国性停飞、持续数日令整家公司停摆的 Outlook 故障，以及摩根大通（JPMorgan Chase）的银行系统故障。但各方共识是：类似故障还会更多。美国国家情报总监杰伊·克莱顿（Jay Clayton）对 CNN 表示：「美国民众应当做好大规模投入升级系统的准备；应当做好投资网络安全的准备；还应当明白，每当技术、算力与应用发生阶跃式变革，路上难免会有颠簸。」',
+    'Jay Clayton to Temporarily Serve as Acting National Cyber Director': 'Axios 于 2026 年 11 月 23 日报道，国家情报总监杰伊·克莱顿（Jay Clayton）将在克尔斯滕·A·戴维斯（Kirsten A. Davies）等待参议院确认期间，暂时兼任代理国家网络总监，把他的情报与 AI 协调职责同政府网络政策办公室的领导职责合并于一身。在戴维斯获得参议院确认前，她将在国家网络总监办公室（ONCD）担任高级顾问。',
 }
