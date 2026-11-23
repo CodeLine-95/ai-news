@@ -913,6 +913,16 @@ TITLE_OVERRIDES = {
     'Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing': '特朗普支持黄仁勋回归英伟达，称美方没有其不当行为的证据',
     'Maxon Plus Brings AI 3D Model Generation to Cinema 4D and ZBrush': 'Maxon Plus 将 AI 3D 模型生成带入 Cinema 4D 与 ZBrush',
     'Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents': 'Netflix 亮相 QConSF 2026：为 AI 编码智能体改造 SDLC',
+    'Finding faster quantum algorithms with agents and formal verification': '用智能体与形式化验证发现更快的量子算法',
+    'Jensen Huang isn’t out of the woods yet': '黄仁勋尚未脱离困境',
+    'Dr. Ayman Elhalwagy, Co-Founder and CEO of RootCause.ai – Interview Series': 'RootCause.ai 联合创始人兼 CEO 艾曼·埃尔哈瓦吉博士——访谈系列',
+    'Anthropic Options Draw About 160,000 Contracts in First Hour': 'Anthropic 期权上市首小时成交约 16 万份合约',
+    'Trump reportedly called into Nvidia board meeting to advocate for Huang’s return': '据报道，特朗普致电英伟达董事会会议，力挺黄仁勋回归',
+    'How Escambia County Uses Miovision’s AI to Investigate Traffic Signal Complaints': '埃斯坎比亚县如何借助 Miovision 的 AI 调查交通信号投诉',
+    'AIVC Launches With $112 Million to Turn Enterprise AI Projects Into Companies': 'AIVC 携 1.12 亿美元成立，将企业 AI 项目孵化为公司',
+    'DXL Brings Big-and-Tall Apparel Discovery to Meta’s Muse': 'DXL 将大码男装搜索引入 Meta 的 Muse 购物智能体',
+    'Tech leaders are celebrating Jensen Huang’s return': '科技领袖们庆贺黄仁勋回归',
+    'Dr. Yanpei Cao, Co-Founder and Chief Scientist of VAST – Interview Series': 'Yanpei Cao 博士，VAST 联合创始人兼首席科学家——访谈系列',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1826,4 +1836,14 @@ SUMMARY_OVERRIDES = {
     'Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing': '特朗普总统援引美国司法部长的意见为黄仁勋的回归辩护，同时敦促英伟达继续推进出口管制调查。',
     'Maxon Plus Brings AI 3D Model Generation to Cinema 4D and ZBrush': 'Maxon Plus 在艺术家既有的工作流程中，加入 AI 辅助的 3D 建模、纹理制作与基于浏览器的资产审查能力。',
     'Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents': '在 2026 年旧金山 QCon 大会上，Netflix 商务团队的 Mark Khuzam 介绍了他们如何改造软件开发生命周期（SDLC），让 AI 编码智能体与工程师能够协同交付。团队为人和智能体编写了 45 份架构决策记录，新增了一个只发布「已验证阻塞项」的评审智能体，并通过单个 MCP 工具为每个领域提供 GraphRAG 上下文。',
+    'Finding faster quantum algorithms with agents and formal verification': '研究团队利用智能体团队与形式化验证方法，改进面向核聚变与化学问题的量子算法。',
+    'Jensen Huang isn’t out of the woods yet': '可以说，没人料到这一幕。周一上午，黄仁勋在因多段婚外情丑闻辞职后重新出任英伟达 CEO——这些丑闻包括与一名下属、以及一名被指与中国情报部门有关联的女子的关系。',
+    'Dr. Ayman Elhalwagy, Co-Founder and CEO of RootCause.ai – Interview Series': '艾曼·埃尔哈瓦吉博士是 RootCause.ai 的联合创始人兼 CEO，拥有计算机工程、机器状态监测与应用 AI 背景。他在布鲁内尔大学的博士研究专注于数据集合并及机械设备监测。此后他创立了 AI 咨询公司 Numvio，在与企业数据和预测系统的工作中逐渐转向因果模型研究——这类模型可解释业务结果并辅助决策。',
+    'Anthropic Options Draw About 160,000 Contracts in First Hour': '路透社 2026 年 11 月 23 日报道，约 16 万份 Anthropic 期权合约在当天上市首小时内换手。这一新上市的期权工具，让投资者在该公司 IPO 后得以对冲其股价或建立投机头寸。据一家期权分析服务商提供的数据，首日活跃成交使 Anthropic 跻身期权市场交易最活跃的 25 只标的之列。',
+    'Trump reportedly called into Nvidia board meeting to advocate for Huang’s return': '「我和他们通过了话，这么说吧……我说服了他们。」特朗普总统告诉 CNBC。',
+    'How Escambia County Uses Miovision’s AI to Investigate Traffic Signal Complaints': 'Miovision 表示，其 AI Studio 帮助埃斯坎比亚县在 5 分钟内梳理完信号投诉，并在一场飓风过后优先安排了对 343 部摄像头的检查。',
+    'AIVC Launches With $112 Million to Turn Enterprise AI Projects Into Companies': 'AIVC 计划将其 1.12 亿美元战略资金中的大部分投入一家创业工作室，围绕其企业团队已着手解决的问题来孵化公司。',
+    'DXL Brings Big-and-Tall Apparel Discovery to Meta’s Muse': 'DXL 正通过 Meta 的 AI 购物智能体，让旗下美国服装目录可被搜索到，商品数据来自 commercetools 提供的结构化信息流。此次上线暂不支持在智能体内直接结账。',
+    'Tech leaders are celebrating Jensen Huang’s return': '设想你是黄仁勋：你（据称）与一名疑似中国间谍的女子一起欺骗了妻子，据称还不止与一名、而是与两名下属发生婚外情，并（据称）「恐吓」员工——这一连串不端行为让你丢掉了曾是全球市值最高公司的 CEO 职位。（股价近来因显而易见的原因大幅下挫。）如今你回来了——而所有朋友都想为你庆贺。埃隆·马斯克率先表态：很高兴，错误得到了纠正。',
+    'Dr. Yanpei Cao, Co-Founder and Chief Scientist of VAST – Interview Series': 'Yanpei Cao 博士是 VAST 的联合创始人兼首席科学家，负责领导生成式 3D 与交互式世界模型的研究和技术方向。他在清华大学获得博士学位，长期从事计算机图形学、3D 重建与沉浸式内容创作。加入 VAST 前，他曾任腾讯首席研究员，并联合创立了体积视频捕捉公司 Owlii，后者被快手收购。',
 }
