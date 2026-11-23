@@ -890,5 +890,17 @@
   "Innovaccer Adds Grok Voice to Its Healthcare Phone Agents": "Innovaccer 正在将 Grok Voice 引入其电话智能体，用于日常医疗保健预约、转诊及其他行政电话。",
   "AI Biology in 2027: Genome Models Become Tools for Designing Experiments": "生物学中充满了看似合理却经不起实验检验的想法：一段序列可能看起来很有希望，模型可能给出高分，而细胞却以无人预料的方式反应。正是这种摩擦让 AI 生物学在科学上变得有趣。2027 年的机遇在于让预测与实验展开更好的对话：选择要构建什么、从失败中学习，并决定下一步值得解决哪一项不确定性。",
   "Lava Security Benchmarks Open AI Models for Security Analysis": "Lava Security 的一项基准测试比较了开放模型与托管模型在防御性分析中的表现，并说明为何推理成本取决于部署方式。",
-  "Nauticus Robotics Pursues WAM-V Assets for Surface Autonomy": "Ocean Power Technologies 于 2026 年 11 月 23 日宣布，Nauticus Robotics 已签署非约束力意向书，拟以 800 万美元的 Nauticus C 轮可转换优先股（交割时支付）加最高 200 万美元额外现金，收购其 WAM-V 无人水面艇业务。Nauticus 的公告明确，拟议的资产收购包括相关软件与知识产权。"
+  "Nauticus Robotics Pursues WAM-V Assets for Surface Autonomy": "Ocean Power Technologies 于 2026 年 11 月 23 日宣布，Nauticus Robotics 已签署非约束力意向书，拟以 800 万美元的 Nauticus C 轮可转换优先股（交割时支付）加最高 200 万美元额外现金，收购其 WAM-V 无人水面艇业务。Nauticus 的公告明确，拟议的资产收购包括相关软件与知识产权。",
+  "Workday Closes C1.ai Deal to Govern Employee and AI Agent Access": "Workday 于 2026 年 11 月 23 日宣布完成对 C1.ai 的收购，将面向员工与 AI 智能体的身份治理软件纳入其 HR、财务及 IT 平台。该交易旨在把 Workday 的员工记录扩展为一层安全能力，管控人员与智能体在业务应用和云基础设施中可访问的资源。Workday 计划将其员工数据与 C1.ai 的身份控制能力结合，简化访问管理并减少人工流程。这套系统可管理权限、监控活动，并为人类员工与自主智能体实施策略驱动的安全控制。",
+  "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off": "由前 Salesforce 联席 CEO Bret Taylor 联合创立的企业客户体验公司 Sierra 周一表示，已完成 17.5 亿美元 F 轮融资。",
+  "What a Five-Person Studio Learned When Agents Started Writing the Code": "我在瑞士卢加诺经营一家五人 AI 工作室。我们为中小企业开发软件，同时维护多款自有产品。若仍要亲手敲下每一行代码，我们根本无法承受这样的工作量。如今，编码智能体已写下了我们交付产品的绝大部分初版代码。本文讲述这一变化在实践中的体现：我们白天做什么、哪里会出错，以及我为何不再以「小时」作为工作计量单位。",
+  "Trump Backs NVIDIA’s Reinstatement of Jensen Huang as CEO": "唐纳德·特朗普总统于 2026 年 11 月 23 日美国东部时间上午 9:07 在 Truth Social 上表示，英伟达恢复黄仁勋 CEO 职位是「正确且恰当的决定」，并称美国司法部长已确认政府没有掌握黄仁勋违法行为的证据。特朗普说，美国政府没有理由认为黄仁勋回归会带来国家安全风险。",
+  "Agoda Reduces API Code Review Time by 64% with Agoda Reduces API Code Review TimModular Architecture": "Agoda 在其预订后 API 中引入模块化单体框架，在不做彻底重写的前提下降低耦合。该平台采用领域组件、Data Mapper（数据映射器）模式、类型化构建器，并用 ArchUnit 测试来强化边界。与旧有改动相比，采用该框架的改动中位评审时长缩短 64%，首次反馈速度提升 34%。",
+  "Reasoning Can’t Fix What a Model Never Read": "我测试过的最佳模型，在 30 种语言的语法与日历运算上拿到 90 分，但在习语上只有 48 分。思考时长解释了前一个数字，却无法改变后一个。让顶级 AI 模型把一个古意大利语动词变成现在虚拟式、且两个宾语都用代词，它大概率能做对；但问它一句「慢工出细活、装备简陋者终达目的」的丹麦谚语，我测试的 17 个模型里有 16 个会答不出来。",
+  "Jensen Huang Is Back as Nvidia CEO": "在该 CEO 因涉嫌多段婚外情（包括与一名直属下属的关系）辞职一周多后，公司董事会已让其复职。",
+  "Nvidia tried life without Jensen Huang and it lasted about two weeks": "英伟达董事会已投票决定重新任命黄仁勋为总裁、CEO 兼董事，立即生效。",
+  "Amazon Signs Deal for Decart’s AI Optimization Technology and Team": "亚马逊于 2026 年 11 月 23 日宣布，已签署协议，拟收购 Decart Optimization Stack 背后的专有技术，并将这家 AI 初创公司的三位联合创始人及其 AI 研究员与工程师团队纳入麾下。该协议涵盖 DOS（Decart Optimization Stack）技术，以及计划招揽联合创始人 Dean Leitersdorf、Moshe Shalev 和 Orian Leitersdorf 及其团队。",
+  "The Danger of Old News, If It’s Also Fake News": "虽然互联网档案馆的庞大规模使这一理论难以证实，但我认为，archive.org 以及其他允许用户随意上传「档案」PDF、监管极少或时有时无的网站，将在未来几年日益成为制造「高权威」假新闻的攻击载体。原因就在于，archive...（原文至此截断）",
+  "Jensen Huang reinstated as Nvidia CEO, board chair": "英伟达董事会已投票决定重新任命黄仁勋为 CEO 兼董事会主席，距其在一系列丑闻后辞职仅 11 天。周一上午宣布的复职「立即生效」，其依据部分来自「美国政府高层的意见」——该意见向董事们保证「黄先生的复职不构成国家安全风险」。尽管黄仁勋已承认与一名被美国情报部门认为是中国间谍的女子有染，且英伟达被指控规避旨在阻止其芯片流入中国的出口管制，这一保证仍得以作出。此外，多个政府部门仍在对上述及其他涉嫌国家安全、会计与公司治理失当的问题展开调查。",
+  "Jensen Huang is back as Nvidia’s CEO": "英伟达已重新任命黄仁勋为公司 CEO。公司周一上午宣布，董事会「在与黄先生进行了一系列讨论和会面后，一致投票决定让其复职，此后董事会对黄先生的坦诚及其领导英伟达的能力表示认可」。董事会在声明中称，其听取了「来自美国政府高层的意见」，并判定「黄仁勋的复职不构成国家安全风险」。"
 }
