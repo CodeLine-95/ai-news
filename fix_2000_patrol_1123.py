@@ -30,6 +30,8 @@ TITLE_FIX = {
         "沃尔玛通过其智能体网关（Agent Gateway）支持 Muse 购物",
     "Z.ai’s GLM-5.4 Uses Iterative Depth Without Adding Parameters":
         "Z.ai 发布 GLM-5.4：不增加参数，用迭代深度提升推理",
+    "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI":
+        "评测：华硕 ProArt P16 展现出由本地 AI 驱动的未来雏形",
 }
 
 SUMMARY_FIX = {
@@ -66,6 +68,12 @@ SUMMARY_FIX = {
         "科学推理和长上下文任务上提升最明显，平均输出缩短 10–14%，高峰吞吐达 70–80 token/秒。"
         "主要局限是推理循环可能过长。GLM-5.4 已通过 Z.ai Chat、GLM Coding Plan 与 ZCode 提供，"
         "API 即将上线，完成安全加固后将开源权重。"
+    ),
+    "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI": (
+        "Ars Technica 评测：过去几年，买新电脑意味着要穿过各种 AI 营销话术。大多数笔记本的 AI 宣传"
+        "只是营销，但 NVIDIA RTX Spark 的推出，可能让日常设备获得真正有意义的提升。华硕 ProArt P16 "
+        "没有传统 GPU，却配备最高 128GB 内存，也能作为主力游戏与生产力机器，但这种统一的体验代价"
+        "高昂：若想在笔记本上运行小型智能体军团，顶配 ProArt P16 售价约 7000 美元。"
     ),
 }
 

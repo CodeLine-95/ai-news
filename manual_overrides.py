@@ -870,6 +870,7 @@ TITLE_OVERRIDES = {
     '3Shape Links AI Dental Visualizations to Henry Schein One Records': '3Shape 将 AI 牙科可视化接入 Henry Schein One 患者病历',
     'Walmart Enables Muse Shopping Through Its Agent Gateway': '沃尔玛通过其智能体网关（Agent Gateway）支持 Muse 购物',
     'Z.ai’s GLM-5.4 Uses Iterative Depth Without Adding Parameters': 'Z.ai 发布 GLM-5.4：不增加参数，用迭代深度提升推理',
+    'Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI': '评测：华硕 ProArt P16 展现出由本地 AI 驱动的未来雏形',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1740,4 +1741,5 @@ SUMMARY_OVERRIDES = {
     '3Shape Links AI Dental Visualizations to Henry Schein One Records': '3Shape 于 2026 年 11 月 23 日宣布，与 Henry Schein One 达成的新集成将其 Unite 软件与 Dentrix、Ascend by Dentrix 及 Dentally 连接，把牙科扫描、治疗数据和 AI 辅助诊断可视化带入患者病历。该集成由两家公司共同开发，已在北美、英国、澳大利亚及部分欧洲市场即时上线。',
     'Walmart Enables Muse Shopping Through Its Agent Gateway': 'The Verge 于 2026 年 11 月 23 日报道，沃尔玛的智能体网关（Agent Gateway）已上线并支持 Meta 的 Muse，允许该 AI 智能体通过客户可控的智能体档案（Agent Profiles）查找并购买沃尔玛商品，包括黑色星期五优惠。沃尔玛的 Agent Gateway 页面也将 Muse 购物列为当前可用功能。设置流程包括：告诉 Muse 要找什么、关联沃尔玛账户、创建智能体档案，并在结账前选择购物控制选项。',
     'Z.ai’s GLM-5.4 Uses Iterative Depth Without Adding Parameters': 'Z.ai 于 2026 年 11 月 23 日推出 GLM-5.4——一个 7500 亿参数模型，通过重复使用层来加深推理，而不增加参数量。该公司称其智能水平可与 2 万亿至 3 万亿参数的模型相媲美。GLM-5.4 是 Z.ai 基于 Loop Transformer（循环 Transformer）打造的首款旗舰模型，面向大规模软件工程、网络安全、3D 建模与物理控制等推理密集任务。其核心做法是从 GLM-5 基础模型中取出 28 层，以共享权重运行两轮迭代，在不新增参数的前提下获得更大的计算深度；Z.ai 还通过逐 token 门控、混合 KV 缓存与稀疏注意力索引复用控制稳定性和部署成本。测试显示，30B 规模下循环版本在数学、科学推理和长上下文任务上提升最明显，平均输出缩短 10–14%，高峰吞吐达 70–80 token/秒。主要局限是推理循环可能过长。GLM-5.4 已通过 Z.ai Chat、GLM Coding Plan 与 ZCode 提供，API 即将上线，完成安全加固后将开源权重。',
+    'Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI': 'Ars Technica 评测：过去几年，买新电脑意味着要穿过各种 AI 营销话术。大多数笔记本的 AI 宣传只是营销，但 NVIDIA RTX Spark 的推出，可能让日常设备获得真正有意义的提升。华硕 ProArt P16 没有传统 GPU，却配备最高 128GB 内存，也能作为主力游戏与生产力机器，但这种统一的体验代价高昂：若想在笔记本上运行小型智能体军团，顶配 ProArt P16 售价约 7000 美元。',
 }
