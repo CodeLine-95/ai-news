@@ -964,6 +964,13 @@ TITLE_OVERRIDES = {
     'Many languages, one common neural code': '众多语言，一套共通的神经密码',
     'Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice': 'Z.ai 发布 GLM-5.4：750B 循环 Transformer，28 层运行两轮',
     'Richpanel helps companies automate 50% of support in 30 days': 'Richpanel 帮助企业在 30 天内实现 50% 的客服自动化',
+    'Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes': 'Anthropic 推出 Claude Ship，让 AI 智能体审查、修复并批准代码变更',
+    'Supertake raises $20M to let AI agents turn your market predictions into stock portfolios': 'Supertake 融资 2000 万美元，让 AI 智能体把市场预测变成股票投资组合',
+    'Trump engineered a risky comeback for Jensen Huang': '特朗普为黄仁勋策划了一场高风险的回归',
+    'Welcome to elite impunity, Jensen Huang': '欢迎来到精英免责的世界，黄仁勋',
+    'AI data centers throw another wrench into chaotic UN climate talks': 'AI 数据中心给混乱的联合国气候谈判再添变数',
+    'OpenAI and Cisco introduce Shirudo': 'OpenAI 与思科推出 Shirudo',
+    'Matters.AI raises $12M as it expands its data security business in North America': 'Matters.AI 融资 1200 万美元，在北美扩展数据安全业务',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1928,4 +1935,11 @@ SUMMARY_OVERRIDES = {
     'Many languages, one common neural code': '语言有数千种形态。有些是有声调的语言，如越南语，音高的变化传达不同的含义。英语依赖精确的语序，但对俄语而言语序没那么重要——词语调换并不改变原意。尽管语言世界如此多样，MIT 的一项研究发现，人类大脑可能以某种通用的方式处理各类语言。人工智能使这一发现成为可能。在今日发表于《自然·神经科学》（Nature Neuroscience）的研究中，研究人员用多语言模型预测人脑对不同语言的反应。这些模型还帮助研究者在一共使用 21 种不同语言的人群中检测到共通的大脑处理过程。「当然，人类彼此交谈的方式存在许多差异。」',
     'Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice': 'Z.ai 发布 GLM-5.4，这是其首款基于循环 Transformer（Loop Transformer）架构的旗舰模型。GLM-5.4 将 GLM-5 基础模型的 28 层重复运行两轮迭代；Z.ai 称其智能水平可与 2 万亿至 3 万亿参数模型相媲美。对开发者而言，其卖点是「通用编码」（Generalized Coding）：把代码作为生成视频、游戏、3D 着色器与 CAD 的工具。要点速览——规模：750B 级基座，活跃参数未披露。上下文窗口：官方未列出（博客讨论了在 100 万上下文下的部署）。运行方式：目前仅支持 Z.ai 托管（GLM Coding Plan、ZCode、Z.ai Chat）；权重发布前不披露自托管硬件要求。性能：尚无旗舰基准表，Z.ai 声称与 2T–3T 参数模型持平；最佳成绩为 Z.ai 30B 循环消融实验中 AIME25 提升 11.3 分（19.17→30.42），最小增益为 IFBench 提升 3.3 分（50.20→53.47）。',
     'Richpanel helps companies automate 50% of support in 30 days': 'Richpanel 使用 GPT-6 Astra 与 GPT-6.1 Sol 为其 AI 客服智能体配备工具与流程规范，并用 GPT-6 Luna 驱动对话。',
+    'Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes': '随着 AI 生成的代码不断堆积，Anthropic 的新开发工具旨在让智能体处理常规审批，从而消除另一个瓶颈。',
+    'Supertake raises $20M to let AI agents turn your market predictions into stock portfolios': '觉得自己知道市场走向？初创公司 Supertake 让你为自己的想法下注，而不必自己挑选股票。',
+    'Trump engineered a risky comeback for Jensen Huang': '在英伟达董事会接受黄仁勋辞去 CEO 一职后——此前有报道称黄仁勋与一名疑似中国间谍有染——唐纳德·特朗普总统似乎也接受了这一新现实。消息传出后不久，特朗普现身斯蒂芬·A·史密斯的广播节目，称黄仁勋「最终会重新站起来」。特朗普说：「你知道那句话，谁都可以被取代。」他还抛出苹果前 CEO 蒂姆·库克作为潜在 CEO 人选。特朗普没过多久便开始软化立场，明确表示即便英伟达董事会尚未准备好，他也乐见黄仁勋重返 CEO 岗位。',
+    'Welcome to elite impunity, Jensen Huang': '「大而不能倒」续集。图片：The Verge；Getty Images。我想我得向黄仁勋致以热烈祝贺。黄仁勋再次出任英伟达 CEO，这让除唐纳德·特朗普总统和 J.D.万斯副总统（正是他们促成了此事）之外的所有人几乎都感到意外。现在，我们这些对「自由市场」有些基本认知的人，或许会觉得美国总统对一家美国大公司施压令人反感。但我们的亿万富翁科技大佬们对「自由市场」的在意程度，与他们对「言论自由」的在意程度一样——也就是说，根本不在乎。',
+    'AI data centers throw another wrench into chaotic UN climate talks': '11 月 20 日，在土耳其安塔利亚举行的联合国气候变化大会 COP31 最后一天，人们在全体会议场外抗议。摄影：Getty Images。清洁能源革命有赖于让整个全球经济实现电气化，而耗电巨大的数据中心却在迅猛扩张。这正是来自世界各地的代表在 COP31 气候大会上必须应对的难题——这场大会于周日在安塔利亚混乱且不尽如人意地落幕。每年，与会者都试图兑现 2015 年《巴黎气候协定》中遏制气候变化的承诺。要防止极端天气愈演愈烈、沿海社区遭洪水侵袭、干旱破坏粮食与供水系统，就必须大幅削减温室气体排放。',
+    'OpenAI and Cisco introduce Shirudo': 'OpenAI 与思科推出 Shirudo——一款面向 Linux 的开源运行时。它帮助团队在滚动部署补丁的过程中保护正在运行的系统。',
+    'Matters.AI raises $12M as it expands its data security business in North America': '企业数据安全初创公司 Matters.AI 今日宣布，随着在北美拓展业务，公司获得 1200 万美元新融资。Matters.AI 提供一个名为「AI Security Engineer for Data」的平台，旨在保护全企业范围内员工、AI 系统与 AI 智能体使用的敏感数据。',
 }
