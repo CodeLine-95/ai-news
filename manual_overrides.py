@@ -859,6 +859,8 @@ TITLE_OVERRIDES = {
     'Li Ming Took Part in Major Megaspeed Decisions, WSJ Reports': '据《华尔街日报》报道，李明参与了 Megaspeed 的重大决策',
     'LlamaIndex Releases OCRia-Nano-1 Open Weights for CPU Document Parsing': 'LlamaIndex 开放 OCRia-Nano-1 权重，支持 CPU 文档解析',
     'KT Expands K-Water Partnership to Test Physical AI at Water Sites': 'KT 扩大与 K-Water 的合作，在水务站点测试物理 AI',
+    'Bureau Veritas Buys Topo Solutions to Expand AI Supply Chain Services': '必维国际检验集团收购 Topo Solutions，扩展 AI 供应链服务',
+    'Ant Group Begins Open-Weight Release of LingSante Medical AI Models': '蚂蚁集团开始开放 LingSante 医疗 AI 模型权重',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1718,4 +1720,6 @@ SUMMARY_OVERRIDES = {
     'Li Ming Took Part in Major Megaspeed Decisions, WSJ Reports': '《华尔街日报》援引知情人士于 2026 年 11 月 21 日报道称，爱丽丝·黄（Alice Huang）的关联人李明（Li Ming）「深度参与」了 Megaspeed 的活动并参与重大决策；该报道由 CNBC 于 2026 年 11 月 23 日转载。国家情报总监杰伊·克莱顿（Jay Clayton）于 2026 年 11 月 22 日告诉 ABC，美国对黄及其前公司的调查仍在进行。他将案件关注点与英伟达先进芯片的需求联系起来。',
     'LlamaIndex Releases OCRia-Nano-1 Open Weights for CPU Document Parsing': 'LlamaIndex 于 2026 年 11 月 23 日开放 OCRia-nano-1 的权重，推出一套可在本地 CPU 上运行的810 万参数文档解析流水线。这套由七个模型组成的系统面向大批量文档摄取，以及智能体处理日常报告、合同、发票和常规扫描件。LlamaIndex 称，在单核上平均每页耗时 426 毫秒，90% 的页面可在 862 毫秒内完成。',
     'KT Expands K-Water Partnership to Test Physical AI at Water Sites': 'KT 于 2026 年 11 月 23 日宣布，已与韩国水资源公司（Korea Water Resources Corporation，K-water）签署谅解备忘录，共同开发并测试用于水管理的物理 AI，将双方的数字化平台工作拓展到现场应用与试验。签署仪式在位于大田（Daejeon）的 K-water 总部举行。',
+    'Bureau Veritas Buys Topo Solutions to Expand AI Supply Chain Services': '必维国际检验集团（Bureau Veritas）于 2026 年 11 月 23 日宣布收购 Topo Solutions——一家总部位于香港、提供 AI 驱动的端到端供应链管理平台的公司。这笔交易扩大了这家全球测试、检验与认证（TIC）集团为消费品公司和零售商提供的数字服务；Topo 2025 年营收约 300 万欧元。收购让必维获得一个覆盖从产品开发到发货的供应链信息统一平台，也为其 AI 战略带来落地场景——客户数据可支撑自动化、分析与决策。该交易属于必维「LEAP | 28」战略下的补强收购，并与其 2030 年 AI 驱动业务收入达 10 亿欧元的目标相呼应。',
+    'Ant Group Begins Open-Weight Release of LingSante Medical AI Models': '蚂蚁集团于 2026 年 11 月 23 日宣布，其阿福（Afu）健康应用推出 LingSante（百灵）医疗 AI 模型家族，该家族基于蚂蚁 Ling 基础模型构建。首批两款模型以 MIT 许可证开放，更广泛家族的权重将分阶段发布。模型卡将 LingSante-3.1-air-VL 定位为面向影像与个人健康评估的多模态系统，将 LingSante-3.1-flash 定位为面向证据综合与多阶段医疗工作流的更大规模推理模型；前者面向个人用户与小型机构，后者面向复杂病例分析与专业医疗智能体。蚂蚁称阿福服务 1.5 亿用户、日均处理近 2000 万次健康咨询。此外，LingSante-Pulse 可评估150 余种疾病风险，LingSante-MedGuard 用于识别与降低医疗安全、合规及伦理风险，LingSante-Live 已集成进阿福用于实时视频交互。模型卡明确这些可下载系统仅供研究与评估，不得用于独立诊断、开具处方或治疗决策。',
 }
