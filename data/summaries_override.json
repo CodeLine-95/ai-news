@@ -946,5 +946,10 @@
   "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses": "Google 将 AI 模式中的「个人智能」（Personal Intelligence）拓展至 Drive、Wallet 及 Gemini 应用，借此利用其生态系统中已有的海量用户数据，为用户提供更个性化的响应。",
   "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription": "Nothing 的新 AI 设备 Ear Note 是一副耳机及其配套充电盒，充电盒内置麦克风，可录制并转录对话，并配有应用管理录音、转录文本与 AI 生成的摘要，类似 Apple 新版 Watch 功能以及 Amazon 的 Bee 可穿戴设备等产品。Nothing CEO 卡尔·佩伊（Carl Pei）已向彭博社（Bloomberg）展示该设备，但表示在 12 月 8 日计划发布前尚未确定价格。",
   "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z": "Embo 于 2026 年 11 月 23 日宣布，已完成由 Andreessen Horowitz（a16z）领投的 1.1 亿美元种子轮融资，用于构建智能机器人 AI 模型——借助互联网视频与模拟练习，让机器人在陌生场景中也能稳定发挥技能。Khosla Ventures、DST Global、NVIDIA 旗下风投机构 NVentures 及其他战略投资者亦参与本轮。",
-  "Connected intelligence for in-house legal": "观看 OpenAI 的 Stacey Wang 与 Craig Bruney、LECG 的 Mary O'Carroll 以及 Cooley 的 Richard Segal，探讨 AI 如何帮助内部法务团队打通业务背景、构建可复用的工作流程，并更充分地借助外部律师的力量。"
+  "Connected intelligence for in-house legal": "观看 OpenAI 的 Stacey Wang 与 Craig Bruney、LECG 的 Mary O'Carroll 以及 Cooley 的 Richard Segal，探讨 AI 如何帮助内部法务团队打通业务背景、构建可复用的工作流程，并更充分地借助外部律师的力量。",
+  "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably": "OpenAI 将 GPT-6.2 Sol 设为 ChatGPT 聊天标签页的新默认模型，并在全球范围推出。内部测试显示，图像理解能力从 47.4% 跃升至 71.7%，该模型现在能正确处理 78.1% 的复杂指令，也更稳定地遵守安全政策。",
+  "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ": "黄仁勋对员工表示：「第二次当 CEO，我会做得更好。」",
+  "Claude AI can review pull requests and ship fixes on its own now": "Anthropic 推出多项新的 Claude AI 功能，帮助软件工程师交付代码。在今日发布的新产品 Claude Ship 中，Claude 现可审查、修复并批准拉取请求（PR）。工程师此前已能借助代码审查功能利用 Claude 的审查能力——该功能于今年 3 月推出、10 月全面开放。此次随 Claude Ship 一同推出的还有 PR Steward 与 Claude Approvals 两个智能体，今日启动测试。",
+  "QCon San Francisco 2026: Securing AI Agents in Production": "在旧金山 QCon 大会上，Google 的阿曼达·沃克（Amanda Walker）将 AI 智能体界定为以机器速度运行的内部风险问题，并介绍了身份、凭证与隔离等模式，以确保其在生产环境中安全运行。",
+  "How Jensen Huang ended up as Nvidia CEO again": "本月，英伟达的黄仁勋时代几乎画上句号。三十年前，黄仁勋联合创立了如今被视为 AI 领域最重要的公司之一，但因涉嫌相关事件面临日益加剧的审视，他于 11 月 12 日辞去 CEO 职务。黄仁勋承认自己对妻子「不忠」，并「给董事会制造了麻烦」。此前数周，他个人与职业上的问题不断升级：先是《纽约时报》报道称，他与一名向中国传递情报的女性关系密切。"
 }
