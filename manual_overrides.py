@@ -923,6 +923,17 @@ TITLE_OVERRIDES = {
     'DXL Brings Big-and-Tall Apparel Discovery to Meta’s Muse': 'DXL 将大码男装搜索引入 Meta 的 Muse 购物智能体',
     'Tech leaders are celebrating Jensen Huang’s return': '科技领袖们庆贺黄仁勋回归',
     'Dr. Yanpei Cao, Co-Founder and Chief Scientist of VAST – Interview Series': 'Yanpei Cao 博士，VAST 联合创始人兼首席科学家——访谈系列',
+    'Jensen Huang Is Back and So Is Nvidia’s Stock': '黄仁勋回归，英伟达股价也回来了',
+    'Google Research Details DeepCrossAttention’s Dynamic Layer Routing': 'Google Research 详解 DeepCrossAttention 的动态层路由',
+    'Team8 Launches Infra Village to Build and Back AI Infrastructure Startups': 'Team8 推出 Infra Village，孵化和扶持 AI 基础设施初创公司',
+    'Aevius Labs launches with $22M to bring understandable intelligence to medical data': 'Aevius Labs 携 2200 万美元亮相，为医疗数据带来可理解的智能',
+    'Ai2 Releases RoboTrack to Test and Train Robot Point Trackers': 'Ai2 发布 RoboTrack，用于测试与训练机器人点跟踪器',
+    'A legendary philosopher isn’t buying Anthropic’s consciousness argument': '一位传奇哲学家不买 Anthropic 的意识论账',
+    'Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips': '亚马逊拟以 75 亿美元收购 Decart 的 AI 优化技术，正值其准备出售 Trainium 芯片',
+    'Google DeepMind Agent Teams Discover Lean-Verified Quantum Algorithms': 'Google DeepMind 智能体团队发现经 Lean 验证的量子算法',
+    'Google Rolls Out Wallet Support for AI Mode Personal Intelligence': 'Google 为 AI 模式个人智能推出钱包支持',
+    'Miren launches flexible application deployment platform built for the agentic era': 'Miren 推出面向智能体时代的灵活应用部署平台',
+    'A more tailored Google Search that’s uniquely yours': '更贴合你需求、独一无二的 Google 搜索',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1846,4 +1857,15 @@ SUMMARY_OVERRIDES = {
     'DXL Brings Big-and-Tall Apparel Discovery to Meta’s Muse': 'DXL 正通过 Meta 的 AI 购物智能体，让旗下美国服装目录可被搜索到，商品数据来自 commercetools 提供的结构化信息流。此次上线暂不支持在智能体内直接结账。',
     'Tech leaders are celebrating Jensen Huang’s return': '设想你是黄仁勋：你（据称）与一名疑似中国间谍的女子一起欺骗了妻子，据称还不止与一名、而是与两名下属发生婚外情，并（据称）「恐吓」员工——这一连串不端行为让你丢掉了曾是全球市值最高公司的 CEO 职位。（股价近来因显而易见的原因大幅下挫。）如今你回来了——而所有朋友都想为你庆贺。埃隆·马斯克率先表态：很高兴，错误得到了纠正。',
     'Dr. Yanpei Cao, Co-Founder and Chief Scientist of VAST – Interview Series': 'Yanpei Cao 博士是 VAST 的联合创始人兼首席科学家，负责领导生成式 3D 与交互式世界模型的研究和技术方向。他在清华大学获得博士学位，长期从事计算机图形学、3D 重建与沉浸式内容创作。加入 VAST 前，他曾任腾讯首席研究员，并联合创立了体积视频捕捉公司 Owlii，后者被快手收购。',
+    'Jensen Huang Is Back and So Is Nvidia’s Stock': '黄仁勋回归，股价上涨。也许这位 CEO 复职的原因就这么简单？',
+    'Google Research Details DeepCrossAttention’s Dynamic Layer Routing': 'Google Research 于 2026 年 11 月 23 日发布 DeepCrossAttention 技术概述，描述了一种 Transformer 架构：为每个 token 单独路由来自更早层的信息。Google 称其可达到相同的模型质量，速度最高快三倍。传统的残差连接将某一层的输入直接加到输出上，为信息和梯度在深层网络中的传播保留通路。',
+    'Team8 Launches Infra Village to Build and Back AI Infrastructure Startups': 'Team8 正将其创业孵化业务扩展到 AI 基础设施领域，把创始人与运营企业 AI 系统的高管对接起来。',
+    'Aevius Labs launches with $22M to bring understandable intelligence to medical data': '总部位于波士顿的临床医疗数据公司 Aevius Labs Inc. 今日宣布，已获得由 Insight Partners 领投的 2200 万美元融资，用于构建和训练能够理解并查询非结构化医疗文本、影像及其他数据的人工智能基础模型。',
+    'Ai2 Releases RoboTrack to Test and Train Robot Point Trackers': '艾伦人工智能研究所（Ai2）于 2026 年 11 月 23 日发布 RoboTrack，将机器人点跟踪基准与训练套件连同两个模型一并推出。Ai2 报告称，RoboTracker 在 20 次湿实验室移液试验中完成 17 次，而使用目标掩膜与光流的方法分别只完成 8 次和 5 次。点跟踪是在视频中追踪同一个物理点，估计其被遮挡的时段，并在它重新出现时将其识别出来。',
+    'A legendary philosopher isn’t buying Anthropic’s consciousness argument': '在上周上市前，Anthropic 将 AI 可能具备意识或感知能力列为面向投资者的风险因素。Anthropic 写道，鉴于「我们对待模型感知与道德地位的方式」——也就是说，它比任何其他 AI 公司都更认真看待这种可能性——它可能会采取比竞争对手更多的规则与限制，确保其 AI 模型得到善待。Anthropic 阵营中有多位备受尊敬的哲学家，其理由大致如下：如今的 AI 可能没有意识，但我们无法确定；随着 AI 能力增强，具备感知的概率上升；这意味着我们应为不远的未来做好准备——届时 AI 系统将具有「道德意义」，即其意识使保护其免受伤害变得重要。这种想法并不算离经叛道。',
+    'Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips': '据报道，亚马逊正以 75 亿美元的交易收购 Decart 的 AI 优化技术与研究团队。',
+    'Google DeepMind Agent Teams Discover Lean-Verified Quantum Algorithms': 'Google DeepMind 于 2026 年 11 月 23 日公布研究，显示由 Lean 定理证明器检验的 Gemini 4 智能体团队，为五个问题生成了成本更低的量子程序。其中最大的科学进展是与 Google Quantum AI 合作，将一次核聚变模拟的估计成本降低了 11.8 倍。',
+    'Google Rolls Out Wallet Support for AI Mode Personal Intelligence': 'Google 于 2026 年 11 月 23 日宣布，开始推出 Google 钱包作为搜索 AI 模式个人智能的可选连接。公告数周后计划推出云端硬盘与 Gemini 应用连接，将消费、文档和聊天上下文带入个性化搜索回答。新的及计划中的连接扩展了现有的 Gmail、日历和照片数据源。',
+    'Miren launches flexible application deployment platform built for the agentic era': '智能体基础设施公司 Miren Inc. 今日推出其平台，让开发者能在任意所需之处更轻松地部署应用，无需成为解决方案专家，也无需自行搭建与配置应用。',
+    'A more tailored Google Search that’s uniquely yours': '通过安全选择加入，将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式中的个人智能，从而获得更有用的搜索回答。',
 }
