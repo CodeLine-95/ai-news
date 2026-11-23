@@ -939,5 +939,12 @@
   "Anthropic Launches Zero-Retention Enterprise Frontier Safeguards Beta": "Anthropic 于 2026 年 11 月 23 日在与 100 多家客户共同开发后，开放了企业前沿安全防护（EFS）公测版。该系统将零数据留存与跨多个请求的滥用模式自动监测相结合，同时将密封的安全数据保存在客户自有的云存储中。Bridgewater、Salesforce 和 Stripe 参与了私测评估。",
   "Mercedes-Benz Adopts Atlas AI Agents for Factory Electrical Diagnostics": "根据这家汽车制造商与 Arena Physica 于 2026 年 11 月 23 日宣布的全球协议，AI 智能体将帮助梅赛德斯-奔驰技术人员诊断和修复生产线上的电气与电子（E/E）故障。Arena Physica 报告称，在初步测试中，无论是新手还是经验丰富的技术人员，使用 Atlas 后诊断和修复问题的速度都提升了 20%–30%。",
   "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO": "此次公开听证会是在两党呼吁黄仁勋就与一名疑似中国间谍的往来事件作证之后举行的。",
-  "AWS is making AI agents more decisive and secure with its latest Strands updates": "亚马逊云科技（AWS）正通过对其开源自主智能体构建工具包 Strands Agents 的重大更新，解决 AI 智能体开发者面临的两大难题。"
+  "AWS is making AI agents more decisive and secure with its latest Strands updates": "亚马逊云科技（AWS）正通过对其开源自主智能体构建工具包 Strands Agents 的重大更新，解决 AI 智能体开发者面临的两大难题。",
+  "Indiana University Receives $25 Million to Expand AI Across Nine Campuses": "一笔 2500 万美元的 Lilly Endowment（礼来基金会）资助将支持印第安纳大学到 2030 年开展分学科的 AI 素养教育、重新设计评估方式并改进学生服务。",
+  "Ferrum Health to Govern Imaging AI Across AHN’s 16 Hospitals": "Ferrum Health 于 2026 年 11 月 23 日宣布，阿勒格尼健康网络（Allegheny Health Network，AHN）已选定其作为企业级影像 AI 合作伙伴，并将在旗下 16 家医院启动一项计划。该计划将 AI 部署与持续的安全监测及临床、财务影响评估相结合，覆盖现有获得 FDA 批准的应用，以及基于基础模型技术构建的内部模型。",
+  "Nothing Previews Ear Note Earbuds With AI Recording and Transcription": "据 The Verge 转引彭博社 2026 年 11 月 23 日报道，Nothing CEO 卡尔·佩伊（Carl Pei）展示了 Ear Note 耳机及其内置麦克风的充电盒，可用于录音与 AI 转录，计划在 2026 年 12 月 8 日发布。该系统可通过耳机或充电盒采集音频，配套应用负责管理录音、转录文本与 AI 生成的摘要。佩伊表示，公司在发布前尚未敲定价格。",
+  "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses": "Google 将 AI 模式中的「个人智能」（Personal Intelligence）拓展至 Drive、Wallet 及 Gemini 应用，借此利用其生态系统中已有的海量用户数据，为用户提供更个性化的响应。",
+  "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription": "Nothing 的新 AI 设备 Ear Note 是一副耳机及其配套充电盒，充电盒内置麦克风，可录制并转录对话，并配有应用管理录音、转录文本与 AI 生成的摘要，类似 Apple 新版 Watch 功能以及 Amazon 的 Bee 可穿戴设备等产品。Nothing CEO 卡尔·佩伊（Carl Pei）已向彭博社（Bloomberg）展示该设备，但表示在 12 月 8 日计划发布前尚未确定价格。",
+  "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z": "Embo 于 2026 年 11 月 23 日宣布，已完成由 Andreessen Horowitz（a16z）领投的 1.1 亿美元种子轮融资，用于构建智能机器人 AI 模型——借助互联网视频与模拟练习，让机器人在陌生场景中也能稳定发挥技能。Khosla Ventures、DST Global、NVIDIA 旗下风投机构 NVentures 及其他战略投资者亦参与本轮。",
+  "Connected intelligence for in-house legal": "观看 OpenAI 的 Stacey Wang 与 Craig Bruney、LECG 的 Mary O'Carroll 以及 Cooley 的 Richard Segal，探讨 AI 如何帮助内部法务团队打通业务背景、构建可复用的工作流程，并更充分地借助外部律师的力量。"
 }
