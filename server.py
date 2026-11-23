@@ -745,11 +745,15 @@ def scheduler_loop():
     else:
         print("[cycle] 等待翻译引擎超时，仍开始抓取（失败条目将在下轮重试）",
               flush=True)
-    # 启动即先拉一次
-    try:
-        update_cycle()
-    except Exception as e:  # noqa
-        print("[cycle] 首次拉取异常:", e, flush=True)
+    # 启动即先拉一次；维护重启可用 SKIP_FIRST_FETCH=1 跳过，避免定稿回填时
+    # 反复补抓新条目（调度器的整点抓取不受影响，下一整点照常执行）。
+    if os.environ.get("SKIP_FIRST_FETCH") == "1":
+        print("[cycle] SKIP_FIRST_FETCH=1：跳过启动首轮抓取，等待下一整点", flush=True)
+    else:
+        try:
+            update_cycle()
+        except Exception as e:  # noqa
+            print("[cycle] 首次拉取异常:", e, flush=True)
     # 固定时刻调度：睡到下一个整点，而不是「本轮结束后再睡 3600 秒」。
     # 原实现每轮的实际间隔是 3600s + 本轮耗时（实测抓取约 20~40s），
     # 误差逐轮累积，站点声明的 next_update 与真实抓取时刻会越差越远。

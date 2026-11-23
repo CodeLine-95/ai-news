@@ -3,7 +3,7 @@ const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1123_2100';
+const STAMP = process.env.PATROL_STAMP || 'deliverable_1123_2100';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -66,6 +66,7 @@ async function shoot(pw, name, opts, url) {
   r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' }, LOCAL);
   r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' }, LOCAL);
   r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' }, LOCAL);
+  r.auto_light = await shoot(chromium, 'auto_light', { theme: 'auto', colorScheme: 'light' }, LOCAL);
   r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' }, LOCAL);
   try { r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light' }, ONLINE); }
   catch (e) { r.online = { error: String(e).slice(0, 200) }; }
