@@ -864,6 +864,8 @@ TITLE_OVERRIDES = {
     'Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD': 'Meta TLX 为 Triton 带来 Warp-Group 级 GPU 控制，支持 Hopper、Blackwell 与 AMD',
     "Robotics component maker coprod raises $6M to take on robotics 'integration hell'": '机器人组件制造商 Coprod 融资 600 万美元，应对机器人「集成地狱」',
     'Robotics component maker coprod raises $6M to take on robotics ‘integration hell’': '机器人组件制造商 Coprod 融资 600 万美元，应对机器人「集成地狱」',
+    'Coprod Raises $6M Pre-Seed to Bring Modular Robot Hardware to Market': 'Coprod 完成 600 万美元种子前轮融资，将模块化机器人硬件推向市场',
+    'Agon Raises $70M Series A at $450M Valuation to Build Defence AI Lab': 'Agon 以 4.5 亿美元估值完成 7000 万美元 A 轮融资，筹建国防 AI 实验室',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1728,4 +1730,6 @@ SUMMARY_OVERRIDES = {
     'Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD': 'Meta 发布了一份关于 TLX（Triton Low-Level Extensions，Triton 底层扩展）的详细报告，这是支撑 Meta 生产环境机器学习内核的 GPU 编译器扩展。Meta TLX 是 Triton 的一个扩展，向 Python 内核开放 warp group（线程束组）、barrier（屏障）、TMA 和 cluster（集群）等能力，面向 NVIDIA Hopper、Blackwell 以及 AMD MI300、MI350 系列 GPU。对内核工程师而言，其意义在于无需离开 Triton 即可获得 CUDA 级别的控制力。核心要点：它是 Triton 的扩展，而非一门新语言；一个 Blackwell GEMM 大约只需 200 行 Python 级 Triton 代码；运行平台包括 NVIDIA Hopper（H100）、Blackwell（B200、GB200）以及 AMD MI300、MI350 系列；采用 MIT 许可证。性能方面，在 6 种 H100 FP16 GEMM 形状上达到 cuBLAS 的 -0.9% 至 +3.7% 区间；最佳成绩是在 H100 线性压缩内核上实现 4 倍加速（用于广告推理，Meta）。',
     "Robotics component maker coprod raises $6M to take on robotics 'integration hell'": '机器人组件制造商 Coprod Inc. 于 2026 年 11 月 23 日宣布完成 600 万美元新一轮融资，用于减少构建新机器人平台所需的时间与成本。这笔资金将助力公司把首批组件产品线推向市场。',
     'Robotics component maker coprod raises $6M to take on robotics ‘integration hell’': '机器人组件制造商 Coprod Inc. 于 2026 年 11 月 23 日宣布完成 600 万美元新一轮融资，用于减少构建新机器人平台所需的时间与成本。这笔资金将助力公司把首批组件产品线推向市场。',
+    'Coprod Raises $6M Pre-Seed to Bring Modular Robot Hardware to Market': '瑞士机器人初创公司 Coprod 于 2026 年 11 月 23 日宣布完成 600 万美元种子前轮（pre-seed）融资，用于资助其首条商业化组件产品线以及在洛桑建立的原型制造设施。该公司正在开发模块化硬件与软件，旨在缩短为特定任务制造机器人所需的时间并降低成本。',
+    'Agon Raises $70M Series A at $450M Valuation to Build Defence AI Lab': 'Agon 于 2026 年 11 月 23 日宣布，已以 4.5 亿美元估值完成 7000 万美元 A 轮融资。本轮由 Northzone 领投，资金将用于支持该公司建立一所欧洲国防 AI 实验室，提供主权基础设施与基础模型。此轮融资使 Agon 累计融资额达到 1 亿美元——此前该公司已于 2026 年初完成 3000 万美元种子轮。现有投资方 Lakestar、XYZ、Lux Capital、Global Founders Capital 与 Speedinvest 参与本轮。',
 }
