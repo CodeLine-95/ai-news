@@ -878,7 +878,7 @@
   "Bootstrapped startup Levenza brings consumer-style personal agents to business workers": "自筹初创公司 Levenza 将消费级个人智能体带入企业办公场景",
   "Levenza Launches Enterprise AI Agents Globally and Adds Voice With Fluid Inference": "Levenza 全球上线企业 AI 智能体，并引入 Fluid Inference 语音技术",
   "AI agents leaked confidential data in 87 of 100 test runs, Cyberhaven finds": "Cyberhaven 发现：100 次测试中有 87 次 AI 智能体泄露机密数据",
-  "Innovaccer expands Gravity Voice AI agents with SpaceXSI’s Grok Voice model": "Innovaccer 借助 SpaceXSI 的 Grok Voice 模型扩展 Gravity Voice AI 智能体",
+  "Innovaccer expands Gravity Voice AI agents with SpaceXSI’s Grok Voice model": "Innovaccer 借助 SpaceXAI 的 Grok Voice 模型扩展 Gravity Voice AI 智能体",
   "Innovaccer Adds Grok Voice to Its Healthcare Phone Agents": "Innovaccer 将 Grok Voice 引入其医疗电话智能体",
   "AI Biology in 2027: Genome Models Become Tools for Designing Experiments": "2027 年 AI 生物学：基因组模型成为设计实验的工具",
   "Lava Security Benchmarks Open AI Models for Security Analysis": "Lava Security 基准测试开放 AI 模型的安全分析能力",
@@ -921,5 +921,15 @@
   "Google DeepMind Agent Teams Discover Lean-Verified Quantum Algorithms": "Google DeepMind 智能体团队发现经 Lean 验证的量子算法",
   "Google Rolls Out Wallet Support for AI Mode Personal Intelligence": "Google 为 AI 模式个人智能推出钱包支持",
   "Miren launches flexible application deployment platform built for the agentic era": "Miren 推出面向智能体时代的灵活应用部署平台",
-  "A more tailored Google Search that’s uniquely yours": "更贴合你需求、独一无二的 Google 搜索"
+  "A more tailored Google Search that’s uniquely yours": "更贴合你需求、独一无二的 Google 搜索",
+  "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy": "Anthropic 对算力的旺盛需求正推动 xAI 转向「租而非建」策略",
+  "Main Sequence Leads A$9.5M Raise for Australian AI Startup P3 State": "Main Sequence 领投澳大利亚 AI 初创公司 P3 State 的 950 万澳元融资",
+  "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits": "OpenAI 警告称即将推出的 AI 系统可能超越安全检查，并敦促竞争对手就共同限制达成一致",
+  "AWS Releases Strands Decider V2 and Sandboxes More Coding Agents": "AWS 发布 Strands Decider V2，并为更多编码智能体提供沙箱支持",
+  "Google Adds File Slicing and Native Office Support to Gemini API": "Google 为 Gemini API 增加文件切片与原生 Office 文档支持",
+  "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes": "俄勒冈州和弗吉尼亚州就 Grok 的色情深度伪造内容起诉 SpaceX",
+  "Anthropic Launches Zero-Retention Enterprise Frontier Safeguards Beta": "Anthropic 推出零数据留存的企业前沿安全防护公测版",
+  "Mercedes-Benz Adopts Atlas AI Agents for Factory Electrical Diagnostics": "梅赛德斯-奔驰采用 Atlas AI 智能体进行工厂电气故障诊断",
+  "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO": "黄仁勋恢复英伟达 CEO 职务后，下周将在参议院作证",
+  "AWS is making AI agents more decisive and secure with its latest Strands updates": "AWS 通过最新 Strands 更新让 AI 智能体更具决策力与安全性"
 }

@@ -1,0 +1,43 @@
+[server] 已加载 2624 条历史资讯
+INFO:     Started server process [8833]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57914 - "GET /api/status HTTP/1.1" 200 OK
+[translate] bfloat16 加速可用=True
+[translate] NLLB-200 加载成功（主引擎, dtype=torch.bfloat16）
+[cycle] 翻译引擎已就绪，开始首轮抓取
+[cycle] SKIP_FIRST_FETCH=1：跳过启动首轮抓取，等待下一整点
+[cycle] 下轮抓取将在 2026-11-24 01:00:00 执行（3396 秒后）
+[main] 翻译引擎预热完成
+INFO:     127.0.0.1:54382 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54398 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59382 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59382 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58594 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58594 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58598 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58594 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58598 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48088 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48088 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48102 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48088 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48102 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39524 - "GET /?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39524 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39536 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39524 - "GET /api/status?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39536 - "GET /api/news?sharecode=YM64NRHD37 HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET / HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET / HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /api/news HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52264 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     ::ffff:172.24.0.1:0 - "GET /api/status HTTP/1.1" 200 OK
