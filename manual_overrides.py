@@ -1038,6 +1038,11 @@ TITLE_OVERRIDES = {
     'Cloudera Combines Its Data Platform and Mistral Models for Sovereign AI': 'Cloudera 将数据平台与 Mistral 模型结合，面向主权 AI',
     'Astelia Adds Autonomous Network Mitigation for Systems That Cannot Patch Yet': 'Astelia 为尚无法打补丁的系统增加自主网络缓解能力',
     'AI Venture Capital in 2027: Revenue Quality Will Reshape the Funding Race': '2027 年 AI 风险投资：收入质量将重塑融资竞赛',
+    'Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race': '亚马逊收购 Decart，押注用软件缩小与英伟达在 AI 芯片竞赛中的差距',
+    'Applied Systems Acquires Tailwind for AI Insurance Document Automation': 'Applied Systems 收购 Tailwind，推进 AI 保险文档自动化',
+    'Three insights you may have missed from theCUBE’s coverage of NetApp INSIGHT': 'theCUBE 对 NetApp INSIGHT 大会报道中，你可能错过的三点洞察',
+    'Raising the stakes for enterprise networks with AI modernization': 'AI 现代化推高企业网络的赌注',
+    'How Trump and Silicon Valley forced Nvidia to take Jensen Huang back': '特朗普与硅谷如何迫使英伟达重新请回黄仁勋',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2076,4 +2081,9 @@ SUMMARY_OVERRIDES = {
     'Cloudera Combines Its Data Platform and Mistral Models for Sovereign AI': 'Cloudera 的新产品将其混合数据平台与 Mistral 模型相结合，面向主权云、私有数据中心与气隙（air-gapped）部署场景。',
     'Astelia Adds Autonomous Network Mitigation for Systems That Cannot Patch Yet': 'Astelia 正在为安全团队提供一种新手段，可在不改动系统上运行软件的情况下遏制存在漏洞的系统。该公司于 11 月 24 日宣布，其暴露管理平台能在组织设定的策略范围内，在网络层面实施临时保护。该功能针对的是补丁不可用、或立即安装补丁会中断关键服务的场景。',
     'AI Venture Capital in 2027: Revenue Quality Will Reshape the Funding Race': '两家初创公司可能报告相同的经常性收入，但业务实质可能截然不同。一家靠可复制的产品留住客户，另一家则靠高昂的推理成本、实施工作和创始人不断介入来「买」增长。一轮亮眼的融资可能让这些差异暂时被忽视。到了 2027 年，更多 AI 投资故事将不得不再度经受运营数据的审视。',
+    'Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race': '亚马逊据报以 75 亿美元收购 Decart，这是其提升自研 Trainium 芯片效率、在 AI 芯片竞赛中追赶英伟达的举措之一。',
+    'Applied Systems Acquires Tailwind for AI Insurance Document Automation': 'Applied Systems 于 2026 年 11 月 24 日宣布收购保险文档与数据检索服务商 Tailwind，用于将保险公司的文档自动导入其管理系统，并把 AI 自动化扩展到代理机构的运营、财务与交易工作流。此次收购弥补了保险公司所持文档与代理机构在管理系统中所需数据之间的缺口。',
+    'Three insights you may have missed from theCUBE’s coverage of NetApp INSIGHT': '随着企业把人工智能从孤立的试点推向生产环境，智能数据基础设施正成为优先事项。这一转变对原本支撑传统应用的存储系统提出了新要求，尤其是在组织开始于混合云与多云环境中引入 AI 工作负载之际。NetApp Inc. 在 INSIGHT 大会上强调了这一趋势。',
+    'Raising the stakes for enterprise networks with AI modernization': '企业网络正承受巨大压力。随着企业争相部署人工智能，这项技术迅速成为网络带宽需求的最大来源，而智能体 AI 又进一步加重了负担。据估算，AI 智能体执行的任务所产生的网络流量，比人工完成同样任务高出约 450%。随着 AI 推理从超大规模训练云——即原始模型摄取海量数据并完成学习的大型集中式数据中心——转向实时、对延迟敏感的应用，对本地或近本地基础设施的需求日益增长。其结果是，已准备好支撑 AI 的企业网络与尚未准备好的网络之间的差距正在拉大。近期一项研究显示，仅约一半的企业认为其现有网络能够应对 AI 的带宽与延迟需求。',
+    'How Trump and Silicon Valley forced Nvidia to take Jensen Huang back': '周一上午，黄仁勋走进英伟达位于圣克拉拉的总部，受到列队在上方走廊的员工的热情掌声欢迎。当一位同事扑上去拥抱他时，黄仁勋难掩激动。就在不到两周前，他因一起涉及客户及疑似中国间谍的丑闻、以及另一起据报与下属的恋情而辞职；如今这位英伟达首席执行官戏剧性复职，连公司最高层高管都感到意外。英伟达董事会的这一突然反转，是由特朗普总统推动的——在上周目睹这家曾是美国市值最高的公司以及更广泛的科技板块市值大幅缩水后，他在周末向董事会施压。',
 }
