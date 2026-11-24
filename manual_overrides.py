@@ -989,6 +989,10 @@ TITLE_OVERRIDES = {
     'datasette-charts 0.2a0': 'datasette-charts 0.2a0 发布',
     'datasette-agent 0.7a1': 'datasette-agent 0.7a1 发布',
     'ATOM Signs ¥4.5B in Loan Facilities for GPU Cluster, Humanoid Output': 'ATOM 签署 45 亿日元贷款额度，用于建设 GPU 集群与推进人形机器人量产',
+    'How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise': '住友生命（Sumitomo Life）的领导者如何帮助团队采用 ChatGPT Enterprise',
+    'Google DeepMind just mathematically verified key parts of Signal': 'Google DeepMind 刚刚用数学方法验证了 Signal 加密协议的关键部分',
+    'A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure': 'Google DeepMind 的新 AI 工具证明 Signal 协议是安全的',
+    'Axiom Math wants to keep AI slop out of mathematics': 'Axiom Math 希望把 AI 垃圾内容挡在数学之外',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1978,4 +1982,8 @@ SUMMARY_OVERRIDES = {
     'datasette-charts 0.2a0': '发布：datasette-charts 0.2a0。我昨天推出了这款 Datasette 新图表插件，今天它已与 Datasette Agent 集成，现在你可以在聊天中要求生成图表，它会使用相同的底层图表建议与生成工具为你创建。以下是在 agent.datasette.io 录制的演示视频，你可以用 GitHub 登录亲自试用该插件（下载 MP4 视频）。我向 Datasette Agent 输入提示：「使用 #stats 将 sqlite-utils 的下载量随时间变化显示为图表」——输入「#stats」会打开表格搜索框。它在聊天中内联展示图表；当我点击「在图表构建器中打开」时，图表会连同表格页面一起在侧面板中打开。',
     'datasette-agent 0.7a1': '发布：datasette-agent 0.7a1。这是对 Datasette Agent 的一处小改进：聊天会话可打开 iframe 侧面板，该面板随后可导航到不同页面。此版本通过片段哈希（fragment hash）改进导航，从而与其他 Datasette 插件更深度地集成——当用户在插件中的交互改变状态时，这些插件会更新片段哈希。我之所以做这个功能，是为了修复更令人期待的 datasette-charts 0.2a0 版本中的一些错误。',
     'ATOM Signs ¥4.5B in Loan Facilities for GPU Cluster, Humanoid Output': '2026 年 11 月 24 日，ATOM 宣布与瑞穗银行（Mizuho Bank）、三井住友银行（Sumitomo Mitsui Banking Corp.）和三菱日联银行（Mitsubishi UFJ Bank）达成协议，获得总额 45 亿日元的贷款额度，用于建设本地部署的 GPU 集群，并为人形机器人量产做好准备。其中三井住友银行提供 20 亿日元，瑞穗银行提供 15 亿日元，三菱日联银行提供 10 亿日元。',
+    'How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise': '住友生命（Sumitomo Life）使用 ChatGPT Enterprise 研究保险公司、准备投资分析的提案与草案代码。高管的率先使用推动了团队采纳。',
+    'Google DeepMind just mathematically verified key parts of Signal': 'DeepMind 研究人员使用智能体人工智能，以数学方式证明并形式化验证了 Signal 协议若干关键的加密保障，这是广泛使用的加密技术以及 Google 人工智能自身的里程碑式进展。该工作在四周内作为概念验证项目完成，意义有二：其一，它为保护全球大量通信的 Signal 应用（包括 Google 消息与 WhatsApp 等平台所用协议）提供了进一步的独立安全验证；其二，它展示了 Google DeepMind 借助名为 AlphaProof Code 的系统所具备的形式化验证能力。',
+    'A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure': 'DeepMind 研究人员能够形式化验证广泛使用的加密协议是否按预期运行。他们的延伸目标？对全世界所有软件做同样的事。',
+    'Axiom Math wants to keep AI slop out of mathematics': '随着人工智能用未经核查的证明淹没数学领域，Axiom Math 押注于验证技术。这家初创公司的 AI 智能体刚刚形式化验证了数学界最大的文献库之一——Stacks Project。',
 }
