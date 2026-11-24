@@ -982,6 +982,13 @@ TITLE_OVERRIDES = {
     'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 推出 Claude Ship，自动化软件开发流程的最后阶段',
     'Prosecutors Detail Alleged Recordings of OpenAI Meetings in Bail Fight': '保释之争中，检方详述据称录有 OpenAI 会议的录音',
     'BIS Adds Megaspeed and Six Other Entities to Entity List': '美国 BIS 将 Megaspeed 及其他六家实体列入实体清单',
+    'QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI': 'QCon San Francisco 2026：在 OpenAI 用六周打造一款 1 亿美元产品的经验教训',
+    'Meta Brings Muse Personal AI Agent to UK With Purchase Controls': 'Meta 将 Muse 个人 AI 智能体引入英国，并加入购买管控功能',
+    'AWS Makes Bedrock Trusted Access Program API Generally Available': 'AWS 宣布 Bedrock Trusted Access Program API 正式可用',
+    'DXC Launches Frontier Code Assurance with Claude Mythos': 'DXC 推出基于 Claude Mythos 的 Frontier Code Assurance 服务',
+    'datasette-charts 0.2a0': 'datasette-charts 0.2a0 发布',
+    'datasette-agent 0.7a1': 'datasette-agent 0.7a1 发布',
+    'ATOM Signs ¥4.5B in Loan Facilities for GPU Cluster, Humanoid Output': 'ATOM 签署 45 亿日元贷款额度，用于建设 GPU 集群与推进人形机器人量产',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1964,4 +1971,11 @@ SUMMARY_OVERRIDES = {
     'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 并不满足于让 Claude 只负责编写新软件。在今日发布的一项新更新中，Claude 现在能够告诉开发人员，它生成的代码何时已准备好投入生产环境。这意味着从代码编写、审查到上线的交接环节可以进一步由智能体自动完成，是 Anthropic 面向软件开发流水线「最后一公里」的又一步布局。',
     'Prosecutors Detail Alleged Recordings of OpenAI Meetings in Bail Fight': '在 2026 年 11 月 23 日提交的一份法庭文件中，联邦检察官表示，调查人员从前 OpenAI 工程师 Abdulrahman Alfozan 的个人电脑中提取了数百个音频文件，其中包括数十段 OpenAI 会议录音，以及明显由人工智能生成的文字转录。政府方面援引这些材料，反对他再次提出的审前释放请求。',
     'BIS Adds Megaspeed and Six Other Entities to Entity List': '美国商务部工业与安全局（BIS）于 2026 年 11 月 23 日发布最终规则，以存在将先进计算商品转移至未经授权的最终用途或最终用户的风险为由，将 Megaspeed International Pte. Ltd. 及位于马来西亚、新加坡和泰国的其他六家实体列入其出口管制实体清单。该规则定于 2026 年 11 月 25 日刊登。清单中包括三家马来西亚实体、三家新加坡实体和一家泰国实体。',
+    'QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI': '在 2026 年 QCon San Francisco 大会上，OpenAI 的 Brian Yang 分享了如何借助 Codex 智能体、且不使用人工编写代码，打造 ChatGPT 广告产品。他介绍了分层测试、沙盒环境与批量拉取请求审查等做法，并指出「代码糟粕（slop）」与智能体不安全操作等失败模式。他建议循序渐进地采用智能体，并将工程师定位为智能体的管理者。',
+    'Meta Brings Muse Personal AI Agent to UK With Purchase Controls': 'Meta 于 2026 年 11 月 23 日在英国面向 18 岁及以上用户推出 Muse 个人 AI 智能体。该智能体可跨应用与网站规划并执行任务，接入英国零售与旅行服务连接器，支持智能体辅助结账，并强制要求用户批准购买。Muse 可在 iOS、Android、muse.ai 与 WhatsApp 上使用，多数用途免费，另提供可选订阅以解锁更多用量；Meta 表示将在未来数月把它带到公司的 AI 眼镜上。',
+    'AWS Makes Bedrock Trusted Access Program API Generally Available': 'Amazon Web Services 于 2026 年 11 月 24 日宣布，Amazon Bedrock 的 Trusted Access Program API 已正式可用（GA），为客户提供统一接口，用于发现、申请并加入模型提供商的计划。首批两项计划为 Anthropic 的 Enterprise Frontier Safeguards（EFS）与 Enterprise Data Controls（EDC），目前均处于公开预览阶段。该 API 标准化了相关计划，这些计划可能改变客户可使用的模型，或 Bedrock 保留与审查请求的方式。',
+    'DXC Launches Frontier Code Assurance with Claude Mythos': 'DXC Technology 于 2026 年 11 月 24 日宣布推出 DXC Frontier Code Assurance——一项托管网络安全服务，使用 Anthropic 的 Claude Mythos 发现、验证并协助修复关键任务软件中的漏洞。该服务即日可用，由 DXC 专家负责判断哪些发现需要采取行动。',
+    'datasette-charts 0.2a0': '发布：datasette-charts 0.2a0。我昨天推出了这款 Datasette 新图表插件，今天它已与 Datasette Agent 集成，现在你可以在聊天中要求生成图表，它会使用相同的底层图表建议与生成工具为你创建。以下是在 agent.datasette.io 录制的演示视频，你可以用 GitHub 登录亲自试用该插件（下载 MP4 视频）。我向 Datasette Agent 输入提示：「使用 #stats 将 sqlite-utils 的下载量随时间变化显示为图表」——输入「#stats」会打开表格搜索框。它在聊天中内联展示图表；当我点击「在图表构建器中打开」时，图表会连同表格页面一起在侧面板中打开。',
+    'datasette-agent 0.7a1': '发布：datasette-agent 0.7a1。这是对 Datasette Agent 的一处小改进：聊天会话可打开 iframe 侧面板，该面板随后可导航到不同页面。此版本通过片段哈希（fragment hash）改进导航，从而与其他 Datasette 插件更深度地集成——当用户在插件中的交互改变状态时，这些插件会更新片段哈希。我之所以做这个功能，是为了修复更令人期待的 datasette-charts 0.2a0 版本中的一些错误。',
+    'ATOM Signs ¥4.5B in Loan Facilities for GPU Cluster, Humanoid Output': '2026 年 11 月 24 日，ATOM 宣布与瑞穗银行（Mizuho Bank）、三井住友银行（Sumitomo Mitsui Banking Corp.）和三菱日联银行（Mitsubishi UFJ Bank）达成协议，获得总额 45 亿日元的贷款额度，用于建设本地部署的 GPU 集群，并为人形机器人量产做好准备。其中三井住友银行提供 20 亿日元，瑞穗银行提供 15 亿日元，三菱日联银行提供 10 亿日元。',
 }
