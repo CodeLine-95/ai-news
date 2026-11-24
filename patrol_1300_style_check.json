@@ -1,0 +1,44 @@
+{
+  "patrol_1300_local_light.png": {
+    "total": "2688",
+    "theme": "light",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  },
+  "patrol_1300_local_dark.png": {
+    "total": "2688",
+    "theme": "dark",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  },
+  "patrol_1300_local_auto_light.png": {
+    "total": "2688",
+    "theme": "light",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  },
+  "patrol_1300_local_auto_dark.png": {
+    "total": "2688",
+    "theme": "dark",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  },
+  "patrol_1300_local_en.png": {
+    "total": "2688",
+    "theme": "light",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  },
+  "patrol_1300_online.png": {
+    "total": "2688",
+    "theme": "light",
+    "entry_before": 0,
+    "metrics_padding_zero": true,
+    "sync_btns": 0
+  }
+}
