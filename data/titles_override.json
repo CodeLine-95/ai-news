@@ -433,7 +433,7 @@
   "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit": "Nvidia 表示，其开源人工智能策略在黄仁勋退出后仍然完整",
   "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO": "纳维迪亚表示，它并没有计划重新任命黄仁勋（Jensen Huang）为首席执行官",
   "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO": "黄仁勋说，如果允许他作为 Nvidia 首席执行官回来，他会被荣",
-  "Jensen Huang says he’s willing to return as Nvidia CEO": "黄仁勋说，他愿意作为 Nvidia 首席执行官回来",
+  "Jensen Huang says he’s willing to return as Nvidia CEO": "黄仁勋表示愿意重返 Nvidia CEO 岗位",
   "Nvidia’s first big move after Jensen Huang’s exit targets national security": "在黄仁勋退出后，Nvidia 首次迈出了重大举措，目标是国家安全",
   "Tech leaders are convinced that Jensen Huang’s exit was a plot against him": "技术领袖们相信，黄仁勋的退出是对他的阴谋",
   "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’": "萨姆·阿尔特曼在 Nvidia 上没有黄仁勋：行业将变得很好",
@@ -1086,5 +1086,14 @@
   "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows": "Anthropic 将 Claude Artifacts 打造为 macOS 与 Windows 独立桌面应用",
   "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired": "据报道黄仁勋向英伟达员工表示：特朗普助其复职「并非事实」",
   "What's going on with the Riemann hypothesis?": "黎曼猜想究竟怎么回事？",
-  "Speculative Decoding": "投机解码"
+  "Speculative Decoding": "投机解码",
+  "Anthropic Lets Claude Users Install AI-Built Tools as Desktop Apps": "Anthropic 允许 Claude 用户将 AI 构建的工具安装为桌面应用",
+  "Maple raises $5.3M to build AI products that protect your data, even from itself": "Maple 融资 530 万美元，打造能保护用户数据、甚至防止公司自身访问的 AI 产品",
+  "Ambarella Brings Liquid AI Models to Edge Chips for Physical AI": "Ambarella 将 Liquid AI 模型引入边缘芯片，赋能物理 AI",
+  "Anthropic Launches Linked Billing Beta for Claude API Apps": "Anthropic 推出 Claude API 应用「关联账单」测试版",
+  "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index": "Liquid AI 发布 d1.2 与 d1.2-ultra：登顶 AA 决策指数的全模态决策模型",
+  "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec": "Liquid AI 发布 LiquidCodec：7400 万参数的流式音频编解码器",
+  "Anthropic Lets Customers Self-Host Claude Managed Agents": "Anthropic 允许客户自建 Claude 托管智能体",
+  "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes": "Anthropic 将 Claude 打造成集插件、电子表格、白板及即将上线的会议记录于一体的完整工作空间",
+  "LiveX brings engaging, AI-powered intelligent human-sized avatar kiosks to retail and airport sites": "LiveX 将 AI 驱动的等身智能头像自助终端引入零售与机场"
 }
