@@ -1038,5 +1038,8 @@
   "Applied Systems Acquires Tailwind for AI Insurance Document Automation": "Applied Systems 于 2026 年 11 月 24 日宣布收购保险文档与数据检索服务商 Tailwind，用于将保险公司的文档自动导入其管理系统，并把 AI 自动化扩展到代理机构的运营、财务与交易工作流。此次收购弥补了保险公司所持文档与代理机构在管理系统中所需数据之间的缺口。",
   "Three insights you may have missed from theCUBE’s coverage of NetApp INSIGHT": "随着企业把人工智能从孤立的试点推向生产环境，智能数据基础设施正成为优先事项。这一转变对原本支撑传统应用的存储系统提出了新要求，尤其是在组织开始于混合云与多云环境中引入 AI 工作负载之际。NetApp Inc. 在 INSIGHT 大会上强调了这一趋势。",
   "Raising the stakes for enterprise networks with AI modernization": "企业网络正承受巨大压力。随着企业争相部署人工智能，这项技术迅速成为网络带宽需求的最大来源，而智能体 AI 又进一步加重了负担。据估算，AI 智能体执行的任务所产生的网络流量，比人工完成同样任务高出约 450%。随着 AI 推理从超大规模训练云——即原始模型摄取海量数据并完成学习的大型集中式数据中心——转向实时、对延迟敏感的应用，对本地或近本地基础设施的需求日益增长。其结果是，已准备好支撑 AI 的企业网络与尚未准备好的网络之间的差距正在拉大。近期一项研究显示，仅约一半的企业认为其现有网络能够应对 AI 的带宽与延迟需求。",
-  "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back": "周一上午，黄仁勋走进英伟达位于圣克拉拉的总部，受到列队在上方走廊的员工的热情掌声欢迎。当一位同事扑上去拥抱他时，黄仁勋难掩激动。就在不到两周前，他因一起涉及客户及疑似中国间谍的丑闻、以及另一起据报与下属的恋情而辞职；如今这位英伟达首席执行官戏剧性复职，连公司最高层高管都感到意外。英伟达董事会的这一突然反转，是由特朗普总统推动的——在上周目睹这家曾是美国市值最高的公司以及更广泛的科技板块市值大幅缩水后，他在周末向董事会施压。"
+  "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back": "周一上午，黄仁勋走进英伟达位于圣克拉拉的总部，受到列队在上方走廊的员工的热情掌声欢迎。当一位同事扑上去拥抱他时，黄仁勋难掩激动。就在不到两周前，他因一起涉及客户及疑似中国间谍的丑闻、以及另一起据报与下属的恋情而辞职；如今这位英伟达首席执行官戏剧性复职，连公司最高层高管都感到意外。英伟达董事会的这一突然反转，是由特朗普总统推动的——在上周目睹这家曾是美国市值最高的公司以及更广泛的科技板块市值大幅缩水后，他在周末向董事会施压。",
+  "Pinterest will now let parents limit the AI-generated content their teens see": "在其他社交平台专注于限制青少年使用 AI 聊天机器人之际，Pinterest 选择应对充斥在青少年信息流中的 AI 生成内容。",
+  "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving": "一项新测试假设 AI 智能体可能失控，并探究它们能否抵御诱惑。",
+  "How Gemini is changing the game for Golden State's organization and fans.": "Google Gemini 与金州勇士（Golden State）合作，为勇士队、瓦尔基里女篮（Valkyries）与大通中心（Chase Center）提供球迷体验与业务运营支持。查看相关新闻。"
 }
