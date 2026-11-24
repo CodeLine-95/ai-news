@@ -980,6 +980,8 @@ TITLE_OVERRIDES = {
     'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI 完成对 Pronghorn 的收购，推进怀俄明州 AI 数据中心电力建设',
     'Amazon acquires key assets of AI startup Decart for reported $7.5B': '据报道，Amazon 以 75 亿美元收购 AI 初创公司 Decart 的关键资产',
     'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 推出 Claude Ship，自动化软件开发流程的最后阶段',
+    'Prosecutors Detail Alleged Recordings of OpenAI Meetings in Bail Fight': '保释之争中，检方详述据称录有 OpenAI 会议的录音',
+    'BIS Adds Megaspeed and Six Other Entities to Entity List': '美国 BIS 将 Megaspeed 及其他六家实体列入实体清单',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1960,4 +1962,6 @@ SUMMARY_OVERRIDES = {
     'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI Technologies 于 2026 年 11 月 23 日宣布，已完成对 Pronghorn Resources 的全股票收购，由此在怀俄明州粉河盆地（Powder River Basin）获得一项在产天然气业务，用于其规划中的 AI 数据中心电力平台。公司目标是在 2027 年实现首批 300 兆瓦专属电力供应。此次交易交割还使 GridAI 依据与 1st American Nuclear Co.（FANCO）的合资协议，获得怀俄明州范围内的独家经营权。',
     'Amazon acquires key assets of AI startup Decart for reported $7.5B': 'Amazon.com Inc. 今日宣布，计划聘请 AI 初创公司 Decart.AI Inc. 的技术团队，并收购其核心技术。公司未披露交易条款，但消息人士向彭博社（Bloomberg）透露，Amazon 为此支付约 75 亿美元——这几乎是 Decart 今年 5 月最新一轮融资后估值（据报）的两倍。此次交易延续了科技巨头通过「人才收购」补强 AI 能力的趋势。',
     'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 并不满足于让 Claude 只负责编写新软件。在今日发布的一项新更新中，Claude 现在能够告诉开发人员，它生成的代码何时已准备好投入生产环境。这意味着从代码编写、审查到上线的交接环节可以进一步由智能体自动完成，是 Anthropic 面向软件开发流水线「最后一公里」的又一步布局。',
+    'Prosecutors Detail Alleged Recordings of OpenAI Meetings in Bail Fight': '在 2026 年 11 月 23 日提交的一份法庭文件中，联邦检察官表示，调查人员从前 OpenAI 工程师 Abdulrahman Alfozan 的个人电脑中提取了数百个音频文件，其中包括数十段 OpenAI 会议录音，以及明显由人工智能生成的文字转录。政府方面援引这些材料，反对他再次提出的审前释放请求。',
+    'BIS Adds Megaspeed and Six Other Entities to Entity List': '美国商务部工业与安全局（BIS）于 2026 年 11 月 23 日发布最终规则，以存在将先进计算商品转移至未经授权的最终用途或最终用户的风险为由，将 Megaspeed International Pte. Ltd. 及位于马来西亚、新加坡和泰国的其他六家实体列入其出口管制实体清单。该规则定于 2026 年 11 月 25 日刊登。清单中包括三家马来西亚实体、三家新加坡实体和一家泰国实体。',
 }
