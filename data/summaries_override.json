@@ -994,5 +994,13 @@
   "Trustly Raises $60M in Equity to Accelerate AI Product Development": "Trustly Holding AB 在 2026 年 11 月 24 日的监管公告中宣布，母公司 Trustly AB 将通过股东资本募集约 6000 万美元，用于加速开发 AI 驱动的产品，把支付活动转化为面向企业的财务智能。Trustly 的主要股东 Nordic Capital 与 Alfvén & Didrikson 在 2026 年 10 月 2 日披露的不可撤销、具有法律约束力的股权承诺中，提供了超过 4000 万美元资金。",
   "Genspark Launches SecondBrain VoicePad for Dictation and AI Agents": "Genspark 于 2026 年 11 月 24 日推出 SecondBrain VoicePad——一款面向 Windows 和 macOS 的五键桌面控制器，可进行语音听写、打开应用程序并触发 AI 工作流。该公司表示，预订现已开放，首批量产产品计划于 2027 年 1 月发货。这款 85 克重的设备采用 CNC 加工铝制机身、双麦克风，并支持蓝牙连接。",
   "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It": "Anthropic 一名研究员针对黎曼猜想给出的 1700 万行「异类」解法，数学家可能要花数月时间才能读懂。",
-  "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving": "对未来感到焦虑的年轻人表示，他们对越来越热衷 AI 的父母愈发不满，并担心这会让节日聚会气氛变得紧张。"
+  "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving": "对未来感到焦虑的年轻人表示，他们对越来越热衷 AI 的父母愈发不满，并担心这会让节日聚会气氛变得紧张。",
+  "Exein launches Ray AI agent to show manufacturers which firmware weaknesses to fix first": "意大利实体 AI 网络安全公司 Exein SpA 今日推出名为 Ray 的 AI 智能体，称其能帮助制造商找出联网设备固件中最值得关注的安全弱点。Ray 内置于该公司的固件安全平台 Exein Analyzer，该平台可检查固件中的漏洞、安全弱点与合规问题。",
+  "Why Does Voice AI Still Struggle With Kenyans’ Speech?": "当人们朗读准备好的文本时，AI 转录斯瓦希里语的错误率极低，斯瓦希里语语音识别似乎已接近攻克。2026 年 3 月一篇由哈佛大学研究人员参与的预印本报告称，在 Mozilla Common Voice 志愿者录音数据集上词错误率仅为 3.24%。但肯尼亚人的日常说话方式与志愿者截然不同：他们会句中切换斯瓦希里语和英语、夹杂随街区变化的 Sheng 俚语、带着受母语影响的口音，还要在低端手机上面临公共交通噪音。另一篇 2026 年预印本覆盖 20 种非洲语言，指出这种自然、嘈杂、重叠的语音暴露了一种泛化差距——基于英语建立的缩放定律并未填补它。",
+  "CGI Brain-Hemorrhage AI Receives EU Medical Device Certification": "CGI 于 2026 年 11 月 24 日宣布，其与赫尔辛基大学医院和 Planmeca 合作开发的 CGI AI Head Analysis 已获得欧盟《医疗器械法规》IIb 类认证。该软件通过分析头部计算机断层扫描（CT）影像，检测非创伤性、自发性颅内出血，并标记疑似急性出血区域供医生复查。",
+  "Anthropic Shares Fall Below IPO Price in Nasdaq Premarket": "2026 年 11 月 24 日，Anthropic 股价在纳斯达克盘前交易中跌破每股 83 美元的 IPO 发行价。纳斯达克盘前报价显示，这家 AI 公司的 A 类普通股于美国东部时间 6:35 报 82.40 美元，较前一交易日收盘价下跌 5.98%，较发行价低约 0.7%。盘前最低价 81.28 美元、最高价 86.46 美元，当时约有 402 万股成交。",
+  "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own": "Anthropic 推出处于测试阶段的新工具 Claude Ship，可根据团队指南自动审查、修正并批准代码变更建议。",
+  "Why AI Workloads Need Their Own Security Posture Management": "云安全团队发现一个存有敏感训练数据的存储桶：访问控制配置正确、加密已启用、基础设施通过配置检查。但连接到该存储桶的 AI 应用所获权限，远远超出其预期任务所需；一名员工还把未经批准的 AI 服务接入了同一数据集。传统的云安全检查往往不会审查这两类问题。",
+  "Anthropic and OpenAI Staff Question Releasing Advanced AI Models": "Axios 于 2026 年 11 月 24 日报道称，部分 Anthropic 与 OpenAI 员工不再相信某些尚未发布的 AI 模型能够安全发布。报道援引了二十多位知情人士，他们熟悉公司内部围绕限制部署以及是否继续训练的争论。",
+  "Presentation: Inferencing for Enterprises": "Dio Rettori 探讨企业 AI 推理的运营现实。他超越「快速生成 token」这一层面，剖析推理为何需要专门的系统工程，讨论 GPU 利用率的陷阱，对比本地部署与云端的总拥有成本（TCO），并分析多智能体延迟的确定性。他还分享了团队为何应把领域本体直接嵌入模型，而非仅仅依赖 RAG。"
 }
