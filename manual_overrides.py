@@ -997,6 +997,8 @@ TITLE_OVERRIDES = {
     'ASRock Industrial Launches RBK-100 Physical AI Development Kit': '华擎工业推出 RBK-100 具身 AI 开发套件',
     'Trustly Raises $60M in Equity to Accelerate AI Product Development': 'Trustly 通过股权融资 6000 万美元，加速 AI 产品开发',
     'Genspark Launches SecondBrain VoicePad for Dictation and AI Agents': 'Genspark 推出 SecondBrain VoicePad，用于语音听写与 AI 智能体',
+    'AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It': 'AI 破解了数学最著名难题，如今人类正费力理解其解法',
+    'Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving': '想安稳过感恩节？别提 AI',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1994,4 +1996,6 @@ SUMMARY_OVERRIDES = {
     'ASRock Industrial Launches RBK-100 Physical AI Development Kit': '华擎工业（ASRock Industrial）于 2026 年 11 月 24 日宣布推出 RBK-100「机器人套装」（Robotics-in-a-Box）——一个集成的物理 AI（具身智能）开发平台，结合了基于 Intel 的边缘计算设备、RGB-D 深度相机、配套机械臂，以及为研究人员、教育工作者和开发者预装的软件。华擎工业表示，该套件旨在减少机器人 AI 开发中的集成工作。',
     'Trustly Raises $60M in Equity to Accelerate AI Product Development': 'Trustly Holding AB 在 2026 年 11 月 24 日的监管公告中宣布，母公司 Trustly AB 将通过股东资本募集约 6000 万美元，用于加速开发 AI 驱动的产品，把支付活动转化为面向企业的财务智能。Trustly 的主要股东 Nordic Capital 与 Alfvén & Didrikson 在 2026 年 10 月 2 日披露的不可撤销、具有法律约束力的股权承诺中，提供了超过 4000 万美元资金。',
     'Genspark Launches SecondBrain VoicePad for Dictation and AI Agents': 'Genspark 于 2026 年 11 月 24 日推出 SecondBrain VoicePad——一款面向 Windows 和 macOS 的五键桌面控制器，可进行语音听写、打开应用程序并触发 AI 工作流。该公司表示，预订现已开放，首批量产产品计划于 2027 年 1 月发货。这款 85 克重的设备采用 CNC 加工铝制机身、双麦克风，并支持蓝牙连接。',
+    'AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It': 'Anthropic 一名研究员针对黎曼猜想给出的 1700 万行「异类」解法，数学家可能要花数月时间才能读懂。',
+    'Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving': '对未来感到焦虑的年轻人表示，他们对越来越热衷 AI 的父母愈发不满，并担心这会让节日聚会气氛变得紧张。',
 }
