@@ -978,6 +978,8 @@ TITLE_OVERRIDES = {
     'White House brags that Trump was ‘totally involved’ in getting Jensen reinstated': '白宫炫耀特朗普「全程参与」让黄仁勋复职',
     'Supertake Raises $20M Seed, Adds Ex-Coinbase AI Leaders as CEO and CTO': 'Supertake 完成 2000 万美元种子轮融资，延揽两名前 Coinbase AI 负责人出任 CEO 与 CTO',
     'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI 完成对 Pronghorn 的收购，推进怀俄明州 AI 数据中心电力建设',
+    'Amazon acquires key assets of AI startup Decart for reported $7.5B': '据报道，Amazon 以 75 亿美元收购 AI 初创公司 Decart 的关键资产',
+    'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 推出 Claude Ship，自动化软件开发流程的最后阶段',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1956,4 +1958,6 @@ SUMMARY_OVERRIDES = {
     'White House brags that Trump was ‘totally involved’ in getting Jensen reinstated': '唐纳德·特朗普总统在黄仁勋重返英伟达 CEO 一事中所起的作用显而易见——如今白宫要让所有人都知道这一点。白宫通讯主任史蒂文·张（Steven Cheung）在一份声明中表示：「特朗普总统全程参与，这是英伟达董事会的英明决定。」该声明最早由 Semafor 报道。「我们必须保护我们的天才。」特朗普随后在 CNBC 上发表了类似言论，他在节目中说：「我们必须保护我们的天才。」他还表示自己「非常坚定地」认为黄仁勋应当复职。',
     'Supertake Raises $20M Seed, Adds Ex-Coinbase AI Leaders as CEO and CTO': 'Supertake 联合创始人 Michael Mignano 于 2026 年 11 月 23 日宣布，这家 AI 投资初创公司已完成由 Adjacent 领投的 2000 万美元种子轮融资；Lincoln Murr 出任首席执行官，John Peterson 出任首席技术官，两人同时加入成为联合创始人。Murr 此前在 Coinbase 领导 AI 产品，Peterson 负责工程；他们的过往成果包括 x402、Coinbase Advisor、面向智能体的 Coinbase（Coinbase for Agents）以及智能体钱包。',
     'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI Technologies 于 2026 年 11 月 23 日宣布，已完成对 Pronghorn Resources 的全股票收购，由此在怀俄明州粉河盆地（Powder River Basin）获得一项在产天然气业务，用于其规划中的 AI 数据中心电力平台。公司目标是在 2027 年实现首批 300 兆瓦专属电力供应。此次交易交割还使 GridAI 依据与 1st American Nuclear Co.（FANCO）的合资协议，获得怀俄明州范围内的独家经营权。',
+    'Amazon acquires key assets of AI startup Decart for reported $7.5B': 'Amazon.com Inc. 今日宣布，计划聘请 AI 初创公司 Decart.AI Inc. 的技术团队，并收购其核心技术。公司未披露交易条款，但消息人士向彭博社（Bloomberg）透露，Amazon 为此支付约 75 亿美元——这几乎是 Decart 今年 5 月最新一轮融资后估值（据报）的两倍。此次交易延续了科技巨头通过「人才收购」补强 AI 能力的趋势。',
+    'Anthropic’s Claude Ship automates the final stage of the software development pipeline': 'Anthropic 并不满足于让 Claude 只负责编写新软件。在今日发布的一项新更新中，Claude 现在能够告诉开发人员，它生成的代码何时已准备好投入生产环境。这意味着从代码编写、审查到上线的交接环节可以进一步由智能体自动完成，是 Anthropic 面向软件开发流水线「最后一公里」的又一步布局。',
 }
