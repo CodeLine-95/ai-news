@@ -976,6 +976,8 @@ TITLE_OVERRIDES = {
     'GLM-5.4: Toward Generalized Coding with Our First Loop Transformer': 'GLM-5.4：以首个循环 Transformer 迈向通用编程',
     'OpenAI Launches Shirudo to Protect Running Linux Systems': 'OpenAI 推出 Shirudo，保护运行中的 Linux 系统',
     'White House brags that Trump was ‘totally involved’ in getting Jensen reinstated': '白宫炫耀特朗普「全程参与」让黄仁勋复职',
+    'Supertake Raises $20M Seed, Adds Ex-Coinbase AI Leaders as CEO and CTO': 'Supertake 完成 2000 万美元种子轮融资，延揽两名前 Coinbase AI 负责人出任 CEO 与 CTO',
+    'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI 完成对 Pronghorn 的收购，推进怀俄明州 AI 数据中心电力建设',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1952,4 +1954,6 @@ SUMMARY_OVERRIDES = {
     'GLM-5.4: Toward Generalized Coding with Our First Loop Transformer': 'GLM 5.4 现已由中国 AI 实验室 Z.ai 发布，这是其首个采用循环 Transformer 架构的模型。他们的描述如下：在标准 Transformer 中，每一层在每次前向传播中运行一次；而在循环 Transformer 中，一组共享权重的层会多次迭代运行，利用上一次传播的隐藏状态不断精炼。这让网络可以更深，却不增加参数量。这是我在过去一周内第二次看到循环 Transformer——第一次是 11 月 20 日 Thinking Machines Lab 的 Inkling 2 Mini，他们称：Inkling 2 Mini 是一个循环 Transformer，对每个 token 将模型的中间层运行三次。',
     'OpenAI Launches Shirudo to Protect Running Linux Systems': 'OpenAI 与思科于 2026 年 11 月 23 日推出开源项目 Shirudo，为运维人员提供运行时保护手段：在永久性修复方案开发与部署期间，可对 Linux 系统施加临时防护。这个预发布项目结合了 eBPF 控制与面向智能体的设计，用于开发名为「防护罩（shields）」的定向保护措施，瞄准从发现漏洞到补丁部署完成之间的空窗期。',
     'White House brags that Trump was ‘totally involved’ in getting Jensen reinstated': '唐纳德·特朗普总统在黄仁勋重返英伟达 CEO 一事中所起的作用显而易见——如今白宫要让所有人都知道这一点。白宫通讯主任史蒂文·张（Steven Cheung）在一份声明中表示：「特朗普总统全程参与，这是英伟达董事会的英明决定。」该声明最早由 Semafor 报道。「我们必须保护我们的天才。」特朗普随后在 CNBC 上发表了类似言论，他在节目中说：「我们必须保护我们的天才。」他还表示自己「非常坚定地」认为黄仁勋应当复职。',
+    'Supertake Raises $20M Seed, Adds Ex-Coinbase AI Leaders as CEO and CTO': 'Supertake 联合创始人 Michael Mignano 于 2026 年 11 月 23 日宣布，这家 AI 投资初创公司已完成由 Adjacent 领投的 2000 万美元种子轮融资；Lincoln Murr 出任首席执行官，John Peterson 出任首席技术官，两人同时加入成为联合创始人。Murr 此前在 Coinbase 领导 AI 产品，Peterson 负责工程；他们的过往成果包括 x402、Coinbase Advisor、面向智能体的 Coinbase（Coinbase for Agents）以及智能体钱包。',
+    'GridAI Closes Pronghorn Acquisition for Wyoming AI Power Buildout': 'GridAI Technologies 于 2026 年 11 月 23 日宣布，已完成对 Pronghorn Resources 的全股票收购，由此在怀俄明州粉河盆地（Powder River Basin）获得一项在产天然气业务，用于其规划中的 AI 数据中心电力平台。公司目标是在 2027 年实现首批 300 兆瓦专属电力供应。此次交易交割还使 GridAI 依据与 1st American Nuclear Co.（FANCO）的合资协议，获得怀俄明州范围内的独家经营权。',
 }
