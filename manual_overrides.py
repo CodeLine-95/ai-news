@@ -1017,6 +1017,17 @@ TITLE_OVERRIDES = {
     'B.Grimm and NTT Pursue 400 MW AI Data Center Opportunity in Thailand': 'B.Grimm 与 NTT 探索泰国 400 兆瓦 AI 数据中心机会',
     'Applied Optoelectronics Signs Four-Year AI Optics Supply Agreement': '应用光电（AOI）签署为期四年的 AI 光模块供应协议',
     'CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve': 'CNCF 研究显示：随着 AI 工作负载演进，虚拟机仍是核心',
+    'Waystar Plans Revenue-Cycle AI Integration with Gemini for Healthcare': 'Waystar 计划将收入周期 AI 分析与 Google Cloud 医疗版 Gemini 集成',
+    'Avicena Raises $100M+ Series C to Commercialize microLED Optical Links': 'Avicena 完成逾 1 亿美元 C 轮融资，推进 microLED 光互连商业化',
+    'Ambarella Teams With Sigma Connectivity to Industrialize Edge AI': '安霸（Ambarella）与 Sigma Connectivity 合作推进边缘 AI 量产',
+    'Automation Anywhere Closes Boost.ai Deal to Automate Customer Service': 'Automation Anywhere 完成收购 Boost.ai，强化客户服务自动化',
+    'Nuro Begins Driverless Lucid Gravity Robotaxi Tests in Bay Area': 'Nuro 在湾区启动 Lucid Gravity 无人驾驶 Robotaxi 测试',
+    'Roscosmos Launches Teledroid Humanoid Robot on Progress MS-36': '俄罗斯国家航天集团搭乘进步 MS-36 发射 Teledroid 类人机器人',
+    '10Web turns social media profiles into working commercial websites': '10Web 将社交媒体主页变成可运营的商业网站',
+    'Verra raises $5M to help consulting firms forget their institutional amnesia': 'Verra 融资 500 万美元，帮咨询公司摆脱「机构失忆」',
+    'Dante Security Raises $10 Million to Give Enterprise AI Agents Human Owners': 'Dante Security 融资 1000 万美元，为企业 AI 智能体指定人类负责人',
+    'Verra Raises $5 Million to Build AI-Powered Institutional Memory for Consulting Firms': 'Verra 融资 500 万美元，为咨询公司打造 AI 驱动的机构记忆',
+    'Zipher Raises $53M Across Seed and Series A Rounds to Automate Data Workloads': 'Zipher 在种子轮与 A 轮共融资 5300 万美元，实现数据工作负载自动化',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2034,4 +2045,15 @@ SUMMARY_OVERRIDES = {
     'B.Grimm and NTT Pursue 400 MW AI Data Center Opportunity in Thailand': 'B.Grimm 于 2026 年 11 月 24 日宣布，旗下 B.Grimm Power 与 NTT Global Data Center 签署谅解备忘录，探索在泰国推进一个 400 兆瓦数据中心项目，涵盖数字基础设施、AI 生态系统与能源基础设施，投资额约 1130 亿泰铢。该备忘录仅为探索这一机会的协议，并非确认工程已经动工。',
     'Applied Optoelectronics Signs Four-Year AI Optics Supply Agreement': '应用光电（Applied Optoelectronics）于 2026 年 11 月 24 日宣布，与一家未具名的现有 Tier-1 超大规模数据中心客户签署为期四年的供应协议，涉及约 22 亿美元的 800G 光模块与激光二极管最低采购量，用于 AI 基础设施。协议自 2026 年 12 月持续至 2030 年 12 月。客户承诺 2027 年采购约 15 亿美元的 800G 光模块，并在 2028 至 2029 年间采购约 7 亿美元的激光二极管，未来或按需增加其他产品。AOI 将承担一次性 200 万美元支出以加快产品认证，客户在协议下未作出资本承诺。',
     'CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve': '云原生计算基金会（CNCF）与 Linux 基金会研究的最新调查发现，虚拟机平均承载 53% 的生产应用，而新兴的 AI 与智能体工作负载正为虚拟化带来新增需求，尤其是在需要更强执行隔离的场景。',
+    'Waystar Plans Revenue-Cycle AI Integration with Gemini for Healthcare': 'Waystar 于 2026 年 11 月 24 日宣布，将把其 AI 驱动的收入周期分析与保险资格核验工具，与 Google Cloud 面向医疗行业的 Gemini 集成。此举将让医疗服务提供方通过自然语言交互来查询付款表现、发起资格核验，而无需在多个独立系统之间切换。',
+    'Avicena Raises $100M+ Series C to Commercialize microLED Optical Links': 'Avicena 于 2026 年 11 月 24 日宣布，已募集超过 1 亿美元的 C 轮融资，用于将面向 AI 基础设施的 microLED 光互连平台 LightBundle 推向商业化。InterVest 领投本轮，Kevin Pope 将接替 Marco Chisari 出任首席执行官。本轮吸引了新老投资者参与。',
+    'Ambarella Teams With Sigma Connectivity to Industrialize Edge AI': '安霸（Ambarella）与 Sigma Connectivity 于 2026 年 11 月 24 日宣布战略合作，帮助制造商将计算机视觉与边缘 AI 原型转化为可量产的产品。安霸将提供低功耗 AI 芯片与软件工具，Sigma Connectivity 负责量产所需的工程与验证工作。此次合作面向原始设备制造商（OEM）以及为联网设备增添 AI 功能的企业。',
+    'Automation Anywhere Closes Boost.ai Deal to Automate Customer Service': 'Automation Anywhere 于 2026 年 11 月 24 日宣布完成对 Boost.ai 的收购，将面向受监管行业的对话式与语音 AI 纳入其服务逾 4000 家客户的智能体自动化平台。合并后的方案旨在把客户请求从对话一路推进到跨企业系统的实际完成。该公司称其每年执行近 5 亿次 AI 智能体与自动化任务。',
+    'Nuro Begins Driverless Lucid Gravity Robotaxi Tests in Bay Area': 'Nuro、Lucid 与 Uber 在 2026 年 11 月 24 日的 Nuro 公告中表示，Lucid Gravity Robotaxi 已在旧金山湾区启动完全无人驾驶的公开道路测试，标志着三方联合项目在筹备载客服务之际，超越了此前的有人监督试验阶段。测试正在帕洛阿尔托、山景城、洛斯阿尔托斯和桑尼维尔进行，并计划于 2027 年扩展至更多湾区城市。',
+    'Roscosmos Launches Teledroid Humanoid Robot on Progress MS-36': '俄罗斯国家航天集团（Roscosmos）于 2026 年 11 月 24 日向国际空间站发射进步 MS-36（Progress MS-36）货运飞船，搭载一台用于 Teledroid 实验的类人机器人。联盟 2.1b 火箭于莫斯科时间 13:17 从拜科努尔升空，运送超过 2.4 吨货物。飞船进入预定轨道，与火箭第三级分离，并按计划展开天线与太阳能电池板。',
+    '10Web turns social media profiles into working commercial websites': 'AI 网站构建工具 10Web Inc. 正在推出一项新功能，据称可自动将 Instagram、TikTok、Etsy、Google 商家资料等 30 多个来源的内容转化为可用的网站和在线商店。',
+    'Verra raises $5M to help consulting firms forget their institutional amnesia': '为咨询公司构建机构记忆层的 AI 初创公司 Verra 今日表示，已完成 500 万美元种子轮融资，帮助这些公司克服知识遗忘，让沉淀数十年的知识为每一位员工所用。',
+    'Dante Security Raises $10 Million to Give Enterprise AI Agents Human Owners': '由 NFX 领投的这轮种子融资支持一个企业平台，该平台将 AI 智能体的活动与具名的人类负责人关联，帮助安全团队审查智能体的行为。',
+    'Verra Raises $5 Million to Build AI-Powered Institutional Memory for Consulting Firms': 'Verra 的种子融资支持一个 AI 平台，帮助咨询团队复用既往工作，并以可追溯的来源起草新的交付物。',
+    'Zipher Raises $53M Across Seed and Series A Rounds to Automate Data Workloads': 'Zipher 已在种子轮与 A 轮融资中累计筹集 5300 万美元，用于自动化企业数据负载在云端的运行方式。该公司称 TLV Partners、Maor Investments 和 Glilot Capital 参与了这些轮次，但未披露各轮金额与估值。资金将用于研发和扩大销售，包括扩建美国企业销售团队并拓展美国以外市场。',
 }
