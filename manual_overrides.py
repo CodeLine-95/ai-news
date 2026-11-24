@@ -1108,6 +1108,11 @@ TITLE_OVERRIDES = {
     'Anthropic Lets Customers Self-Host Claude Managed Agents': 'Anthropic 允许客户自建 Claude 托管智能体',
     'Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes': 'Anthropic 将 Claude 打造成集插件、电子表格、白板及即将上线的会议记录于一体的完整工作空间',
     'LiveX brings engaging, AI-powered intelligent human-sized avatar kiosks to retail and airport sites': 'LiveX 将 AI 驱动的等身智能头像自助终端引入零售与机场',
+    'Anthropic’s Siren tests whether Claude models will break out of an insecure sandbox': 'Anthropic 推出 Siren 评测：检验 Claude 模型是否会从不安全的沙箱中逃脱',
+    'Jensen Huang still thinks a succession plan creates unnecessary hierarchy': '黄仁勋仍认为继任计划会造成不必要的层级',
+    'Judge Grants Bond to Former OpenAI Engineer in Recording Case': '录音案中法官准予前 OpenAI 工程师保释',
+    'Jensen Huang Apologizes to NVIDIA Staff and Rejects Succession Plan': '黄仁勋向英伟达员工道歉并反对继任计划',
+    'Five9 Closes Level AI Deal to Offer Standalone CX AI Tools': 'Five9 完成收购 Level AI，推出独立的客户体验 AI 工具',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2215,4 +2220,9 @@ SUMMARY_OVERRIDES = {
     'Anthropic Lets Customers Self-Host Claude Managed Agents': 'Anthropic 于 2026 年 11 月 12 日推出自建（self-hosted）Claude Managed Agents，允许客户在自己的云账户或本地数据中心运行完整服务及其沙箱。智能体、会话与会话历史存储在该基础设施上，模型请求则可发往选定的推理服务商。Anthropic 此前的自建沙箱方案只是把智能体的工具执行迁移到客户系统，智能体本身仍由 Anthropic 运行。',
     'Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes': 'Anthropic 正在为 Claude 增加表格（Sheets）、白板（Whiteboards）和交互式连接器（Interactive Connectors），让 Adobe、Atlassian 等合作伙伴可把自家应用直接嵌入 Claude。Anthropic 表示，能加入通话并做记录的 Claude Meetings 即将推出。Anthropic 正一步步把 Claude 变成团队的中央工作平台，把众多其他应用汇聚到一处。',
     'LiveX brings engaging, AI-powered intelligent human-sized avatar kiosks to retail and airport sites': '总部位于帕洛阿尔托的 LiveX AI Inc. 是一家为零售与酒店场景打造交互式体验 AI 智能体的公司，今日发布 AI City——由其自助终端驱动的等身、拟人 AI 主持人。该公司产品目前已部署在 100 多个场所，通过等身人形头像在零售、科技、酒店与娱乐领域与顾客互动。',
+    'Anthropic’s Siren tests whether Claude models will break out of an insecure sandbox': '人工智能开发公司 Anthropic PBC 的研究人员今天公布了 Siren 的细节——这是一项新的评测，用于检验 AI 智能体是否会为获取有助于完成任务的资源而突破不安全的沙箱。',
+    'Jensen Huang still thinks a succession plan creates unnecessary hierarchy': '对于一家过去两周才刚经历「创始人缺位」局面的公司而言，这是一个耐人寻味的立场。',
+    'Judge Grants Bond to Former OpenAI Engineer in Recording Case': 'CNBC 于 2026 年 11 月 24 日报道，美国联邦治安法官 Alex Tse 已批准前 OpenAI 工程师 Abdulrahman Alfozan 以 100 万美元保释金获释，等候审判。现年 35 岁的 Alfozan 面临一项涉及在高管会议室藏匿录音设备的指控。该案涉及在旧金山一处 OpenAI 办公室涉嫌窃听口头通讯。',
+    'Jensen Huang Apologizes to NVIDIA Staff and Rejects Succession Plan': 'CNBC 于 2026 年 11 月 24 日报道，英伟达 CEO 黄仁勋在复职后的首次员工大会上向员工道歉，并表示这家芯片制造商不需要传统的继任规划。多位要求匿名的与会者称，黄仁勋告诉员工他让他们失望了，并会在第二个任期做得更好。据一位出席者转述，他说：「我伤害了你们所有人。」',
+    'Five9 Closes Level AI Deal to Offer Standalone CX AI Tools': 'Five9 于 2026 年 11 月 24 日宣布完成对 Level AI 的收购，交易对这家客户体验 AI 公司的估值约为 3.25 亿美元。Level AI 的应用将作为独立产品、同时作为 Five9 Genius CX 平台的一部分提供。Level AI 带来旨在提升坐席绩效的应用，可跨语音与数字渠道自动化客户互动，并将客户对话转化为对整个组织有价值的洞察。',
 }
