@@ -1,56 +1,44 @@
-from playwright.sync_api import sync_playwright
-import os, json
-os.makedirs('/workspace/ai-news/screenshots', exist_ok=True)
-base = "http://127.0.0.1:8080/?sharecode=YM64NRHD37"
-out = "/workspace/ai-news/screenshots"
-with sync_playwright() as p:
-    b = p.chromium.launch(args=["--no-sandbox"])
-    pg = b.new_page(viewport={"width": 1280, "height": 1400})
-    pg.goto(base, wait_until="networkidle")
-    pg.wait_for_timeout(2500)
-
-    # default light (默认模式)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','light')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-1200-默认浅色.png", full_page=False)
-
-    # dark (暗黑模式)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','dark')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-1200-暗黑.png", full_page=False)
-
-    # auto (系统自动) — 跟随系统：深
-    pg.emulate_media(color_scheme="dark")
-    pg.evaluate("document.documentElement.setAttribute('data-theme','auto')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-1200-系统自动-深.png", full_page=False)
-    pg.emulate_media(color_scheme="light")
-    pg.evaluate("document.documentElement.setAttribute('data-theme','auto')")
-    pg.wait_for_timeout(600)
-    pg.screenshot(path=f"{out}/巡检-1200-系统自动-浅.png", full_page=False)
-
-    # english source view (英文原文视图, 默认浅色)
-    pg.evaluate("document.documentElement.setAttribute('data-theme','light')")
-    pg.emulate_media(color_scheme="no-preference")
-    try:
-        pg.click('#viewToggle .seg-btn[data-mode="en"]', timeout=3000)
-    except Exception as e:
-        print("en click skipped:", e)
-    pg.wait_for_timeout(800)
-    pg.screenshot(path=f"{out}/巡检-1200-英文原文视图.png", full_page=False)
-
-    # assertions: metrics padding 0, entry::before removed, no manual sync button
-    res = pg.evaluate("""()=>{
-      const m=document.querySelector('.metrics');
-      const cs=m?getComputedStyle(m):null;
-      const hasEntryBefore=[...document.styleSheets].some(s=>{try{return [...s.cssRules].some(r=>r.selectorText&&r.selectorText.includes('entry::before'))}catch(e){return false}});
-      const syncBtns=document.querySelectorAll('[class*=sync],[id*=sync],button:not([data-view]):not(.seg-btn)').length;
-      return {
-        metricsPadding: cs?cs.padding:'none',
-        entryBefore: hasEntryBefore,
-        entries: document.querySelectorAll('.entry').length,
-        themeAttr: document.documentElement.getAttribute('data-theme')
-      };
-    }""")
-    print("ASSERT:", json.dumps(res, ensure_ascii=False))
-    b.close()
+import asyncio
+from playwright.async_api import async_playwright
+LOCAL = "http://127.0.0.1:8080/"
+ONLINE = "https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37"
+OUT = "/workspace/ai-news"
+SHOTS = [
+    ("patrol_1200_local_light.png", LOCAL, "light", "zh", None),
+    ("patrol_1200_local_dark.png", LOCAL, "dark", "zh", None),
+    ("patrol_1200_local_auto_light.png", LOCAL, "auto", "zh", "light"),
+    ("patrol_1200_local_auto_dark.png", LOCAL, "auto", "zh", "dark"),
+    ("patrol_1200_local_en.png", LOCAL, "light", "en", None),
+    ("patrol_1200_online.png", ONLINE, "light", "zh", None),
+]
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(args=["--no-sandbox"])
+        for fname, url, theme, view, prefers in SHOTS:
+            ctx = await browser.new_context(viewport={"width": 1400, "height": 950})
+            page = await ctx.new_page()
+            if prefers:
+                await page.emulate_media(color_scheme=prefers)
+            await page.add_init_script(
+                f"localStorage.setItem('themeMode','{theme}');"
+                f"localStorage.setItem('viewMode','{view}');"
+            )
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                await page.wait_for_function(
+                    "() => { const e=document.getElementById('statTotal');"
+                    " return e && e.textContent.trim()!=='0' && e.textContent.trim()!==''; }",
+                    timeout=20000)
+            except Exception as e:
+                print("warn:", fname, repr(e))
+            await page.wait_for_timeout(2500)
+            try:
+                total = await page.eval_on_selector("#statTotal", "el=>el.textContent.trim()")
+            except Exception:
+                total = "?"
+            await page.screenshot(path=f"{OUT}/{fname}", full_page=False)
+            print(f"{fname}: total={total} view={view} theme={theme} prefers={prefers}")
+            await ctx.close()
+        await browser.close()
+    print("DONE")
+asyncio.run(main())
