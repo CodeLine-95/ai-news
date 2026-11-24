@@ -1007,6 +1007,16 @@ TITLE_OVERRIDES = {
     'Why AI Workloads Need Their Own Security Posture Management': '为什么 AI 工作负载需要专属的安全态势管理？',
     'Anthropic and OpenAI Staff Question Releasing Advanced AI Models': 'Anthropic 与 OpenAI 员工质疑发布先进 AI 模型',
     'Presentation: Inferencing for Enterprises': '演讲：企业级推理的落地实践',
+    'Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads': 'Zipher 融资 5300 万美元，用 AI 智能体而非数据工程师管理数据工作负载',
+    'YYForce Launches Six Seven Humanoid Concierge for Novotel Singapore': 'YYForce 为新加坡诺富特酒店推出人形礼宾机器人「Six Seven」',
+    'FrenchFry Targets Nasdaq Listing Through Tavia SPAC Deal': 'FrenchFry 拟通过与 Tavia 的 SPAC 交易登陆纳斯达克',
+    'Matters.AI Raises $12M Pre-Series A Led by Tanglin Venture Partners': '数据安全初创公司 Matters.AI 完成 1200 万美元 Pre-A 轮融资，Tanglin Venture Partners 领投',
+    'German researchers call for computer science to reinvent itself as "Computer and AI Science"': '德国研究人员呼吁计算机科学重塑为「计算机与 AI 科学」',
+    "Amazon says hackers' AI agents found and exploited 0-day with little human input": '亚马逊称黑客的 AI 智能体几乎无需人工干预即发现并利用零日漏洞',
+    'Exein Launches Ray AI Agent to Prioritize Firmware Security Fixes': 'Exein 推出 Ray AI 智能体，为固件安全修复排定优先级',
+    'B.Grimm and NTT Pursue 400 MW AI Data Center Opportunity in Thailand': 'B.Grimm 与 NTT 探索泰国 400 兆瓦 AI 数据中心机会',
+    'Applied Optoelectronics Signs Four-Year AI Optics Supply Agreement': '应用光电（AOI）签署为期四年的 AI 光模块供应协议',
+    'CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve': 'CNCF 研究显示：随着 AI 工作负载演进，虚拟机仍是核心',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2014,4 +2024,14 @@ SUMMARY_OVERRIDES = {
     'Why AI Workloads Need Their Own Security Posture Management': '云安全团队发现一个存有敏感训练数据的存储桶：访问控制配置正确、加密已启用、基础设施通过配置检查。但连接到该存储桶的 AI 应用所获权限，远远超出其预期任务所需；一名员工还把未经批准的 AI 服务接入了同一数据集。传统的云安全检查往往不会审查这两类问题。',
     'Anthropic and OpenAI Staff Question Releasing Advanced AI Models': 'Axios 于 2026 年 11 月 24 日报道称，部分 Anthropic 与 OpenAI 员工不再相信某些尚未发布的 AI 模型能够安全发布。报道援引了二十多位知情人士，他们熟悉公司内部围绕限制部署以及是否继续训练的争论。',
     'Presentation: Inferencing for Enterprises': 'Dio Rettori 探讨企业 AI 推理的运营现实。他超越「快速生成 token」这一层面，剖析推理为何需要专门的系统工程，讨论 GPU 利用率的陷阱，对比本地部署与云端的总拥有成本（TCO），并分析多智能体延迟的确定性。他还分享了团队为何应把领域本体直接嵌入模型，而非仅仅依赖 RAG。',
+    'Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads': '数据基础设施初创公司 Zipher Technologies Ltd. 今日宣布，已为一座由 AI 智能体（而非数据工程师）决定企业数据工作负载如何运行的平台融资 5300 万美元。Zipher 成立于 2024 年，负责接管企业数据工作负载的日常运营，从资源分配到框架选择与调度。',
+    'YYForce Launches Six Seven Humanoid Concierge for Novotel Singapore': 'YYForce 于 2026 年 11 月 24 日宣布推出 Six Seven——一款为酒店礼宾服务打造的人形机器人，计划部署于新加坡史蒂文斯路诺富特酒店（Novotel Singapore on Stevens）。酒店团队将其命名为 Six Seven（即 67）。在大堂内，Six Seven 旨在通过自然对话应答问题，并借助 YYForce 的 Workforce OS 软件获取酒店及周边环境的实时信息。',
+    'FrenchFry Targets Nasdaq Listing Through Tavia SPAC Deal': 'FrenchFry Acquisitions LLC 与上市特殊目的收购公司（SPAC）Tavia Acquisition Corp. 于 2026 年 11 月 24 日宣布达成最终合并协议，对 FrenchFry 的企业估值达 5 亿美元，并为其铺就登陆纳斯达克之路。FrenchFry 的股东将获得 4500 万股 FrenchFry Holdings 普通股（每股作价 10 美元），外加 5000 万美元的可转换本票。',
+    'Matters.AI Raises $12M Pre-Series A Led by Tanglin Venture Partners': '联合创始人兼首席执行官 Keshava Murthy 于 2026 年 11 月 24 日宣布，数据安全初创公司 Matters.AI 完成由 Tanglin Venture Partners 领投的 1200 万美元 Pre-A 轮融资，累计融资额达 1825 万美元。IIFL Capital Services Limited、Piper Serica、Foster Ventures 与 Tetration Ventures 参与本轮，早期投资方 Kalaari Capital 和 Endiya Partners 继续跟投。',
+    'German researchers call for computer science to reinvent itself as "Computer and AI Science"': '在一份立场文件中，达姆施塔特工业大学（TU Darmstadt）的研究人员呼吁将计算机科学重新定义为「计算机与 AI 科学」。他们最大的担忧是运行时即时生成的代码，认为这颠覆了当今的安全性与正确性保障。',
+    "Amazon says hackers' AI agents found and exploited 0-day with little human input": '亚马逊表示，AI 智能体近日发现并利用了一个零日漏洞，除一条「获取某东亚大学服务器 root 权限」的简单指令外，全程无人监督。这些智能体运行在开源 AI 渗透测试框架 Cairn 上。黑客用简体中文提供提示，并将模型设置为中国标准时区，给智能体一份 IP 地址清单和「获取 shell 访问权限」的目标。很快，智能体在一台目标服务器上运行的开源医学影像 AI 应用中发现了零日漏洞，随后加以利用并完全控制了系统。亚马逊称：「这些发现表明，智能体驱动的攻击行动已然发生，防守方应为这些工具带来的速度与持续性做好准备。」',
+    'Exein Launches Ray AI Agent to Prioritize Firmware Security Fixes': 'Exein 于 2026 年 11 月 24 日推出 Ray——一款嵌入其 Exein Analyzer 固件安全平台的对话式 AI 智能体。该测试版对现有 Analyzer 客户免费开放，旨在帮助团队为漏洞及其他扫描结果排定优先级、决定调查方向并确定修复步骤。此次发布针对的是固件扫描之后的分析环节。',
+    'B.Grimm and NTT Pursue 400 MW AI Data Center Opportunity in Thailand': 'B.Grimm 于 2026 年 11 月 24 日宣布，旗下 B.Grimm Power 与 NTT Global Data Center 签署谅解备忘录，探索在泰国推进一个 400 兆瓦数据中心项目，涵盖数字基础设施、AI 生态系统与能源基础设施，投资额约 1130 亿泰铢。该备忘录仅为探索这一机会的协议，并非确认工程已经动工。',
+    'Applied Optoelectronics Signs Four-Year AI Optics Supply Agreement': '应用光电（Applied Optoelectronics）于 2026 年 11 月 24 日宣布，与一家未具名的现有 Tier-1 超大规模数据中心客户签署为期四年的供应协议，涉及约 22 亿美元的 800G 光模块与激光二极管最低采购量，用于 AI 基础设施。协议自 2026 年 12 月持续至 2030 年 12 月。客户承诺 2027 年采购约 15 亿美元的 800G 光模块，并在 2028 至 2029 年间采购约 7 亿美元的激光二极管，未来或按需增加其他产品。AOI 将承担一次性 200 万美元支出以加快产品认证，客户在协议下未作出资本承诺。',
+    'CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve': '云原生计算基金会（CNCF）与 Linux 基金会研究的最新调查发现，虚拟机平均承载 53% 的生产应用，而新兴的 AI 与智能体工作负载正为虚拟化带来新增需求，尤其是在需要更强执行隔离的场景。',
 }
