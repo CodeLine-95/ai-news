@@ -1065,6 +1065,7 @@ TITLE_OVERRIDES = {
     'Research Reports': '研究报告',
     'Yonkers Rises': 'Yonkers 崛起',
     'Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU': 'Google 发布 TPU 8i Max 与 TPU 8tx：双芯片 TPU 与机密 TPU',
+    'Slack vs. monday.com: Team Communication or Work Management?': 'Slack 与 monday.com 对比：团队沟通还是工作管理？',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2129,4 +2130,5 @@ SUMMARY_OVERRIDES = {
     'The Silent Consensus': 'OpenAI 战略未来负责人迪恩·鲍尔（Dean Ball）探讨能力更强的 AI 将如何重塑社会，以及人们如何保留对自身机构的掌控。',
     'Research Reports': '点击对应图像即可访问相应研究报告。',
     'Yonkers Rises': '工具：Yonkers Rises。我意识到自己并不知道 Yonkers 在哪里，于是先在 Google 地图上查找，接着为了在脑中记住它的位置与形状（同时试用 Claude Fable 5.2 的 3D 建模与动画能力），用 Fable 5 生成了这座城市的三维可视化模型。',
+    'Slack vs. monday.com: Team Communication or Work Management?': '一次产品上线可以有热闹的团队频道，却依然错过截止日期。对话确实在发生，但没人能可靠掌握负责人、逾期任务与依赖关系。Slack 与 monday.com 解决的是问题的不同侧面：Slack 把人和已连接的工具带入对话，monday.com 则把工作变成管理者可组织、可监控的记录。',
 }
