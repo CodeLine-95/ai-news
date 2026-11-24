@@ -1028,6 +1028,16 @@ TITLE_OVERRIDES = {
     'Dante Security Raises $10 Million to Give Enterprise AI Agents Human Owners': 'Dante Security 融资 1000 万美元，为企业 AI 智能体指定人类负责人',
     'Verra Raises $5 Million to Build AI-Powered Institutional Memory for Consulting Firms': 'Verra 融资 500 万美元，为咨询公司打造 AI 驱动的机构记忆',
     'Zipher Raises $53M Across Seed and Series A Rounds to Automate Data Workloads': 'Zipher 在种子轮与 A 轮共融资 5300 万美元，实现数据工作负载自动化',
+    'The Biggest Risk in Agentic AI Is Not the Agent But the Business It Doesn’t Understand': '智能体 AI 最大的风险不是智能体，而是它所不理解的业务',
+    'Gary Vaynerchuk Launches Daily AI Avatar Advice Channel With HeyGen': 'Gary Vaynerchuk 与 HeyGen 推出每日 AI 头像建议频道',
+    'Anthropic researcher stands by his AI-assisted Riemann proof but owns up to "stupid things" in the rollout': 'Anthropic 研究员坚持其 AI 辅助的黎曼猜想证明，但承认发布过程中做了「蠢事」',
+    'OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime': 'OpenAI 与思科发布 Shirudo：开源 Linux 运行时，让智能体无需停机即可防护系统',
+    "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures": '数十名内部人士称，OpenAI 与 Anthropic 未发布的模型已超出其安全措施的掌控',
+    'Astelia’s autonomous network mitigation blocks AI-driven exploits without a patch': 'Astelia 的自主网络缓解能力无需补丁即可阻断 AI 驱动的攻击利用',
+    'Brava Security Warns That Untrusted Logs Can Undermine AI Threat Detection': 'Brava Security 警告：不可信日志会削弱 AI 威胁检测',
+    'Cloudera Combines Its Data Platform and Mistral Models for Sovereign AI': 'Cloudera 将数据平台与 Mistral 模型结合，面向主权 AI',
+    'Astelia Adds Autonomous Network Mitigation for Systems That Cannot Patch Yet': 'Astelia 为尚无法打补丁的系统增加自主网络缓解能力',
+    'AI Venture Capital in 2027: Revenue Quality Will Reshape the Funding Race': '2027 年 AI 风险投资：收入质量将重塑融资竞赛',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2056,4 +2066,14 @@ SUMMARY_OVERRIDES = {
     'Dante Security Raises $10 Million to Give Enterprise AI Agents Human Owners': '由 NFX 领投的这轮种子融资支持一个企业平台，该平台将 AI 智能体的活动与具名的人类负责人关联，帮助安全团队审查智能体的行为。',
     'Verra Raises $5 Million to Build AI-Powered Institutional Memory for Consulting Firms': 'Verra 的种子融资支持一个 AI 平台，帮助咨询团队复用既往工作，并以可追溯的来源起草新的交付物。',
     'Zipher Raises $53M Across Seed and Series A Rounds to Automate Data Workloads': 'Zipher 已在种子轮与 A 轮融资中累计筹集 5300 万美元，用于自动化企业数据负载在云端的运行方式。该公司称 TLV Partners、Maor Investments 和 Glilot Capital 参与了这些轮次，但未披露各轮金额与估值。资金将用于研发和扩大销售，包括扩建美国企业销售团队并拓展美国以外市场。',
+    'The Biggest Risk in Agentic AI Is Not the Agent But the Business It Doesn’t Understand': 'OpenAI 近期披露的情况暴露了企业 AI 治理的一个关键弱点：如果智能体还能改动那些用来约束它们的管控措施，那么仅仅监视它们的行为是不够的。',
+    'Gary Vaynerchuk Launches Daily AI Avatar Advice Channel With HeyGen': 'HeyGen 与 Gary Vaynerchuk 于 2026 年 11 月 24 日推出 @hey_garyvee——一个 Instagram 与 TikTok 频道，他的 AI 头像将在 365 天里每天回答一位观众的问题，并可选择用提问者的语言作答。该项目把观众提问变成一档持续更新的公开视频系列，而非私人聊天机器人。每个入选的回答都旨在针对提问者的具体业务状况与市场环境。',
+    'Anthropic researcher stands by his AI-assisted Riemann proof but owns up to "stupid things" in the rollout': 'Anthropic 研究员 Levent Alpöge 正在收回其关于 AI 辅助证明广义黎曼猜想的部分公告内容。他说，所谓证明长达 25 万页的说法是个玩笑，而公开的 Lean 代码「满是垃圾」。但他仍坚持数学部分的正确性。',
+    'OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime': 'OpenAI 与思科发布了 Shirudo——一款用于保护运行中系统的开源 Linux 运行时。Shirudo 是一个 eBPF 运行时，可让 AI 智能体针对已知漏洞编写临时「防护罩」。防护罩会阻断有漏洞的行为，同时合法请求照常通过，团队因此有时间测试并部署真正的补丁。该工程来自思科旗下 Isovalent（Cilium 与 Tetragon 背后的团队）。速览：它是软件运行时，不是模型；代码尚处预发布阶段；支持 x86-64、arm64 与 riscv64 架构的 Linux，需 TPM 2.0 与打了补丁的 bpf-next 内核；快速入门虚拟机示例使用 4 CPU 与 4G 内存；官方未公布开销或延迟数据，仅披露一次受控漏洞利用测试。最佳案例：Codex 生成的防护罩在运行中的 Elasticsearch 9.5.5 上阻断了 Java4Shell（CVSS 9.2），无需重启。局限：目标系统需要 bpf-next 内核外加 5 个尚未合入 bpf-next 的补丁。',
+    "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures": '据 Axios 报道，OpenAI 与 Anthropic 的许多员工认为，这两家公司尚未发布的前沿模型已无法被安全地控制。两家公司内部都在讨论是否暂停发布、甚至完全停止训练，而员工对领导层的信任正在削弱。',
+    'Astelia’s autonomous network mitigation blocks AI-driven exploits without a patch': '暴露管理公司 Astelia Inc. 今日宣布推出自主网络缓解（autonomous network mitigation）能力——一项可让组织在网络层面阻断 AI 驱动攻击利用的新功能，即便补丁尚不可用或无法应用。',
+    'Brava Security Warns That Untrusted Logs Can Undermine AI Threat Detection': 'Brava Security 的研究强调，AI 辅助的安全团队在把日志当作证据之前，需要先对其进行交叉验证。',
+    'Cloudera Combines Its Data Platform and Mistral Models for Sovereign AI': 'Cloudera 的新产品将其混合数据平台与 Mistral 模型相结合，面向主权云、私有数据中心与气隙（air-gapped）部署场景。',
+    'Astelia Adds Autonomous Network Mitigation for Systems That Cannot Patch Yet': 'Astelia 正在为安全团队提供一种新手段，可在不改动系统上运行软件的情况下遏制存在漏洞的系统。该公司于 11 月 24 日宣布，其暴露管理平台能在组织设定的策略范围内，在网络层面实施临时保护。该功能针对的是补丁不可用、或立即安装补丁会中断关键服务的场景。',
+    'AI Venture Capital in 2027: Revenue Quality Will Reshape the Funding Race': '两家初创公司可能报告相同的经常性收入，但业务实质可能截然不同。一家靠可复制的产品留住客户，另一家则靠高昂的推理成本、实施工作和创始人不断介入来「买」增长。一轮亮眼的融资可能让这些差异暂时被忽视。到了 2027 年，更多 AI 投资故事将不得不再度经受运营数据的审视。',
 }
