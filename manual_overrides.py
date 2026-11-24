@@ -993,6 +993,10 @@ TITLE_OVERRIDES = {
     'Google DeepMind just mathematically verified key parts of Signal': 'Google DeepMind 刚刚用数学方法验证了 Signal 加密协议的关键部分',
     'A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure': 'Google DeepMind 的新 AI 工具证明 Signal 协议是安全的',
     'Axiom Math wants to keep AI slop out of mathematics': 'Axiom Math 希望把 AI 垃圾内容挡在数学之外',
+    'Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports': '文章：应对非确定性——面向 AI 起草可疑报告的评测、事实依据与发布门禁',
+    'ASRock Industrial Launches RBK-100 Physical AI Development Kit': '华擎工业推出 RBK-100 具身 AI 开发套件',
+    'Trustly Raises $60M in Equity to Accelerate AI Product Development': 'Trustly 通过股权融资 6000 万美元，加速 AI 产品开发',
+    'Genspark Launches SecondBrain VoicePad for Dictation and AI Agents': 'Genspark 推出 SecondBrain VoicePad，用于语音听写与 AI 智能体',
 }
 
 SUMMARY_OVERRIDES = {
@@ -1986,4 +1990,8 @@ SUMMARY_OVERRIDES = {
     'Google DeepMind just mathematically verified key parts of Signal': 'DeepMind 研究人员使用智能体人工智能，以数学方式证明并形式化验证了 Signal 协议若干关键的加密保障，这是广泛使用的加密技术以及 Google 人工智能自身的里程碑式进展。该工作在四周内作为概念验证项目完成，意义有二：其一，它为保护全球大量通信的 Signal 应用（包括 Google 消息与 WhatsApp 等平台所用协议）提供了进一步的独立安全验证；其二，它展示了 Google DeepMind 借助名为 AlphaProof Code 的系统所具备的形式化验证能力。',
     'A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure': 'DeepMind 研究人员能够形式化验证广泛使用的加密协议是否按预期运行。他们的延伸目标？对全世界所有软件做同样的事。',
     'Axiom Math wants to keep AI slop out of mathematics': '随着人工智能用未经核查的证明淹没数学领域，Axiom Math 押注于验证技术。这家初创公司的 AI 智能体刚刚形式化验证了数学界最大的文献库之一——Stacks Project。',
+    'Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports': '将生成式 AI 投入高风险生产环境，需要把非确定性当作工程问题来对待。这份架构蓝图展示了工程负责人与架构师如何利用知识图谱、双层评测裁判、CI/CD 发布门禁，以及针对黄金数据集的回归测试，构建可信的智能体工作流——在自动化起草的同时保持零幻觉的合规要求。',
+    'ASRock Industrial Launches RBK-100 Physical AI Development Kit': '华擎工业（ASRock Industrial）于 2026 年 11 月 24 日宣布推出 RBK-100「机器人套装」（Robotics-in-a-Box）——一个集成的物理 AI（具身智能）开发平台，结合了基于 Intel 的边缘计算设备、RGB-D 深度相机、配套机械臂，以及为研究人员、教育工作者和开发者预装的软件。华擎工业表示，该套件旨在减少机器人 AI 开发中的集成工作。',
+    'Trustly Raises $60M in Equity to Accelerate AI Product Development': 'Trustly Holding AB 在 2026 年 11 月 24 日的监管公告中宣布，母公司 Trustly AB 将通过股东资本募集约 6000 万美元，用于加速开发 AI 驱动的产品，把支付活动转化为面向企业的财务智能。Trustly 的主要股东 Nordic Capital 与 Alfvén & Didrikson 在 2026 年 10 月 2 日披露的不可撤销、具有法律约束力的股权承诺中，提供了超过 4000 万美元资金。',
+    'Genspark Launches SecondBrain VoicePad for Dictation and AI Agents': 'Genspark 于 2026 年 11 月 24 日推出 SecondBrain VoicePad——一款面向 Windows 和 macOS 的五键桌面控制器，可进行语音听写、打开应用程序并触发 AI 工作流。该公司表示，预订现已开放，首批量产产品计划于 2027 年 1 月发货。这款 85 克重的设备采用 CNC 加工铝制机身、双麦克风，并支持蓝牙连接。',
 }
