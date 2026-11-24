@@ -88,47 +88,48 @@
         "refresh": "报告已重生成，32组YYYY-MM-DD，每条HH:MM"
     },
     "this_run": {
-        "time": "18:00例行巡检：18:00整点调度已执行(2条新增:Coprod 600万美元种子前轮17:18 / Agon 7000万美元A轮17:29,均NLLB硬伤已人工定稿——Agon金额10倍错译),共2573条100%全译;质量门禁全0;六态截图实测通过(entry::before=0,metrics四边0px,无手动同步按钮,三态主题正确);代码已push(22dd5f4)并重新发布,线上本地2573条实时一致",
+        "time": "2026-11-24 08:00（每小时例行巡检）",
+        "type": "例行巡检（每小时）",
         "service_online": true,
-        "local_total": 2573,
-        "local_translated": 2573,
-        "online_total": 2573,
-        "online_translated": 2573,
+        "local_total": 2681,
+        "local_translated": 2681,
+        "online_total": 2681,
+        "online_translated": 2681,
         "online_local_in_sync": true,
-        "coverage": "2573/2573 (100%)",
-        "new_items_this_cycle": 2,
-        "new_items": [
-            "Coprod 完成600万美元种子前轮融资，将模块化机器人硬件推向市场(17:18)",
-            "Agon 以4.5亿美元估值完成7000万美元A轮融资，筹建国防AI实验室(17:29)"
-        ],
-        "quality_fix": "2条NLLB硬伤人工定稿(Coprod公司名/术语 + Agon金额10倍错译/机构名/语序)",
-        "retranslate": "未批量重译——2条走人工定稿,全库100%全译门禁全0",
-        "republish": "已重新发布——代码层覆盖表随2条定稿变更,publish.js成功,sharecode域名完整保留,线上本地2573一致",
-        "entry_before": "已满足(rules=0,content=none,六态实测)",
-        "metrics_padding": "已满足(四边0px,六态实测)",
-        "theme_modes": "已满足(light/dark/auto三态,auto跟随系统,六态实测)",
-        "no_manual_sync": "已满足(sync_btns=0,六态实测)",
-        "quality_gate": {
-            "untranslated": 0,
-            "date_format_error": 0,
-            "time_format_error": 0,
-            "empty_title_zh": 0,
-            "empty_summary_zh": 0,
-            "duplicate_ids": 0,
-            "gate_failures": 0
+        "coverage": "100%（2681/2681 条，0 未译）",
+        "new_items_this_cycle": "08:06 引擎加载完成后首轮自动抓取新增 5 条（07:10–08:02 四条 + 00:30 补抓一条）：2676→2681；今日(2026-11-24)累计 61 条",
+        "quality_gate": "0 未译 / 0 空译文 / 0 日期时间格式错误 / 0 重复ID / 0 已知坏译",
+        "fixes_this_run": "5 条新增 NLLB 硬伤全部人工定稿（Claude Ship非「Claude·船发射了」、Sierra closes投资→完成融资、Loop Transformer非「环变压器」、Shirudo保护运行中的Linux系统、白宫Trump参与黄仁勋复职译出人名），三层覆盖（news.json+titles/summaries覆盖表+manual_overrides.py）",
+        "css": {
+            "entry_before_removed": true,
+            "metrics_padding_zero": true,
+            "no_manual_sync_button": true,
+            "themes": [
+                "dark",
+                "light",
+                "auto"
+            ],
+            "verified": "实拍(0800_1124)六态：entry::before=false、metrics padding=0px、sync_btns=0、2681条渲染正常；三态按钮data-theme=dark/light/auto且auto跟随系统深色→dark、浅色→light实测通过"
         },
-        "last_update": "2026-11-23T18:05:00.307786+08:00",
-        "next_update": "2026-11-23T19:00:00+08:00",
+        "retranslate": "未批量重译——100%全译且质量门禁全0，5条新增NLLB硬伤已人工定稿",
+        "republish": "未重新发布——前端静态资源(server.py/static)零变更，线上即本地后端映射，线上本地2681条实时一致，域名与sharecode完整保留",
+        "git_push": "代码有变更（fix_0800脚本+shoot脚本+覆盖表+manual_overrides.py），已 push origin/main",
+        "requested_changes_status": {
+            "entry_before_removed": "已满足（.entry::before CSS规则数0，实拍entryBefore=false）",
+            "metrics_padding_zero": "已满足（.metrics padding四边0px，实拍=0px）",
+            "dark_mode": "已满足（themeToggle 三态 data-theme=dark/light/auto）",
+            "light_default": "已满足（默认浅色 #f4f7fb）",
+            "system_auto": "已满足（matchMedia跟随系统，实测深→dark浅→light）",
+            "no_manual_sync": "已满足（sync_btns=0，前端60s轮询+后端整点抓取自动同步）"
+        },
         "screenshots": [
-            "deliverable_1123_1800_light.png",
-            "deliverable_1123_1800_dark.png",
-            "deliverable_1123_1800_auto_dark.png",
-            "deliverable_1123_1800_auto_light.png",
-            "deliverable_1123_1800_en.png",
-            "deliverable_1123_1800_online.png"
-        ],
-        "git_commit": "22dd5f4",
-        "git_push": "已推送——main df4ff79..22dd5f4"
+            "deliverable_1124_0800_1124_light.png",
+            "deliverable_1124_0800_1124_dark.png",
+            "deliverable_1124_0800_1124_auto.png",
+            "deliverable_1124_0800_1124_auto_light.png",
+            "deliverable_1124_0800_1124_en.png",
+            "deliverable_1124_0800_1124_online.png"
+        ]
     },
     "report_url": "https://a7888a7e046ffc95b.app.workbuddy.host/api/report?sharecode=YM64NRHD37",
     "fixes_this_run": [
@@ -157,39 +158,86 @@
     "quality_gate": {
         "untranslated": 0,
         "date_format_error": 0,
-        "timestamp_format_error": 0,
+        "time_format_error": 0,
         "empty_title_zh": 0,
         "empty_summary_zh": 0,
-        "cyrillic_mix": 0,
         "duplicate_ids": 0,
+        "known_bad_rendering": 0,
         "gate_failures": 0
     },
-    "last_inspection": "18:00例行巡检：18:00整点调度已执行(2条新增:Coprod 600万美元种子前轮17:18 / Agon 7000万美元A轮17:29,均NLLB硬伤已人工定稿——Agon金额10倍错译),共2573条100%全译;质量门禁全0;六态截图实测通过(entry::before=0,metrics四边0px,无手动同步按钮,三态主题正确);代码已push(22dd5f4)并重新发布,线上本地2573条实时一致",
-    "this_cycle_added": 2,
+    "last_inspection": {
+        "time": "2026-11-24 08:00（每小时例行巡检）",
+        "type": "例行巡检（每小时）",
+        "service_online": true,
+        "local_total": 2681,
+        "local_translated": 2681,
+        "online_total": 2681,
+        "online_translated": 2681,
+        "online_local_in_sync": true,
+        "coverage": "100%（2681/2681 条，0 未译）",
+        "new_items_this_cycle": "08:06 引擎加载完成后首轮自动抓取新增 5 条（07:10–08:02 四条 + 00:30 补抓一条）：2676→2681；今日(2026-11-24)累计 61 条",
+        "quality_gate": "0 未译 / 0 空译文 / 0 日期时间格式错误 / 0 重复ID / 0 已知坏译",
+        "fixes_this_run": "5 条新增 NLLB 硬伤全部人工定稿（Claude Ship非「Claude·船发射了」、Sierra closes投资→完成融资、Loop Transformer非「环变压器」、Shirudo保护运行中的Linux系统、白宫Trump参与黄仁勋复职译出人名），三层覆盖（news.json+titles/summaries覆盖表+manual_overrides.py）",
+        "css": {
+            "entry_before_removed": true,
+            "metrics_padding_zero": true,
+            "no_manual_sync_button": true,
+            "themes": [
+                "dark",
+                "light",
+                "auto"
+            ],
+            "verified": "实拍(0800_1124)六态：entry::before=false、metrics padding=0px、sync_btns=0、2681条渲染正常；三态按钮data-theme=dark/light/auto且auto跟随系统深色→dark、浅色→light实测通过"
+        },
+        "retranslate": "未批量重译——100%全译且质量门禁全0，5条新增NLLB硬伤已人工定稿",
+        "republish": "未重新发布——前端静态资源(server.py/static)零变更，线上即本地后端映射，线上本地2681条实时一致，域名与sharecode完整保留",
+        "git_push": "代码有变更（fix_0800脚本+shoot脚本+覆盖表+manual_overrides.py），已 push origin/main",
+        "requested_changes_status": {
+            "entry_before_removed": "已满足（.entry::before CSS规则数0，实拍entryBefore=false）",
+            "metrics_padding_zero": "已满足（.metrics padding四边0px，实拍=0px）",
+            "dark_mode": "已满足（themeToggle 三态 data-theme=dark/light/auto）",
+            "light_default": "已满足（默认浅色 #f4f7fb）",
+            "system_auto": "已满足（matchMedia跟随系统，实测深→dark浅→light）",
+            "no_manual_sync": "已满足（sync_btns=0，前端60s轮询+后端整点抓取自动同步）"
+        },
+        "screenshots": [
+            "deliverable_1124_0800_1124_light.png",
+            "deliverable_1124_0800_1124_dark.png",
+            "deliverable_1124_0800_1124_auto.png",
+            "deliverable_1124_0800_1124_auto_light.png",
+            "deliverable_1124_0800_1124_en.png",
+            "deliverable_1124_0800_1124_online.png"
+        ]
+    },
+    "this_cycle_added": 5,
     "this_run_time": "18:00例行巡检：18:00整点调度已执行(2条新增:Coprod 600万美元种子前轮17:18 / Agon 7000万美元A轮17:29,均NLLB硬伤已人工定稿——Agon金额10倍错译),共2573条100%全译;质量门禁全0;六态截图实测通过(entry::before=0,metrics四边0px,无手动同步按钮,三态主题正确);代码已push(22dd5f4)并重新发布,线上本地2573条实时一致",
     "last_inspection_time": "13:00例行巡检（平台重启后首轮12:59:52落地，作为本时段抓取；本轮0新增，全库2549条100%全译，六态实测通过）",
     "last_update_time": "13:00例行巡检（平台重启后首轮12:59:52落地，作为本时段抓取；本轮0新增，全库2549条100%全译，六态实测通过）",
-    "total_items": 2573,
-    "translated": 2573,
-    "translation_coverage": "2573/2573",
-    "coverage": "100%",
-    "last_update": "2026-11-23T18:05:00.307786+08:00",
-    "next_update": "2026-11-23T19:00:00+08:00",
+    "total_items": 2681,
+    "translated": 2681,
+    "translation_coverage": "2681/2681",
+    "coverage": "2681/2681 (100%)",
+    "last_update": "2026-11-24T08:06:18.977110+08:00",
+    "next_update": "2026-11-24T09:00:00+08:00",
     "git_commit": "22dd5f4",
     "git_push": "已推送——18:00两条NLLB硬伤人工定稿,main df4ff79..22dd5f4",
     "last_run_time": "18:00例行巡检：18:00整点调度已执行(2条新增:Coprod 600万美元种子前轮17:18 / Agon 7000万美元A轮17:29,均NLLB硬伤已人工定稿——Agon金额10倍错译),共2573条100%全译;质量门禁全0;六态截图实测通过(entry::before=0,metrics四边0px,无手动同步按钮,三态主题正确);代码已push(22dd5f4)并重新发布,线上本地2573条实时一致",
     "day_groups": 32,
-    "republish": "已重新发布——代码层覆盖表随2条定稿变更,sharecode与域名完整保留,线上本地2573一致",
-    "retranslate": "未批量重译——2条NLLB硬伤走人工定稿,全库100%全译门禁全0",
+    "republish": "未重新发布——前端静态资源零变更，线上本地2681条实时一致",
+    "retranslate": "未批量重译——100%全译且质量门禁全0，5条新增已人工定稿",
     "entry_before": 0,
     "metrics_padding": "0px",
     "online_local_in_sync": true,
     "screenshots": [
-        "deliverable_1123_1800_light.png",
-        "deliverable_1123_1800_dark.png",
-        "deliverable_1123_1800_auto_dark.png",
-        "deliverable_1123_1800_auto_light.png",
-        "deliverable_1123_1800_en.png",
-        "deliverable_1123_1800_online.png"
-    ]
+        "deliverable_1124_0800_1124_light.png",
+        "deliverable_1124_0800_1124_dark.png",
+        "deliverable_1124_0800_1124_auto.png",
+        "deliverable_1124_0800_1124_auto_light.png",
+        "deliverable_1124_0800_1124_en.png",
+        "deliverable_1124_0800_1124_online.png"
+    ],
+    "new_items_this_cycle": 5,
+    "today_count": 61,
+    "no_cjk": 0,
+    "refresh": "报告已重生成,32组YYYY-MM-DD,每条HH:MM,中文主标题括注英文原题,2681条"
 }
