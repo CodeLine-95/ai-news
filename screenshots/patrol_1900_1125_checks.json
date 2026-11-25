@@ -1,0 +1,21 @@
+{
+  "auto_dark_theme": "dark",
+  "auto_light_theme": "light",
+  "checks": {
+    "entryBeforeRules": 0,
+    "metricsPadding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "syncBtns": 0,
+    "themeBtns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "entries": 2834
+  },
+  "online_entries": 2834
+}

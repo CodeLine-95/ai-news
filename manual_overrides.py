@@ -1138,6 +1138,11 @@ TITLE_OVERRIDES = {
     'MIT team discovers that unrealistic training data makes AI climate predictions more reliable': '麻省理工团队发现：用「不真实」的训练数据反而让 AI 气候预测更可靠',
     'XPENG WorldGPT Uses Shared Learning Across Cars, Robots and Drones': '小鹏 WorldGPT 让汽车、机器人与无人机共享学习成果',
     'AI is straining America’s open records systems': 'AI 正在让美国信息公开制度不堪重负',
+    'PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values': 'PrismML 通过将每个权重压缩为仅三种可能取值，把 54 GB 语言模型缩小到 5.9 GB',
+    'AI Agents Are Becoming a Commodity. Your Company DNA Can Be Your Competitive Advantage': 'AI 智能体正在沦为同质化商品，你的公司 DNA 才是竞争优势',
+    'Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long': '飞机颠簸极难预测，但这种情况或许不会持续太久',
+    'EpochGeo Deal Gives BlackSky AI Tools for Fusing Defense Data': 'EpochGeo 收购交易让 BlackSky 获得融合国防数据的 AI 工具',
+    'AI can do the calculations. Theoretical physicists are figuring out what comes next.': 'AI 能做计算，理论物理学家正在弄清接下来会发生什么',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2275,4 +2280,9 @@ SUMMARY_OVERRIDES = {
     'MIT team discovers that unrealistic training data makes AI climate predictions more reliable': '麻省理工学院研究人员开发出一种方法，使 AI 气候模型只需一次训练即可完成，而通常需要六到八次训练。他们用算法刻意生成带有极端二氧化碳或甲烷波动的非现实场景，让模型更加稳健。研究人员表示，以往这类气候模拟器往往在训练完成时就已经过时。',
     'XPENG WorldGPT Uses Shared Learning Across Cars, Robots and Drones': '小鹏汽车于 2026 年 11 月 24 日发布 WorldGPT——一种能够预测物理场景并规划机器动作的世界行动模型。该模型在六种「具身形态」（机器类型）上训练：汽车、船只、无人机、单臂机器人、双臂机器人和人形机器人。该系统属于小鹏图灵世界模型家族。WorldGPT 项目网站介绍，模型以一个或多个摄像头约一秒的视频片段和一条文字指令为输入。',
     'AI is straining America’s open records systems': '在佛蒙特州潘顿镇（人口 660 人），镇书记员凯尔·罗（Kyle Rowe）包揽所有工作：编制预算、支付供应商款项、处理房产税纠纷，还兼任镇规划主管和选举主持官。在镇政府（一座 1858 年作为教堂建成的木结构建筑）的上午办公时间里，他还要处理信息公开申请。最近他忙得不可开交。过去，潘顿镇每年左右会收到 SmartProcure 公司的一次申请，要求提供「全部采购记录」，内容从道路融雪盐、电脑到卫生纸无所不包。去年，这类申请变成了每季度一次。随后，不同公司开始提出更具体的请求，比如所有与应急道路警示灯相关的采购记录。这些有针对性的查询现在每月甚至更频繁地到来。',
+    'PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values': '初创公司 PrismML 发布了 Ternary Bonsai 2.5 27B，这是其极致压缩语言模型的升级版本。通过将每个权重缩减为仅三种可能取值（三值量化），原本 54 GB 的模型体积被压缩到 5.9 GB。',
+    'AI Agents Are Becoming a Commodity. Your Company DNA Can Be Your Competitive Advantage': '设想两家银行都用 AI 智能体处理客户咨询。一家银行以灵活著称——免除手续费，并在客户遭遇财务困境时展现同理心；另一家则以透明与一致为傲，对所有人适用同样清晰的规则。当客户对透支手续费提出异议时，除非这些智能体经过训练、能够体现各自银行的服务理念，否则它们给出的回答可能同样是千篇一律的。',
+    'Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long': '这道被称为「经典物理学中最后剩下的难题之一」的问题正迎来助力：数 TB 的众包数据，以及运用机器学习与 AI 的新方法，正在推动其取得突破。',
+    'EpochGeo Deal Gives BlackSky AI Tools for Fusing Defense Data': 'BlackSky Technology 于 2026 年 11 月 24 日宣布收购 EpochGeo，为其实时天基情报业务增添能够融合多源数据的人工智能与机器学习（AI/ML）工具。EpochGeo 研发时空 AI/ML 技术，可跨位置与时间维度分析信息，同时提供数据管理工具和面向任务的多源分析能力。',
+    'AI can do the calculations. Theoretical physicists are figuring out what comes next.': '大约六个月前，印度班加罗尔国际理论科学中心的理论物理学教授苏弗拉特·拉朱（Suvrat Raju）让一个前沿 AI 模型求解一道物理题。他并不是自己不知道答案才发问——其实他早已解出这道题，只是从未公开发表，这使它成为检验 AI 物理能力的理想问题。LLM 用整个互联网的数据训练，如果一道物理题曾在网上被讨论过，模型很可能已经见过并记住答案。因此，对 AI 能力的公平测试必须聚焦于从未出现在网络上的问题。该模型没有答对拉朱的题目，但表现超出了他的预期，足以让他认为这个实验值得重复并正式化。',
 }

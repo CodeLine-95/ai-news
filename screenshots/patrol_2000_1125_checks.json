@@ -1,0 +1,103 @@
+{
+  "light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "light",
+    "data_theme": "light",
+    "body_bg": "rgb(244, 247, 251)"
+  },
+  "dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "dark",
+    "data_theme": "dark",
+    "body_bg": "rgb(7, 12, 22)"
+  },
+  "auto_light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "auto",
+    "data_theme": "light",
+    "body_bg": "rgb(244, 247, 251)"
+  },
+  "auto_dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "auto",
+    "data_theme": "dark",
+    "body_bg": "rgb(7, 12, 22)"
+  },
+  "en": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "light",
+    "data_theme": "light",
+    "body_bg": "rgb(244, 247, 251)"
+  },
+  "online": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2838,
+    "theme_mode": "light",
+    "data_theme": "light",
+    "body_bg": "rgb(244, 247, 251)"
+  },
+  "auto_dynamic": {
+    "before": "light",
+    "after": "dark",
+    "follows_system": true
+  }
+}
