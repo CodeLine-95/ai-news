@@ -1143,6 +1143,7 @@ TITLE_OVERRIDES = {
     'Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long': '飞机颠簸极难预测，但这种情况或许不会持续太久',
     'EpochGeo Deal Gives BlackSky AI Tools for Fusing Defense Data': 'EpochGeo 收购交易让 BlackSky 获得融合国防数据的 AI 工具',
     'AI can do the calculations. Theoretical physicists are figuring out what comes next.': 'AI 能做计算，理论物理学家正在弄清接下来会发生什么',
+    'Has vibe coding made open source the new normal for synths?': 'Vibe 编程是否让开源成为合成器的新常态？',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2285,4 +2286,5 @@ SUMMARY_OVERRIDES = {
     'Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long': '这道被称为「经典物理学中最后剩下的难题之一」的问题正迎来助力：数 TB 的众包数据，以及运用机器学习与 AI 的新方法，正在推动其取得突破。',
     'EpochGeo Deal Gives BlackSky AI Tools for Fusing Defense Data': 'BlackSky Technology 于 2026 年 11 月 24 日宣布收购 EpochGeo，为其实时天基情报业务增添能够融合多源数据的人工智能与机器学习（AI/ML）工具。EpochGeo 研发时空 AI/ML 技术，可跨位置与时间维度分析信息，同时提供数据管理工具和面向任务的多源分析能力。',
     'AI can do the calculations. Theoretical physicists are figuring out what comes next.': '大约六个月前，印度班加罗尔国际理论科学中心的理论物理学教授苏弗拉特·拉朱（Suvrat Raju）让一个前沿 AI 模型求解一道物理题。他并不是自己不知道答案才发问——其实他早已解出这道题，只是从未公开发表，这使它成为检验 AI 物理能力的理想问题。LLM 用整个互联网的数据训练，如果一道物理题曾在网上被讨论过，模型很可能已经见过并记住答案。因此，对 AI 能力的公平测试必须聚焦于从未出现在网络上的问题。该模型没有答对拉朱的题目，但表现超出了他的预期，足以让他认为这个实验值得重复并正式化。',
+    'Has vibe coding made open source the new normal for synths?': '强大的 Vibe 编程智能体与 Reverse Engineer Anything 等工具的出现，在音乐设备领域引发混乱，厂商纷纷忙于应对。有些厂商（如 Roland）目前选择沉默，另一些则拥抱了改装社区。过去几周，随着人们逐渐意识到没有什么音乐设备能躲过 Claude 和一个满是好奇极客的子版块，厂商开始把越来越多设备开源。其中最大牌的「打不过就加入」当属 inMusic——Akai、Moog、Native Instruments 等品牌的母公司。',
 }
