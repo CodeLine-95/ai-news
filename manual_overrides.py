@@ -1196,6 +1196,7 @@ TITLE_OVERRIDES = {
     'Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"': 'Anthropic CEO 达里奥·阿莫迪：让 AI 治理社会是「一个糟糕的主意」',
     'Adaspace Completes 45-Minute Full-Parameter AI Training in Orbit': 'Adaspace 在轨完成 45 分钟全参数 AI 训练',
     'US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs': '据报道，美国芯片获取限制与反蒸馏措施已在拖慢中国 AI 实验室',
+    'AI infrastructure stocks continue their slide, but Anthropic closes higher': 'AI 基础设施股票继续下挫，但 Anthropic 收盘上涨',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2391,4 +2392,5 @@ SUMMARY_OVERRIDES = {
     'Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"': 'Anthropic 首席执行官达里奥·阿莫迪（Dario Amodei）反驳了 Axios 的报道——该报道称部分员工认为人类会把权力交给超级智能系统。阿莫迪表示：「把治理权交给 AI 是一个糟糕的主意。」',
     'Adaspace Completes 45-Minute Full-Parameter AI Training in Orbit': 'Adaspace 于 2026 年 11 月 25 日表示，其由八颗卫星组成的 Star Compute Group 02 星座在单次轨道运行中，完成了 45 分 33 秒的全参数 AI 持续训练，并援引了中国信息通信研究院提供的首份第三方在轨能力测试数据。该研究院隶属于中国工业和信息化部。',
     'US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs': '据一份报道，芯片限制、反蒸馏措施以及海外获取英伟达（Nvidia）硬件的渠道收窄，正给 DeepSeek、Moonshot AI 与阿里巴巴带来越来越大的压力。DeepSeek 内部研究人员估计，其模型已落后美国模型最多 9 个月，且差距仍在扩大。',
+    'AI infrastructure stocks continue their slide, but Anthropic closes higher': '投资者 11 月 25 日继续抛售人工智能基础设施类股票，但 Anthropic PBC 收复了本周早些时候的部分跌幅。据报道，这轮 AI 抛售始于 8 月，并在 11 月 17 日加速——当天英伟达（Nvidia）首席执行官黄仁勋因与 Megaspeed 前高管的恋情辞职；Megaspeed 是一家因涉嫌违反出口管制而接受调查的云服务商。黄仁勋已于本周一重返这家芯片制造商掌舵。',
 }
