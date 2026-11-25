@@ -1,57 +1,123 @@
-# -*- coding: utf-8 -*-
-"""05:00 例行巡检：人工定稿新增的 1 条低质量译文。
+"""2026-11-26 05:00 例行巡检修复脚本（确定性，不加载模型）。
 
-问题条目：
-  'AI can make tech CEOs' lives easier. What about everyone else?'（TechCrunch, 04:57）
-    模型译文把 tone deaf 直译成「如此听」，语义在「听」处被截断，
-    读起来是半句话。摘要整体也不通顺。
-处理：写入人工定稿标题 + 摘要覆盖，并回写数据与报告。
+做三件事：
+    1) 把 data/titles_fix_0500.py 与 data/summaries_fix_0500.py 中的人工核对
+       结果合并进正式覆盖表（data/titles_override.json /
+       data/summaries_override.json），使其在后续每轮调度中持续生效
+       （server.py 的 apply_*_overrides 会自动回填）；
+       同时本轮定稿已固化进代码层 manual_overrides.py，随发布走，
+       不依赖部署端持久卷。
+    2) 对全部英文条目跑一遍确定性重清洗（_clean_zh + _restore_terms）；
+    3) 重生成 Markdown 摘要报告。
+
+全程不加载翻译模型（纯确定性处理），不会与后台调度器抢内存，
+也不会触发 8GB cgroup 下的 OOM。
+
+注意：运行前请先停止 server.py，避免与后台调度器争写 data/news.json。
 """
 import json
 import os
+import re
+import sys
+
+import report
+import translate
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE, "data", "news.json")
-T_JSON = os.path.join(BASE, "data", "titles_override.json")
-S_JSON = os.path.join(BASE, "data", "summaries_override.json")
+OVERRIDE_FILE = os.path.join(BASE, "data", "titles_override.json")
+SUMMARY_OVERRIDE_FILE = os.path.join(BASE, "data", "summaries_override.json")
 
-EN_TITLE = "AI can make tech CEOs’ lives easier. What about everyone else?"
-ZH_TITLE = "AI 可以让科技公司 CEO 的生活更轻松，那其他人呢？"
-ZH_SUMMARY = (
-    "在《Equity》这期节目中，我们讨论了为什么科技公司 CEO 的公开发言"
-    "有时听起来会那么「不合时宜」（tone deaf）——当一家公司把 AI 包装成"
-    "自家产品力的一部分，而它的用户、员工或普通用户所关心的却是另一回事时，"
-    "两者之间的落差就会变得格外刺眼。"
+sys.path.insert(0, os.path.join(BASE, "data"))
+from titles_fix_0500 import TITLE_OVERRIDES          # noqa: E402
+from summaries_fix_0500 import SUMMARY_OVERRIDES      # noqa: E402
+
+BYLINE_ZH_RE = re.compile(
+    r"由[A-Za-z][A-Za-z.\- ]*(?:，\s*[A-Za-z][A-Za-z.\- ]*)*$"
 )
 
 
-def main():
-    for path, key, val in (
-        (T_JSON, EN_TITLE, ZH_TITLE),
-        (S_JSON, EN_TITLE, ZH_SUMMARY),
-    ):
-        with open(path, "r", encoding="utf-8") as f:
-            d = json.load(f)
-        if d.get(key) != val:
-            d[key] = val
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(d, f, ensure_ascii=False, indent=2)
-            print("[fix_0500] 已更新覆盖表:", os.path.basename(path))
+def _load(path, default):
+    if not os.path.exists(path):
+        return dict(default)
+    with open(path, "r", encoding="utf-8") as f:
+        try:
+            return json.load(f)
+        except Exception:
+            return dict(default)
 
+
+def main():
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-    hit = 0
-    for it in data.get("items", []):
-        if it.get("title") == EN_TITLE:
-            it["title_zh"] = ZH_TITLE
-            it["summary_zh"] = ZH_SUMMARY
-            it["translated"] = True
-            hit += 1
+
+    titles = _load(OVERRIDE_FILE, {})
+    summaries = _load(SUMMARY_OVERRIDE_FILE, {})
+
+    new_t = 0
+    for k, v in TITLE_OVERRIDES.items():
+        if titles.get(k) != v:
+            if k not in titles:
+                new_t += 1
+            titles[k] = v
+
+    new_s = 0
+    for k, v in SUMMARY_OVERRIDES.items():
+        if summaries.get(k) != v:
+            if k not in summaries:
+                new_s += 1
+            summaries[k] = v
+
+    with open(OVERRIDE_FILE, "w", encoding="utf-8") as f:
+        json.dump(titles, f, ensure_ascii=False, indent=1)
+    with open(SUMMARY_OVERRIDE_FILE, "w", encoding="utf-8") as f:
+        json.dump(summaries, f, ensure_ascii=False, indent=1)
+
+    items = data.get("items", [])
+    cleaned = applied_t = applied_s = 0
+    for it in items:
+        en = (it.get("title") or "").strip()
+        if not en:
+            continue
+
+        if it.get("lang") == "en":
+            for field in ("title_zh", "summary_zh"):
+                zh = it.get(field) or ""
+                src = it.get("title") if field == "title_zh" else it.get("summary")
+                if zh:
+                    new_zh = translate._clean_zh(zh)
+                    new_zh = translate._restore_terms(new_zh, src or "")
+                    new_zh = translate._fix_cjk_latin_spacing(new_zh)
+                    if new_zh != zh:
+                        it[field] = new_zh
+                        cleaned += 1
+
+        if titles.get(en):
+            v = translate._fix_cjk_latin_spacing(titles[en])
+            if it.get("title_zh") != v:
+                it["title_zh"] = v
+                it["translated"] = True
+                applied_t += 1
+        if summaries.get(en):
+            v = translate._fix_cjk_latin_spacing(summaries[en])
+            if it.get("summary_zh") != v:
+                it["summary_zh"] = v
+                it["translated"] = True
+                applied_s += 1
+
+    data["items"] = items
     with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print("[fix_0500] 已回写数据 %d 条" % hit)
+        json.dump(data, f, ensure_ascii=False, indent=1)
+
+    print("[fix_0500] 覆盖表合并：标题 +%d 条（共 %d），摘要 +%d 条（共 %d）"
+          % (new_t, len(titles), new_s, len(summaries)), flush=True)
+    print("[fix_0500] 确定性重清洗 %d 条，应用人工标题覆盖 %d 条，人工摘要覆盖 %d 条"
+          % (cleaned, applied_t, applied_s), flush=True)
+
+    report.main()
+    print("[fix_0500] 报告已重生成", flush=True)
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())
