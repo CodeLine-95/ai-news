@@ -1172,6 +1172,13 @@ TITLE_OVERRIDES = {
     "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.": 'Amazon 与 Meta 谈判，拟解除对 Meta AI 购物智能体 Muse 在 Amazon 在线商店的封锁',
     'Elisa Seghetti, Co-Founder & CEO of Saturn Dynamics – Interview Series': 'Saturn Dynamics 联合创始人兼 CEO Elisa Seghetti——访谈系列',
     'Ars Live recap: Don’t expect military attacks on data centers to stop': 'Ars Live 回顾：别指望针对数据中心的军事攻击会停止',
+    "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners": 'DeepMind 的 Gemini Robotics 2.5 旨在让机器人更安全、更灵巧、学习更快',
+    'Anthropic Details Claude-Assisted Rust Migration of Messages API': 'Anthropic 详解如何借助 Claude 将 Messages API 迁移至 Rust',
+    'When One Robot Learns, Can a Thousand Others Follow?': '当一个机器人学会，千台机器人能跟着学会吗？',
+    'Guilherme Joventino, Co-Founder & COO of MIGNOW – Interview Series': 'MIGNOW 联合创始人兼首席运营官 Guilherme Joventino——访谈系列',
+    'State AGs fight Character AI’s plan to auction off users’ private chats': '各州检察长反对 Character.AI 拍卖用户私密聊天记录的计划',
+    'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': 'FCC 批准 SpaceX 将多达一百万颗数据中心卫星送入太空的计划',
+    'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': 'FCC 太空局附条件批准 SpaceX 的 Starmind 计划',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2343,4 +2350,11 @@ SUMMARY_OVERRIDES = {
     "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.": 'Amazon 与 Meta 正在谈判，希望让 Meta 的 AI 购物智能体 Muse 重返平台——Muse 于今年 9 月被 Amazon 从平台下架。双方在广告收入以及谁掌控搜索结果上陷入僵局。这一点至关重要：Amazon 的广告业务每年创造 686 亿美元收入，而 Muse 已占据全部智能体购物订单的 51%。',
     'Elisa Seghetti, Co-Founder & CEO of Saturn Dynamics – Interview Series': 'Elisa Seghetti 是 Saturn Dynamics 的联合创始人兼 CEO，拥有横跨生物技术、计算化学与企业 AI 的背景。她此前创立了 AiGot，将工程团队从 3 人扩展到 35 人以上，并与《财富》500 强企业合作制定 AI 战略。她在 Saturn Dynamics 的工作重点是帮助物理 AI 学会与人类安全、可靠地协同运作。Saturn Dynamics 开发基于物理的世界模型，面向机器人技术与具身 AI。',
     'Ars Live recap: Don’t expect military attacks on data centers to stop': '无人机袭击数据中心。今年 Amazon 数据中心在中东首次遭到军事攻击，俄罗斯与乌克兰也对彼此的数据中心发动了前所未有的密集无人机打击。为探讨这类攻击对所有现代社会所依赖的云服务的未来意味着什么，Ars 举办了一场线上讨论。在与 Ars Technica 科技记者 Jeremy Hsu 的对话中，英国皇家联合军种研究所（RUSI）的 Joseph Jarnecki 首先谈及为何公共云数据中心在 2026 年伊朗战争与俄罗斯持续全面入侵乌克兰期间日益成为军事目标：「我们看到，人们越来越认识到并接受两用性这一事实——尤其是在公共云领域，但整个私有云数据中心同样如此。」',
+    "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners": 'Google DeepMind 推出 Gemini Robotics 2.5——一个视觉-语言-动作（VLA）模型，旨在提升机器人的灵巧性、可靠性与学习速度，同时使其能在非结构化的真实世界中更安全地运作。',
+    'Anthropic Details Claude-Assisted Rust Migration of Messages API': 'Anthropic 于 2026 年 11 月 25 日表示，Claude 智能体帮助其将 Messages API 从 Python 迁移至 Rust，期间服务未中断，功能开发也未停摆。每次请求的 CPU 与内存占用分别下降约 70% 与 80% 以上，客户使用 Claude Code 时首个响应 token 的平均等待时间缩短约 20%。',
+    'When One Robot Learns, Can a Thousand Others Follow?': '第一人称视角（自我中心）视频仍是机器人训练数据的重要来源。但研究人员正在超越这一路径，探索机器人如何从第三人称示范以及其他机器人系统的经验中学习。目标是让机器人通过观察人类与其他机器来获得新技能。但我们离这一目标还有多远？又有哪些技术挑战仍横亘在前？',
+    'Guilherme Joventino, Co-Founder & COO of MIGNOW – Interview Series': 'Guilherme Joventino 是 MIGNOW 的联合创始人兼首席运营官（COO），曾在 Philips、Sandoz 与 Bayer 的全球 SAP 团队任职。在 MIGNOW，他致力于通过分阶段交付、自动化与持续的系统演进，让企业现代化更具可预测性，同时保留关键 ERP 环境所需的业务专业能力与问责机制。',
+    'State AGs fight Character AI’s plan to auction off users’ private chats': '各州检察长表示，拟议中的 Character.ai 破产出售包含来自超过 2100 万个美国账户的敏感个人数据，其中 210 万个账户注册人为未成年人。',
+    'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': '在周三的公告中，美国联邦通信委员会（FCC）表示，已授权 SpaceX 部署多达一百万颗搭载 AI 芯片的卫星，作为这家埃隆·马斯克旗下公司「Starmind」计划的一部分。包括 Google 与蓝色起源在内的多家公司也在探索把 AI 数据中心搬上太空，而这是该机构首次批准完整的 AI 卫星「星座」。FCC 的批准要求 SpaceX 在 2033 年前至少部署一颗卫星，并在 2040 年前达成一百万颗卫星的里程碑。',
+    'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': '2026 年 11 月 25 日，FCC 太空局授予 Space Exploration Holdings（SpaceX）附条件授权，推进 Starmind——一个由多达一百万颗卫星组成、作为数据中心运行的近地轨道星座计划，同时暂缓处理该申请的部分内容。FCC 的公告称，此举是美国首次采取此类行动。',
 }
