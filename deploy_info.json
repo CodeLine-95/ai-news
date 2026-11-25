@@ -83,7 +83,7 @@
     "css_changes": "无样式变更——.entry::before 规则 0、.metrics padding 四边 0px、无手动同步按钮、三档主题实测通过",
     "service": "SKIP_FIRST_FETCH=1 重启加载定稿，引擎 NLLB-200 预热，下一整点 10:00 调度",
     "republish": "运行时代码未变、线上数据与本地实时一致，未重新发布；域名与 sharecode 完整保留",
-    "git": "变更已提交并推送（见提交记录）",
+    "git": "变更已提交并推送 9abf700",
     "result": "服务在线，2820 条 100% 全译，线上本地一致，三档主题与自动同步实测通过"
   },
   "last_inspection": {
