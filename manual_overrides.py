@@ -1179,6 +1179,7 @@ TITLE_OVERRIDES = {
     'State AGs fight Character AI’s plan to auction off users’ private chats': '各州检察长反对 Character.AI 拍卖用户私密聊天记录的计划',
     'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': 'FCC 批准 SpaceX 将多达一百万颗数据中心卫星送入太空的计划',
     'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': 'FCC 太空局附条件批准 SpaceX 的 Starmind 计划',
+    'Every Raises $17.5M Series A at $110M Valuation to Help Teams Adopt AI': '媒体科技公司 Every 完成 1750 万美元 A 轮融资，估值 1.1 亿美元，助力团队应用 AI',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2357,4 +2358,5 @@ SUMMARY_OVERRIDES = {
     'State AGs fight Character AI’s plan to auction off users’ private chats': '各州检察长表示，拟议中的 Character.ai 破产出售包含来自超过 2100 万个美国账户的敏感个人数据，其中 210 万个账户注册人为未成年人。',
     'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': '在周三的公告中，美国联邦通信委员会（FCC）表示，已授权 SpaceX 部署多达一百万颗搭载 AI 芯片的卫星，作为这家埃隆·马斯克旗下公司「Starmind」计划的一部分。包括 Google 与蓝色起源在内的多家公司也在探索把 AI 数据中心搬上太空，而这是该机构首次批准完整的 AI 卫星「星座」。FCC 的批准要求 SpaceX 在 2033 年前至少部署一颗卫星，并在 2040 年前达成一百万颗卫星的里程碑。',
     'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': '2026 年 11 月 25 日，FCC 太空局授予 Space Exploration Holdings（SpaceX）附条件授权，推进 Starmind——一个由多达一百万颗卫星组成、作为数据中心运行的近地轨道星座计划，同时暂缓处理该申请的部分内容。FCC 的公告称，此举是美国首次采取此类行动。',
+    'Every Raises $17.5M Series A at $110M Valuation to Help Teams Adopt AI': '媒体与科技公司 Every 于 2026 年 11 月 25 日宣布完成 1750 万美元 A 轮融资，投后估值 1.1 亿美元，资金将用于打造面向个人和团队的一体化订阅服务，帮助人们把 AI 真正用起来。本轮由 IA Ventures 的 Jesse Beyroutey 领投，Atlantic 首席执行官 Nicholas Thompson、Stainless 首席执行官 Alex Rattray 以及 Betaworks 参投。',
 }
