@@ -1143,5 +1143,13 @@
   "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools": "Anthropic 研究了美国 58 家公司的近 300 个 AI 部署案例，结果不容乐观：近五分之一仍未带来业务价值，受制于繁重的审查工作负担、内部瓶颈和员工抵触。研究人员指出，最大的障碍源自过时的公司结构。",
   "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages": "美国金融犯罪执法网络（FinCEN）在发现未经授权的访问后，出于预防考虑将系统下线。数小时前，有报道称中央情报局（CIA）、国家地理空间情报局（NGA）和国家情报总监办公室（ODNI）也遭遇另一起数据泄露，调查人员怀疑攻击者使用了 AI 防御工具 Artex。两起事件都发生在美国公众神经已然紧绷之际。",
   "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed": "黄仁勋回归出任 NVIDIA CEO，并未减轻公司面临的审查。NVIDIA 仍在接受多项调查：有指控称其先进 GPU 被客户、新加坡数据中心运营商 Megaspeed 违反美国出口管制走私至中国。调查人员关注的是 NVIDIA 对芯片最终去向究竟知情多少，以及黄仁勋与 Megaspeed 高管 Alice Huang 的恋情是否让公司有理由怀疑 Megaspeed 的保证。美国司法部长 Todd Blanche 表示 NVIDIA 并非调查目标，但加州总检察长与国会仍在推进调查，美国证监会（SEC）也在调查。",
-  "The Simulation Gap: Why Physical AI Still Needs Real-World Data": "仿真、数字孪生和合成数据可以降低训练机器人的时间、成本与风险，这推动了跨任务、跨行业运行的机器人基础模型研究。业内许多人如今认为，只要有足够的仿真，就不再需要多少真实世界数据。我并不这么确信，尤其是当物理 AI 从受控研究环境走向实际运营之时。"
+  "The Simulation Gap: Why Physical AI Still Needs Real-World Data": "仿真、数字孪生和合成数据可以降低训练机器人的时间、成本与风险，这推动了跨任务、跨行业运行的机器人基础模型研究。业内许多人如今认为，只要有足够的仿真，就不再需要多少真实世界数据。我并不这么确信，尤其是当物理 AI 从受控研究环境走向实际运营之时。",
+  "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse": "Amazon 与 Meta 正在讨论一项潜在协议，以结束对 Muse 长达两个月的封锁。",
+  "Amazon is reportedly in talks to end Muse AI shopping block": "据《财富》报道，Amazon 已就允许 Meta 的 Muse AI 智能体在其在线市场购物举行谈判。这些讨论可能终结 Amazon 对 Muse 的封锁，据报道聚焦于该 AI 智能体推荐的商品类型，以及对这家电商巨头广告收入的潜在影响。Amazon 担心允许 Muse 进入其网站会损失广告收入，因为其收入依赖于真实用户在平台上看到广告。",
+  "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability": "DoorDash 重新设计了其实时调度平台，用将协调与计算分离的分布式架构取代了单一优化引擎。新系统吞吐量提升 10 倍，峰值可用性超过 99.99%。它还支持混合机器学习推理与多智能体强化学习，以动态优化配送任务分配。",
+  "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents": "Vercel 的实验性 Board 是一个无头消息存储，人类与编码智能体可在其中领取租约任务、声明依赖关系，并与 Slack、GitHub 和 Linear 同步讨论线程。",
+  "Nexent Capital Launches Fund for Quantum-Ready AI and Energy Assets": "Nexent Capital IFSC Private Limited 在 2026 年 11 月 25 日的公告中表示，已推出 Nexent Capital ADGM Fund I——一只封闭式基金，目标募资 10 亿美元，投向适配量子时代的 AI 基础设施与先进能源，其中 Tyagi 家族办公室承诺出资 2000 万美元作为锚定投资。该目标金额并非已募集资金。基金规模上限可扩至 16 亿美元，面向机构投资者与家族办公室，最低投资额为 50 万美元。",
+  "Mental Health AI in 2027: The Human Handoff Becomes the Deciding Feature": "一段支持性的对话能让难熬的夜晚不那么孤独，但它也可能触及软件无法提供的照护边界。下一步的质量——用户是否真的能联系到合格的专业人士——可能比助手说话有多自然更重要。到 2027 年，心理健康 AI 将越来越多地依据对话之外的配套服务来评判。",
+  "Against the Coming Industrial Scale of AI Fraud": "利用 AI 实施网络欺诈很难建模，因为最有意义的测试必须让真实的人在不知情的情况下参与——这显然违背伦理与法律准则。",
+  "Cloudflare Launches Automatic Website Search for AI Agents": "Cloudflare 于 2026 年 11 月 25 日推出 Search for Agents，包括免费版在内的所有套餐均可使用这一测试功能。如今，通过仪表板开关或 API 控制即可自动完成网站索引，并暴露一个 API 供 AI 智能体在网站自有域名下发现。此前，客户必须手动创建并配置 AI Search 实例，将其搜索端点与域名集成，并告知智能体索引的位置。"
 }
