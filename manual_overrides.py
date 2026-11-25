@@ -1180,6 +1180,16 @@ TITLE_OVERRIDES = {
     'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': 'FCC 批准 SpaceX 将多达一百万颗数据中心卫星送入太空的计划',
     'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': 'FCC 太空局附条件批准 SpaceX 的 Starmind 计划',
     'Every Raises $17.5M Series A at $110M Valuation to Help Teams Adopt AI': '媒体科技公司 Every 完成 1750 万美元 A 轮融资，估值 1.1 亿美元，助力团队应用 AI',
+    'Nvidia GPU Sellers Seek Buyers After U.S. Remote-Access Rule': '美国远程访问新规出台后，英伟达 GPU 卖家寻找新买家',
+    'Want to buy your kid an AI toy this Christmas? Not in New York': '今年圣诞想给孩子买 AI 玩具？纽约禁止了',
+    'OpenAI wants companies to trust it with sensitive work by promising not to look at their data': 'OpenAI 承诺不查看数据，希望企业放心把敏感工作交给它',
+    'OpenAI Begins Limited Customer Trials of Alpha Private Inference': 'OpenAI 启动 Alpha「私密推理」有限客户测试',
+    'Ulys Raises $4M to Market Its Investing App and Train AI Models': 'AI 投资应用 Ulys 融资 400 万美元，用于推广与训练模型',
+    'A Stranger Broke Our AI Agent’s Guardrails. Here Is What It Taught Us': '一个陌生人突破了我们的 AI 智能体护栏，我们从中吸取了什么',
+    'Perplexity Launches Time Machine for Point-in-Time Web Retrieval': 'Perplexity 推出「时间机器」，支持按历史时间点检索网页',
+    'Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’': 'Anthropic 的达里奥·阿莫迪驳斥「向 AI 交出人类控制权」指控：荒谬',
+    'Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it': '黄仁勋违反英伟达行为准则，员工恐怕不会忘记这件事',
+    'Three insights you may have missed from theCUBE’s coverage of the Fully Connected event': 'theCUBE 对 Fully Connected 大会报道中，你可能错过的三点洞察',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2359,4 +2369,14 @@ SUMMARY_OVERRIDES = {
     'FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space': '在周三的公告中，美国联邦通信委员会（FCC）表示，已授权 SpaceX 部署多达一百万颗搭载 AI 芯片的卫星，作为这家埃隆·马斯克旗下公司「Starmind」计划的一部分。包括 Google 与蓝色起源在内的多家公司也在探索把 AI 数据中心搬上太空，而这是该机构首次批准完整的 AI 卫星「星座」。FCC 的批准要求 SpaceX 在 2033 年前至少部署一颗卫星，并在 2040 年前达成一百万颗卫星的里程碑。',
     'FCC Space Bureau Authorizes SpaceX’s Starmind with Conditions': '2026 年 11 月 25 日，FCC 太空局授予 Space Exploration Holdings（SpaceX）附条件授权，推进 Starmind——一个由多达一百万颗卫星组成、作为数据中心运行的近地轨道星座计划，同时暂缓处理该申请的部分内容。FCC 的公告称，此举是美国首次采取此类行动。',
     'Every Raises $17.5M Series A at $110M Valuation to Help Teams Adopt AI': '媒体与科技公司 Every 于 2026 年 11 月 25 日宣布完成 1750 万美元 A 轮融资，投后估值 1.1 亿美元，资金将用于打造面向个人和团队的一体化订阅服务，帮助人们把 AI 真正用起来。本轮由 IA Ventures 的 Jesse Beyroutey 领投，Atlantic 首席执行官 Nicholas Thompson、Stainless 首席执行官 Alex Rattray 以及 Betaworks 参投。',
+    'Nvidia GPU Sellers Seek Buyers After U.S. Remote-Access Rule': 'CNBC 于 2026 年 11 月 25 日报道，在美国收紧对中国关联方远程访问先进 AI 算力的限制后，英伟达 GPU 卖家正在寻找新买家。报道提到的报价中，包括涉及数千颗 B300 GPU 的潜在交易。',
+    'Want to buy your kid an AI toy this Christmas? Not in New York': '纽约已对 AI 聊天机器人玩具实施为期五年的禁令。此前 Common Sense Media 的新研究揭示了令人担忧的安全问题，包括接触不当内容以及对儿童情感发育的风险。',
+    'OpenAI wants companies to trust it with sensitive work by promising not to look at their data': 'OpenAI 正在测试一项名为「私密推理」（Private Inference）的新功能，允许企业在自己强大的模型上运行查询，而 OpenAI 本身无法访问相关数据。',
+    'OpenAI Begins Limited Customer Trials of Alpha Private Inference': 'OpenAI 首席执行官 Sam Altman 于 2026 年 11 月 25 日在 X 上宣布，公司正与一小批客户测试「私密推理」（Private Inference），作为 OpenAI Private Intelligence——其面向企业使用前沿 AI 的隐私框架——的一部分。Altman 表示，更强的隐私保护将使前沿 AI 能胜任更多工作，并把企业隐私视为健康生态系统的重要一环。',
+    'Ulys Raises $4M to Market Its Investing App and Train AI Models': '总部位于纽约的 AI 投资应用 Ulys 于 2026 年 11 月 25 日宣布，在 Streamlined Ventures 领投的一轮融资中再获 400 万美元，累计融资额达 1700 万美元。Fundstrat 的 Tom Lee、BitMine 与 XBTO Ventures 也参与投资。此轮融资发生在应用于 2026 年 11 月 10 日正式登陆 App Store 之后，资金将主要用于市场推广以及训练支撑产品的 AI 模型。',
+    'A Stranger Broke Our AI Agent’s Guardrails. Here Is What It Taught Us': '几周前，我们发布了一篇技术解析，讨论一个在几乎所有接手项目中都会遇到的问题：如何阻止 AI 智能体读取本不该读取的数据。简要做法是：为智能体分配独立的数据库角色，只授予其所需的列，通过行级安全把每条查询限定到单一客户，并编写试图造成数据泄露的测试。这是我们推荐的模式，发布前我们也逐一验证了每段代码。',
+    'Perplexity Launches Time Machine for Point-in-Time Web Retrieval': 'Perplexity 于 2026 年 11 月 25 日为其 Search API 与 Context API 推出「时间机器」（Time Machine），让开发者与智能体能够检索、阅读指定时间点或之前保存的网页快照。上线之初，历史截止点最早可回溯至 365 天前。新增的 snapshot_as_of 参数面向评估等场景——在这些场景下，后续的信息会干扰结果。',
+    'Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’': 'Anthropic 首席执行官达里奥·阿莫迪（Dario Amodei）反驳了竞争对手的指控——对方称他主张把人类自主权交给 AI。与此同时，头部 AI 公司正越来越多地将自身的研究与模型开发流程自动化。',
+    'Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it': '多数行为准则都是企业文化的反映。就英伟达而言，这可能带来实实在在的后果。',
+    'Three insights you may have missed from theCUBE’s coverage of the Fully Connected event': 'AI 基础设施经济学越来越取决于「生产智能」的成本，而非获取算力的成本。随着推理需求增长超过训练，基础设施供应商及其客户必须在运营成本不相应上升的前提下，提高有效计算时间。持续学习的智能体与物理 AI 应用的兴起，进一步让这道等式变得复杂。',
 }
