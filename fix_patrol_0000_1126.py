@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""2026-11-26 00:00 例行巡检：定稿新增 6 条与存量 2 条 NLLB 错译。
+"""2026-11-26 00:00 例行巡检：定稿新增 7 条与存量 2 条 NLLB 错译。
 
 本轮错译集中在术语层面：open-weight→「开放模型」、context→「文本」、
 Chariot→「卡车」、foundation model→「基金会模型」、neocloud→「新云」。
@@ -52,6 +52,13 @@ FIXES = {
         "什么是物理 AI？基础模型如何走进现实世界",
         "物理 AI 将习得的感知、推理与控制能力应用到真实世界中行动的机器上；在这些场景里，"
         "不确定性、物理规律和安全约束都不容忽视。本指南解释了实践中真正重要的机制、权衡、评估方法与管控手段。",
+    ),
+    "Nothing offers a full look at its AI earbuds and charging case": (
+        "Nothing 完整展示其 AI 耳机与充电盒",
+        "在 12 月 8 日发布前，Nothing 展示了即将推出的 AI 耳机的更多细节。Ear Note 耳机可以录制通话，"
+        "其充电盒则能录音、转录并总结对话。与 Ear 3 一样，Ear Note 配备麦克风的充电盒设有「Talk」按钮，"
+        "可用来录制你自己的声音；此外还新增了「Record」按钮，可录音并转录对话。Nothing CEO Carl Pei "
+        "在 X 上表示，这些按钮让你能通过耳机录制通话、通过充电盒录制会议，是「迈向 AI 硬件上下文层的第一步」。",
     ),
     "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI": (
         "MBZUAI 旗下 IFM 发布 PAN 2：面向物理 AI 的开放 29B 世界模型",
