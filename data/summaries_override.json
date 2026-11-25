@@ -1120,5 +1120,6 @@
   "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion": "耶鲁大学杰弗里·索恩菲尔德警告称，市场周一欢呼的黄仁勋在白宫支持下回归英伟达、出任 CEO 兼董事，可能最终被证明是一个重大错误：日益增多的诉讼可能让董事们承担「历史性」个人责任；同时也引发疑问——美国是否在庆祝一家曾帮助把先进芯片交到对手手中的公司。",
   "Staff at Anthropic and Open AI sound alarm on advanced models too powerful to release": "据 Axios 今日援引二十多位知情人士报道，Anthropic 与 OpenAI 的前沿 AI 员工正就部分先进模型与高管产生分歧：这些模型的推理能力已强到被认为会对人类构成危险，公司内部因此陷入僵持。",
   "Epochal launches with $100M to help developers train predictive AI models": "AI 工具初创公司 Epochal AI Inc. 今日正式成立，并获得 1 亿美元资金。资金由首席执行官张果栋（Guodong Zhang）提供；他是一名机器学习研究员，此前曾联合创立 xAI。今年早些时候，他与另外两位 xAI 联合创始人 Zihang Dai、Manuel Kroiss 共同创办了 Epochal。",
-  "Anthropic is trying to kill traditional desktop apps with Claude-generated desktop apps": "Anthropic PBC 几乎每天都会宣布某项新能力、功能或模型，今天也不例外。此次该公司推出新能力：只需一条提示词，即可用 Claude 创建适用于 Windows 与 Mac 电脑的功能完备的桌面应用程序。"
+  "Anthropic is trying to kill traditional desktop apps with Claude-generated desktop apps": "Anthropic PBC 几乎每天都会宣布某项新能力、功能或模型，今天也不例外。此次该公司推出新能力：只需一条提示词，即可用 Claude 创建适用于 Windows 与 Mac 电脑的功能完备的桌面应用程序。",
+  "OpenAI Preprint Reports 9/4 Bound for Matrix Multiplication": "OpenAI 发布预印本，报告了复数域矩阵乘法指数的上界为 9/4。手稿日期为 2026 年 10 月 2 日，论文文件在代码仓库的首次提交日期为 2026 年 10 月 6 日。论文研究的是 ω，即渐近矩阵乘法指数：满足如下条件的 τ 的下确界——对任意正数 ε，当 n 趋于无穷时，矩阵乘法需要 O_ε(n^(τ+ε)) 次标量算术运算。定理 1.1 指出，对任意正数 ε，两个 n×n 复矩阵可用 O_ε(n^(9/4+ε)) 次算术运算完成相乘，且算法及其常数可依赖于 ε。"
 }
