@@ -1131,6 +1131,7 @@ TITLE_OVERRIDES = {
     'QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI': 'QCon 旧金山 2026：OpenAI 用 Codex 智能体自动化 Spark 升级',
     'Certis Partners with SUTD to Test Physical AI in Live Operations': 'Certis 与 SUTD 合作，在真实运营场景中测试物理 AI',
     'Formal verification startup Sequent raises $2.2M to prove code obeys its safety rules': '形式化验证初创公司 Sequent 融资 220 万美元，用数学证明代码遵守安全规则',
+    'Trump Says He Considered U.S. Government Stake in NVIDIA': '特朗普表示曾考虑让美国政府持有 NVIDIA 股份',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2261,4 +2262,5 @@ SUMMARY_OVERRIDES = {
     'QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI': '在 QCon 旧金山 2026 大会上，OpenAI 数据基础设施工程经理 Mouli Mukherjee 提出，AI 智能体最有价值的应用场景并非重建数据平台，而是处理那些难以写成固定操作手册的开放式运维工作。',
     'Certis Partners with SUTD to Test Physical AI in Live Operations': 'Certis 与新加坡科技设计大学（SUTD）于 2026 年 11 月 25 日宣布签署一份为期三年的谅解备忘录，将在真实的安防与设施运营场景中联合开发并测试物理 AI、机器人与无人机技术。该备忘录还涵盖工程人才培养以及商业化部署的规划。',
     'Formal verification startup Sequent raises $2.2M to prove code obeys its safety rules': '形式化验证初创公司 Sequent Inc. 今日宣布完成 220 万美元新融资，将其 Alan 证明平台从早期访问阶段推向正式可用。Sequent 于今年 1 月在伦敦成立，提供了一个利用人工智能寻找数学证明的平台，用于验证代码是否遵守工程师设定的安全规则。',
+    'Trump Says He Considered U.S. Government Stake in NVIDIA': '美国总统唐纳德·特朗普表示，他考虑过让美国政府持有 NVIDIA 的股份，并将该公司的成功与美国在人工智能领域的领先地位联系起来。据《纽约邮报》2026 年 11 月 24 日援引 CNBC 的报道，特朗普将这种可能性与美国政府 2025 年入股 Intel 的做法作了比较。',
 }
