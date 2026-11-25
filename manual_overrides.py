@@ -1132,6 +1132,9 @@ TITLE_OVERRIDES = {
     'Certis Partners with SUTD to Test Physical AI in Live Operations': 'Certis 与 SUTD 合作，在真实运营场景中测试物理 AI',
     'Formal verification startup Sequent raises $2.2M to prove code obeys its safety rules': '形式化验证初创公司 Sequent 融资 220 万美元，用数学证明代码遵守安全规则',
     'Trump Says He Considered U.S. Government Stake in NVIDIA': '特朗普表示曾考虑让美国政府持有 NVIDIA 股份',
+    'XPENG Positions IRON Humanoid as an Autonomous Work Partner': '小鹏将 IRON 人形机器人定位为自主工作伙伴',
+    'Siemens Expands Industrial AI Across Planning and Robot Unpacking': '西门子将工业 AI 扩展至生产规划与机器人拆箱',
+    'Siemens Raises Growth Targets on Industrial AI and Data Center Demand': '西门子受工业 AI 与数据中心需求推动上调增长目标',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2263,4 +2266,7 @@ SUMMARY_OVERRIDES = {
     'Certis Partners with SUTD to Test Physical AI in Live Operations': 'Certis 与新加坡科技设计大学（SUTD）于 2026 年 11 月 25 日宣布签署一份为期三年的谅解备忘录，将在真实的安防与设施运营场景中联合开发并测试物理 AI、机器人与无人机技术。该备忘录还涵盖工程人才培养以及商业化部署的规划。',
     'Formal verification startup Sequent raises $2.2M to prove code obeys its safety rules': '形式化验证初创公司 Sequent Inc. 今日宣布完成 220 万美元新融资，将其 Alan 证明平台从早期访问阶段推向正式可用。Sequent 于今年 1 月在伦敦成立，提供了一个利用人工智能寻找数学证明的平台，用于验证代码是否遵守工程师设定的安全规则。',
     'Trump Says He Considered U.S. Government Stake in NVIDIA': '美国总统唐纳德·特朗普表示，他考虑过让美国政府持有 NVIDIA 的股份，并将该公司的成功与美国在人工智能领域的领先地位联系起来。据《纽约邮报》2026 年 11 月 24 日援引 CNBC 的报道，特朗普将这种可能性与美国政府 2025 年入股 Intel 的做法作了比较。',
+    'XPENG Positions IRON Humanoid as an Autonomous Work Partner': '在 2026 年 11 月 25 日举行的科技日上，小鹏汽车将 IRON 定位为「合格的工作伙伴」，介绍了其自主商业作业功能、搭载的 AI 系统与安全系统，并邀请购买或合作咨询。科技日现场汇聚了 7 台 IRON 机器人，官方活动帖重点展示了其多语言互动能力。该人形机器人身高 170 厘米、体重 62 公斤，具备 76 个全身自由度。',
+    'Siemens Expands Industrial AI Across Planning and Robot Unpacking': '西门子于 2026 年 11 月 24 日在纽伦堡 SPS 2026 展会上宣布扩展自动化产品组合，面向 AI 驱动的自主生产，其中包括正在开发中的货物拆箱机器人，以及用于规划与工程环节的 AI 智能体。西门子预计，规划智能体可将人工规划工作量减少 70%。该组合围绕「目标导向自动化」构建：制造商只需说明期望的结果，工业 AI 即可自行确定实现路径，或通过 AI 智能体直接完成任务。',
+    'Siemens Raises Growth Targets on Industrial AI and Data Center Demand': '西门子于 2026 年 11 月 12 日上调中期增长目标。截至 2026 年 9 月 30 日的财年，可比订单增长 25%，达到创纪录的 1082 亿欧元。公司将更高的目标与工业 AI、数字化、电气化及数据中心需求联系起来。不含西门子医疗（Siemens Healthineers）的集团，可比营收增速目标由 6%–9% 上调至 7%–11%；扣除 PPA 前的每股收益（EPS pre PPA）增长目标则从高个位数上调至两位数。',
 }
