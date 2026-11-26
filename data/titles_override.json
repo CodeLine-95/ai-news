@@ -1211,5 +1211,7 @@
   "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks": "微软披露国家背景黑客如何利用 ARTEX AI 框架自动化网络攻击",
   "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls": "美国收紧出口管制后，英伟达（NVIDIA）暂停向马来西亚、新加坡、泰国和印尼发运服务器",
   "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell": "演讲：微调嵌入模型以提升搜索效果——来自戴尔智能体搜索的实践",
-  "Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference": "在本地运行 1-Bit 大模型：BitNet 推理实用指南"
+  "Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference": "在本地运行 1-Bit 大模型：BitNet 推理实用指南",
+  "GigaChat 4 Debuts With 1M-Token Context and Two Model Sizes": "GigaChat 4 发布：100 万 token 上下文与两种模型规模",
+  "ROBOTERA Deploys 45 Humanoid Robots at China Post’s Hangzhou Hub": "ROBOTERA 在中国邮政杭州枢纽部署 45 台人形机器人"
 }

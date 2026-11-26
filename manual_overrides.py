@@ -1224,6 +1224,8 @@ TITLE_OVERRIDES = {
     'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls': '美国收紧出口管制后，英伟达（NVIDIA）暂停向马来西亚、新加坡、泰国和印尼发运服务器',
     'Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell': '演讲：微调嵌入模型以提升搜索效果——来自戴尔智能体搜索的实践',
     'Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference': '在本地运行 1-Bit 大模型：BitNet 推理实用指南',
+    'GigaChat 4 Debuts With 1M-Token Context and Two Model Sizes': 'GigaChat 4 发布：100 万 token 上下文与两种模型规模',
+    'ROBOTERA Deploys 45 Humanoid Robots at China Post’s Hangzhou Hub': 'ROBOTERA 在中国邮政杭州枢纽部署 45 台人形机器人',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2447,4 +2449,6 @@ SUMMARY_OVERRIDES = {
     'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls': '英伟达已通知戴尔、超微（Supermicro）等合作伙伴，停止向马来西亚、新加坡、泰国和印度尼西亚发运服务器。在美国针对中国云计算访问出台新的出口管制后，经销商已开始为数千颗 B300 芯片寻找买家，一位云服务商高管形容市场陷入「混乱」。东南亚数据中心的贷款和重大交易目前岌岌可危。',
     'Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell': 'Rachel Shalom 介绍了戴尔如何通过微调开源嵌入模型，解决内部术语导致的企业 RAG 检索失败问题。她讨论了难负样本的数据准备、在 H100 GPU 上进行分布式 InfoNCE 损失训练、自动化超参数调优，以及采用 LLM-as-a-judge 进行生产环境评估。',
     'Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference': '在开始运行之前，了解微软的实测数据会有所帮助。',
+    'GigaChat 4 Debuts With 1M-Token Context and Two Model Sizes': 'GigaChat 团队于 2026 年 11 月 26 日宣布推出 GigaChat 4，发布 708B 与 37B 参数的混合专家（MoE）模型，原生支持 100 万 token 上下文窗口。两者每个 token 仅激活部分参数，支持工具调用与多步骤智能体任务，并可在同一检查点内按请求选择「即时」或「推理」响应。旗舰版 708B-A41B 每 token 约激活 41B 参数，紧凑版 37B-A4B 约激活 3.8B 参数。',
+    'ROBOTERA Deploys 45 Humanoid Robots at China Post’s Hangzhou Hub': 'ROBOTERA 在 2026 年 11 月 26 日的公告中披露，其 45 台人形机器人正在中国邮政杭州邮件处理中心进行包裹导入测试。中国邮政杭州中心于 2026 年 4 月正式启动该测试项目。ROBOTERA 称，这是全国同类邮政运营中规模最大的机器人测试部署。',
 }
