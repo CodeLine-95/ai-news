@@ -1220,6 +1220,10 @@ TITLE_OVERRIDES = {
     'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot 获 500 万美元战略融资，致力于让 AI 推理可验证',
     '42 state AGs are trying to stop Character.AI from selling users’ chats': '42 位州总检察长试图阻止 Character.AI 出售用户聊天记录',
     'Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains': '英国金融监管机构抱怨 Meta 拒绝分享 Muse 用于测试',
+    'Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks': '微软披露国家背景黑客如何利用 ARTEX AI 框架自动化网络攻击',
+    'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls': '美国收紧出口管制后，英伟达（NVIDIA）暂停向马来西亚、新加坡、泰国和印尼发运服务器',
+    'Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell': '演讲：微调嵌入模型以提升搜索效果——来自戴尔智能体搜索的实践',
+    'Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference': '在本地运行 1-Bit 大模型：BitNet 推理实用指南',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2439,4 +2443,8 @@ SUMMARY_OVERRIDES = {
     'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot Protocol 在 2026 年 11 月 26 日的公告中称，已获得由 Paper Ventures 与 Beam Foundation 联合领投的 500 万美元战略融资。这笔资金将用于为链上应用与 AI 智能体构建可验证的智能层。Cournot 公开宣称的使命，是拓展预言机（oracle）超越结构化数据的能力：用 AI 解读真实世界事件，同时保留记录，使由此得出的判断可被复核。',
     '42 state AGs are trying to stop Character.AI from selling users’ chats': '由 42 位州总检察长组成的联盟正试图阻止 Character.AI 在第 11 章破产程序中出售用户数据。在大量近乎相同的新闻稿中，各位总检察长指控该公司计划拍卖「超过 2100 万个美国账户的私人聊天记录，其中逾 210 万个账户属于未成年人，且对被出售对话的当事人没有任何保护措施」。Character.AI 于 10 月申请破产，此前多年间深陷丑闻与法律挑战，其中包括来自迪士尼的诉讼。',
     'Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains': '英国金融行为监管局（FCA）警告称，在 Meta 拒绝其共同测试请求后，AI 智能体可能带来「另一种攻击力量」。该公司在周二于英国推出个人智能体之前，回绝了 FCA 提出的合作测试请求。',
+    'Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks': '微软公布了 ARTEX 的技术架构。这一 AI 框架自 2026 年 7 月以来被广泛使用，可通过专用智能体发起网络攻击，几乎无需人工参与。来自中国和朝鲜的国家背景组织以及犯罪团伙已在使用该框架。微软建议使用蜜罐、伪造成功信号等欺骗手段作为防御，但面对具备学习与适应能力的智能体，这些手段能维持多久仍是未知数。',
+    'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls': '英伟达已通知戴尔、超微（Supermicro）等合作伙伴，停止向马来西亚、新加坡、泰国和印度尼西亚发运服务器。在美国针对中国云计算访问出台新的出口管制后，经销商已开始为数千颗 B300 芯片寻找买家，一位云服务商高管形容市场陷入「混乱」。东南亚数据中心的贷款和重大交易目前岌岌可危。',
+    'Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell': 'Rachel Shalom 介绍了戴尔如何通过微调开源嵌入模型，解决内部术语导致的企业 RAG 检索失败问题。她讨论了难负样本的数据准备、在 H100 GPU 上进行分布式 InfoNCE 损失训练、自动化超参数调优，以及采用 LLM-as-a-judge 进行生产环境评估。',
+    'Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference': '在开始运行之前，了解微软的实测数据会有所帮助。',
 }
