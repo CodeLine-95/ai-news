@@ -2,7 +2,7 @@ const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules
 
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1117_1400';
+const STAMP = 'patrol_1400_1126';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -28,6 +28,8 @@ async function checkStyles(page) {
     res.sync_buttons = btns.filter(b => /同步|sync|refresh|刷新/i.test(b.textContent || '')).map(b => (b.textContent || '').trim());
     res.entries = document.querySelectorAll('.entry').length;
     res.data_theme = document.documentElement.getAttribute('data-theme');
+    res.data_mode = document.documentElement.getAttribute('data-mode');
+    res.bg = getComputedStyle(document.body).backgroundColor;
     return res;
   });
 }

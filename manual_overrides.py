@@ -1206,6 +1206,7 @@ TITLE_OVERRIDES = {
     'New York Bans AI toys amid concern after stuffed animals going rogue': '纽约因担忧毛绒玩具失控而封禁 AI 玩具',
     'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，语音 AI 创业公司 ElevenLabs 寻求以 330 亿美元估值进行新一轮融资',
     'Your AI agents can be fully authorized and still do damage': '即便权限完整授予，AI 智能体仍可能造成损害',
+    'XEBO.ai Raises $10.5M Series A to Expand Agentic AI and Analytics': 'XEBO.ai 完成 1050 万美元 A 轮融资，扩展智能体 AI 与分析业务',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2411,4 +2412,5 @@ SUMMARY_OVERRIDES = {
     'New York Bans AI toys amid concern after stuffed animals going rogue': '纽约州州长凯西·霍楚尔（Kathy Hochul）今日签署立法，将对由人工智能聊天机器人驱动的儿童玩具实施为期五年的禁令。此前有担忧称，玩偶、机器人和毛绒玩具可能会误导儿童，甚至谈论成人内容。',
     'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，人工智能开发商 ElevenLabs Inc. 正就按 330 亿美元估值融资展开早期谈判。彭博社今日援引消息人士称，该公司计划在 2027 年第一季度完成此轮融资；部分投资人希望融资能更早完成。',
     'Your AI agents can be fully authorized and still do damage': '企业安全一直围绕一个核心问题展开：谁有权做什么？身份管理、零信任与最小权限原则都是为回答这个问题而生。互联网与移动设备把更多人和终端接入网络，改变了安全格局，但这一根本问题始终未变。',
+    'XEBO.ai Raises $10.5M Series A to Expand Agentic AI and Analytics': '2026 年 11 月 26 日，XEBO.ai 宣布获得阿联酋增长基金（Emirates Growth Fund，EGF）1050 万美元 A 轮投资，该基金成为这家 AI 原生体验管理公司的首个机构投资者。资金将用于扩展更广泛的客户之声（VoC）产品组合，包括通话分析与数字体验分析，并进一步在平台上开发智能体 AI。',
 }
