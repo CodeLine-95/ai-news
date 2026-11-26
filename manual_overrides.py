@@ -1207,6 +1207,8 @@ TITLE_OVERRIDES = {
     'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，语音 AI 创业公司 ElevenLabs 寻求以 330 亿美元估值进行新一轮融资',
     'Your AI agents can be fully authorized and still do damage': '即便权限完整授予，AI 智能体仍可能造成损害',
     'XEBO.ai Raises $10.5M Series A to Expand Agentic AI and Analytics': 'XEBO.ai 完成 1050 万美元 A 轮融资，扩展智能体 AI 与分析业务',
+    'Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance': 'Microsoft Ignite 2026 回顾：Copilot 成为「工作操作系统」，强化智能体治理',
+    'DeepL Launches Aure V2 with End-to-End Speech Translation': 'DeepL 推出 Aure V2，实现端到端语音翻译',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2413,4 +2415,6 @@ SUMMARY_OVERRIDES = {
     'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，人工智能开发商 ElevenLabs Inc. 正就按 330 亿美元估值融资展开早期谈判。彭博社今日援引消息人士称，该公司计划在 2027 年第一季度完成此轮融资；部分投资人希望融资能更早完成。',
     'Your AI agents can be fully authorized and still do damage': '企业安全一直围绕一个核心问题展开：谁有权做什么？身份管理、零信任与最小权限原则都是为回答这个问题而生。互联网与移动设备把更多人和终端接入网络，改变了安全格局，但这一根本问题始终未变。',
     'XEBO.ai Raises $10.5M Series A to Expand Agentic AI and Analytics': '2026 年 11 月 26 日，XEBO.ai 宣布获得阿联酋增长基金（Emirates Growth Fund，EGF）1050 万美元 A 轮投资，该基金成为这家 AI 原生体验管理公司的首个机构投资者。资金将用于扩展更广泛的客户之声（VoC）产品组合，包括通话分析与数字体验分析，并进一步在平台上开发智能体 AI。',
+    'Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance': '在 Ignite 2026 大会上，微软将 Copilot 定位为「工作操作系统」（Work OS），并在 Azure、Foundry、Entra 和 Defender 全链条扩展智能体身份、治理与成本控制能力。亮点包括 Cobalt 200 虚拟机、Azure HorizonDB、Foundry 中的持续改进闭环、Microsoft IQ、独立的 Azure AI Gateway 以及 Windows Server 2028。',
+    'DeepL Launches Aure V2 with End-to-End Speech Translation': '2026 年 11 月 26 日，DeepL 在东京举办的首届 Unmute 峰会上推出 Aure v2，相比初代 Aure，其中位翻译延迟降低 50%。该模型已在 DeepL Voice 在线会议版、DeepL Voice 面对面交谈版以及语音版 DeepL API 中全面上线。不同于将音频依次经过转录、文本翻译和语音生成三个独立环节的传统流程，Aure v2 采用单一架构直接实现语音到语音的翻译。',
 }
