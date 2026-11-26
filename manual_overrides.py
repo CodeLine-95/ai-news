@@ -1212,6 +1212,13 @@ TITLE_OVERRIDES = {
     'GeoIntelX to Apply AI to Angola’s National Geological Archives': 'GeoIntelX 将用 AI 处理安哥拉国家地质档案',
     'Skanska Wins Additional Award for New Georgia Data Center': '斯坎斯卡获佐治亚州新数据中心追加合同',
     'RoboSense LiDAR Sales Surge as Robotics and AI Sensing Expand': '机器人与 AI 感知需求扩大，RoboSense 激光雷达销量激增',
+    'WaterSense Raises €5.75M in Pre-Seed and Grants for AI Water Monitoring': 'WaterSense 获 575 万欧元种子前轮融资与补助，用于 AI 水质监测',
+    'LINE Taiwan Unveils Three-Part AI Agent Strategy for Businesses': 'LINE 台湾发布面向企业的三部分 AI 智能体战略',
+    'Dragos Identifies MiniMax in AI Prompt Privacy Investigation': 'Dragos 在 AI 提示词隐私调查中确认 MiniMax 涉案',
+    'Hon Hai Unveils Integrated Chemotherapy Automation System': '鸿海推出一体化化疗自动化系统',
+    'BharatGen Launches Patram 1.5 with Promptable OCR and Abstention': 'BharatGen 发布 Patram 1.5，支持可提示 OCR 与拒答能力',
+    'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot 获 500 万美元战略融资，致力于让 AI 推理可验证',
+    '42 state AGs are trying to stop Character.AI from selling users’ chats': '42 位州总检察长试图阻止 Character.AI 出售用户聊天记录',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2423,4 +2430,11 @@ SUMMARY_OVERRIDES = {
     'GeoIntelX to Apply AI to Angola’s National Geological Archives': '2026 年 11 月 26 日，GeoIntelX 宣布与安哥拉地质研究所及勘探合作方 Ivanhoe Mines 联手，运用人工智能处理安哥拉跨越一个多世纪的历史地质记录。Ivanhoe Mines 正在资助该平台在安哥拉的落地，包括数字化历史地质图、报告及其他保存在该国地质档案中的实体记录。',
     'Skanska Wins Additional Award for New Georgia Data Center': '斯坎斯卡（Skanska）于 2026 年 11 月 26 日宣布，从现有客户处获得一份追加合同，将在美国佐治亚州新建一座 48 兆瓦数据中心。该合同价值约 2.75 亿美元（约合 28 亿瑞典克朗），将计入公司 2026 年第四季度的美国订单。这一分类很关键：公告将已签约的工作计入订单簿，而非把全部金额记为已确认收入。',
     'RoboSense LiDAR Sales Surge as Robotics and AI Sensing Expand': 'RoboSense 于 2026 年 11 月 25 日披露：2026 年第三季度未经审计营收同比增长 65.2%，达 6.727 亿元人民币；激光雷达销量同比增长 210.1%，约 57.55 万台。其 Space Camera 产品也进入多家全球 AI 公司的供应链，成为激光雷达出货增长之外的另一项感知业务进展。',
+    'WaterSense Raises €5.75M in Pre-Seed and Grants for AI Water Monitoring': 'WaterSense 于 2026 年 11 月 26 日宣布，已通过种子前轮投资与补助合计筹集 575 万欧元，用于扩展覆盖欧洲的 AI 辅助水质监测，包括从源头到河口持续监测奥得河（Oder River）的计划。该种子前轮由 b2venture 与 Movens Capital 联合领投，vastpoint 参投。公告还单独提到波兰国家研究与发展中心提供的 350 万欧元，用于进一步开发传感器并集成卫星数据。相关工作将新增对铵离子、硝酸盐、正磷酸盐、氟化物、铅和大肠杆菌的测量，把分析从单个监测站扩展到整个水体与水道。',
+    'LINE Taiwan Unveils Three-Part AI Agent Strategy for Businesses': '在 2026 年 11 月 26 日举行的 LINE BIZ CONVERGE 2026 上，LINE 台湾表示将推进涵盖消费者助手、品牌服务与商家运营的三部分 AI 智能体战略，依托超过 360 万个官方账号，让客户互动从回答问题走向完成任务。该战略把消费者触达、品牌履约与商家决策串联起来。',
+    'Dragos Identifies MiniMax in AI Prompt Privacy Investigation': '路透社 2026 年 11 月 26 日报道，Dragos 首席研究官 HD Moore 在对近 200 万条植入式 AI 提示词展开的更广泛调查中，确认此前未具名的中国 AI 开发商为 MiniMax。研究人员发现，即使用户要求不存储或保留数据，私人网页链接仍会在随后被打开。路透社称，公开指认以及莫斯科地区的相关发现均为首次报道。',
+    'Hon Hai Unveils Integrated Chemotherapy Automation System': '鸿海科技集团于 2026 年 11 月 26 日宣布，其与台北荣民总医院共同推出一套自动化系统，打通化疗药物配置、院内药品运输与护理任务。双方还在台北启用了北海 AI 中心（Beihai AI Center）。该系统把多家公司的设备与软件整合为统一的临床工作流。',
+    'BharatGen Launches Patram 1.5 with Promptable OCR and Abstention': 'BharatGen 于 2026 年 11 月 25 日推出 Patram 1.5——一个面向文档智能的 78 亿参数开放权重视觉语言模型。其两项核心新增能力是可通过提示控制的 OCR，以及「弃权」（abstention）：在证据缺失或相互矛盾、输入难以辨认或问题含义模糊时，模型会保留答案而不作答。文本优先的提取流程可以把赋予文档意义的信息扁平化。',
+    'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot Protocol 在 2026 年 11 月 26 日的公告中称，已获得由 Paper Ventures 与 Beam Foundation 联合领投的 500 万美元战略融资。这笔资金将用于为链上应用与 AI 智能体构建可验证的智能层。Cournot 公开宣称的使命，是拓展预言机（oracle）超越结构化数据的能力：用 AI 解读真实世界事件，同时保留记录，使由此得出的判断可被复核。',
+    '42 state AGs are trying to stop Character.AI from selling users’ chats': '由 42 位州总检察长组成的联盟正试图阻止 Character.AI 在第 11 章破产程序中出售用户数据。在大量近乎相同的新闻稿中，各位总检察长指控该公司计划拍卖「超过 2100 万个美国账户的私人聊天记录，其中逾 210 万个账户属于未成年人，且对被出售对话的当事人没有任何保护措施」。Character.AI 于 10 月申请破产，此前多年间深陷丑闻与法律挑战，其中包括来自迪士尼的诉讼。',
 }
