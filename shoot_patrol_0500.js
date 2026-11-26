@@ -1,15 +1,16 @@
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
+
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
-const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1122_0500';
+const STAMP = 'deliverable_1116_0500';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
     const res = {};
     let beforeCount = 0;
     for (const sheet of document.styleSheets) {
-      let rules; try { rules = sheet.cssRules; } catch (e) { continue; }
+      let rules;
+      try { rules = sheet.cssRules; } catch (e) { continue; }
       for (const rule of rules) {
         if (rule.selectorText && rule.selectorText.includes('.entry::before')) beforeCount++;
       }
@@ -35,22 +36,29 @@ async function checkStyles(page) {
 async function shoot(pw, name, opts) {
   const browser = await pw.launch({ args: ['--no-sandbox'] });
   const ctx = await browser.newContext({
-    viewport: { width: 1440, height: 1100 }, device_scale_factor: 2,
-    locale: 'zh-CN', colorScheme: opts.colorScheme || 'light',
+    viewport: { width: 1440, height: 1100 },
+    device_scale_factor: 2,
+    locale: 'zh-CN',
+    colorScheme: opts.colorScheme || 'light',
   });
   const page = await ctx.newPage();
-  const url = opts.online ? ONLINE : LOCAL;
-  await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
+  await page.goto(LOCAL, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
-  await page.waitForTimeout(1500);
-  if (opts.theme) { await page.click(`#themeToggle button[data-theme="${opts.theme}"]`).catch(() => {}); await page.waitForTimeout(700); }
-  if (opts.view) { await page.click(`#viewToggle button[data-view="${opts.view}"]`).catch(() => {}); await page.waitForTimeout(700); }
+  await page.waitForTimeout(2000);
+  if (opts.theme) {
+    await page.click(`#themeToggle button[data-theme="${opts.theme}"]`).catch(() => {});
+    await page.waitForTimeout(800);
+  }
+  if (opts.view) {
+    await page.click(`#viewToggle button[data-view="${opts.view}"]`).catch(() => {});
+    await page.waitForTimeout(800);
+  }
   const path = `${OUT}/${STAMP}_${name}.png`;
   await page.screenshot({ path, full_page: false });
   const styles = await checkStyles(page);
   console.log(name, '=>', path, '|', JSON.stringify(styles));
   await browser.close();
-  return { path, styles };
+  return styles;
 }
 
 (async () => {
@@ -59,7 +67,5 @@ async function shoot(pw, name, opts) {
   r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' });
   r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' });
   r.en = await shoot(chromium, 'en', { theme: 'light', view: 'en', colorScheme: 'light' });
-  r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light', online: true });
-  require('fs').writeFileSync(`${OUT}/${STAMP}_checks.json`, JSON.stringify(r, null, 2));
-  console.log('\nDONE');
+  console.log('\nDONE', JSON.stringify(r));
 })();
