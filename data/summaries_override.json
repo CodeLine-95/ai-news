@@ -3013,5 +3013,7 @@
   "GPT-6.1 Terra": "在 GPT-6.1 Terra 的情况下，OpenAI 使用了视觉推理和计算机使用：我们正在介绍 GPT-6.1 Terra，一个快速，高效的模型，结合了详细的视觉推理和精确的计算机使用，以及更清晰，更自然的写作。与 GPT‐5.6 Terra 相比，它显著提升了工作日的通信和基于计算机的任务，从起草建议和解释技术图纸到填写表格和编辑视频。泰拉位于人类模型系列中的 Sonnet 的位置——不是最便宜的或最昂贵的，这使得决定使用时间变得更加困难。计算机使用是从更便宜的模型中获益的任务的一个好例子，因为你可以将其用于自动化，重复任务。",
   "Quoting Jason Koebler": "由于大型科技平台基本上没有客户支持，并且使其用户无法与人类联系，因此许多经历常规技术问题的人转向了 ChatGPT。越来越多地，ChatGPT 正在告诉那些正常的技术支持问题的人，他们发现了一些具有新闻意义的东西，特别是 404 媒体可以帮助他们。",
   "At New York Climate Week 2026, MIT connects with a global network": "每年，纽约气候周将超过 10 万人聚集在整个城市的 1000 多个活动中，讨论气候挑战，探索解决方案和刺激行动。参与者来自工业，学术界，慈善，非营利组织，政府以及金融和风险投资。今年，混合中包括了 MIT 的强大跨校园存在。",
-  "webframe: evaluated as a scraper and a sandbox": "研究：Webframe：被评价为扫描仪和沙盒 Webframe 是杰夫·林赛德斯的一项简洁的小项目，允许你「像程序一样运行网页」——你指向它一个 URL 或文件，它会在隐藏的无头的网页视图中执行它，并输出 console.log（）到标准输出和任何例外的标准错误。它写在 Glaze 图书馆之上，它可以访问系统浏览器（「macOS 上的 WKWebView，Linux 上的 WebKitGTK，Windows 上的 WebView2」），因此不需要捆绑自己的浏览器引擎。它让我想起了我自己的射击扫描 javascript 工具，尽管在一个更小的包，不依赖 Playwright。我让 Claude·奥普斯 5.5 把它推进了，为我准备了一份研究报告。"
+  "webframe: evaluated as a scraper and a sandbox": "研究：Webframe：被评价为扫描仪和沙盒 Webframe 是杰夫·林赛德斯的一项简洁的小项目，允许你「像程序一样运行网页」——你指向它一个 URL 或文件，它会在隐藏的无头的网页视图中执行它，并输出 console.log（）到标准输出和任何例外的标准错误。它写在 Glaze 图书馆之上，它可以访问系统浏览器（「macOS 上的 WKWebView，Linux 上的 WebKitGTK，Windows 上的 WebView2」），因此不需要捆绑自己的浏览器引擎。它让我想起了我自己的射击扫描 javascript 工具，尽管在一个更小的包，不依赖 Playwright。我让 Claude·奥普斯 5.5 把它推进了，为我准备了一份研究报告。",
+  "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead": "中国的 AI 公司 Z.AI 与 Moonshot AI 不得不推迟下一代旗舰模型的发布，并正在寻找新的训练数据来源。",
+  "Quoting Jack Despain Zhou": "AI 已经带来的诸多影响中，有一项是明显的「去个性化」。我打开一段 YouTube 视频，听到的是 Claude；参加一场会议演讲，听到的还是 Claude；打开邮箱，看到一些看似严肃的人——带着看似严肃的资历、供职于看似严肃的机构，想发表一些挂着我与他们名头的文章——我看到的依然是 Claude。"
 }
