@@ -1219,6 +1219,7 @@ TITLE_OVERRIDES = {
     'BharatGen Launches Patram 1.5 with Promptable OCR and Abstention': 'BharatGen 发布 Patram 1.5，支持可提示 OCR 与拒答能力',
     'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot 获 500 万美元战略融资，致力于让 AI 推理可验证',
     '42 state AGs are trying to stop Character.AI from selling users’ chats': '42 位州总检察长试图阻止 Character.AI 出售用户聊天记录',
+    'Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains': '英国金融监管机构抱怨 Meta 拒绝分享 Muse 用于测试',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2437,4 +2438,5 @@ SUMMARY_OVERRIDES = {
     'BharatGen Launches Patram 1.5 with Promptable OCR and Abstention': 'BharatGen 于 2026 年 11 月 25 日推出 Patram 1.5——一个面向文档智能的 78 亿参数开放权重视觉语言模型。其两项核心新增能力是可通过提示控制的 OCR，以及「弃权」（abstention）：在证据缺失或相互矛盾、输入难以辨认或问题含义模糊时，模型会保留答案而不作答。文本优先的提取流程可以把赋予文档意义的信息扁平化。',
     'Cournot Raises $5M Strategic Funding to Make AI Reasoning Verifiable': 'Cournot Protocol 在 2026 年 11 月 26 日的公告中称，已获得由 Paper Ventures 与 Beam Foundation 联合领投的 500 万美元战略融资。这笔资金将用于为链上应用与 AI 智能体构建可验证的智能层。Cournot 公开宣称的使命，是拓展预言机（oracle）超越结构化数据的能力：用 AI 解读真实世界事件，同时保留记录，使由此得出的判断可被复核。',
     '42 state AGs are trying to stop Character.AI from selling users’ chats': '由 42 位州总检察长组成的联盟正试图阻止 Character.AI 在第 11 章破产程序中出售用户数据。在大量近乎相同的新闻稿中，各位总检察长指控该公司计划拍卖「超过 2100 万个美国账户的私人聊天记录，其中逾 210 万个账户属于未成年人，且对被出售对话的当事人没有任何保护措施」。Character.AI 于 10 月申请破产，此前多年间深陷丑闻与法律挑战，其中包括来自迪士尼的诉讼。',
+    'Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains': '英国金融行为监管局（FCA）警告称，在 Meta 拒绝其共同测试请求后，AI 智能体可能带来「另一种攻击力量」。该公司在周二于英国推出个人智能体之前，回绝了 FCA 提出的合作测试请求。',
 }
