@@ -1220,5 +1220,7 @@
   "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell": "Rachel Shalom 介绍了戴尔如何通过微调开源嵌入模型，解决内部术语导致的企业 RAG 检索失败问题。她讨论了难负样本的数据准备、在 H100 GPU 上进行分布式 InfoNCE 损失训练、自动化超参数调优，以及采用 LLM-as-a-judge 进行生产环境评估。",
   "Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference": "在开始运行之前，了解微软的实测数据会有所帮助。",
   "GigaChat 4 Debuts With 1M-Token Context and Two Model Sizes": "GigaChat 团队于 2026 年 11 月 26 日宣布推出 GigaChat 4，发布 708B 与 37B 参数的混合专家（MoE）模型，原生支持 100 万 token 上下文窗口。两者每个 token 仅激活部分参数，支持工具调用与多步骤智能体任务，并可在同一检查点内按请求选择「即时」或「推理」响应。旗舰版 708B-A41B 每 token 约激活 41B 参数，紧凑版 37B-A4B 约激活 3.8B 参数。",
-  "ROBOTERA Deploys 45 Humanoid Robots at China Post’s Hangzhou Hub": "ROBOTERA 在 2026 年 11 月 26 日的公告中披露，其 45 台人形机器人正在中国邮政杭州邮件处理中心进行包裹导入测试。中国邮政杭州中心于 2026 年 4 月正式启动该测试项目。ROBOTERA 称，这是全国同类邮政运营中规模最大的机器人测试部署。"
+  "ROBOTERA Deploys 45 Humanoid Robots at China Post’s Hangzhou Hub": "ROBOTERA 在 2026 年 11 月 26 日的公告中披露，其 45 台人形机器人正在中国邮政杭州邮件处理中心进行包裹导入测试。中国邮政杭州中心于 2026 年 4 月正式启动该测试项目。ROBOTERA 称，这是全国同类邮政运营中规模最大的机器人测试部署。",
+  "SIMMTECH Approves Two KRW 150B Perpetual Bonds for AI Substrate Expansion": "SIMMTECH 董事会于 2026 年 11 月 26 日批准发行两项各 1500 亿韩元的私人永久债券，用于扩大面向 AI 的 SOCAMM 模组基板与高层 MSAP 基板产能。相关可转换债券及附认股权证债券决议已通过韩国 DART 公司披露系统提交。第 11 期证券为无担保的私人永久可转换债券；第 12 期为无担保、不可分离的私人永久债券。",
+  "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040": "美国联邦通信委员会（FCC）已批准 SpaceX 部署多达 100 万颗 Starmind 卫星，将其作为轨道数据中心处理 AI 数据。SpaceX 计划于 2027 年首次发射，整个星座预计在 2040 年前投入运行。Google 与蓝色起源也在推进太空 AI 基础设施，但波士顿咨询集团估计，目前太空数据中心的成本仍将远高于地面数据中心。"
 }
