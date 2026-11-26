@@ -3027,6 +3027,7 @@ TITLE_OVERRIDES = {
     'Quoting Jack Despain Zhou': '引用杰克·德斯潘·周的观点',
     'GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error': 'OpenAI 修复计费错误后，GPT-6.2 Astra 用户触及用量上限快了 40%',
     'Prefix Caching and Prompt Reuse': '前缀缓存与提示词复用',
+    'Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it': '前 OpenAI 研究员称，黎曼猜想证明的意义不及 AI 系统能够给出证明这件事重要',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6049,4 +6050,5 @@ SUMMARY_OVERRIDES = {
     'Quoting Jack Despain Zhou': 'AI 已经带来的诸多影响中，有一项是明显的「去个性化」。我打开一段 YouTube 视频，听到的是 Claude；参加一场会议演讲，听到的还是 Claude；打开邮箱，看到一些看似严肃的人——带着看似严肃的资历、供职于看似严肃的机构，想发表一些挂着我与他们名头的文章——我看到的依然是 Claude。',
     'GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error': 'OpenAI 表示，一项计费漏洞让 GPT-6.2 用户获得了错误的折扣。修复后，Astra 与 Sol 用户触及用量上限的速度较上周分别快了 40% 和 25%。作为致歉，订阅用户可获得一次额外的额度重置，企业用户可在年底前免费使用快速模式。OpenAI 还在测试将聊天模式与工作模式合并。',
     'Prefix Caching and Prompt Reuse': '概览：本文分为五部分——• 复用预填充计算 • 寻找最长缓存前缀 • 块哈希、基数树与兼容性 • 面向复用的提示词设计 • 容量与度量。在预填充阶段，每一层都会为提示词中的每个 token 计算键和值。',
+    'Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it': '复杂性理论家、前 OpenAI 研究员 Scott Aaronson 认为，AI 近期的数学突破意义远超学术界本身。他写道，其潜在影响从重塑全球经济到威胁地球上的全部生命。他还表示「几乎可以肯定」，AI 实验室在密码学领域握有「一颗或多颗重磅炸弹」。',
 }
