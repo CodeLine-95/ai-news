@@ -1201,6 +1201,8 @@ TITLE_OVERRIDES = {
     'Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future': '谷歌定制 AI 视频信息流专利，勾勒娱乐业未来的黯淡图景',
     'Fireworks AI Adds Tencent’s Hy4 Flash to Its Serverless API': 'Fireworks AI 将腾讯 Hy4 Flash 上线其无服务器 API',
     'Tempus AI Secures $385M Term Loan Facility to Fund Personalis Deal': 'Tempus AI 获得 3.85 亿美元定期贷款融资，用于推进 Personalis 收购',
+    'Quoting Scott Aaronson': '引用斯科特·亚伦森（Scott Aaronson）的观点',
+    'S&P Global Ratings Puts NVIDIA’s AA Ratings on CreditWatch': '标普全球评级将英伟达（NVIDIA）AA 评级列入信用观察名单',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2401,4 +2403,6 @@ SUMMARY_OVERRIDES = {
     'Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future': '去年，谷歌申请了一项名为 My Channel 的系统专利，旨在基于其掌握的用户信息，生成充满个性化 AI 视频与广告的信息流。该专利已被驳回，但谷歌仍可能上诉或重新提交修订版本，届时这种「怪物」或许真会进入市场。',
     'Fireworks AI Adds Tencent’s Hy4 Flash to Its Serverless API': 'Fireworks AI 于 2026 年 11 月 25 日将腾讯开放权重的 Hy4 Flash 接入其无服务器 API。标准版定价为每百万输入 token 0.07 美元、每百万输出 token 0.281 美元。官方公布的基准测试将该模型定位为面向专业工作与智能体任务的低成本选择。缓存输入价格为每百万 token 0.003 美元；另提供优先版，服务面向全球开放。',
     'Tempus AI Secures $385M Term Loan Facility to Fund Personalis Deal': '根据 8-K 文件，Tempus AI 于 2026 年 11 月 25 日签署高级担保信贷协议，获得 3.85 亿美元定期贷款承诺与 1.15 亿美元循环信贷承诺，用于资助尚在推进的 Personalis 收购交易。另据 2026 年 11 月 24 日的决定，Tempus 选择向 Personalis 股东支付约 6 亿美元现金，并发行约 9 亿美元的 Tempus A 类普通股。',
+    'Quoting Scott Aaronson': '现在显而易见，我们迎来的将不是针对这个或那个复杂性问题的一次性解答，而是一片全新的数学真理大陆——此前我们只能透过迷雾隐约窥见它。想象一下列文虎克首次把显微镜对准池水，或伽利略首次把望远镜对准星空。这或许能让你体会到，我们如今对复杂性理论宇宙、乃至其之外整个数学真理宇宙的分辨能力有了怎样的提升。',
+    'S&P Global Ratings Puts NVIDIA’s AA Ratings on CreditWatch': '标普全球评级（S&P Global Ratings）于 2026 年 11 月 25 日将英伟达（NVIDIA）的 AA 发行人信用评级与 AA 高级无担保债务评级列入信用观察名单（CreditWatch），理由是对董事会独立性、高管监督与继任规划的担忧。该机构表示，若进一步尽职调查发现治理缺陷依然存在，可能在 90 天内下调英伟达评级。评级本身获得确认，信用观察名单意味着评级面临潜在下调的复查。',
 }
