@@ -1,0 +1,26 @@
+{
+  "time": "2026-11-26 09:16",
+  "type": "例行巡检（每小时）",
+  "service_online": true,
+  "startup_catchup": true,
+  "local_total": 2897,
+  "local_translated": 2897,
+  "online_total": 2897,
+  "online_translated": 2897,
+  "coverage": "2897/2897 (100%)",
+  "new_items": 0,
+  "last_update": "2026-11-26T09:16:07+08:00",
+  "next_update": "2026-11-26T10:00:00+08:00",
+  "entry_before_rules": 0,
+  "metrics_padding": "0px (四向)",
+  "theme_modes": [
+    "dark",
+    "light",
+    "auto"
+  ],
+  "auto_follows_system": true,
+  "sync_buttons": 0,
+  "retranslate": false,
+  "republish": false,
+  "git_push": false
+}
