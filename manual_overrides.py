@@ -1203,6 +1203,8 @@ TITLE_OVERRIDES = {
     'Tempus AI Secures $385M Term Loan Facility to Fund Personalis Deal': 'Tempus AI 获得 3.85 亿美元定期贷款融资，用于推进 Personalis 收购',
     'Quoting Scott Aaronson': '引用斯科特·亚伦森（Scott Aaronson）的观点',
     'S&P Global Ratings Puts NVIDIA’s AA Ratings on CreditWatch': '标普全球评级将英伟达（NVIDIA）AA 评级列入信用观察名单',
+    'New York Bans AI toys amid concern after stuffed animals going rogue': '纽约因担忧毛绒玩具失控而封禁 AI 玩具',
+    'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，语音 AI 创业公司 ElevenLabs 寻求以 330 亿美元估值进行新一轮融资',
 }
 
 SUMMARY_OVERRIDES = {
@@ -2405,4 +2407,6 @@ SUMMARY_OVERRIDES = {
     'Tempus AI Secures $385M Term Loan Facility to Fund Personalis Deal': '根据 8-K 文件，Tempus AI 于 2026 年 11 月 25 日签署高级担保信贷协议，获得 3.85 亿美元定期贷款承诺与 1.15 亿美元循环信贷承诺，用于资助尚在推进的 Personalis 收购交易。另据 2026 年 11 月 24 日的决定，Tempus 选择向 Personalis 股东支付约 6 亿美元现金，并发行约 9 亿美元的 Tempus A 类普通股。',
     'Quoting Scott Aaronson': '现在显而易见，我们迎来的将不是针对这个或那个复杂性问题的一次性解答，而是一片全新的数学真理大陆——此前我们只能透过迷雾隐约窥见它。想象一下列文虎克首次把显微镜对准池水，或伽利略首次把望远镜对准星空。这或许能让你体会到，我们如今对复杂性理论宇宙、乃至其之外整个数学真理宇宙的分辨能力有了怎样的提升。',
     'S&P Global Ratings Puts NVIDIA’s AA Ratings on CreditWatch': '标普全球评级（S&P Global Ratings）于 2026 年 11 月 25 日将英伟达（NVIDIA）的 AA 发行人信用评级与 AA 高级无担保债务评级列入信用观察名单（CreditWatch），理由是对董事会独立性、高管监督与继任规划的担忧。该机构表示，若进一步尽职调查发现治理缺陷依然存在，可能在 90 天内下调英伟达评级。评级本身获得确认，信用观察名单意味着评级面临潜在下调的复查。',
+    'New York Bans AI toys amid concern after stuffed animals going rogue': '纽约州州长凯西·霍楚尔（Kathy Hochul）今日签署立法，将对由人工智能聊天机器人驱动的儿童玩具实施为期五年的禁令。此前有担忧称，玩偶、机器人和毛绒玩具可能会误导儿童，甚至谈论成人内容。',
+    'Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation': '据报道，人工智能开发商 ElevenLabs Inc. 正就按 330 亿美元估值融资展开早期谈判。彭博社今日援引消息人士称，该公司计划在 2027 年第一季度完成此轮融资；部分投资人希望融资能更早完成。',
 }
