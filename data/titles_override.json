@@ -3013,5 +3013,6 @@
   "webframe: evaluated as a scraper and a sandbox": "网页框架：被评价为一个剪辑器和一个沙盒",
   "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead": "OpenAI 与 Anthropic 收紧数据访问后，中国 AI 开发商转向 Google 与 Meta",
   "Quoting Jack Despain Zhou": "引用杰克·德斯潘·周的观点",
-  "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error": "OpenAI 修复计费错误后，GPT-6.2 Astra 用户触及用量上限快了 40%"
+  "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error": "OpenAI 修复计费错误后，GPT-6.2 Astra 用户触及用量上限快了 40%",
+  "Prefix Caching and Prompt Reuse": "前缀缓存与提示词复用"
 }

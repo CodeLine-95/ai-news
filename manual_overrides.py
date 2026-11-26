@@ -3026,6 +3026,7 @@ TITLE_OVERRIDES = {
     'After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead': 'OpenAI 与 Anthropic 收紧数据访问后，中国 AI 开发商转向 Google 与 Meta',
     'Quoting Jack Despain Zhou': '引用杰克·德斯潘·周的观点',
     'GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error': 'OpenAI 修复计费错误后，GPT-6.2 Astra 用户触及用量上限快了 40%',
+    'Prefix Caching and Prompt Reuse': '前缀缓存与提示词复用',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6047,4 +6048,5 @@ SUMMARY_OVERRIDES = {
     'After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead': '中国的 AI 公司 Z.AI 与 Moonshot AI 不得不推迟下一代旗舰模型的发布，并正在寻找新的训练数据来源。',
     'Quoting Jack Despain Zhou': 'AI 已经带来的诸多影响中，有一项是明显的「去个性化」。我打开一段 YouTube 视频，听到的是 Claude；参加一场会议演讲，听到的还是 Claude；打开邮箱，看到一些看似严肃的人——带着看似严肃的资历、供职于看似严肃的机构，想发表一些挂着我与他们名头的文章——我看到的依然是 Claude。',
     'GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error': 'OpenAI 表示，一项计费漏洞让 GPT-6.2 用户获得了错误的折扣。修复后，Astra 与 Sol 用户触及用量上限的速度较上周分别快了 40% 和 25%。作为致歉，订阅用户可获得一次额外的额度重置，企业用户可在年底前免费使用快速模式。OpenAI 还在测试将聊天模式与工作模式合并。',
+    'Prefix Caching and Prompt Reuse': '概览：本文分为五部分——• 复用预填充计算 • 寻找最长缓存前缀 • 块哈希、基数树与兼容性 • 面向复用的提示词设计 • 容量与度量。在预填充阶段，每一层都会为提示词中的每个 token 计算键和值。',
 }
