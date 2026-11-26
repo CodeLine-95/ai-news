@@ -1203,5 +1203,7 @@
   "Your AI agents can be fully authorized and still do damage": "企业安全一直围绕一个核心问题展开：谁有权做什么？身份管理、零信任与最小权限原则都是为回答这个问题而生。互联网与移动设备把更多人和终端接入网络，改变了安全格局，但这一根本问题始终未变。",
   "XEBO.ai Raises $10.5M Series A to Expand Agentic AI and Analytics": "2026 年 11 月 26 日，XEBO.ai 宣布获得阿联酋增长基金（Emirates Growth Fund，EGF）1050 万美元 A 轮投资，该基金成为这家 AI 原生体验管理公司的首个机构投资者。资金将用于扩展更广泛的客户之声（VoC）产品组合，包括通话分析与数字体验分析，并进一步在平台上开发智能体 AI。",
   "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance": "在 Ignite 2026 大会上，微软将 Copilot 定位为「工作操作系统」（Work OS），并在 Azure、Foundry、Entra 和 Defender 全链条扩展智能体身份、治理与成本控制能力。亮点包括 Cobalt 200 虚拟机、Azure HorizonDB、Foundry 中的持续改进闭环、Microsoft IQ、独立的 Azure AI Gateway 以及 Windows Server 2028。",
-  "DeepL Launches Aure V2 with End-to-End Speech Translation": "2026 年 11 月 26 日，DeepL 在东京举办的首届 Unmute 峰会上推出 Aure v2，相比初代 Aure，其中位翻译延迟降低 50%。该模型已在 DeepL Voice 在线会议版、DeepL Voice 面对面交谈版以及语音版 DeepL API 中全面上线。不同于将音频依次经过转录、文本翻译和语音生成三个独立环节的传统流程，Aure v2 采用单一架构直接实现语音到语音的翻译。"
+  "DeepL Launches Aure V2 with End-to-End Speech Translation": "2026 年 11 月 26 日，DeepL 在东京举办的首届 Unmute 峰会上推出 Aure v2，相比初代 Aure，其中位翻译延迟降低 50%。该模型已在 DeepL Voice 在线会议版、DeepL Voice 面对面交谈版以及语音版 DeepL API 中全面上线。不同于将音频依次经过转录、文本翻译和语音生成三个独立环节的传统流程，Aure v2 采用单一架构直接实现语音到语音的翻译。",
+  "GeoIntelX to Apply AI to Angola’s National Geological Archives": "2026 年 11 月 26 日，GeoIntelX 宣布与安哥拉地质研究所及勘探合作方 Ivanhoe Mines 联手，运用人工智能处理安哥拉跨越一个多世纪的历史地质记录。Ivanhoe Mines 正在资助该平台在安哥拉的落地，包括数字化历史地质图、报告及其他保存在该国地质档案中的实体记录。",
+  "Skanska Wins Additional Award for New Georgia Data Center": "斯坎斯卡（Skanska）于 2026 年 11 月 26 日宣布，从现有客户处获得一份追加合同，将在美国佐治亚州新建一座 48 兆瓦数据中心。该合同价值约 2.75 亿美元（约合 28 亿瑞典克朗），将计入公司 2026 年第四季度的美国订单。这一分类很关键：公告将已签约的工作计入订单簿，而非把全部金额记为已确认收入。"
 }
