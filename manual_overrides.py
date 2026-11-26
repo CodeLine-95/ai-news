@@ -3030,6 +3030,11 @@ TITLE_OVERRIDES = {
     'Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it': '前 OpenAI 研究员称，黎曼猜想证明的意义不及 AI 系统能够给出证明这件事重要',
     'Nvidia hits pause on chip shipments to Southeast Asia': '英伟达暂停向东南亚发运芯片',
     'Canada Invests $700 Million More to Expand AI Compute Access Fund': '加拿大再投 7 亿美元扩大 AI 算力获取基金',
+    'AI Could Soon Edit Live Videos in Real Time': 'AI 很快就能实时编辑直播视频',
+    'Nvidia GPU Sellers Reject Any Chinese Rental Capacity, CNBC Reports': 'CNBC 报道：英伟达 GPU 卖家拒绝向中国出租算力',
+    'Moonshot AI Begins Distilling From Google and Meta Models Amid Delays': '模型延期之际，月之暗面开始从 Google 和 Meta 模型中蒸馏',
+    'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': 'Anthropic 上市之际，《侠盗猎车手 VI》证明效率为何不是美德',
+    'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': 'Slack 与 ClickUp 对比：哪个更适合团队协作与项目交付？',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6055,4 +6060,9 @@ SUMMARY_OVERRIDES = {
     'Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it': '复杂性理论家、前 OpenAI 研究员 Scott Aaronson 认为，AI 近期的数学突破意义远超学术界本身。他写道，其潜在影响从重塑全球经济到威胁地球上的全部生命。他还表示「几乎可以肯定」，AI 实验室在密码学领域握有「一颗或多颗重磅炸弹」。',
     'Nvidia hits pause on chip shipments to Southeast Asia': '随着美国加紧阻止 AI 芯片流入中国，英伟达已通知制造合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器。',
     'Canada Invests $700 Million More to Expand AI Compute Access Fund': '加拿大政府于 2026 年 11 月 26 日追加 7 亿美元，将 AI 算力获取基金规模扩大至 10 亿美元，并面向医疗与生命科学项目启动专项征集。人工智能与数字创新部长 Evan Solomon 在多伦多宣布了下一阶段计划。',
+    'AI Could Soon Edit Live Videos in Real Time': '现场视频让观众与事件进程保持直接连接，既能跟上事态发展，也能在语境中听到发言人的声音。AI 驱动的编辑可以在语音播出前重新塑造这种连接。例如，微软近期公布的专利申请提出替换口述词语并调整唇部动作，以接近实时地匹配改动后的语音。',
+    'Nvidia GPU Sellers Reject Any Chinese Rental Capacity, CNBC Reports': 'CNBC 于 2026 年 11 月 26 日报道，英伟达芯片供应商已告知 Neocloud 运营商：若其计算容量将被租给中国公司，就不再提供 GPU。两名熟悉私人沟通内容的人士透露了此事。',
+    'Moonshot AI Begins Distilling From Google and Meta Models Amid Delays': '路透社 2026 年 11 月 26 日报道称，Z.ai 在 GLM-5.5 上进度落后，其下一款旗舰模型约有 3 万亿参数。与此同时，月之暗面（Moonshot AI）已开始从 Google 和 Meta 的模型中蒸馏，因为 OpenAI 等模型的训练数据变得难以获取。蒸馏是指用能力更强的模型生成的答案来训练另一个系统。',
+    'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': '在 Anthropic 上市当天，一款精心打磨的游戏成为史上最成功的娱乐产品之一。',
+    'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': '热闹的团队频道并不意味着项目能按时交付：对话在发生，但负责人、逾期任务与依赖关系无人可靠掌握。Slack 与 ClickUp 解决的是问题的不同侧面——Slack 把人和已接入的工具带入对话，ClickUp 则包含聊天与协作文档。当核心需求是跨部门沟通且已在使用相关工具时，Slack 更合适；若需要组织、监控工作记录，ClickUp 更合适。',
 }
