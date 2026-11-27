@@ -1,8 +1,9 @@
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
 
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
+const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1116_0500';
+const STAMP = 'deliverable_1128_0500';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -29,11 +30,12 @@ async function checkStyles(page) {
     res.entries = document.querySelectorAll('.entry').length;
     res.data_theme = document.documentElement.getAttribute('data-theme');
     res.data_view = document.documentElement.getAttribute('data-view');
+    res.theme_btns = Array.from(document.querySelectorAll('#themeToggle .seg-btn')).map(b => b.dataset.theme);
     return res;
   });
 }
 
-async function shoot(pw, name, opts) {
+async function shoot(pw, url, name, opts) {
   const browser = await pw.launch({ args: ['--no-sandbox'] });
   const ctx = await browser.newContext({
     viewport: { width: 1440, height: 1100 },
@@ -42,7 +44,7 @@ async function shoot(pw, name, opts) {
     colorScheme: opts.colorScheme || 'light',
   });
   const page = await ctx.newPage();
-  await page.goto(LOCAL, { waitUntil: 'networkidle', timeout: 90000 });
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
   await page.waitForTimeout(2000);
   if (opts.theme) {
@@ -63,9 +65,11 @@ async function shoot(pw, name, opts) {
 
 (async () => {
   const r = {};
-  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' });
-  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' });
-  r.auto = await shoot(chromium, 'auto', { theme: 'auto', colorScheme: 'dark' });
-  r.en = await shoot(chromium, 'en', { theme: 'light', view: 'en', colorScheme: 'light' });
+  r.light = await shoot(chromium, LOCAL, 'light', { theme: 'light', colorScheme: 'light' });
+  r.dark = await shoot(chromium, LOCAL, 'dark', { theme: 'dark', colorScheme: 'dark' });
+  r.autoDark = await shoot(chromium, LOCAL, 'auto_dark', { theme: 'auto', colorScheme: 'dark' });
+  r.autoLight = await shoot(chromium, LOCAL, 'auto_light', { theme: 'auto', colorScheme: 'light' });
+  r.en = await shoot(chromium, LOCAL, 'en', { theme: 'light', view: 'en', colorScheme: 'light' });
+  r.online = await shoot(chromium, ONLINE, 'online', { theme: 'dark', colorScheme: 'dark' });
   console.log('\nDONE', JSON.stringify(r));
 })();
