@@ -3035,6 +3035,7 @@ TITLE_OVERRIDES = {
     'Moonshot AI Begins Distilling From Google and Meta Models Amid Delays': '模型延期之际，月之暗面开始从 Google 和 Meta 模型中蒸馏',
     'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': 'Anthropic 上市之际，《侠盗猎车手 VI》证明效率为何不是美德',
     'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': 'Slack 与 ClickUp 对比：哪个更适合团队协作与项目交付？',
+    'SAP reportedly plans to lay off 10,000+ employees amid AI push': '据报道，SAP 在 AI 推进过程中计划裁员逾 1 万人',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6065,4 +6066,5 @@ SUMMARY_OVERRIDES = {
     'Moonshot AI Begins Distilling From Google and Meta Models Amid Delays': '路透社 2026 年 11 月 26 日报道称，Z.ai 在 GLM-5.5 上进度落后，其下一款旗舰模型约有 3 万亿参数。与此同时，月之暗面（Moonshot AI）已开始从 Google 和 Meta 的模型中蒸馏，因为 OpenAI 等模型的训练数据变得难以获取。蒸馏是指用能力更强的模型生成的答案来训练另一个系统。',
     'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': '在 Anthropic 上市当天，一款精心打磨的游戏成为史上最成功的娱乐产品之一。',
     'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': '热闹的团队频道并不意味着项目能按时交付：对话在发生，但负责人、逾期任务与依赖关系无人可靠掌握。Slack 与 ClickUp 解决的是问题的不同侧面——Slack 把人和已接入的工具带入对话，ClickUp 则包含聊天与协作文档。当核心需求是跨部门沟通且已在使用相关工具时，Slack 更合适；若需要组织、监控工作记录，ClickUp 更合适。',
+    'SAP reportedly plans to lay off 10,000+ employees amid AI push': '据报道，企业软件巨头 SAP SE 计划裁员至少 1 万名员工，占其员工总数的 9% 以上。彭博社今日援引消息人士称，这项重组计划的范围仍可能调整。',
 }
