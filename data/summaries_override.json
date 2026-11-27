@@ -3048,5 +3048,9 @@
   "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?": "在《GTA 6》以 37.9 亿美元创纪录销量发售主机版仅几天后，就有 40 多个项目试图通过逆向工程将泄露的 Xbox 版本移植到 PC 上。Claude Code 等 AI 编码智能体大幅加快了这一进程，以至于一个早期的非官方多人模式已经跑了起来。Rockstar 推迟 PC 版发行的商业模式正面临压力。",
   "SAP Could Cut at Least 10,000 Jobs in Reported AI Overhaul": "彭博社 2026 年 11 月 26 日援引知情人士报道，SAP 正准备一项计划，在其为适应 AI 而重塑软件业务的过程中裁减至少 1 万个岗位；该报道由 CNBC 于 2026 年 11 月 27 日转载。SAP 告诉 CNBC，AI 正在迅速改变其商业环境，促使公司不断审视组织与员工队伍需要如何演进，岗位与职能将在此次转型中发生变化。",
   "Jensen Huang returns, but controversies keep growing around Nvidia": "黄仁勋回来了，但并非所有人都乐见其成。英伟达董事会周一撤销了这位前任兼现任 CEO 的辞职，显然是在知名商业天才、即将卸任总统的唐纳德·特朗普施压之下——他担心没有黄仁勋掌舵，股市与 AI 交易将受到冲击。",
-  "A World Model to Predict What You’ll Look at Next": "使用老旧的基于自动编码器的 FaceSwap 程序（或更流行的 DeepFaceLab，它也有完全相同的问题）时，最令人头疼的一点，就是想让一个人要么看向镜头、要么不看向镜头：如果训练数据里没有足够的「眼神接触」——也就是面对镜头的样本，那么用它训练出的模型就根本没有数据来生成那条视线，因为模型把仅有的几个面对镜头的样本当成了训练数据中的异常值而剔除。"
+  "A World Model to Predict What You’ll Look at Next": "使用老旧的基于自动编码器的 FaceSwap 程序（或更流行的 DeepFaceLab，它也有完全相同的问题）时，最令人头疼的一点，就是想让一个人要么看向镜头、要么不看向镜头：如果训练数据里没有足够的「眼神接触」——也就是面对镜头的样本，那么用它训练出的模型就根本没有数据来生成那条视线，因为模型把仅有的几个面对镜头的样本当成了训练数据中的异常值而剔除。",
+  "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models": "Yann LeCun 正通过初创公司 AMI Labs 推进其语言模型替代方案。JEPA 架构旨在为机器提供一个捕捉因果关系的内部世界模型。三项新研究在机器人规划、更高效的训练与纠错方面取得进展，尽管这些模块仍需协同发展。",
+  "Vikram Srivats, CCO & Head of Product Experience at WaveMaker – Interview Series": "Vikram Srivats 现任 WaveMaker 首席商务官兼产品体验负责人。他的职业经历涵盖手持计算、无线技术、物联网与企业软件。他专注于将新兴技术转化为企业级可维护应用所需的架构与组织条件，尤其强调代码所有权、设计一致性与工程纪律。",
+  "Hackers breached the US Air Force's flagship Cloud One platform, report says": "黑客攻破了美国空军的旗舰云平台。",
+  "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork": "OpenAI 在 ChatGPT 工作版中的数据智能体仍不够准确。该公司正以「Athena」为代号构建语义层，为智能体提供业务指标的标准化定义。该工具也可能让 OpenAI 与 Snowflake、Databricks 直接竞争。"
 }
