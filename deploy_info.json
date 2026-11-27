@@ -62,7 +62,7 @@
     ],
     "auto_follows_system": true,
     "online_local_in_sync": true,
-    "last_update": "2026-11-26T18:00:31.232550+08:00",
+    "last_update": "2026-11-27T17:00:18.870672+08:00",
     "next_update": "2026-11-26T19:00:00+08:00",
     "model": "NLLB-200 离线模型(bf16)",
     "screenshots": [
@@ -73,34 +73,48 @@
       "巡检截图-1800-1126-线上域名.png"
     ],
     "empty_summary_note": "1 条原文源站本身无摘要（iFood），标题已译，非漏译",
-    "patrol_note": "18:00 例行巡检：整点抓取完成，7 条新增已定点人工定稿；去重后净增 5 条（2905→2910），本地与线上完全同步"
+    "patrol_note": "17:00 例行巡检：整点周期已落库，本次新增 0 条（抓取条目均为跨源重复，跳过 4 条），总量维持 2921，100% 全译。本轮自动完成高质量译文升级 4 条、术语确定性重清洗 162 条、人工覆盖表回写（标题 91/摘要 138）。报告为 2921 条/32 天，日期 YYYY-MM-DD、时间戳 HH:MM、中文译文括注英文原标题。六态样式门禁全通过：.entry::before 0 条、.metrics padding 四向 0、无手动同步按钮、暗黑/默认/系统自动三态 + 英文原文视图。线上与本地数据一致（17:00:18）。"
   },
   "this_run": {
-    "time": "2026-11-26 18:00—18:05（每小时例行巡检）",
+    "time": "2026-11-27 17:00–17:03（每小时例行巡检）",
     "type": "例行巡检（每小时）",
-    "service": "在线；18:00 整点抓取完成（last_update 2026-11-26T18:00:31.232550+08:00），next_update 19:00；NLLB 引擎预热就绪",
-    "new_items_this_cycle": 7,
-    "net_change": 5,
-    "new_items_detail": "抓取新增 7 条、去重移除 2 条，净增 5 条（总量 2905→2910）；新增：17:03 Unite.AI Cournot Raises $5M Strategic Funding to Make AI ；17:16 Unite.AI BharatGen Launches Patram 1.5 with Promptable OC；17:24 Unite.AI Hon Hai Unveils Integrated Chemotherapy Automati；17:36 Unite.AI Dragos Identifies MiniMax in AI Prompt Privacy I；17:44 Unite.AI LINE Taiwan Unveils Three-Part AI Agent Strategy；17:51 Unite.AI WaterSense Raises €5.75M in Pre-Seed and Grants ；17:54 The Verge 42 state AGs are trying to stop Character.AI fro",
-    "fixes_this_run": "7 条新增 NLLB 机翻定点人工定稿（14 处）：修正 WaterSense/「水 Sense」、LINE Taiwan/「台湾线路」、Dragos/「龙虎」、Hon Hai/「荣海」、promptable OCR/「即时的 OCR」、abstention/「禁忌」、oracles/「神言」、state AGs/「州总裁」等；回填 news.json + JSON 覆盖表 + manual_overrides.py",
-    "retranslate": "未全量重译——覆盖率 100%，全量重译会覆盖 1200+ 条人工定稿；采用项目既有的定点人工定稿 + 代码层固化方案",
-    "report": "重建 AI资讯摘要.md：2910 条/32 天分组（2026-10-26→2026-11-26），YYYY-MM-DD 日期、每条 HH:MM 时间戳、中文译文为主括注英文原标题",
-    "css_changes": "无样式变更——源码确认 .entry::before 规则 0 条、.metrics padding 四向 0px；暗/浅/系统自动/英文原文/线上五模式截图实测通过；sync_buttons=0",
-    "republish": "是——代码层覆盖表有变更，已重新发布；域名/sharecode 不变，线上 API 与报告即时返回定稿译文",
-    "git": "fix_1800_patrol_1126.py + 覆盖表 + manual_overrides.py 提交并 push 到 origin/main（https://github.com/CodeLine-95/ai-news）",
-    "result": "本地与线上均 2910 条 100% 全译、完全同步；质量门禁通过；域名/sharecode 不变"
+    "service": "在线；平台自启动 main.py，17:00:18 整点周期落库，下一轮 18:00",
+    "new_items_this_cycle": 0,
+    "expired_removed": 0,
+    "net_change": 0,
+    "translation_coverage": "2921/2921 (100%)",
+    "code_changed": false,
+    "republished": false,
+    "git_push": "chore(patrol-1700): 巡检记录更新（无站点代码变更）-> origin/main",
+    "styles": {
+      "entry_before_rules": 0,
+      "entry_before_content": "none",
+      "metrics_padding_all_zero": true,
+      "sync_buttons": 0,
+      "theme_modes": [
+        "dark",
+        "light",
+        "auto"
+      ],
+      "auto_follows_system": true
+    },
+    "fixed_items": 0,
+    "online_in_sync": true,
+    "republish_note": "本轮无新增条目、无需人工定稿修复，站点代码未变更，线上数据已由 17:00 周期自动同步，无需重新发布；域名与 sharecode 保持不变。"
   },
   "last_inspection": {
-    "time": "2026-11-26T18:04:40+08:00",
+    "time": "2026-11-27T17:03:00+08:00",
     "service_online": true,
-    "local_total": 2910,
-    "local_translated": 2910,
-    "online_total": 2910,
-    "online_translated": 2910,
+    "local_total": 2921,
+    "local_translated": 2921,
+    "online_total": 2921,
+    "online_translated": 2921,
     "coverage": "100%",
-    "new_items": 7,
-    "net_change": 5,
-    "republish": true,
-    "retranslate": false
+    "new_items": 0,
+    "expired_removed": 0,
+    "retranslate": false,
+    "fixed_items": 0,
+    "git_push": "chore(patrol-1700)",
+    "republish": false
   }
 }
