@@ -3036,6 +3036,9 @@ TITLE_OVERRIDES = {
     'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': 'Anthropic 上市之际，《侠盗猎车手 VI》证明效率为何不是美德',
     'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': 'Slack 与 ClickUp 对比：哪个更适合团队协作与项目交付？',
     'SAP reportedly plans to lay off 10,000+ employees amid AI push': '据报道，SAP 在 AI 推进过程中计划裁员逾 1 万人',
+    'Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache': '腾讯开源 DFly2：复用目标模型稀疏 KV 缓存的投机解码',
+    'nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in': 'nexos.ai AI 采用平台将 200 多个模型统一接入一个 AI 网关，内置预算限制与治理能力',
+    'Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano': 'Sakana AI 发布 Namazu Small：基于 Nemotron 3 Nano 的 300 亿参数推理模型',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6067,4 +6070,7 @@ SUMMARY_OVERRIDES = {
     'As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue': '在 Anthropic 上市当天，一款精心打磨的游戏成为史上最成功的娱乐产品之一。',
     'Slack vs. ClickUp: Which Is Better for Teamwork and Project Delivery?': '热闹的团队频道并不意味着项目能按时交付：对话在发生，但负责人、逾期任务与依赖关系无人可靠掌握。Slack 与 ClickUp 解决的是问题的不同侧面——Slack 把人和已接入的工具带入对话，ClickUp 则包含聊天与协作文档。当核心需求是跨部门沟通且已在使用相关工具时，Slack 更合适；若需要组织、监控工作记录，ClickUp 更合适。',
     'SAP reportedly plans to lay off 10,000+ employees amid AI push': '据报道，企业软件巨头 SAP SE 计划裁员至少 1 万名员工，占其员工总数的 9% 以上。彭博社今日援引消息人士称，这项重组计划的范围仍可能调整。',
+    'Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache': '腾讯开源了 DFly2——一款为原生稀疏大模型设计的投机解码草稿模型。DFly2 面向 DeepSeek-V4.1-Flash、GLM-5.3-Flash 以及腾讯自研 Hy4 flash 等模型。其核心特点是草稿模型不保留自己的 KV 缓存，这对长上下文与智能体服务至关重要，因为草稿显存会与并发量争夺资源。要点：规格方面，随 Hy4 flash 提供 0.85B 参数、5 层的草稿模型；运行方面，服务测试使用 NVIDIA H20 GPU 与 vLLM，每实例 TP8，Hy4 flash 的 vLLM 方案默认 8×H200；性能方面，在全部 3 个目标模型和通用基准上，草稿接受率均高于同配置的 DFlash 与 DSpark；最佳情形是在 DeepSeek-V4.1-Flash（SWE 64K）上吞吐最高提升 81%，且保持相同的单用户速度；最弱情形是在 Hy4 flash 通用任务上，温度 0 时仅比 DSpark 高 3.9%。',
+    'nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in': 'nexos.ai 是一站式企业 AI 采用平台，为每个团队提供全面的管控与治理。其核心 AI 网关将所有大模型请求路由至统一层，在此统一施加预算、策略与审计追踪。本文说明它如何管理用量、优化 AI 支出，并满足欧盟企业的合规要求。要点：治理方面，可集中设定谁使用哪些模型、配置预算与用量上限、管理权限；合规方面，通过 SOC 2 Type 2、ISO 27001、ISO 42001 认证，并完全符合 GDPR；成本控制方面，智能路由与大模型缓存可优化 AI 支出，成本追踪可将每笔开销归集到团队、项目或用户；欧洲托管方面，平台及多数可用模型均在欧洲托管，零数据留存、不用客户数据训练。',
+    'Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano': 'Sakana AI 宣布推出 Sakana Namazu Small——一款基于 NVIDIA Nemotron 3 Nano 构建的 300 亿参数推理模型。这家位于日本的实验室从 Nemotron 3 Nano 的预训练底座出发，在内部完成了持续预训练与后训练。Sakana AI 团队称，该模型在 25 项基准测试的平均成绩上超过了 NVIDIA 的 120B 参数 Nemotron 3 Super。要点：规模方面，总参数 300 亿、激活参数 30 亿（Sakana 图表中标注为 30B-A3B）；上下文长度未披露；运行硬件未披露，Sakana 称其小到足以在自有环境中运行，Nemotron 3 Nano 底座面向 DGX Spark、H100 与 B200 GPU 设计；性能方面，25 项基准平均 60.1 分，领先 Nemotron 3 Super（56.2）与 Nano（50.2），成绩为自报；最佳成绩为 BrowseComp 73.5，约为 Nemotron 3 Super 36.1 的两倍；最差为 SimpleQA Verified 6.8，低于 Nemotron 3 Nano（9.1）和 Super（18.1）。',
 }
