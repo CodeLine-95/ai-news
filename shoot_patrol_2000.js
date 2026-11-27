@@ -1,17 +1,15 @@
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
-
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'patrol_2000_1125';
+const STAMP = '巡检截图-2000';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
     const res = {};
     let beforeCount = 0;
     for (const sheet of document.styleSheets) {
-      let rules;
-      try { rules = sheet.cssRules; } catch (e) { continue; }
+      let rules; try { rules = sheet.cssRules; } catch (e) { continue; }
       for (const rule of rules) {
         if (rule.selectorText && rule.selectorText.includes('.entry::before')) beforeCount++;
       }
@@ -28,32 +26,28 @@ async function checkStyles(page) {
     const btns = Array.from(document.querySelectorAll('button, a'));
     res.sync_buttons = btns.filter(b => /同步|sync|refresh|刷新/i.test(b.textContent || '')).map(b => (b.textContent || '').trim());
     res.entries = document.querySelectorAll('.entry').length;
-    res.theme_mode = localStorage.getItem('themeMode');
     res.data_theme = document.documentElement.getAttribute('data-theme');
-    res.body_bg = getComputedStyle(document.body).backgroundColor;
     return res;
   });
 }
 
-async function shoot(pw, name, opts, url) {
+async function shoot(pw, url, name, opts) {
   const browser = await pw.launch({ args: ['--no-sandbox'] });
   const ctx = await browser.newContext({
-    viewport: { width: 1440, height: 1100 },
-    device_scale_factor: 2,
-    locale: 'zh-CN',
-    colorScheme: opts.colorScheme || 'light',
+    viewport: { width: 1440, height: 1100 }, device_scale_factor: 2,
+    locale: 'zh-CN', colorScheme: opts.colorScheme || 'light',
   });
   const page = await ctx.newPage();
   await page.goto(url, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
-  await page.waitForTimeout(1500);
+  await page.waitForTimeout(2000);
   if (opts.theme) {
     await page.click(`#themeToggle button[data-theme="${opts.theme}"]`).catch(() => {});
-    await page.waitForTimeout(600);
+    await page.waitForTimeout(800);
   }
   if (opts.mode) {
     await page.click(`#viewToggle button[data-mode="${opts.mode}"]`).catch(() => {});
-    await page.waitForTimeout(800);
+    await page.waitForTimeout(1000);
   }
   const path = `${OUT}/${STAMP}_${name}.png`;
   await page.screenshot({ path, full_page: false });
@@ -67,29 +61,11 @@ async function shoot(pw, name, opts, url) {
   const fs = require('fs');
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const r = {};
-  r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' }, LOCAL);
-  r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' }, LOCAL);
-  r.auto_light = await shoot(chromium, 'auto_light', { theme: 'auto', colorScheme: 'light' }, LOCAL);
-  r.auto_dark = await shoot(chromium, 'auto_dark', { theme: 'auto', colorScheme: 'dark' }, LOCAL);
-  r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' }, LOCAL);
-  try { r.online = await shoot(chromium, 'online', { theme: 'light', colorScheme: 'light' }, ONLINE); }
-  catch (e) { r.online = { error: String(e).slice(0, 200) }; }
-
-  try {
-    const browser = await chromium.launch({ args: ['--no-sandbox'] });
-    const ctx = await browser.newContext({ viewport: { width: 900, height: 700 }, colorScheme: 'light' });
-    const page = await ctx.newPage();
-    await page.goto(LOCAL, { waitUntil: 'networkidle', timeout: 90000 });
-    await page.click('#themeToggle button[data-theme="auto"]').catch(() => {});
-    await page.waitForTimeout(500);
-    const before = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
-    await page.emulateMedia({ colorScheme: 'dark' });
-    await page.waitForTimeout(500);
-    const after = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
-    r.auto_dynamic = { before, after, follows_system: before === 'light' && after === 'dark' };
-    await browser.close();
-  } catch (e) { r.auto_dynamic = { error: String(e).slice(0, 200) }; }
-
+  r.light = await shoot(chromium, LOCAL, '默认浅色', { theme: 'light', colorScheme: 'light' });
+  r.dark = await shoot(chromium, LOCAL, '暗黑', { theme: 'dark', colorScheme: 'dark' });
+  r.auto = await shoot(chromium, LOCAL, '系统自动', { theme: 'auto', colorScheme: 'dark' });
+  r.en = await shoot(chromium, LOCAL, '英文原文视图', { theme: 'light', mode: 'en', colorScheme: 'light' });
+  r.online = await shoot(chromium, ONLINE, '线上', { colorScheme: 'light' });
   fs.writeFileSync(`${OUT}/${STAMP}_checks.json`, JSON.stringify(r, null, 2));
   console.log('\nDONE', JSON.stringify(r));
-})();
+})().catch(e => { console.error('ERR', e); process.exit(1); });
