@@ -3042,5 +3042,11 @@
   "SAP plans to cut at least 10,000 jobs as it pivots to AI": "据彭博社援引知情人士报道，SAP 正准备在一场大规模的 AI 重组中裁减至少 1 万个岗位。",
   "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight": "PyTorch 现已允许 AI 审查员批准来自其自身维护者的拉取请求（PR）。GreenLight 是 RADAR 的开源版本；RADAR 是 Meta 内部使用的系统，可在完成安全检查、风险评分与大模型审查后自动合并低风险改动。OpenAI、Anthropic 和 Sonar 也介绍了类似的自动审批方式，同时对高风险改动保留人工审核。",
   "Android’s DIY widgets are a bit of vibe-coding fun": "小组件，由你做主。图片：Allison Johnson / The Verge 除了打理我的日历，我还希望 AI 帮我做一件事：提醒我别错过公交车。我需要一个小组件，告诉我家附近站点的实时到站信息。在手机屏幕上点开正确的应用、选择站点，这套操作慢下来足以让我错过一班车。我需要的是一眼可见的信息，本指望安卓的「氛围编程」（vibe-coding）小组件功能能帮上忙。结果让我失望，但我倒是兴致勃勃地做了些别的小组件。谷歌在春季 I/O 大会上就宣布了用 AI 创建自定义小组件的能力。",
-  "Edge AI in 2027: Running Models Offline Becomes a Competitive Advantage": "设备不会因为模型需要更多 token 就获得更大的电池；运行另一个应用时也不会多出第二个内存池；网络断开时，客户仍期待产品照常工作。边缘 AI 就生活在这些物理限制之中。到 2027 年，这种在约束下的功力将成为卖点。最有说服力的演示，将展示设备在发热、断网、理想测试条件消失之后，还剩下多少真正可用的能力。"
+  "Edge AI in 2027: Running Models Offline Becomes a Competitive Advantage": "设备不会因为模型需要更多 token 就获得更大的电池；运行另一个应用时也不会多出第二个内存池；网络断开时，客户仍期待产品照常工作。边缘 AI 就生活在这些物理限制之中。到 2027 年，这种在约束下的功力将成为卖点。最有说服力的演示，将展示设备在发热、断网、理想测试条件消失之后，还剩下多少真正可用的能力。",
+  "AI Literacy Is the Missing Layer of Deepfake Defense": "检测工具越来越智能，但大多数深度伪造骗局依然得逞——因为电话另一端的人不知道该核查什么。这道缺口只有靠防范意识才能补上。2024 年 1 月，奥雅纳（Arup）香港办公室的一名财务员工收到一封邮件，发件人是公司位于英国的首席财务官，要求一笔机密转账。他起了疑心。随后，他被邀请与这位首席财务官及几位他认识的同事进行视频通话。",
+  "Next Wave of Payer AI: Managing Regulations, Costs, and Fragmented Systems all at once": "支付方（医保付款机构）的技术负责人正面临 AI 应用泛滥的局面：嵌入系统的 AI 工具与第三方智能体平台都承诺更快审计、更快决策、更少人工干预。演示效果令人印象深刻，但由于工作流集成与用户采用方面的挑战，核心运营人员仍在手工收集背景信息、解读政策、跨多个系统协调工作，并通过同样的队列推动案件流转。",
+  "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?": "在《GTA 6》以 37.9 亿美元创纪录销量发售主机版仅几天后，就有 40 多个项目试图通过逆向工程将泄露的 Xbox 版本移植到 PC 上。Claude Code 等 AI 编码智能体大幅加快了这一进程，以至于一个早期的非官方多人模式已经跑了起来。Rockstar 推迟 PC 版发行的商业模式正面临压力。",
+  "SAP Could Cut at Least 10,000 Jobs in Reported AI Overhaul": "彭博社 2026 年 11 月 26 日援引知情人士报道，SAP 正准备一项计划，在其为适应 AI 而重塑软件业务的过程中裁减至少 1 万个岗位；该报道由 CNBC 于 2026 年 11 月 27 日转载。SAP 告诉 CNBC，AI 正在迅速改变其商业环境，促使公司不断审视组织与员工队伍需要如何演进，岗位与职能将在此次转型中发生变化。",
+  "Jensen Huang returns, but controversies keep growing around Nvidia": "黄仁勋回来了，但并非所有人都乐见其成。英伟达董事会周一撤销了这位前任兼现任 CEO 的辞职，显然是在知名商业天才、即将卸任总统的唐纳德·特朗普施压之下——他担心没有黄仁勋掌舵，股市与 AI 交易将受到冲击。",
+  "A World Model to Predict What You’ll Look at Next": "使用老旧的基于自动编码器的 FaceSwap 程序（或更流行的 DeepFaceLab，它也有完全相同的问题）时，最令人头疼的一点，就是想让一个人要么看向镜头、要么不看向镜头：如果训练数据里没有足够的「眼神接触」——也就是面对镜头的样本，那么用它训练出的模型就根本没有数据来生成那条视线，因为模型把仅有的几个面对镜头的样本当成了训练数据中的异常值而剔除。"
 }
