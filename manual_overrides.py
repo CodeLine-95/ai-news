@@ -3014,7 +3014,7 @@ TITLE_OVERRIDES = {
     'Making machines that can listen': '制造能够倾听的机器',
     '"No human at the helm": Delaware plan would let AI agents run entire businesses': '「没有人掌控」：德拉华计划将允许 AI 智能体运营整个业务',
     'Learner collaborates with MIT peers to develop book of AI insights': '勒纳与麻省理工学院的同行合作，开发了一本人工智能洞察力书',
-    'Game Boy Color on My Conference Badge': '在我的会议章上，Game Boy 颜色',
+    'Game Boy Color on My Conference Badge': '我会议胸牌上的 Game Boy Color',
     'Industrial Intelligence: The next growth opportunity for manufacturing': '工业智能：制造业的下一个增长机会',
     'OpenAI expands partnership with Oracle to bring its apps to ChatGPT': 'OpenAI 扩大了与 Oracle 的合作伙伴关系，将其应用程序带到 ChatGPT',
     'GPT-6.1 Terra': 'GPT-6.1 Terra',
@@ -3062,6 +3062,7 @@ TITLE_OVERRIDES = {
     'Vikram Srivats, CCO & Head of Product Experience at WaveMaker – Interview Series': 'WaveMaker 首席商务官兼产品体验负责人 Vikram Srivats 访谈系列',
     "Hackers breached the US Air Force's flagship Cloud One platform, report says": '报道称黑客入侵美国空军旗舰平台 Cloud One',
     'OpenAI is building "Athena" data platform to cut down on AI agent guesswork': 'OpenAI 正在打造「Athena」数据平台，减少 AI 智能体的臆测',
+    'Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports': '彭博社报道：被禁的英伟达 Blackwell 芯片现身与 Alice Huang 关联的上海数据中心',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6073,7 +6074,7 @@ SUMMARY_OVERRIDES = {
     'Legora is building the agentic operating system for legal work': '看看 Legora 如何利用 OpenAI 模型，ChatGPT 和 Codex 来加快法律工作流程，扩大合同分析，并释放律师专注于更高价值的工作。',
     'Making machines that can listen': '蝙蝠的破裂，伴随着群众的声，可以吸引棒球球球迷的注意力，即使他们错过了主场比赛。人类可能是视觉生物，但我们也通过倾听它来看待我们周围的世界。为了提高人工感知，麻省理工学院的巴黎斯马拉迪斯教授 SM 97,PhD 01 试图制造能够比人类更好地听和理解声音的机器。超人听力的机器可以通过听到轮胎声和金属声来快速确定交通事故的位置，或者确定工业钻井可能会在经过密集的岩石中挖掘地热井时破裂。',
     'Learner collaborates with MIT peers to develop book of AI insights': '像今天的许多领导人一样，普拉巴·贾（Prabha Jha）感觉到人工智能对业务运营产生了重大影响。虽然技术的快速演变可能带来恐惧，不确定性和混乱，但贾选择了不同的反应：兴奋。她开始问自己，我如何成为这个一生中一次性的事情的一部分？贾从加尔各答大学获得了信息技术学士学位，并在 Verizon 工作时获得了 MBA，在那里她继续打造自己的职业生涯。当她寻找与人工智能更深入接触的教育机会时，MIT 很快成为了一个自然选择。长大时，贾认为麻省理工学院是任何在工程和技术领域的人的麦加，所以她自然转向了该研究所，寻找机会了解人工智能。',
-    'Game Boy Color on My Conference Badge': "我本周在 GitHub 宇宙，与去年一样，会议标志是一个全彩色屏幕计算机。我再次使用它，然后我遇到了史蒂夫·弗兰西亚。.。他们与 Gemini 合作，让一个完整的 NES 模拟器在上面工作，然后又走了一步，并部署了 Game Boy 和 Game Boy Color 的模拟器。这意味着，如果你能获得 ROM，你可以在你的会议上运行 The Legend elda 的：Link's Awakening！章的优雅特点是，你可以把它颠倒，然后使用游戏控制器触摸按，这些按是嵌入了章体内的。",
+    'Game Boy Color on My Conference Badge': '本周我在 GitHub Universe 大会现场，和去年一样，会议胸牌本身就是一台功能齐全的彩屏计算机。我再次动手折腾它，遇到了 Steve Francia——他与 Gemini 合作让完整的 NES 模拟器在胸牌上跑了起来，并且更进一步，部署了 Game Boy 与 Game Boy Color 模拟器。这意味着只要你能拿到 ROM，就能在胸牌上运行《塞尔达传说：织梦岛》。这个胸牌设计巧妙之处在于，你可以把它倒过来，用嵌入胸牌机身的触摸按键当作游戏手柄。',
     'OpenAI expands partnership with Oracle to bring its apps to ChatGPT': 'OpenAI 和 Oracle 正在扩大合作伙伴关系，将商业应用程序和 AI 智能体带入 ChatGPT，并推动新的 Oracle 产品。',
     'How Check Point accelerates vulnerability research with Daybreak': '通过 OpenAI Daybreak，Check Point 加速了新的安全保护背后的研究，使其分析师更快地将漏洞情报转化为客户防御。',
     'GPT-6.1 Terra': '在 GPT-6.1 Terra 的情况下，OpenAI 使用了视觉推理和计算机使用：我们正在介绍 GPT-6.1 Terra，一个快速，高效的模型，结合了详细的视觉推理和精确的计算机使用，以及更清晰，更自然的写作。与 GPT‐5.6 Terra 相比，它显著提升了工作日的通信和基于计算机的任务，从起草建议和解释技术图纸到填写表格和编辑视频。泰拉位于人类模型系列中的 Sonnet 的位置——不是最便宜的或最昂贵的，这使得决定使用时间变得更加困难。计算机使用是从更便宜的模型中获益的任务的一个好例子，因为你可以将其用于自动化，重复任务。',
@@ -6119,4 +6120,5 @@ SUMMARY_OVERRIDES = {
     'Vikram Srivats, CCO & Head of Product Experience at WaveMaker – Interview Series': 'Vikram Srivats 现任 WaveMaker 首席商务官兼产品体验负责人。他的职业经历涵盖手持计算、无线技术、物联网与企业软件。他专注于将新兴技术转化为企业级可维护应用所需的架构与组织条件，尤其强调代码所有权、设计一致性与工程纪律。',
     "Hackers breached the US Air Force's flagship Cloud One platform, report says": '黑客攻破了美国空军的旗舰云平台。',
     'OpenAI is building "Athena" data platform to cut down on AI agent guesswork': 'OpenAI 在 ChatGPT 工作版中的数据智能体仍不够准确。该公司正以「Athena」为代号构建语义层，为智能体提供业务指标的标准化定义。该工具也可能让 OpenAI 与 Snowflake、Databricks 直接竞争。',
+    'Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports': '据彭博社调查，两家中国公司在与 Alice Huang 相关联的一处上海数据中心安装了英伟达性能强劲的 Blackwell 芯片。一个序列号让彭博社追查到台湾制造商技嘉（Gigabyte）。在没有美国许可证的情况下将这些芯片出口到中国属于违法行为。',
 }
