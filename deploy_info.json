@@ -5,7 +5,7 @@
   "sharecode_required": true,
   "app": "ai-news-app",
   "port": 8080,
-  "published_at": "2026-11-25T15:08:00+08:00",
+  "published_at": "2026-11-27T16:05:00+08:00",
   "stack": "FastAPI + 静态前端 + 后台定时抓取（每小时整点）+ NLLB-200 离线翻译",
   "start_cmd": "python3.11 main.py",
   "auto_sync": "后端每小时整点自动抓取并写库（对齐整点，间隔恒为 3600s），每轮术语确定性重清洗 + 人工覆盖表回写；前端每 60 秒轮询 /api/news 自动刷新，全站无手动同步按钮",
@@ -31,15 +31,14 @@
     "Wired"
   ],
   "sources_unavailable": {
-    "VentureBeat": "数据中心 IP 被封禁（全路径返回 429），已判定为失效源（sources_silent）",
-    "MIT News AI": "偶发返回 3KB 空响应，本轮已恢复正常，调度中自动重试"
+    "VentureBeat": "数据中心 IP 被封禁（全路径返回 429），已判定为失效源（sources_silent）"
   },
   "report_file": "/workspace/ai-news/AI资讯摘要.md",
   "data_file": "/workspace/ai-news/data/news.json",
   "checks": {
-    "total_items": 2910,
-    "translated": 2910,
-    "translation_coverage": "2910/2910 (100%)",
+    "total_items": 2921,
+    "translated": 2921,
+    "translation_coverage": "2921/2921 (100%)",
     "day_groups": 32,
     "date_format": "YYYY-MM-DD",
     "timestamp_precision": "HH:MM",
@@ -49,8 +48,8 @@
     "date_format_error": 0,
     "time_format_error": 0,
     "duplicate_ids": 0,
-    "no_cjk": 7,
-    "accepted_verbatim_identifiers": "7 条为版本号/技术标识符保留原文，非漏译",
+    "no_cjk": 6,
+    "accepted_verbatim_identifiers": "6 条为版本号/技术标识符保留原文，非漏译",
     "entry_before_rules": 0,
     "entry_before_content": "none",
     "metrics_padding": "0px (四向)",
@@ -62,30 +61,29 @@
     ],
     "auto_follows_system": true,
     "online_local_in_sync": true,
-    "last_update": "2026-11-27T17:00:18.870672+08:00",
-    "next_update": "2026-11-26T19:00:00+08:00",
+    "last_update": "2026-11-27T18:00:27.101559+08:00",
+    "next_update": "2026-11-27T19:00:00+08:00",
     "model": "NLLB-200 离线模型(bf16)",
     "screenshots": [
-      "巡检截图-1800-1126-浅色.png",
-      "巡检截图-1800-1126-暗黑.png",
-      "巡检截图-1800-1126-系统自动深色.png",
-      "巡检截图-1800-1126-英文原文.png",
-      "巡检截图-1800-1126-线上域名.png"
+      "巡检截图-1800-默认浅色.png",
+      "巡检截图-1800-暗黑.png",
+      "巡检截图-1800-系统自动.png",
+      "巡检截图-1800-英文原文视图.png"
     ],
     "empty_summary_note": "1 条原文源站本身无摘要（iFood），标题已译，非漏译",
-    "patrol_note": "17:00 例行巡检：整点周期已落库，本次新增 0 条（抓取条目均为跨源重复，跳过 4 条），总量维持 2921，100% 全译。本轮自动完成高质量译文升级 4 条、术语确定性重清洗 162 条、人工覆盖表回写（标题 91/摘要 138）。报告为 2921 条/32 天，日期 YYYY-MM-DD、时间戳 HH:MM、中文译文括注英文原标题。六态样式门禁全通过：.entry::before 0 条、.metrics padding 四向 0、无手动同步按钮、暗黑/默认/系统自动三态 + 英文原文视图。线上与本地数据一致（17:00:18）。"
+    "patrol_note": "18:00 例行巡检：整点周期已落库（18:00:27），本次新增 0 条（跨源重复跳过 4 条），总量维持 2921，100% 全译。本轮自动完成高质量译文升级 4 条、术语确定性重清洗 162 条、人工覆盖表回写（标题 91/摘要 138）。报告为 2921 条/32 天，日期 YYYY-MM-DD、时间戳 HH:MM、中文译文括注英文原标题。六态样式门禁全通过：.entry::before 0 条、.metrics padding 四向 0、无手动同步按钮、暗黑/默认/系统自动三态 + 英文原文视图。线上与本地数据一致（18:00:27）。"
   },
   "this_run": {
-    "time": "2026-11-27 17:00–17:03（每小时例行巡检）",
+    "time": "2026-11-27 18:00–18:05（每小时例行巡检）",
     "type": "例行巡检（每小时）",
-    "service": "在线；平台自启动 main.py，17:00:18 整点周期落库，下一轮 18:00",
+    "service": "在线；平台自启动 main.py，18:00:27 整点周期落库，下一轮 19:00",
     "new_items_this_cycle": 0,
     "expired_removed": 0,
     "net_change": 0,
     "translation_coverage": "2921/2921 (100%)",
-    "code_changed": false,
+    "code_changed": true,
     "republished": false,
-    "git_push": "chore(patrol-1700): 巡检记录更新（无站点代码变更）-> origin/main",
+    "git_push": "chore(patrol-1800): 18点例行巡检记录；2921条100%全译，六态样式门禁通过，线上本地同步 -> origin/main",
     "styles": {
       "entry_before_rules": 0,
       "entry_before_content": "none",
@@ -100,10 +98,10 @@
     },
     "fixed_items": 0,
     "online_in_sync": true,
-    "republish_note": "本轮无新增条目、无需人工定稿修复，站点代码未变更，线上数据已由 17:00 周期自动同步，无需重新发布；域名与 sharecode 保持不变。"
+    "republish_note": "本轮无新增条目、无需人工定稿修复，站点代码未变更，线上数据已由 18:00 周期自动同步，无需重新发布；域名与 sharecode 保持不变。"
   },
   "last_inspection": {
-    "time": "2026-11-27T17:03:00+08:00",
+    "time": "2026-11-27T18:05:00+08:00",
     "service_online": true,
     "local_total": 2921,
     "local_translated": 2921,
@@ -114,7 +112,7 @@
     "expired_removed": 0,
     "retranslate": false,
     "fixed_items": 0,
-    "git_push": "chore(patrol-1700)",
+    "git_push": "chore(patrol-1800)",
     "republish": false
   }
 }
