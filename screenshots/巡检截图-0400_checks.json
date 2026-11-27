@@ -1,0 +1,19 @@
+{
+  "metricsPadding": [
+    "0px",
+    "0px",
+    "0px",
+    "0px"
+  ],
+  "metricsPaddingAllZero": true,
+  "entryBefore": false,
+  "entryBeforeContent": "none",
+  "syncButtons": 0,
+  "entries": 2937,
+  "themeModes": [
+    "dark",
+    "light",
+    "auto"
+  ],
+  "autoResolvedBg": ""
+}

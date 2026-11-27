@@ -2326,7 +2326,7 @@
   "OpenAI Starts Selling ChatGPT Enterprise Through AWS Marketplace": "2026 年 11 月 9 日，OpenAI 宣布 ChatGPT Enterprise 可通过 AWS Marketplace 获得，为组织提供通过现有 AWS 购买和发票关系购买和管理套件的方式，并向 AWS 承诺申请资格支出。在 AWS 市场上，AWS Marketplace 将 OpenAI 命名为卖家，并将产品归类为软件，作为 AWS 上部署的服务。价格通过基于客户需求和资格的私人报价来定制。",
   "Anthropic releases new Mythos and Fable models amid RSI concerns": "Anthropic 说，这些新模型「在编码，推理和视觉等领域都表现出了改善」，以及与用户更清晰地沟通。",
   "Baidu’s ERNIE Evolve Automates AI Research and Inference Optimization": "Baidu 于 2026 年 11 月 9 日推出了 ERNIE Evolve，在三项纳诺 Chat 和纳诺 GPT 指标上报告了比较的结果，并且在一个决定性 ERNIE-5.5-Flash 推断测试中获得了 33.7%的更高的吞吐量。自动化研究系统选择了研究方向，编辑了 AI 代码，并保留了只有通过单独评估和审查的改进。该公告还涵盖了正在开发的 ERNIE-5.5-Flash 的积极推断工程工作。",
-  "Apple’s $50 Intelligence Usage Packs extend access to some AI features": "9 月初发布了一篇支持文章，概述了一些 Apple Intelligence 功能的使用限制，公司更新了 Logic Pro，提供了「购买更多使用」的选项，一次性购买价格为 49.99 美元，这是 9to5Mac 所发现的。它有一个内置的人工智能助理，可以做诸如「从单个提示上启动新歌曲，设置声轨，或完善活跃的项目」。这些智能使用包，正如果所称的那样，将允许用户继续访问某些具有使用限制的 Apple 智能功能，因为它们依赖于 OpenAI 或 Google Gemini 的基于云的 AI 模型。",
+  "Apple’s $50 Intelligence Usage Packs extend access to some AI features": "继 9 月初发布支持文章说明部分 Apple Intelligence 功能的使用限制后，该公司更新了 Logic Pro，新增「购买更多使用量」选项，一次性购买价格为 49.99 美元（据 9to5Mac 发现）。Logic Pro 内置 AI 助手，可完成「开启新歌、通过单一提示设置人声轨道或完善当前项目」等任务。苹果称这类智能使用包将让用户继续使用部分受限的 Apple Intelligence 功能——这些功能依赖 OpenAI 或 Google Gemini 的云端 AI 模型。",
   "Instagram Launches Effect Builder to Make AI Effects for Stories": "Instagrams Edits 团队于 2026 年 11 月 9 日推出了 Effect Builder，这是一个免费的基于 Web 的工具，可以让 18 岁以上的美国人从文本提示中创建 Instagram 故事的 AI 效果。根据 Instagram 的说法，Effect Builder 不需要任何设计，编码或之前的效果制作经验，从而消除了以前与建筑效果相关的专业设计和技术技能的需要。",
   "Anthropic launches new Claude Fable and Mythos 5.2 models": "Anthropic 公司今天宣布了两款新车型：Claude Fable 5.2 和 Claude Mythos 5.2，该车型据称设计以应对「艰巨」的技术挑战。该公司声称，这些新车型显示了编码，推理和视觉方面的改进，并且能够比 Fable 和 Mythos 车型的 5.1 版本更快地产生输出。根据 Anthropic 的说法，Claude Fable 5.2 擅长挑战软件工程问题，并且可以组织智能体团队并解决长期的项目。新模型还解决了一些复杂的科学问题，包括两个开放的理论物理问题。",
   "ChatGPT Enterprise now available in AWS Marketplace": "现在通过 AWS Marketplace 可使用 ChatGPT Enterprise，帮助组织通过现有的 AWS 采购和发票关系简化采购。",
@@ -3053,5 +3053,7 @@
   "Vikram Srivats, CCO & Head of Product Experience at WaveMaker – Interview Series": "Vikram Srivats 现任 WaveMaker 首席商务官兼产品体验负责人。他的职业经历涵盖手持计算、无线技术、物联网与企业软件。他专注于将新兴技术转化为企业级可维护应用所需的架构与组织条件，尤其强调代码所有权、设计一致性与工程纪律。",
   "Hackers breached the US Air Force's flagship Cloud One platform, report says": "黑客攻破了美国空军的旗舰云平台。",
   "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork": "OpenAI 在 ChatGPT 工作版中的数据智能体仍不够准确。该公司正以「Athena」为代号构建语义层，为智能体提供业务指标的标准化定义。该工具也可能让 OpenAI 与 Snowflake、Databricks 直接竞争。",
-  "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports": "据彭博社调查，两家中国公司在与 Alice Huang 相关联的一处上海数据中心安装了英伟达性能强劲的 Blackwell 芯片。一个序列号让彭博社追查到台湾制造商技嘉（Gigabyte）。在没有美国许可证的情况下将这些芯片出口到中国属于违法行为。"
+  "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports": "据彭博社调查，两家中国公司在与 Alice Huang 相关联的一处上海数据中心安装了英伟达性能强劲的 Blackwell 芯片。一个序列号让彭博社追查到台湾制造商技嘉（Gigabyte）。在没有美国许可证的情况下将这些芯片出口到中国属于违法行为。",
+  "OpenAI Countersues Apple Over Alleged Hardware Trade-Secret Theft": "2026 年 11 月 27 日，OpenAI 集团 PBC、io Products、Chang Liu 与 Tang Yew Tan 在加州联邦法院对苹果提起反诉，指控苹果盗用了保密的硬件设计与制造记录。随之提交的答辩否认了苹果关于商业秘密与合同的诉求，反诉包含 12 项诉讼请求。苹果此前已在美国提起相关诉讼。",
+  "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers": "OpenAI 在加州法院起诉苹果，指控其窃取商业秘密并胁迫双方共用的供应商。此次反诉源于苹果今年夏天提起的诉讼。就在两年前，两家公司还合作将 ChatGPT 引入 iPhone。如今 OpenAI 正自主研发设备，与苹果直接竞争。"
 }
