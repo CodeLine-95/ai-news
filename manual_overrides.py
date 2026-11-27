@@ -3042,6 +3042,9 @@ TITLE_OVERRIDES = {
     'Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window': 'Mozilla 与 Mistral 合作，将开放权重 AI 模型引入 Firefox 智能窗口',
     'A New Breed of Chip Runs AI Models Using Waves of Light': '新型芯片用光波运行 AI 模型',
     'NEURA Robotics Plans Aragón Physical AI Gym and Model Zone': 'NEURA Robotics 计划在阿拉贡建设物理 AI 训练馆与模型区',
+    'Greenpeace Reports Construction Halt at Google’s Belgian Data Center': '绿色和平组织称 Google 比利时数据中心建设已停工',
+    'The Scaling Problem No One Talks About in Education: Who Checks the Teacher?': '教育领域无人谈及的规模化难题：谁来监督老师？',
+    'The Prototype Paradox: What to Do When AI-Built Apps Outgrow the People Who Made Them': '原型悖论：当 AI 构建的应用超出其创造者的掌控时该怎么办',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6079,4 +6082,7 @@ SUMMARY_OVERRIDES = {
     'Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window': 'Mozilla 已与 Mistral AI 合作，在 Firefox 智能窗口 AI 助手中提供开放权重模型 Mistral Small 4，目前处于 Beta 阶段。该助手推荐给法国、美国和加拿大的用户。用户可在多个模型中选择，Mistral 同意零数据留存。Beta 测试反馈褒贬不一。',
     'A New Breed of Chip Runs AI Models Using Waves of Light': '德国 Q.ANT 公司尝试用光完成最耗能的运算，以降低运行 AI 模型所需的能耗。',
     'NEURA Robotics Plans Aragón Physical AI Gym and Model Zone': '2026 年 11 月 27 日，NEURA Robotics 宣布与阿拉贡自治区政府及 Costa Group 签署谅解备忘录，拟共建 NEURA Gym Aragón 及周边物理 AI 模型区，计划投资数千万欧元。合作方目标为 2027 年中开放，NEURA Robotics 将担任主导投资方。',
+    'Greenpeace Reports Construction Halt at Google’s Belgian Data Center': '据多家媒体报道，比利时绿色和平组织于 2026 年 11 月 27 日表示，瓦隆大区已于 11 月 26 日下令停止 Google 位于 Aiseau-Presles 的数据中心建设。此前绿色和平组织于 11 月 23 日致信瓦隆区政府，要求立即停工；尽管相关许可证变更被撤销，该组织仍要求紧急停工。',
+    'The Scaling Problem No One Talks About in Education: Who Checks the Teacher?': '记得我们讨论一个规模化创业项目——每年新开 30 家儿童俱乐部时，一位投资人问我：「第 30 家门店的教学质量如何能与第 1 家保持一致？」坦率地说，他问到了关键问题。在教育领域，规模扩张很少受资本、场地或需求所限，真正的瓶颈在于质量控制。',
+    'The Prototype Paradox: What to Do When AI-Built Apps Outgrow the People Who Made Them': '设想周五下午，一家中型制造企业的规划团队里，一位供应链规划员厌倦了手工导出三份数据、清理格式再粘贴到跟踪表中。她打开 AI 编程助手，描述了自己想要的工具。两小时后，她就有了一个小型网页应用：能自动拉取数据、标记延迟的采购订单，并建议哪些订单需要加急。它运行良好。周一，她把应用展示给两位同事。',
 }
