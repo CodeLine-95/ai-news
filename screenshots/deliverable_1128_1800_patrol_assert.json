@@ -1,0 +1,151 @@
+{
+  "light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "light",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "zh"
+  },
+  "dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "dark",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "zh"
+  },
+  "autoDark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "dark",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "zh"
+  },
+  "autoLight": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "light",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "zh"
+  },
+  "en": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "light",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "en"
+  },
+  "online": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2936,
+    "data_theme": "dark",
+    "theme_btns": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "view_btns": [
+      "zh",
+      "en"
+    ],
+    "active_view": "zh",
+    "api": {
+      "total": 2936,
+      "translated": 2936,
+      "last_update": "2026-11-28T18:00:19.925597+08:00"
+    }
+  }
+}
