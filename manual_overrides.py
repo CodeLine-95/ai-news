@@ -3071,6 +3071,8 @@ TITLE_OVERRIDES = {
     'Ant Group Releases LingSante-3.1-flash: An Open-Weight MoE Model with 560B Total Parameters and 25B Activations per Token': '蚂蚁集团发布 LingSante-3.1-flash：开放权重 MoE 模型，总参数 560B、每 Token 激活 25B',
     'Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy': 'Anthropic 推出 Claude Ship：按团队策略审查、修复并批准拉取请求',
     'Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots': '机器人初创公司 Embo 完成 1.1 亿美元种子融资，打造面向机器人的世界模型 AI',
+    'Poetry for Engineers: Prompt Engineering for Odysseus': '写给工程师的诗：为奥德修斯做提示工程',
+    'UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence': 'Anthropic 删减大部分证据后，英国议会要求公开未经删节的 METR 安全报告',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6137,4 +6139,6 @@ SUMMARY_OVERRIDES = {
     'Ant Group Releases LingSante-3.1-flash: An Open-Weight MoE Model with 560B Total Parameters and 25B Activations per Token': '蚂蚁集团开源了 LingSante 系列医疗与健康 AI 模型，该系列是健康应用 Afu 背后的技术底座。旗舰模型 LingSante-3.1-flash 采用开放权重，总参数 560B、每 token 激活约 25B，按 MIT 许可证发布，支持 100 万 token 上下文窗口。在新的 InclusionMed 评测中，它在开放模型中得分最高。该模型可自托管，面向临床推理、医疗搜索与工具调用智能体训练。要点：自托管模型，面向临床推理、医疗搜索和工具使用智能体；规模为 560B 总参数、每 token 约 25B 激活（MoE），100 万 token 上下文；可在多 GPU 服务器运行，参考 SGLang 配置为 8×H200 或 4×GB300，并提供 MXFP4 量化检查点；在医疗推理与医疗智能体方面表现强劲，在通用编程与 CLI 智能体任务上较弱。',
     'Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy': 'Anthropic 在 Claude Team 与 Enterprise 计划中推出 Claude Ship——一组可审查 GitHub 拉取请求、推送修复代码，并按团队策略批准变更的智能体。',
     'Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots': 'Embo 完成 1.1 亿美元种子融资，用于构建基于世界模型的通用机器人大脑。其 AI 从互联网视频中学习物理世界的运作方式，并在仿真环境中练习运动技能。Google DeepMind、Meta 与 MIT 的研究人员参与创立，通用机器人 AI 竞赛正在加速。',
+    'Poetry for Engineers: Prompt Engineering for Odysseus': 'I. 奥德修斯问神谕：去伊塔卡的最短路线？避开独眼巨人，避开塞壬，优先选有 Wi-Fi 的渡轮。神谕思考三秒：正在重新计算……思考中……要不要换一条风景更好的路线？II. 奥德修斯再问：告诉我已知世界之外有什么。神谕给出十二个来源、三张地图、两条警告，还有一座从未存在过、却被说得煞有介事的岛屿。奥德修斯低声自语：哦，缪斯，神谕又产生幻觉了……神谕继续说：看，我知道凯法利尼亚有个特别的地方，还有几招能带你回家。要我继续吗？III. 于是奥德修斯问出最后一个问题：如果我能知道一切，为什么还要亲自前往？从未横渡咸海的知识，价值何在？神谕沉默，光标闪烁，没有答案。奥德修斯依旧足智多谋，启航出海并喊道：那么，究竟是谁在为谁导航？',
+    'UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence': '英国议会正向 Anthropic 施压。委员会主席 Liam Byrne 要求在 12 月 4 日前拿到 METR 关于 AI 加速发展的安全报告完整版（未经删节）。METR 批评 Anthropic 在发布前删去了「信息量最大」的证据。此事引发更广泛的质疑：自愿性 AI 安全评估究竟有多透明，也再次凸显欧洲对美国 AI 实验室的依赖。',
 }
