@@ -3,7 +3,7 @@ const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
 const OUT = '/workspace/ai-news/screenshots';
-const STAMP = 'deliverable_1121_1900';
+const STAMP = 'deliverable_1128_1900_patrol';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -67,7 +67,8 @@ async function shoot(pw, url, name, opts) {
   const r = {};
   r.light = await shoot(chromium, LOCAL, 'light', { theme: 'light', colorScheme: 'light' });
   r.dark = await shoot(chromium, LOCAL, 'dark', { theme: 'dark', colorScheme: 'dark' });
-  r.auto = await shoot(chromium, LOCAL, 'auto', { theme: 'auto', colorScheme: 'dark' });
+  r.auto_dark = await shoot(chromium, LOCAL, 'auto_dark', { theme: 'auto', colorScheme: 'dark' });
+  r.auto_light = await shoot(chromium, LOCAL, 'auto_light', { theme: 'auto', colorScheme: 'light' });
   r.en = await shoot(chromium, LOCAL, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' });
   r.online = await shoot(chromium, ONLINE, 'online', { colorScheme: 'light' });
   fs.writeFileSync(`${OUT}/${STAMP}_checks.json`, JSON.stringify(r, null, 2));
