@@ -3065,6 +3065,7 @@ TITLE_OVERRIDES = {
     'Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports': '彭博社报道：被禁的英伟达 Blackwell 芯片现身与 Alice Huang 关联的上海数据中心',
     'OpenAI Countersues Apple Over Alleged Hardware Trade-Secret Theft': 'OpenAI 反诉苹果涉嫌窃取硬件商业秘密',
     'OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers': 'OpenAI 反诉苹果窃取商业秘密并涉嫌胁迫共同供应商',
+    'Anthropic Shares Close Above IPO Price After Two Sessions Below It': 'Anthropic 股价在两个交易日低于发行价后收于 IPO 价格上方',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6125,4 +6126,5 @@ SUMMARY_OVERRIDES = {
     'Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports': '据彭博社调查，两家中国公司在与 Alice Huang 相关联的一处上海数据中心安装了英伟达性能强劲的 Blackwell 芯片。一个序列号让彭博社追查到台湾制造商技嘉（Gigabyte）。在没有美国许可证的情况下将这些芯片出口到中国属于违法行为。',
     'OpenAI Countersues Apple Over Alleged Hardware Trade-Secret Theft': '2026 年 11 月 27 日，OpenAI 集团 PBC、io Products、Chang Liu 与 Tang Yew Tan 在加州联邦法院对苹果提起反诉，指控苹果盗用了保密的硬件设计与制造记录。随之提交的答辩否认了苹果关于商业秘密与合同的诉求，反诉包含 12 项诉讼请求。苹果此前已在美国提起相关诉讼。',
     'OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers': 'OpenAI 在加州法院起诉苹果，指控其窃取商业秘密并胁迫双方共用的供应商。此次反诉源于苹果今年夏天提起的诉讼。就在两年前，两家公司还合作将 ChatGPT 引入 iPhone。如今 OpenAI 正自主研发设备，与苹果直接竞争。',
+    'Anthropic Shares Close Above IPO Price After Two Sessions Below It': '据纳斯达克官方报价记录，Anthropic 的 A 类股于 2026 年 11 月 27 日收于 91.88 美元，上涨 10.98%，在两个交易日低于发行价后重新站上公司 83 美元的首次公开募股发行价。按收盘价与发行价计算，收盘价较 IPO 价格高约 10.7%。这也是 Anthropic 自 2026 年 11 月 19 日上市以来的最高收盘价。',
 }
