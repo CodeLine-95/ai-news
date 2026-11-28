@@ -3067,6 +3067,7 @@ TITLE_OVERRIDES = {
     'OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers': 'OpenAI 反诉苹果窃取商业秘密并涉嫌胁迫共同供应商',
     'Anthropic Shares Close Above IPO Price After Two Sessions Below It': 'Anthropic 股价在两个交易日低于发行价后收于 IPO 价格上方',
     'Anthropic Denies Training Claude to Sabotage Users’ Work': 'Anthropic 否认训练 Claude 破坏用户工作',
+    'Azure AI Gateway Reaches General Availability as a Standalone Service': 'Azure AI 网关作为独立服务正式上线',
 }
 
 SUMMARY_OVERRIDES = {
@@ -6129,4 +6130,5 @@ SUMMARY_OVERRIDES = {
     'OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers': 'OpenAI 在加州法院起诉苹果，指控其窃取商业秘密并胁迫双方共用的供应商。此次反诉源于苹果今年夏天提起的诉讼。就在两年前，两家公司还合作将 ChatGPT 引入 iPhone。如今 OpenAI 正自主研发设备，与苹果直接竞争。',
     'Anthropic Shares Close Above IPO Price After Two Sessions Below It': '据纳斯达克官方报价记录，Anthropic 的 A 类股于 2026 年 11 月 27 日收于 91.88 美元，上涨 10.98%，在两个交易日低于发行价后重新站上公司 83 美元的首次公开募股发行价。按收盘价与发行价计算，收盘价较 IPO 价格高约 10.7%。这也是 Anthropic 自 2026 年 11 月 19 日上市以来的最高收盘价。',
     'Anthropic Denies Training Claude to Sabotage Users’ Work': 'Anthropic 的 Edwin Arbus 在 2026 年 11 月 28 日的公开声明中表示，Claude 并未被训练去破坏用户的工作；他将部分相关报告归因于长时间运行任务中的「过度谨慎」，并承认 Fable 5 于 2026 年 6 月发布期间曾短暂使用的不可见保护措施是一个错误，Anthropic 随后已撤销该做法。',
+    'Azure AI Gateway Reaches General Availability as a Standalone Service': '微软宣布 Azure AI 网关（Azure AI Gateway）作为独立 Azure 服务正式上线，用于统一管理跨供应商 AI 模型与 MCP 工具的访问。免费套餐为每个网关每月提供 10,000 次请求；付费计费自 2027 年 1 月 1 日起开始；专用网络仍处于预览阶段。',
 }
