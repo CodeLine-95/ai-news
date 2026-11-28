@@ -1,0 +1,147 @@
+{
+  "light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "light",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ]
+  },
+  "dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "dark",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ]
+  },
+  "auto_dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "dark",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "dynamic": "dark"
+  },
+  "auto_light": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "light",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "dynamic": "light"
+  },
+  "auto_back_dark": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "dark",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ],
+    "dynamic": "dark"
+  },
+  "en": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "light",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ]
+  },
+  "online": {
+    "entry_before_rules": 0,
+    "entry_before_content": "none",
+    "metrics_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "metrics_padding_all_zero": true,
+    "sync_buttons": [],
+    "entries": 2935,
+    "data_theme": "light",
+    "theme_modes": [
+      "dark",
+      "light",
+      "auto"
+    ]
+  },
+  "assertions": {
+    "entry_before_rules": true,
+    "metrics_padding_all_zero": true,
+    "no_sync_buttons": true,
+    "theme_modes": true,
+    "auto_follows_system": true,
+    "online_entries_gt3": true
+  },
+  "all_assertions_pass": true
+}
