@@ -1,10 +1,11 @@
 // 20:00 例行巡检交付截图：浅色 / 暗黑 / 系统自动(暗) / 系统自动(浅) / 英文原文 / 线上域名
 const { chromium } = require('/root/.nvm/versions/node/v22.13.1/lib/node_modules/playwright');
+const fs = require('fs');
 
 const LOCAL = 'http://127.0.0.1:8080/?sharecode=YM64NRHD37';
 const ONLINE = 'https://a7888a7e046ffc95b.app.workbuddy.host/?sharecode=YM64NRHD37';
-const OUT = '/workspace/ai-news';
-const STAMP = 'deliverable_1122_2000';
+const OUT = '/workspace/ai-news/screenshots';
+const STAMP = 'deliverable_1128_2000_patrol';
 
 async function checkStyles(page) {
   return await page.evaluate(() => {
@@ -68,13 +69,42 @@ async function shoot(pw, name, opts, url) {
   return styles;
 }
 
+// 系统自动：在独立上下文里验证 data-theme 随系统偏好动态切换
+async function checkAutoSwitch(pw) {
+  const browser = await pw.launch({ args: ['--no-sandbox'] });
+  const ctx = await browser.newContext({ viewport: { width: 1200, height: 800 }, locale: 'zh-CN', colorScheme: 'light' });
+  const page = await ctx.newPage();
+  await page.goto(LOCAL, { waitUntil: 'networkidle', timeout: 90000 });
+  await page.waitForFunction("() => document.querySelectorAll('.entry').length > 3", { timeout: 60000 });
+  await page.click('#themeToggle button[data-theme="auto"]');
+  await page.waitForTimeout(1000);
+  const read = async () => page.evaluate(() => ({ theme: document.documentElement.getAttribute('data-theme'), mq: window.matchMedia('(prefers-color-scheme: light)').matches }));
+  const r0 = await read(); // 初始系统为 light
+  await page.emulateMedia({ colorScheme: 'dark' }); await page.waitForTimeout(2200);
+  const r1 = await read();
+  await page.emulateMedia({ colorScheme: 'light' }); await page.waitForTimeout(2200);
+  const r2 = await read();
+  const result = {
+    initLight: r0.theme, dark: r1.theme, lightAgain: r2.theme,
+    mq: [r0.mq, r1.mq, r2.mq],
+    followsSystem: r0.theme === 'light' && r1.theme === 'dark' && r2.theme === 'light'
+  };
+  console.log('auto_switch =>', JSON.stringify(result));
+  await browser.close();
+  return result;
+}
+
 (async () => {
+  if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const r = {};
+  // 先跑自动切换断言（干净浏览器环境，避免多实例事件延迟）
+  r.autoSwitch = await checkAutoSwitch(chromium);
   r.light = await shoot(chromium, 'light', { theme: 'light', colorScheme: 'light' });
   r.dark = await shoot(chromium, 'dark', { theme: 'dark', colorScheme: 'dark' });
   r.auto_dark = await shoot(chromium, 'auto_dark', { theme: 'auto', colorScheme: 'dark' });
   r.auto_light = await shoot(chromium, 'auto_light', { theme: 'auto', colorScheme: 'light' });
   r.en = await shoot(chromium, 'en', { theme: 'light', mode: 'en', colorScheme: 'light' });
   r.online = await shoot(chromium, 'online', {}, ONLINE);
+  fs.writeFileSync(`${OUT}/${STAMP}_checks.json`, JSON.stringify(r, null, 2));
   console.log('\nDONE', JSON.stringify(r));
-})();
+})().catch(e => { console.error('ERR', e); process.exit(1); });
